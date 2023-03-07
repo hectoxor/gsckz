@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Stem-Italic';
+  src: url('Stem-Italic.eot?#iefix') format('embedded-opentype'),  url('Stem-Italic.otf')  format('opentype'),
+	     url('Stem-Italic.woff') format('woff'), url('Stem-Italic.ttf')  format('truetype'), url('Stem-Italic.svg#Stem-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

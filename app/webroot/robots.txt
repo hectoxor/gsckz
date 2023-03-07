@@ -1,0 +1,15 @@
+Host: https://gscstudy.kz/
+
+User-agent: Yandex
+Disallow: /admin
+Allow: /  
+
+User-agent: Googlebot
+Disallow: /admin
+Allow: /  
+
+User-agent: *
+Disallow: /admin
+Allow: / 
+
+Sitemap: https://gscstudy.kz/sitemap.xml

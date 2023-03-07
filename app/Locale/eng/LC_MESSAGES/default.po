@@ -1,0 +1,127 @@
+msgid "Главная"
+msgstr "Main page"
+
+msgid "О компании"
+msgstr "About us"
+
+msgid "Фотогалерея"
+msgstr "Gallery"
+
+msgid "Узнать подробнее"
+msgstr "Read more"
+
+msgid "Подробнее"
+msgstr "Read more"
+
+msgid "Смотреть подробно"
+msgstr "Read more"
+
+msgid "Контакты"
+msgstr "Contacts"
+
+msgid "Новости"
+msgstr "News"
+
+msgid "Новости и статьи"
+msgstr "News and articles"
+
+msgid "Все новости"
+msgstr "All news"
+
+msgid "Федерация поло Казахстана"
+msgstr "Kazakhstan Polo Federation"
+
+msgid "О федерации"
+msgstr "About federation"
+
+msgid "История федерации"
+msgstr "History"
+
+msgid "Исполнительный комитет"
+msgstr "Executive Committee"
+
+msgid "Члены федерации"
+msgstr "Members of Federation"
+
+msgid "Гандикап"
+msgstr "Handicaps"
+
+msgid "Календарь"
+msgstr "Calendar"
+
+msgid "Новости"
+msgstr "News"
+
+msgid "Документы"
+msgstr "Documents"
+
+msgid "Академия поло"
+msgstr "polo Academy"
+
+msgid "Об Академии"
+msgstr "About Academy"
+
+msgid "Список учащихся"
+msgstr "List of learners"
+
+msgid "Результаты игр"
+msgstr "Results of games"
+
+msgid "Галерея"
+msgstr "Gallery"
+
+msgid "Игра поло"
+msgstr "Polo game"
+msgid "История"
+msgstr "History"
+
+msgid "Поло словарь"
+msgstr "Polo dictionary"
+msgid "Экипировка"
+msgstr "Polo Equipment"
+msgid "Интересное о поло"
+msgstr "Interesting about polo"
+msgid "Цели и задачи"
+msgstr "Aims and objectives"
+msgid "Генеральный партнер"
+msgstr "General partner"
+msgid "Социальный партнер"
+msgstr "Social Partner"
+msgid "Поделиться в соц сетях"
+msgstr "Share in social networks"
+msgid "Посмотреть все"
+msgstr "View All"
+msgid "Статистика клубов"
+msgstr "Statistics of clubs"
+msgid "Рейтинг игроков"
+msgstr "Player Rankings"
+msgid "голы"
+msgstr "goals"
+msgid "забитых голов за 2017 год"
+msgstr "goals scored in 2017"
+msgid "Результаты всех игр"
+msgstr "Results of all games"
+msgid "Создание сайтов в Астане"
+msgstr "Creation of sites in Astana"
+msgid "Разработка сайтов"
+msgstr "Website development"
+msgid "Веб-студия Astana Creative"
+msgstr "Web-studio Astana Creative"
+msgid "Контакты Федерации"
+msgstr "Contacts of the Federation"
+msgid "Напишите нам"
+msgstr "Contact Us"
+msgid "Ваше имя"
+msgstr "Your name"
+msgid "Номер телефона"
+msgstr "Your phone number"
+msgid "Ваш вопрос"
+msgstr "Your question"
+msgid "Отправить"
+msgstr "Send"
+msgid "История поло"
+msgstr "History of polo"
+
+
+msgid "Известно, что жизнь наших предков тесно связана с лошадью. В их жизни лошадь играла особую роль, а в годы войны была верным другом. Как свидетельствуют многочисленные письменные источники, в древности у кочевых народов Центральной Азии было много разных спортивных игр, связанных с лошадьми. На сегодня имеется много источников о том, что популярная в Европе игра - поло зародилась в Центральной Азии."
+msgstr "It is known that our ancestors’ lives have been closely connected with horses. Horse has played special role in their lives, and during the war, it has been their friend. As many written sources evidence, in ancient times the nomadic peoples of Central Asia had many sports games connected with horses. For today there are many sources stating that the popular in Europe game of polo has its origin in Central Asia."
