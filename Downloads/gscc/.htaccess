@@ -1,0 +1,23 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.php\ HTTP
+RewriteRule ^([^.]+)\.php$ $1 [R=301,L]
+RewriteCond %{REQUEST_URI} !(\.[^./]+)$
+RewriteCond %{REQUEST_fileNAME} !-d
+RewriteCond %{REQUEST_fileNAME} !-f
+RewriteRule (.*) /$1.php
+
+
+#Redirect 301 /test2 https://gscstudy.kz/
+
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>  
+
+   
+ 
