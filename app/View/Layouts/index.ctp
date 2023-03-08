@@ -18,8 +18,8 @@
         <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script> -->
         <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"></script>
     </head>
-</div> 
-    <body>   
+</div>
+    <body>
         <div class="alert <?=(isset($_SESSION['Message']['good']) || isset($_SESSION['Message']['bad'])) ? 'alert--active' : '';?>">
             <div class="container">
                 <?php //var_dump($_SESSION); ?>
@@ -122,14 +122,14 @@
                             <div class="news-item way-news way--active">
                                 <a href="/<?= $lang ?>news/<?=$item['News']['alias']?>" class="news__item-pic pic-increase">
                                     <img src="/img/news/thumbs/<?=$item['News']['img']?>" alt="">
-                                </a>                                                        
+                                </a>
                                 <a class="news__item-title"><?=$item['News']['title']?></a>
                                 <p><?= $this->Text->truncate(strip_tags($item['News']['body']), 102, array('ellipsis' => '...', 'exact' => true)) ?></p>
-                                <a href="/<?= $lang ?>news/<?=$item['News']['alias']?>" class="moree"><?= __('Читать подробнее') ?></a>                           
+                                <a href="/<?= $lang ?>news/<?=$item['News']['alias']?>" class="moree"><?= __('Читать подробнее') ?></a>
                             </div>
                         </div>
                         <?php endforeach ?>
-                    </div> 
+                    </div>
                     <a href="/<?= $lang ?>news<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>" class="btn more">все новости</a>
                 </div>
             </section>
@@ -138,16 +138,16 @@
        <script>
             var CaptchaCallback = function() {
                 // grecaptcha.render('RecaptchaField1', {'sitekey' : '6LffIpccAAAAAJfPSByDZuJgvbBuEcUIQRaZo3fy'});
-                // grecaptcha.render('RecaptchaField2', {'sitekey' : '6LffIpccAAAAAJfPSByDZuJgvbBuEcUIQRaZo3fy'});                
+                // grecaptcha.render('RecaptchaField2', {'sitekey' : '6LffIpccAAAAAJfPSByDZuJgvbBuEcUIQRaZo3fy'});
                 if( document.querySelector('#RecaptchaField1') ){
-                    grecaptcha.render('RecaptchaField1', {'sitekey' : '6LdmWE0gAAAAAPM7X7E4ph9KK-UvuElX_uPKgPXt'}); 
+                    grecaptcha.render('RecaptchaField1', {'sitekey' : '6LdmWE0gAAAAAPM7X7E4ph9KK-UvuElX_uPKgPXt'});
                 }
                 if( document.querySelector('#RecaptchaField2') ){
-                    grecaptcha.render('RecaptchaField2', {'sitekey' : '6LdmWE0gAAAAAPM7X7E4ph9KK-UvuElX_uPKgPXt'}); 
+                    grecaptcha.render('RecaptchaField2', {'sitekey' : '6LdmWE0gAAAAAPM7X7E4ph9KK-UvuElX_uPKgPXt'});
                 }
             };
 
-            function checkCapcha(){      
+            function checkCapcha(){
               var elem = event.srcElement;
               var form = elem.parentNode;
               var attr = elem.getAttribute("data-id");
@@ -162,7 +162,7 @@
             }
         </script>
         <script src="/js/jquery-3.0.0.min.js"></script>
-        <script src="/js/jquery.waypoints.min.js"></script>    
+        <script src="/js/jquery.waypoints.min.js"></script>
         <script src="/js/jquery.fancybox.min.js"></script>
         <script src="/js/slick.min.js"></script>
         <script src="/js/jquery.maskedinput.min.js"></script>
@@ -173,7 +173,7 @@
             		src: '#popuptest',
             		type: 'inline'
             	});
-            }            
-        </script> 
+            }
+        </script>
     </body>
 </html>
