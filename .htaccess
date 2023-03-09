@@ -13,9 +13,6 @@ RewriteRule (.*) /$1.php
 
 #Redirect 301 /test2 https://gscstudy.kz/
 
-AddType text/css .css
-AddType text/js .js
-
 <IfModule mod_rewrite.c>
    RewriteEngine on
    RewriteRule    ^$ app/webroot/    [L]
