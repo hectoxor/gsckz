@@ -174,7 +174,7 @@ class Mysql extends DboSource {
 		} else {
 			$dsn = "mysql:unix_socket={$config['unix_socket']};dbname={$config['database']}";
 		}
-
+		
 		try {
 			$this->_connection = new PDO(
 				$dsn,

@@ -6684,3 +6684,1897 @@ Stack Trace:
 #16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(LanguageSchoolsController), Object(CakeRequest))
 #17 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #18 {main}
+2023-03-09 13:48:51 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in [/Users/hereugo/Projects/gsckz/app/Config/database.php, line 28]
+Trace:
+array_merge - [internal], line ??
+DATABASE_CONFIG::__construct() - APP/Config/database.php, line 28
+ConnectionManager::_init() - CORE/Cake/Model/ConnectionManager.php, line 69
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 83
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+PagesController::beforeFilter() - APP/Controller/PagesController.php, line 9
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-09 13:48:51 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /admin/pages
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#5 [internal function]: Model->__construct(Array)
+#6 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#10 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#12 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#13 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#17 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2023-03-09 13:51:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /admin/pages
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-09 13:51:32 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-09 13:51:32 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Elements/left_sidebar.ctp, line 25]
+Trace:
+include - APP/View/Elements/left_sidebar.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::_renderElement() - CORE/Cake/View/View.php, line 1217
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/index.ctp, line 32
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-09 13:51:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /admin
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#13 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#17 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2023-03-09 14:11:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /admin
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#13 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#17 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2023-03-09 14:11:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-09 14:11:36 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Elements/left_sidebar.ctp, line 25]
+Trace:
+include - APP/View/Elements/left_sidebar.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::_renderElement() - CORE/Cake/View/View.php, line 1217
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/index.ctp, line 32
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-09 14:27:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-09 14:27:36 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Elements/left_sidebar.ctp, line 25]
+Trace:
+include - APP/View/Elements/left_sidebar.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::_renderElement() - CORE/Cake/View/View.php, line 1217
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/index.ctp, line 32
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-09 16:18:03 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+PagesController::beforeFilter() - APP/Controller/PagesController.php, line 9
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-09 16:18:03 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-09 16:18:03 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-09 16:18:03 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Elements/left_sidebar.ctp, line 25]
+Trace:
+include - APP/View/Elements/left_sidebar.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::_renderElement() - CORE/Cake/View/View.php, line 1217
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/index.ctp, line 32
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-09 16:19:20 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+PagesController::beforeFilter() - APP/Controller/PagesController.php, line 9
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-09 16:19:20 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-09 16:19:20 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-09 16:19:20 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Elements/left_sidebar.ctp, line 25]
+Trace:
+include - APP/View/Elements/left_sidebar.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::_renderElement() - CORE/Cake/View/View.php, line 1217
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/index.ctp, line 32
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-09 16:19:23 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-09 16:19:23 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /admin
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#13 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#17 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2023-03-09 16:19:23 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-09 16:19:23 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-09 16:19:23 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /admin
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#13 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#17 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2023-03-09 16:19:23 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-09 16:19:28 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+PagesController::beforeFilter() - APP/Controller/PagesController.php, line 9
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-09 16:19:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /admin/pages
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-09 16:19:28 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-09 16:19:29 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+CitiesController::beforeFilter() - APP/Controller/CitiesController.php, line 8
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-09 16:19:29 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /admin/cities
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/CitiesController.php(8): AppController->beforeFilter()
+#13 [internal function]: CitiesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CitiesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-09 16:19:29 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-09 16:19:30 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+LanguageSchoolsController::beforeFilter() - APP/Controller/LanguageSchoolsController.php, line 8
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-09 16:19:30 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /admin/language_schools
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/LanguageSchoolsController.php(8): AppController->beforeFilter()
+#13 [internal function]: LanguageSchoolsController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(LanguageSchoolsController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-09 16:19:30 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-09 16:38:16 Warning: PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+2023-03-09 16:39:00 Warning: PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+2023-03-09 16:56:11 Warning: mkdir(): Read-only file system in [/Users/hereugo/Projects/gsckz/lib/Cake/Utility/Folder.php, line 546]
+2023-03-09 16:56:28 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+PagesController::beforeFilter() - APP/Controller/PagesController.php, line 9
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-09 16:56:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-09 16:56:28 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-09 16:56:28 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Elements/left_sidebar.ctp, line 25]
+Trace:
+include - APP/View/Elements/left_sidebar.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::_renderElement() - CORE/Cake/View/View.php, line 1217
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/index.ctp, line 32
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-09 16:56:41 Warning: PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+2023-03-09 17:29:42 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+PagesController::beforeFilter() - APP/Controller/PagesController.php, line 9
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-09 17:29:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /kz
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-09 17:29:42 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-09 17:29:42 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Elements/left_sidebar.ctp, line 25]
+Trace:
+include - APP/View/Elements/left_sidebar.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::_renderElement() - CORE/Cake/View/View.php, line 1217
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/index.ctp, line 32
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-09 17:29:50 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-09 17:29:50 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /news?city=nur-sultan
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#13 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#17 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2023-03-09 17:29:50 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-09 17:29:50 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Elements/left_sidebar.ctp, line 31]
+Trace:
+include - APP/View/Elements/left_sidebar.ctp, line 31
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::_renderElement() - CORE/Cake/View/View.php, line 1217
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/page.ctp, line 65
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-10 06:24:47 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 188]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 188
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+PagesController::beforeFilter() - APP/Controller/PagesController.php, line 9
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-10 06:24:47 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-10 06:24:47 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 188]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 188
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-10 06:24:47 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Elements/left_sidebar.ctp, line 25]
+Trace:
+include - APP/View/Elements/left_sidebar.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::_renderElement() - CORE/Cake/View/View.php, line 1217
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/index.ctp, line 32
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-10 06:25:02 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+PagesController::beforeFilter() - APP/Controller/PagesController.php, line 9
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-10 06:25:02 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-10 06:25:02 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-10 06:25:02 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Elements/left_sidebar.ctp, line 25]
+Trace:
+include - APP/View/Elements/left_sidebar.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::_renderElement() - CORE/Cake/View/View.php, line 1217
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/index.ctp, line 32
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-10 06:25:05 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-10 06:25:05 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /admin
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#13 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#17 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2023-03-10 06:25:05 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-10 06:25:06 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-10 06:25:06 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /admin
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#13 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#17 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2023-03-10 06:25:06 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-12 07:48:28 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+PagesController::beforeFilter() - APP/Controller/PagesController.php, line 9
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-12 07:48:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-12 07:48:28 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-12 07:48:28 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Elements/left_sidebar.ctp, line 25]
+Trace:
+include - APP/View/Elements/left_sidebar.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::_renderElement() - CORE/Cake/View/View.php, line 1217
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/index.ctp, line 32
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-12 07:48:28 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+PagesController::beforeFilter() - APP/Controller/PagesController.php, line 9
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-12 07:48:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 /Users/hereugo/Projects/gsckz/app/Controller/PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#17 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-12 07:48:28 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-12 07:48:28 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Elements/left_sidebar.ctp, line 25]
+Trace:
+include - APP/View/Elements/left_sidebar.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::_renderElement() - CORE/Cake/View/View.php, line 1217
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/index.ctp, line 32
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-12 07:49:12 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-12 07:49:12 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /news?city=nur-sultan
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#13 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#17 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2023-03-12 07:49:12 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-12 07:49:12 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Elements/left_sidebar.ctp, line 31]
+Trace:
+include - APP/View/Elements/left_sidebar.ctp, line 31
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::_renderElement() - CORE/Cake/View/View.php, line 1217
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/page.ctp, line 65
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-12 07:49:29 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-12 07:49:29 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /admin
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#13 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#17 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2023-03-12 07:49:29 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
+2023-03-12 07:49:29 Warning: Warning (2): PDO::__construct(): Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 94
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-12 07:49:29 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2054] Server sent charset unknown to the client. Please, report to the developers',
+  'enabled' => true,
+)
+Request URL: /admin
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/hereugo/Projects/gsckz/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Behavior/TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 /Users/hereugo/Projects/gsckz/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 /Users/hereugo/Projects/gsckz/lib/Cake/Model/Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 /Users/hereugo/Projects/gsckz/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#9 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(367): Controller->loadModel('City')
+#10 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(405): Controller->__isset('City')
+#11 /Users/hereugo/Projects/gsckz/app/Controller/AppController.php(94): Controller->__get('City')
+#12 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#13 /Users/hereugo/Projects/gsckz/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#14 /Users/hereugo/Projects/gsckz/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#15 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#16 /Users/hereugo/Projects/gsckz/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#17 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2023-03-12 07:49:29 Warning: Warning (2): PDO::__construct() [<a href='http://php.net/pdo.construct'>pdo.construct</a>]: Server sent charset (255) unknown to the client. Please, report to the developers in [/Users/hereugo/Projects/gsckz/lib/Cake/Model/Datasource/Database/Mysql.php, line 184]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE/Cake/Model/Datasource/Database/Mysql.php, line 184
+DboSource::__construct() - CORE/Cake/Model/Datasource/DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 105
+TranslateBehavior::setup() - CORE/Cake/Model/Behavior/TranslateBehavior.php, line 68
+BehaviorCollection::load() - CORE/Cake/Model/BehaviorCollection.php, line 145
+BehaviorCollection::init() - CORE/Cake/Model/BehaviorCollection.php, line 66
+Model::__construct() - CORE/Cake/Model/Model.php, line 774
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 169
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+AppController::beforeFilter() - APP/Controller/AppController.php, line 95
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 676
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 155
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 92
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 126
+[main] - [internal], line ??
+
