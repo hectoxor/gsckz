@@ -13,40 +13,7482 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Model/Gallery.php:validation for field title
-msgid "Введите название товара"
+#: Controller/AbroadProgramsController.php:37;71;98
+msgid "Invalid abroad program"
 msgstr ""
 
-#: Model/Gallery.php:validation for field img
-#: Model/News.php:validation for field img
-msgid "Ошибка загрузки картинки"
+#: Controller/AbroadProgramsController.php:52;75
+msgid "The abroad program has been saved."
 msgstr ""
 
-#: Model/Gallery.php:validation for field img
-msgid "Разрешены к загрузке картинки JPG, PNG и GIF"
+#: Controller/AbroadProgramsController.php:55;78
+msgid "The abroad program could not be saved. Please, try again."
 msgstr ""
 
-#: Model/Gallery.php:validation for field img
-msgid "Максимальный размер файла - 1 Мб"
+#: Controller/AbroadProgramsController.php:102
+msgid "The abroad program has been deleted."
 msgstr ""
 
-#: Model/Gallery.php:validation for field img
-msgid "Ошибка обработки загрузки картинки"
+#: Controller/AbroadProgramsController.php:104
+msgid "The abroad program could not be deleted. Please, try again."
 msgstr ""
 
-#: Model/News.php:validation for field title
+#: Controller/AcosController.php:37;71;98
+msgid "Invalid aco"
+msgstr ""
+
+#: Controller/AcosController.php:52;75
+msgid "The aco has been saved."
+msgstr ""
+
+#: Controller/AcosController.php:55;78
+msgid "The aco could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AcosController.php:102
+msgid "The aco has been deleted."
+msgstr ""
+
+#: Controller/AcosController.php:104
+msgid "The aco could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/AdvansController.php:37;69;94
+msgid "Invalid advan"
+msgstr ""
+
+#: Controller/AdvansController.php:52;73
+msgid "The advan has been saved."
+msgstr ""
+
+#: Controller/AdvansController.php:55;76
+msgid "The advan could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AdvansController.php:98
+msgid "The advan has been deleted."
+msgstr ""
+
+#: Controller/AdvansController.php:100
+msgid "The advan could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/AdvantagesController.php:37;69;94
+msgid "Invalid advantage"
+msgstr ""
+
+#: Controller/AdvantagesController.php:52;73
+msgid "The advantage has been saved."
+msgstr ""
+
+#: Controller/AdvantagesController.php:55;76
+msgid "The advantage could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AdvantagesController.php:98
+msgid "The advantage has been deleted."
+msgstr ""
+
+#: Controller/AdvantagesController.php:100
+msgid "The advantage could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/AlbumsController.php:25
+#: Controller/GalleryController.php:27;243
+#: Controller/VideosController.php:28
+msgid "Галерея"
+msgstr ""
+
+#: Controller/ArosAcosController.php:37;72;100
+msgid "Invalid aros aco"
+msgstr ""
+
+#: Controller/ArosAcosController.php:52;76
+msgid "The aros aco has been saved."
+msgstr ""
+
+#: Controller/ArosAcosController.php:55;79
+msgid "The aros aco could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ArosAcosController.php:104
+msgid "The aros aco has been deleted."
+msgstr ""
+
+#: Controller/ArosAcosController.php:106
+msgid "The aros aco could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ArosController.php:37;71;98
+msgid "Invalid aro"
+msgstr ""
+
+#: Controller/ArosController.php:52;75
+msgid "The aro has been saved."
+msgstr ""
+
+#: Controller/ArosController.php:55;78
+msgid "The aro could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ArosController.php:102
+msgid "The aro has been deleted."
+msgstr ""
+
+#: Controller/ArosController.php:104
+msgid "The aro could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ArticlesController.php:37;69;94
+msgid "Invalid article"
+msgstr ""
+
+#: Controller/ArticlesController.php:52;73
+msgid "The article has been saved."
+msgstr ""
+
+#: Controller/ArticlesController.php:55;76
+msgid "The article could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ArticlesController.php:98
+msgid "The article has been deleted."
+msgstr ""
+
+#: Controller/ArticlesController.php:100
+msgid "The article could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CitiesController.php:37;69;94
+msgid "Invalid city"
+msgstr ""
+
+#: Controller/CitiesController.php:52;73
+msgid "The city has been saved."
+msgstr ""
+
+#: Controller/CitiesController.php:55;76
+msgid "The city could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CitiesController.php:98
+msgid "The city has been deleted."
+msgstr ""
+
+#: Controller/CitiesController.php:100
+msgid "The city could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CompsController.php:37;69;94
+msgid "Invalid comp"
+msgstr ""
+
+#: Controller/CompsController.php:52;73
+msgid "The comp has been saved."
+msgstr ""
+
+#: Controller/CompsController.php:55;76
+msgid "The comp could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CompsController.php:98
+msgid "The comp has been deleted."
+msgstr ""
+
+#: Controller/CompsController.php:100
+msgid "The comp could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ContactsController.php:37;71;98
+msgid "Invalid contact"
+msgstr ""
+
+#: Controller/ContactsController.php:52;75
+msgid "The contact has been saved."
+msgstr ""
+
+#: Controller/ContactsController.php:55;78
+msgid "The contact could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ContactsController.php:102
+msgid "The contact has been deleted."
+msgstr ""
+
+#: Controller/ContactsController.php:104
+msgid "The contact could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CountriesController.php:37;69;94
+msgid "Invalid country"
+msgstr ""
+
+#: Controller/CountriesController.php:52;73
+msgid "The country has been saved."
+msgstr ""
+
+#: Controller/CountriesController.php:55;76
+msgid "The country could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CountriesController.php:98
+msgid "The country has been deleted."
+msgstr ""
+
+#: Controller/CountriesController.php:100
+msgid "The country could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CoursesController.php:37;69;94
+msgid "Invalid course"
+msgstr ""
+
+#: Controller/CoursesController.php:52;73
+msgid "The course has been saved."
+msgstr ""
+
+#: Controller/CoursesController.php:55;76
+msgid "The course could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CoursesController.php:98
+msgid "The course has been deleted."
+msgstr ""
+
+#: Controller/CoursesController.php:100
+msgid "The course could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/DocsController.php:11
+msgid "Документы"
+msgstr ""
+
+#: Controller/EduLanguagesController.php:37;69;94
+msgid "Invalid edu language"
+msgstr ""
+
+#: Controller/EduLanguagesController.php:52;73
+msgid "The edu language has been saved."
+msgstr ""
+
+#: Controller/EduLanguagesController.php:55;76
+msgid "The edu language could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EduLanguagesController.php:98
+msgid "The edu language has been deleted."
+msgstr ""
+
+#: Controller/EduLanguagesController.php:100
+msgid "The edu language could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/EduOrganizationsController.php:37;72;100
+msgid "Invalid edu organization"
+msgstr ""
+
+#: Controller/EduOrganizationsController.php:52;76
+msgid "The edu organization has been saved."
+msgstr ""
+
+#: Controller/EduOrganizationsController.php:55;79
+msgid "The edu organization could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EduOrganizationsController.php:104
+msgid "The edu organization has been deleted."
+msgstr ""
+
+#: Controller/EduOrganizationsController.php:106
+msgid "The edu organization could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/GlionLesrochesController.php:37;69;94
+msgid "Invalid glion lesroch"
+msgstr ""
+
+#: Controller/GlionLesrochesController.php:52;73
+msgid "The glion lesroch has been saved."
+msgstr ""
+
+#: Controller/GlionLesrochesController.php:55;76
+msgid "The glion lesroch could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/GlionLesrochesController.php:98
+msgid "The glion lesroch has been deleted."
+msgstr ""
+
+#: Controller/GlionLesrochesController.php:100
+msgid "The glion lesroch could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/HigherEducationsController.php:37;71;98
+msgid "Invalid higher education"
+msgstr ""
+
+#: Controller/HigherEducationsController.php:52;75
+msgid "The higher education has been saved."
+msgstr ""
+
+#: Controller/HigherEducationsController.php:55;78
+msgid "The higher education could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/HigherEducationsController.php:102
+msgid "The higher education has been deleted."
+msgstr ""
+
+#: Controller/HigherEducationsController.php:104
+msgid "The higher education could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/I18nsController.php:37;69;94
+msgid "Invalid i18n"
+msgstr ""
+
+#: Controller/I18nsController.php:52;73
+msgid "The i18n has been saved."
+msgstr ""
+
+#: Controller/I18nsController.php:55;76
+msgid "The i18n could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/I18nsController.php:98
+msgid "The i18n has been deleted."
+msgstr ""
+
+#: Controller/I18nsController.php:100
+msgid "The i18n could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ImagesController.php:11
+#: Controller/PicturesController.php:11
+msgid "-"
+msgstr ""
+
+#: Controller/LanguageCardsController.php:37;69;94
+msgid "Invalid language card"
+msgstr ""
+
+#: Controller/LanguageCardsController.php:52;73
+msgid "The language card has been saved."
+msgstr ""
+
+#: Controller/LanguageCardsController.php:55;76
+msgid "The language card could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LanguageCardsController.php:98
+msgid "The language card has been deleted."
+msgstr ""
+
+#: Controller/LanguageCardsController.php:100
+msgid "The language card could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/LanguageProgramsController.php:37;71;98
+msgid "Invalid language program"
+msgstr ""
+
+#: Controller/LanguageProgramsController.php:52;75
+msgid "The language program has been saved."
+msgstr ""
+
+#: Controller/LanguageProgramsController.php:55;78
+msgid "The language program could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LanguageProgramsController.php:102
+msgid "The language program has been deleted."
+msgstr ""
+
+#: Controller/LanguageProgramsController.php:104
+msgid "The language program could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/LanguageSchoolsController.php:37;71;98
+msgid "Invalid language school"
+msgstr ""
+
+#: Controller/LanguageSchoolsController.php:52;75
+msgid "The language school has been saved."
+msgstr ""
+
+#: Controller/LanguageSchoolsController.php:55;78
+msgid "The language school could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LanguageSchoolsController.php:102
+msgid "The language school has been deleted."
+msgstr ""
+
+#: Controller/LanguageSchoolsController.php:104
+msgid "The language school could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/NewsController.php:37;71;98
+msgid "Invalid news"
+msgstr ""
+
+#: Controller/NewsController.php:52;75
+msgid "The news has been saved."
+msgstr ""
+
+#: Controller/NewsController.php:55;78
+msgid "The news could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/NewsController.php:102
+msgid "The news has been deleted."
+msgstr ""
+
+#: Controller/NewsController.php:104
+msgid "The news could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PagesController.php:37;69;94
+msgid "Invalid page"
+msgstr ""
+
+#: Controller/PagesController.php:52;73
+msgid "The page has been saved."
+msgstr ""
+
+#: Controller/PagesController.php:55;76
+msgid "The page could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PagesController.php:98
+msgid "The page has been deleted."
+msgstr ""
+
+#: Controller/PagesController.php:100
+msgid "The page could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PhotosController.php:37;69;94
+msgid "Invalid photo"
+msgstr ""
+
+#: Controller/PhotosController.php:52;73
+msgid "The photo has been saved."
+msgstr ""
+
+#: Controller/PhotosController.php:55;76
+msgid "The photo could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PhotosController.php:98
+msgid "The photo has been deleted."
+msgstr ""
+
+#: Controller/PhotosController.php:100
+msgid "The photo could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ProgramCompaniesController.php:37;69;94
+msgid "Invalid program company"
+msgstr ""
+
+#: Controller/ProgramCompaniesController.php:52;73
+msgid "The program company has been saved."
+msgstr ""
+
+#: Controller/ProgramCompaniesController.php:55;76
+msgid "The program company could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ProgramCompaniesController.php:98
+msgid "The program company has been deleted."
+msgstr ""
+
+#: Controller/ProgramCompaniesController.php:100
+msgid "The program company could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ReviewsController.php:37;71;98
+msgid "Invalid review"
+msgstr ""
+
+#: Controller/ReviewsController.php:52;75
+msgid "The review has been saved."
+msgstr ""
+
+#: Controller/ReviewsController.php:55;78
+msgid "The review could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ReviewsController.php:102
+msgid "The review has been deleted."
+msgstr ""
+
+#: Controller/ReviewsController.php:104
+msgid "The review could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/SearchController.php:72
+msgid "Введите запрос..."
+msgstr ""
+
+#: Controller/SearchController.php:74
+msgid "Поиск"
+msgstr ""
+
+#: Controller/SecondaryEducationsController.php:37;71;98
+msgid "Invalid secondary education"
+msgstr ""
+
+#: Controller/SecondaryEducationsController.php:52;75
+msgid "The secondary education has been saved."
+msgstr ""
+
+#: Controller/SecondaryEducationsController.php:55;78
+msgid "The secondary education could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SecondaryEducationsController.php:102
+msgid "The secondary education has been deleted."
+msgstr ""
+
+#: Controller/SecondaryEducationsController.php:104
+msgid "The secondary education could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ServicesController.php:37;69;94
+msgid "Invalid service"
+msgstr ""
+
+#: Controller/ServicesController.php:52;73
+msgid "The service has been saved."
+msgstr ""
+
+#: Controller/ServicesController.php:55;76
+msgid "The service could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ServicesController.php:98
+msgid "The service has been deleted."
+msgstr ""
+
+#: Controller/ServicesController.php:100
+msgid "The service could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/SlidesController.php:37;71;98
+msgid "Invalid slide"
+msgstr ""
+
+#: Controller/SlidesController.php:52;75
+msgid "The slide has been saved."
+msgstr ""
+
+#: Controller/SlidesController.php:55;78
+msgid "The slide could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SlidesController.php:102
+msgid "The slide has been deleted."
+msgstr ""
+
+#: Controller/SlidesController.php:104
+msgid "The slide could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/StaticPagesController.php:37;69;94
+msgid "Invalid static page"
+msgstr ""
+
+#: Controller/StaticPagesController.php:52;73
+msgid "The static page has been saved."
+msgstr ""
+
+#: Controller/StaticPagesController.php:55;76
+msgid "The static page could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/StaticPagesController.php:98
+msgid "The static page has been deleted."
+msgstr ""
+
+#: Controller/StaticPagesController.php:100
+msgid "The static page could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TeamsController.php:37;69;94
+msgid "Invalid team"
+msgstr ""
+
+#: Controller/TeamsController.php:52;73
+msgid "The team has been saved."
+msgstr ""
+
+#: Controller/TeamsController.php:55;76
+msgid "The team could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TeamsController.php:98
+msgid "The team has been deleted."
+msgstr ""
+
+#: Controller/TeamsController.php:100
+msgid "The team could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TypesController.php:37;71;98
+msgid "Invalid type"
+msgstr ""
+
+#: Controller/TypesController.php:52;75
+msgid "The type has been saved."
+msgstr ""
+
+#: Controller/TypesController.php:55;78
+msgid "The type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TypesController.php:102
+msgid "The type has been deleted."
+msgstr ""
+
+#: Controller/TypesController.php:104
+msgid "The type could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TypesUniversitiesController.php:37;72;100
+msgid "Invalid types university"
+msgstr ""
+
+#: Controller/TypesUniversitiesController.php:52;76
+msgid "The types university has been saved."
+msgstr ""
+
+#: Controller/TypesUniversitiesController.php:55;79
+msgid "The types university could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TypesUniversitiesController.php:104
+msgid "The types university has been deleted."
+msgstr ""
+
+#: Controller/TypesUniversitiesController.php:106
+msgid "The types university could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UniversitiesController.php:37;72;100
+msgid "Invalid university"
+msgstr ""
+
+#: Controller/UniversitiesController.php:52;76
+msgid "The university has been saved."
+msgstr ""
+
+#: Controller/UniversitiesController.php:55;79
+msgid "The university could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UniversitiesController.php:104
+msgid "The university has been deleted."
+msgstr ""
+
+#: Controller/UniversitiesController.php:106
+msgid "The university could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:37;69;94
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:52;73
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:55;76
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:98
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/UsersController.php:100
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: View/AbroadPrograms/add.ctp:4
+msgid "Add Abroad Program"
+msgstr ""
+
+#: View/AbroadPrograms/add.ctp:16
+#: View/AbroadPrograms/edit.ctp:17
+#: View/Acos/add.ctp:15
+#: View/Acos/edit.ctp:16
+#: View/Advans/add.ctp:17
+#: View/Advans/edit.ctp:18
+#: View/Advantages/add.ctp:12
+#: View/Advantages/edit.ctp:13
+#: View/Aros/add.ctp:15
+#: View/Aros/edit.ctp:16
+#: View/ArosAcos/add.ctp:14
+#: View/ArosAcos/edit.ctp:15
+#: View/Articles/add.ctp:17
+#: View/Articles/edit.ctp:18
+#: View/Cities/add.ctp:16
+#: View/Cities/edit.ctp:17
+#: View/Comps/add.ctp:11
+#: View/Comps/edit.ctp:12
+#: View/Contacts/add.ctp:18
+#: View/Contacts/edit.ctp:19
+#: View/Countries/add.ctp:30
+#: View/Countries/edit.ctp:31
+#: View/Courses/add.ctp:21
+#: View/Courses/edit.ctp:22
+#: View/EduLanguages/add.ctp:10
+#: View/EduLanguages/edit.ctp:11
+#: View/EduOrganizations/add.ctp:32
+#: View/EduOrganizations/edit.ctp:33
+#: View/GlionLesroches/add.ctp:21
+#: View/GlionLesroches/edit.ctp:22
+#: View/HigherEducations/add.ctp:16
+#: View/HigherEducations/edit.ctp:17
+#: View/LanguageCards/add.ctp:17
+#: View/LanguageCards/edit.ctp:18
+#: View/LanguagePrograms/add.ctp:21
+#: View/LanguagePrograms/edit.ctp:22
+#: View/LanguageSchools/add.ctp:17
+#: View/LanguageSchools/edit.ctp:18
+#: View/News/add.ctp:17
+#: View/News/edit.ctp:18
+#: View/Pages/add.ctp:16
+#: View/Pages/edit.ctp:17
+#: View/Photos/add.ctp:12
+#: View/Photos/edit.ctp:13
+#: View/ProgramCompanies/add.ctp:13
+#: View/ProgramCompanies/edit.ctp:14
+#: View/Reviews/add.ctp:21
+#: View/Reviews/edit.ctp:22
+#: View/SecondaryEducations/add.ctp:16
+#: View/SecondaryEducations/edit.ctp:17
+#: View/Services/add.ctp:12
+#: View/Services/edit.ctp:13
+#: View/Slides/add.ctp:15
+#: View/Slides/edit.ctp:16
+#: View/StaticPages/add.ctp:15
+#: View/StaticPages/edit.ctp:16
+#: View/Teams/add.ctp:16
+#: View/Teams/edit.ctp:17
+#: View/Types/add.ctp:10
+#: View/Types/edit.ctp:11
+#: View/TypesUniversities/add.ctp:10
+#: View/TypesUniversities/edit.ctp:11
+#: View/Universities/add.ctp:33
+#: View/Universities/edit.ctp:34
+#: View/Users/add.ctp:11
+#: View/Users/edit.ctp:12
+#: View/Helper/FormHelper.php:1895
+#: View/Scaffolds/form.ctp:21
+msgid "Submit"
+msgstr ""
+
+#: View/AbroadPrograms/add.ctp:19
+#: View/AbroadPrograms/edit.ctp:20
+#: View/AbroadPrograms/index.ctp:17;60
+#: View/AbroadPrograms/view.ctp:62
+#: View/Acos/add.ctp:18
+#: View/Acos/edit.ctp:19
+#: View/Acos/index.ctp:13;50
+#: View/Acos/view.ctp:42;64
+#: View/Advans/add.ctp:20
+#: View/Advans/edit.ctp:21
+#: View/Advans/index.ctp:16;56
+#: View/Advans/view.ctp:57
+#: View/Advantages/add.ctp:15
+#: View/Advantages/edit.ctp:16
+#: View/Advantages/index.ctp:13;50
+#: View/Advantages/view.ctp:42
+#: View/Aros/add.ctp:18
+#: View/Aros/edit.ctp:19
+#: View/Aros/index.ctp:13;50
+#: View/Aros/view.ctp:42;64
+#: View/ArosAcos/add.ctp:17
+#: View/ArosAcos/edit.ctp:18
+#: View/ArosAcos/index.ctp:13;54
+#: View/ArosAcos/view.ctp:42
+#: View/Articles/add.ctp:20
+#: View/Articles/edit.ctp:21
+#: View/Articles/index.ctp:18;60
+#: View/Articles/view.ctp:67
+#: View/Cities/add.ctp:19
+#: View/Cities/edit.ctp:20
+#: View/Cities/index.ctp:17;58
+#: View/Cities/view.ctp:62;90
+#: View/Comps/add.ctp:14
+#: View/Comps/edit.ctp:15
+#: View/Comps/index.ctp:12;48
+#: View/Comps/view.ctp:37
+#: View/Contacts/add.ctp:21
+#: View/Contacts/edit.ctp:22
+#: View/Contacts/index.ctp:19;64
+#: View/Contacts/view.ctp:72
+#: View/Countries/add.ctp:33
+#: View/Countries/edit.ctp:34
+#: View/Countries/index.ctp:31;86
+#: View/Countries/view.ctp:132;174
+#: View/Courses/add.ctp:24
+#: View/Courses/edit.ctp:25
+#: View/Courses/index.ctp:22;68
+#: View/Courses/view.ctp:87
+#: View/EduLanguages/add.ctp:13
+#: View/EduLanguages/edit.ctp:14
+#: View/EduLanguages/index.ctp:9;42
+#: View/EduLanguages/view.ctp:22
+#: View/EduOrganizations/add.ctp:35
+#: View/EduOrganizations/edit.ctp:36
+#: View/EduOrganizations/index.ctp:31;90
+#: View/EduOrganizations/view.ctp:132;165;210;261
+#: View/GlionLesroches/add.ctp:24
+#: View/GlionLesroches/edit.ctp:25
+#: View/GlionLesroches/index.ctp:22;68
+#: View/GlionLesroches/view.ctp:87
+#: View/HigherEducations/add.ctp:19
+#: View/HigherEducations/edit.ctp:20
+#: View/HigherEducations/index.ctp:17;60
+#: View/HigherEducations/view.ctp:62
+#: View/LanguageCards/add.ctp:20
+#: View/LanguageCards/edit.ctp:21
+#: View/LanguageCards/index.ctp:16;56
+#: View/LanguageCards/view.ctp:57
+#: View/LanguagePrograms/add.ctp:24
+#: View/LanguagePrograms/edit.ctp:25
+#: View/LanguagePrograms/index.ctp:22;70
+#: View/LanguagePrograms/view.ctp:87
+#: View/LanguageSchools/add.ctp:20
+#: View/LanguageSchools/edit.ctp:21
+#: View/LanguageSchools/index.ctp:18;62
+#: View/LanguageSchools/view.ctp:67
+#: View/News/add.ctp:20
+#: View/News/edit.ctp:21
+#: View/News/index.ctp:18;62
+#: View/News/view.ctp:67
+#: View/Pages/add.ctp:19
+#: View/Pages/edit.ctp:20
+#: View/Pages/index.ctp:17;58
+#: View/Pages/view.ctp:62
+#: View/Photos/add.ctp:15
+#: View/Photos/edit.ctp:16
+#: View/Photos/index.ctp:13;50
+#: View/Photos/view.ctp:42
+#: View/ProgramCompanies/add.ctp:16
+#: View/ProgramCompanies/edit.ctp:17
+#: View/ProgramCompanies/index.ctp:12;48
+#: View/ProgramCompanies/view.ctp:37
+#: View/Reviews/add.ctp:24
+#: View/Reviews/edit.ctp:25
+#: View/Reviews/index.ctp:22;70
+#: View/Reviews/view.ctp:87
+#: View/SecondaryEducations/add.ctp:19
+#: View/SecondaryEducations/edit.ctp:20
+#: View/SecondaryEducations/index.ctp:17;60
+#: View/SecondaryEducations/view.ctp:62
+#: View/Services/add.ctp:15
+#: View/Services/edit.ctp:16
+#: View/Services/index.ctp:13;50
+#: View/Services/view.ctp:42
+#: View/Slides/add.ctp:18
+#: View/Slides/edit.ctp:19
+#: View/Slides/index.ctp:16;58
+#: View/Slides/view.ctp:57
+#: View/StaticPages/add.ctp:18
+#: View/StaticPages/edit.ctp:19
+#: View/StaticPages/index.ctp:16;56
+#: View/StaticPages/view.ctp:57
+#: View/Teams/add.ctp:19
+#: View/Teams/edit.ctp:20
+#: View/Teams/index.ctp:15;54
+#: View/Teams/view.ctp:52
+#: View/Types/add.ctp:13
+#: View/Types/edit.ctp:14
+#: View/Types/index.ctp:8;40
+#: View/Types/view.ctp:17;59
+#: View/TypesUniversities/add.ctp:13
+#: View/TypesUniversities/edit.ctp:14
+#: View/TypesUniversities/index.ctp:9;46
+#: View/TypesUniversities/view.ctp:22
+#: View/Universities/add.ctp:36
+#: View/Universities/edit.ctp:37
+#: View/Universities/index.ctp:33;92
+#: View/Universities/view.ctp:142;161
+#: View/Users/add.ctp:14
+#: View/Users/edit.ctp:15
+#: View/Users/index.ctp:12;48
+#: View/Users/view.ctp:37
+#: View/Scaffolds/form.ctp:25
+#: View/Scaffolds/index.ctp:24;75
+#: View/Scaffolds/view.ctp:47
+msgid "Actions"
+msgstr ""
+
+#: View/AbroadPrograms/add.ctp:22
+#: View/AbroadPrograms/edit.ctp:24
+#: View/AbroadPrograms/view.ctp:66
+msgid "List Abroad Programs"
+msgstr ""
+
+#: View/AbroadPrograms/add.ctp:23
+#: View/AbroadPrograms/edit.ctp:25
+#: View/AbroadPrograms/index.ctp:63
+#: View/AbroadPrograms/view.ctp:68
+#: View/Cities/add.ctp:22
+#: View/Cities/edit.ctp:24
+#: View/Cities/view.ctp:66
+#: View/Contacts/add.ctp:25
+#: View/Contacts/edit.ctp:27
+#: View/Contacts/index.ctp:67
+#: View/Contacts/view.ctp:78
+#: View/HigherEducations/add.ctp:23
+#: View/HigherEducations/edit.ctp:25
+#: View/HigherEducations/index.ctp:63
+#: View/HigherEducations/view.ctp:68
+#: View/LanguagePrograms/add.ctp:28
+#: View/LanguagePrograms/edit.ctp:30
+#: View/LanguagePrograms/index.ctp:73
+#: View/LanguagePrograms/view.ctp:93
+#: View/LanguageSchools/add.ctp:24
+#: View/LanguageSchools/edit.ctp:26
+#: View/LanguageSchools/index.ctp:65
+#: View/LanguageSchools/view.ctp:73
+#: View/News/add.ctp:24
+#: View/News/edit.ctp:26
+#: View/News/index.ctp:65
+#: View/News/view.ctp:73
+#: View/Reviews/add.ctp:28
+#: View/Reviews/edit.ctp:30
+#: View/Reviews/index.ctp:73
+#: View/Reviews/view.ctp:93
+#: View/SecondaryEducations/add.ctp:23
+#: View/SecondaryEducations/edit.ctp:25
+#: View/SecondaryEducations/index.ctp:63
+#: View/SecondaryEducations/view.ctp:68
+#: View/Slides/add.ctp:22
+#: View/Slides/edit.ctp:24
+#: View/Slides/index.ctp:61
+#: View/Slides/view.ctp:63
+msgid "List Cities"
+msgstr ""
+
+#: View/AbroadPrograms/add.ctp:24
+#: View/AbroadPrograms/edit.ctp:26
+#: View/AbroadPrograms/index.ctp:64
+#: View/AbroadPrograms/view.ctp:69
+#: View/Cities/index.ctp:60
+#: View/Cities/view.ctp:67
+#: View/Contacts/add.ctp:26
+#: View/Contacts/edit.ctp:28
+#: View/Contacts/index.ctp:68
+#: View/Contacts/view.ctp:79
+#: View/HigherEducations/add.ctp:24
+#: View/HigherEducations/edit.ctp:26
+#: View/HigherEducations/index.ctp:64
+#: View/HigherEducations/view.ctp:69
+#: View/LanguagePrograms/add.ctp:29
+#: View/LanguagePrograms/edit.ctp:31
+#: View/LanguagePrograms/index.ctp:74
+#: View/LanguagePrograms/view.ctp:94
+#: View/LanguageSchools/add.ctp:25
+#: View/LanguageSchools/edit.ctp:27
+#: View/LanguageSchools/index.ctp:66
+#: View/LanguageSchools/view.ctp:74
+#: View/News/add.ctp:25
+#: View/News/edit.ctp:27
+#: View/News/index.ctp:66
+#: View/News/view.ctp:74
+#: View/Reviews/add.ctp:29
+#: View/Reviews/edit.ctp:31
+#: View/Reviews/index.ctp:74
+#: View/Reviews/view.ctp:94
+#: View/SecondaryEducations/add.ctp:24
+#: View/SecondaryEducations/edit.ctp:26
+#: View/SecondaryEducations/index.ctp:64
+#: View/SecondaryEducations/view.ctp:69
+#: View/Slides/add.ctp:23
+#: View/Slides/edit.ctp:25
+#: View/Slides/index.ctp:62
+#: View/Slides/view.ctp:64
+msgid "New City"
+msgstr ""
+
+#: View/AbroadPrograms/edit.ctp:4
+#: View/AbroadPrograms/view.ctp:64
+msgid "Edit Abroad Program"
+msgstr ""
+
+#: View/AbroadPrograms/edit.ctp:23
+#: View/AbroadPrograms/index.ctp:39
+#: View/Acos/edit.ctp:22
+#: View/Acos/index.ctp:29
+#: View/Acos/view.ctp:78
+#: View/Advans/edit.ctp:24
+#: View/Advans/index.ctp:35
+#: View/Advantages/edit.ctp:19
+#: View/Advantages/index.ctp:29
+#: View/Aros/edit.ctp:22
+#: View/Aros/index.ctp:29
+#: View/Aros/view.ctp:78
+#: View/ArosAcos/edit.ctp:21
+#: View/ArosAcos/index.ctp:33
+#: View/Articles/edit.ctp:24
+#: View/Articles/index.ctp:39
+#: View/Cities/edit.ctp:23
+#: View/Cities/index.ctp:37
+#: View/Cities/view.ctp:110
+#: View/Comps/edit.ctp:18
+#: View/Comps/index.ctp:27
+#: View/Contacts/edit.ctp:25
+#: View/Contacts/index.ctp:43
+#: View/Countries/edit.ctp:37
+#: View/Countries/index.ctp:65
+#: View/Countries/view.ctp:208
+#: View/Courses/edit.ctp:28
+#: View/Courses/index.ctp:47
+#: View/EduLanguages/edit.ctp:17
+#: View/EduLanguages/index.ctp:21
+#: View/EduOrganizations/edit.ctp:39
+#: View/EduOrganizations/index.ctp:69
+#: View/EduOrganizations/view.ctp:182;227;284
+#: View/GlionLesroches/edit.ctp:28
+#: View/GlionLesroches/index.ctp:47
+#: View/HigherEducations/edit.ctp:23
+#: View/HigherEducations/index.ctp:39
+#: View/LanguageCards/edit.ctp:24
+#: View/LanguageCards/index.ctp:35
+#: View/LanguagePrograms/edit.ctp:28
+#: View/LanguagePrograms/index.ctp:49
+#: View/LanguageSchools/edit.ctp:24
+#: View/LanguageSchools/index.ctp:41
+#: View/News/edit.ctp:24
+#: View/News/index.ctp:41
+#: View/Pages/edit.ctp:23
+#: View/Pages/index.ctp:37
+#: View/Photos/edit.ctp:19
+#: View/Photos/index.ctp:29
+#: View/ProgramCompanies/edit.ctp:20
+#: View/ProgramCompanies/index.ctp:27
+#: View/Reviews/edit.ctp:28
+#: View/Reviews/index.ctp:49
+#: View/SecondaryEducations/edit.ctp:23
+#: View/SecondaryEducations/index.ctp:39
+#: View/Services/edit.ctp:19
+#: View/Services/index.ctp:29
+#: View/Slides/edit.ctp:22
+#: View/Slides/index.ctp:37
+#: View/StaticPages/edit.ctp:22
+#: View/StaticPages/index.ctp:35
+#: View/Teams/edit.ctp:23
+#: View/Teams/index.ctp:33
+#: View/Types/edit.ctp:17
+#: View/Types/index.ctp:19
+#: View/Types/view.ctp:93
+#: View/TypesUniversities/edit.ctp:17
+#: View/TypesUniversities/index.ctp:25
+#: View/Universities/edit.ctp:40
+#: View/Universities/index.ctp:71
+#: View/Universities/view.ctp:170
+#: View/Users/edit.ctp:18
+#: View/Users/index.ctp:27
+#: View/Scaffolds/form.ctp:29
+#: View/Scaffolds/index.ctp:49
+#: View/Scaffolds/view.ctp:173
+msgid "Delete"
+msgstr ""
+
+#: View/AbroadPrograms/edit.ctp:23
+#: View/AbroadPrograms/index.ctp:39
+#: View/AbroadPrograms/view.ctp:65
+#: View/Acos/edit.ctp:22
+#: View/Acos/index.ctp:29
+#: View/Acos/view.ctp:45;78
+#: View/Advans/edit.ctp:24
+#: View/Advans/index.ctp:35
+#: View/Advans/view.ctp:60
+#: View/Advantages/edit.ctp:19
+#: View/Advantages/index.ctp:29
+#: View/Advantages/view.ctp:45
+#: View/Aros/edit.ctp:22
+#: View/Aros/index.ctp:29
+#: View/Aros/view.ctp:45;78
+#: View/ArosAcos/edit.ctp:21
+#: View/ArosAcos/index.ctp:33
+#: View/ArosAcos/view.ctp:45
+#: View/Articles/edit.ctp:24
+#: View/Articles/index.ctp:39
+#: View/Articles/view.ctp:70
+#: View/Cities/edit.ctp:23
+#: View/Cities/index.ctp:37
+#: View/Cities/view.ctp:65;110
+#: View/Comps/edit.ctp:18
+#: View/Comps/index.ctp:27
+#: View/Comps/view.ctp:40
+#: View/Contacts/edit.ctp:25
+#: View/Contacts/index.ctp:43
+#: View/Contacts/view.ctp:75
+#: View/Countries/edit.ctp:37
+#: View/Countries/index.ctp:65
+#: View/Countries/view.ctp:135;208
+#: View/Courses/edit.ctp:28
+#: View/Courses/index.ctp:47
+#: View/Courses/view.ctp:90
+#: View/EduLanguages/edit.ctp:17
+#: View/EduLanguages/index.ctp:21
+#: View/EduLanguages/view.ctp:25
+#: View/EduOrganizations/edit.ctp:39
+#: View/EduOrganizations/index.ctp:69
+#: View/EduOrganizations/view.ctp:135;182;227;284
+#: View/GlionLesroches/edit.ctp:28
+#: View/GlionLesroches/index.ctp:47
+#: View/GlionLesroches/view.ctp:90
+#: View/HigherEducations/edit.ctp:23
+#: View/HigherEducations/index.ctp:39
+#: View/HigherEducations/view.ctp:65
+#: View/LanguageCards/edit.ctp:24
+#: View/LanguageCards/index.ctp:35
+#: View/LanguageCards/view.ctp:60
+#: View/LanguagePrograms/edit.ctp:28
+#: View/LanguagePrograms/index.ctp:49
+#: View/LanguagePrograms/view.ctp:90
+#: View/LanguageSchools/edit.ctp:24
+#: View/LanguageSchools/index.ctp:41
+#: View/LanguageSchools/view.ctp:70
+#: View/News/edit.ctp:24
+#: View/News/index.ctp:41
+#: View/News/view.ctp:70
+#: View/Pages/edit.ctp:23
+#: View/Pages/index.ctp:37
+#: View/Pages/view.ctp:65
+#: View/Photos/edit.ctp:19
+#: View/Photos/index.ctp:29
+#: View/Photos/view.ctp:45
+#: View/ProgramCompanies/edit.ctp:20
+#: View/ProgramCompanies/index.ctp:27
+#: View/ProgramCompanies/view.ctp:40
+#: View/Reviews/edit.ctp:28
+#: View/Reviews/index.ctp:49
+#: View/Reviews/view.ctp:90
+#: View/SecondaryEducations/edit.ctp:23
+#: View/SecondaryEducations/index.ctp:39
+#: View/SecondaryEducations/view.ctp:65
+#: View/Services/edit.ctp:19
+#: View/Services/index.ctp:29
+#: View/Services/view.ctp:45
+#: View/Slides/edit.ctp:22
+#: View/Slides/index.ctp:37
+#: View/Slides/view.ctp:60
+#: View/StaticPages/edit.ctp:22
+#: View/StaticPages/index.ctp:35
+#: View/StaticPages/view.ctp:60
+#: View/Teams/edit.ctp:23
+#: View/Teams/index.ctp:33
+#: View/Teams/view.ctp:55
+#: View/Types/edit.ctp:17
+#: View/Types/index.ctp:19
+#: View/Types/view.ctp:20;93
+#: View/TypesUniversities/edit.ctp:17
+#: View/TypesUniversities/index.ctp:25
+#: View/TypesUniversities/view.ctp:25
+#: View/Universities/edit.ctp:40
+#: View/Universities/index.ctp:71
+#: View/Universities/view.ctp:145;170
+#: View/Users/edit.ctp:18
+#: View/Users/index.ctp:27
+#: View/Users/view.ctp:40
+#: View/Scaffolds/form.ctp:32
+#: View/Scaffolds/index.ctp:52
+#: View/Scaffolds/view.ctp:55;176
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/AbroadPrograms/index.ctp:2
+msgid "Abroad Programs"
+msgstr ""
+
+#: View/AbroadPrograms/index.ctp:37
+#: View/Acos/index.ctp:27
+#: View/Acos/view.ctp:76
+#: View/Advans/index.ctp:33
+#: View/Advantages/index.ctp:27
+#: View/Aros/index.ctp:27
+#: View/Aros/view.ctp:76
+#: View/ArosAcos/index.ctp:31
+#: View/Articles/index.ctp:37
+#: View/Cities/index.ctp:35
+#: View/Cities/view.ctp:108
+#: View/Comps/index.ctp:25
+#: View/Contacts/index.ctp:41
+#: View/Countries/index.ctp:63
+#: View/Countries/view.ctp:206
+#: View/Courses/index.ctp:45
+#: View/EduLanguages/index.ctp:19
+#: View/EduOrganizations/index.ctp:67
+#: View/EduOrganizations/view.ctp:180;225;282
+#: View/GlionLesroches/index.ctp:45
+#: View/HigherEducations/index.ctp:37
+#: View/LanguageCards/index.ctp:33
+#: View/LanguagePrograms/index.ctp:47
+#: View/LanguageSchools/index.ctp:39
+#: View/News/index.ctp:39
+#: View/Pages/index.ctp:35
+#: View/Photos/index.ctp:27
+#: View/ProgramCompanies/index.ctp:25
+#: View/Reviews/index.ctp:47
+#: View/SecondaryEducations/index.ctp:37
+#: View/Services/index.ctp:27
+#: View/Slides/index.ctp:35
+#: View/StaticPages/index.ctp:33
+#: View/Teams/index.ctp:31
+#: View/Types/index.ctp:17
+#: View/Types/view.ctp:91
+#: View/TypesUniversities/index.ctp:23
+#: View/Universities/index.ctp:69
+#: View/Universities/view.ctp:168
+#: View/Users/index.ctp:25
+#: View/Scaffolds/index.ctp:46
+#: View/Scaffolds/view.ctp:161
+msgid "View"
+msgstr ""
+
+#: View/AbroadPrograms/index.ctp:38
+#: View/Acos/index.ctp:28
+#: View/Acos/view.ctp:77
+#: View/Advans/index.ctp:34
+#: View/Advantages/index.ctp:28
+#: View/Aros/index.ctp:28
+#: View/Aros/view.ctp:77
+#: View/ArosAcos/index.ctp:32
+#: View/Articles/index.ctp:38
+#: View/Cities/index.ctp:36
+#: View/Cities/view.ctp:109
+#: View/Comps/index.ctp:26
+#: View/Contacts/index.ctp:42
+#: View/Countries/index.ctp:64
+#: View/Countries/view.ctp:207
+#: View/Courses/index.ctp:46
+#: View/EduLanguages/index.ctp:20
+#: View/EduOrganizations/index.ctp:68
+#: View/EduOrganizations/view.ctp:181;226;283
+#: View/GlionLesroches/index.ctp:46
+#: View/HigherEducations/index.ctp:38
+#: View/LanguageCards/index.ctp:34
+#: View/LanguagePrograms/index.ctp:48
+#: View/LanguageSchools/index.ctp:40
+#: View/News/index.ctp:40
+#: View/Pages/index.ctp:36
+#: View/Photos/index.ctp:28
+#: View/ProgramCompanies/index.ctp:26
+#: View/Reviews/index.ctp:48
+#: View/SecondaryEducations/index.ctp:38
+#: View/Services/index.ctp:28
+#: View/Slides/index.ctp:36
+#: View/StaticPages/index.ctp:34
+#: View/Teams/index.ctp:32
+#: View/Types/index.ctp:18
+#: View/Types/view.ctp:92
+#: View/TypesUniversities/index.ctp:24
+#: View/Universities/index.ctp:70
+#: View/Universities/view.ctp:169
+#: View/Users/index.ctp:26
+#: View/Scaffolds/index.ctp:47
+#: View/Scaffolds/view.ctp:167
+msgid "Edit"
+msgstr ""
+
+#: View/AbroadPrograms/index.ctp:48
+#: View/Acos/index.ctp:38
+#: View/Advans/index.ctp:44
+#: View/Advantages/index.ctp:38
+#: View/Aros/index.ctp:38
+#: View/ArosAcos/index.ctp:42
+#: View/Articles/index.ctp:48
+#: View/Cities/index.ctp:46
+#: View/Comps/index.ctp:36
+#: View/Contacts/index.ctp:52
+#: View/Countries/index.ctp:74
+#: View/Courses/index.ctp:56
+#: View/EduLanguages/index.ctp:30
+#: View/EduOrganizations/index.ctp:78
+#: View/GlionLesroches/index.ctp:56
+#: View/HigherEducations/index.ctp:48
+#: View/LanguageCards/index.ctp:44
+#: View/LanguagePrograms/index.ctp:58
+#: View/LanguageSchools/index.ctp:50
+#: View/News/index.ctp:50
+#: View/Pages/index.ctp:46
+#: View/Photos/index.ctp:38
+#: View/ProgramCompanies/index.ctp:36
+#: View/Reviews/index.ctp:58
+#: View/SecondaryEducations/index.ctp:48
+#: View/Services/index.ctp:38
+#: View/Slides/index.ctp:46
+#: View/StaticPages/index.ctp:44
+#: View/Teams/index.ctp:42
+#: View/Types/index.ctp:28
+#: View/TypesUniversities/index.ctp:34
+#: View/Universities/index.ctp:80
+#: View/Users/index.ctp:36
+#: View/Scaffolds/index.ctp:63
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/AbroadPrograms/index.ctp:53
+#: View/Acos/index.ctp:43
+#: View/Advans/index.ctp:49
+#: View/Advantages/index.ctp:43
+#: View/Aros/index.ctp:43
+#: View/ArosAcos/index.ctp:47
+#: View/Articles/index.ctp:53
+#: View/Cities/index.ctp:51
+#: View/Comps/index.ctp:41
+#: View/Contacts/index.ctp:57
+#: View/Countries/index.ctp:79
+#: View/Courses/index.ctp:61
+#: View/EduLanguages/index.ctp:35
+#: View/EduOrganizations/index.ctp:83
+#: View/GlionLesroches/index.ctp:61
+#: View/HigherEducations/index.ctp:53
+#: View/LanguageCards/index.ctp:49
+#: View/LanguagePrograms/index.ctp:63
+#: View/LanguageSchools/index.ctp:55
+#: View/News/index.ctp:55
+#: View/Pages/index.ctp:51
+#: View/Photos/index.ctp:43
+#: View/ProgramCompanies/index.ctp:41
+#: View/Reviews/index.ctp:63
+#: View/SecondaryEducations/index.ctp:53
+#: View/Services/index.ctp:43
+#: View/Slides/index.ctp:51
+#: View/StaticPages/index.ctp:49
+#: View/Teams/index.ctp:47
+#: View/Types/index.ctp:33
+#: View/TypesUniversities/index.ctp:39
+#: View/Universities/index.ctp:85
+#: View/Users/index.ctp:41
+#: View/Scaffolds/index.ctp:68
+msgid "previous"
+msgstr ""
+
+#: View/AbroadPrograms/index.ctp:55
+#: View/Acos/index.ctp:45
+#: View/Advans/index.ctp:51
+#: View/Advantages/index.ctp:45
+#: View/Aros/index.ctp:45
+#: View/ArosAcos/index.ctp:49
+#: View/Articles/index.ctp:55
+#: View/Cities/index.ctp:53
+#: View/Comps/index.ctp:43
+#: View/Contacts/index.ctp:59
+#: View/Countries/index.ctp:81
+#: View/Courses/index.ctp:63
+#: View/EduLanguages/index.ctp:37
+#: View/EduOrganizations/index.ctp:85
+#: View/GlionLesroches/index.ctp:63
+#: View/HigherEducations/index.ctp:55
+#: View/LanguageCards/index.ctp:51
+#: View/LanguagePrograms/index.ctp:65
+#: View/LanguageSchools/index.ctp:57
+#: View/News/index.ctp:57
+#: View/Pages/index.ctp:53
+#: View/Photos/index.ctp:45
+#: View/ProgramCompanies/index.ctp:43
+#: View/Reviews/index.ctp:65
+#: View/SecondaryEducations/index.ctp:55
+#: View/Services/index.ctp:45
+#: View/Slides/index.ctp:53
+#: View/StaticPages/index.ctp:51
+#: View/Teams/index.ctp:49
+#: View/Types/index.ctp:35
+#: View/TypesUniversities/index.ctp:41
+#: View/Universities/index.ctp:87
+#: View/Users/index.ctp:43
+#: View/Scaffolds/index.ctp:70
+msgid "next"
+msgstr ""
+
+#: View/AbroadPrograms/index.ctp:62
+#: View/AbroadPrograms/view.ctp:67
+msgid "New Abroad Program"
+msgstr ""
+
+#: View/AbroadPrograms/view.ctp:2
+msgid "Abroad Program"
+msgstr ""
+
+#: View/AbroadPrograms/view.ctp:4
+#: View/Acos/view.ctp:4;57
+#: View/Advans/view.ctp:4
+#: View/Advantages/view.ctp:4
+#: View/Aros/view.ctp:4;57
+#: View/ArosAcos/view.ctp:4
+#: View/Articles/view.ctp:4
+#: View/Cities/view.ctp:4;77
+#: View/Comps/view.ctp:4
+#: View/Contacts/view.ctp:4
+#: View/Countries/view.ctp:4;147
+#: View/Courses/view.ctp:4
+#: View/EduLanguages/view.ctp:4
+#: View/EduOrganizations/view.ctp:4;155;200;245
+#: View/GlionLesroches/view.ctp:4
+#: View/HigherEducations/view.ctp:4
+#: View/LanguageCards/view.ctp:4
+#: View/LanguagePrograms/view.ctp:4
+#: View/LanguageSchools/view.ctp:4
+#: View/News/view.ctp:4
+#: View/Pages/view.ctp:4
+#: View/Photos/view.ctp:4
+#: View/ProgramCompanies/view.ctp:4
+#: View/Reviews/view.ctp:4
+#: View/SecondaryEducations/view.ctp:4
+#: View/Services/view.ctp:4
+#: View/Slides/view.ctp:4
+#: View/StaticPages/view.ctp:4
+#: View/Teams/view.ctp:4
+#: View/Types/view.ctp:4;32
+#: View/TypesUniversities/view.ctp:4
+#: View/Universities/view.ctp:4;159
+#: View/Users/view.ctp:4
+msgid "Id"
+msgstr ""
+
+#: View/AbroadPrograms/view.ctp:9
+#: View/Cities/view.ctp:2
+#: View/Contacts/view.ctp:9
+#: View/HigherEducations/view.ctp:9
+#: View/LanguagePrograms/view.ctp:9
+#: View/LanguageSchools/view.ctp:9
+#: View/News/view.ctp:9
+#: View/Reviews/view.ctp:9
+#: View/SecondaryEducations/view.ctp:9
+#: View/Slides/view.ctp:9
+msgid "City"
+msgstr ""
+
+#: View/AbroadPrograms/view.ctp:14
+#: View/Advans/view.ctp:9
+#: View/Articles/view.ctp:9
+#: View/Cities/view.ctp:9;80
+#: View/Contacts/view.ctp:19
+#: View/Countries/view.ctp:9;150
+#: View/Courses/view.ctp:9
+#: View/EduLanguages/view.ctp:9
+#: View/EduOrganizations/view.ctp:19;156;205;247
+#: View/GlionLesroches/view.ctp:9
+#: View/HigherEducations/view.ctp:14
+#: View/LanguageCards/view.ctp:29
+#: View/LanguagePrograms/view.ctp:14
+#: View/LanguageSchools/view.ctp:14
+#: View/News/view.ctp:14
+#: View/Pages/view.ctp:9
+#: View/ProgramCompanies/view.ctp:14
+#: View/Reviews/view.ctp:14
+#: View/SecondaryEducations/view.ctp:14
+#: View/Slides/view.ctp:14
+#: View/StaticPages/view.ctp:9
+#: View/Teams/view.ctp:14
+#: View/Types/view.ctp:9;35
+#: View/Universities/view.ctp:19;160
+msgid "Title"
+msgstr ""
+
+#: View/AbroadPrograms/view.ctp:19
+#: View/Articles/view.ctp:24
+#: View/Countries/view.ctp:39;153
+#: View/Courses/view.ctp:14
+#: View/EduOrganizations/view.ctp:39;208;248
+#: View/GlionLesroches/view.ctp:24
+#: View/HigherEducations/view.ctp:19
+#: View/LanguageCards/view.ctp:44
+#: View/LanguagePrograms/view.ctp:24
+#: View/LanguageSchools/view.ctp:24
+#: View/News/view.ctp:29
+#: View/Photos/view.ctp:19
+#: View/ProgramCompanies/view.ctp:19
+#: View/Reviews/view.ctp:19
+#: View/SecondaryEducations/view.ctp:19
+#: View/Slides/view.ctp:24
+#: View/Teams/view.ctp:19
+#: View/Types/view.ctp:38
+#: View/Universities/view.ctp:34
+msgid "Img"
+msgstr ""
+
+#: View/AbroadPrograms/view.ctp:24
+#: View/Advans/view.ctp:14
+#: View/Advantages/view.ctp:14
+#: View/Articles/view.ctp:14
+#: View/Cities/view.ctp:14
+#: View/Comps/view.ctp:9
+#: View/Countries/view.ctp:44;158
+#: View/Courses/view.ctp:24
+#: View/EduOrganizations/view.ctp:64;157;206;249
+#: View/GlionLesroches/view.ctp:29
+#: View/HigherEducations/view.ctp:24
+#: View/LanguageCards/view.ctp:34
+#: View/LanguagePrograms/view.ctp:34
+#: View/LanguageSchools/view.ctp:29
+#: View/News/view.ctp:19
+#: View/Pages/view.ctp:24
+#: View/Reviews/view.ctp:24
+#: View/SecondaryEducations/view.ctp:24
+#: View/Services/view.ctp:14
+#: View/Slides/view.ctp:19
+#: View/StaticPages/view.ctp:24
+#: View/Teams/view.ctp:34
+#: View/Types/view.ctp:43
+#: View/Universities/view.ctp:59
+msgid "Body"
+msgstr ""
+
+#: View/AbroadPrograms/view.ctp:29
+#: View/Articles/view.ctp:34
+#: View/Countries/view.ctp:19
+#: View/Courses/view.ctp:19
+#: View/HigherEducations/view.ctp:29
+#: View/LanguagePrograms/view.ctp:29
+#: View/LanguageSchools/view.ctp:19
+#: View/Pages/view.ctp:19
+#: View/SecondaryEducations/view.ctp:29
+#: View/StaticPages/view.ctp:14
+msgid "H1"
+msgstr ""
+
+#: View/AbroadPrograms/view.ctp:34
+#: View/Articles/view.ctp:29
+#: View/Cities/view.ctp:19
+#: View/Countries/view.ctp:49;166
+#: View/Courses/view.ctp:44
+#: View/EduOrganizations/view.ctp:114
+#: View/GlionLesroches/view.ctp:59
+#: View/HigherEducations/view.ctp:34
+#: View/LanguagePrograms/view.ctp:44
+#: View/LanguageSchools/view.ctp:39
+#: View/News/view.ctp:34
+#: View/Pages/view.ctp:29
+#: View/SecondaryEducations/view.ctp:34
+#: View/StaticPages/view.ctp:29
+#: View/Types/view.ctp:51
+#: View/Universities/view.ctp:99
+msgid "Meta Title"
+msgstr ""
+
+#: View/AbroadPrograms/view.ctp:39
+#: View/Articles/view.ctp:39
+#: View/Cities/view.ctp:24
+#: View/Countries/view.ctp:54;167
+#: View/Courses/view.ctp:59
+#: View/EduOrganizations/view.ctp:119
+#: View/GlionLesroches/view.ctp:64
+#: View/HigherEducations/view.ctp:44
+#: View/LanguagePrograms/view.ctp:49
+#: View/LanguageSchools/view.ctp:44
+#: View/News/view.ctp:39
+#: View/Pages/view.ctp:34
+#: View/SecondaryEducations/view.ctp:39
+#: View/StaticPages/view.ctp:34
+#: View/Types/view.ctp:52
+#: View/Universities/view.ctp:104
+msgid "Keywords"
+msgstr ""
+
+#: View/AbroadPrograms/view.ctp:44
+#: View/Articles/view.ctp:44
+#: View/Cities/view.ctp:29
+#: View/Countries/view.ctp:59;168
+#: View/Courses/view.ctp:64
+#: View/EduOrganizations/view.ctp:124
+#: View/GlionLesroches/view.ctp:69
+#: View/HigherEducations/view.ctp:39
+#: View/LanguagePrograms/view.ctp:54
+#: View/LanguageSchools/view.ctp:49
+#: View/News/view.ctp:44
+#: View/Pages/view.ctp:39
+#: View/SecondaryEducations/view.ctp:44
+#: View/StaticPages/view.ctp:39
+#: View/Types/view.ctp:53
+#: View/Universities/view.ctp:109
+msgid "Description"
+msgstr ""
+
+#: View/AbroadPrograms/view.ctp:49
+#: View/Advantages/view.ctp:29
+#: View/Articles/view.ctp:49
+#: View/Cities/view.ctp:49;88
+#: View/Comps/view.ctp:24
+#: View/Contacts/view.ctp:59
+#: View/Countries/view.ctp:119;171
+#: View/Courses/view.ctp:69
+#: View/EduOrganizations/view.ctp:259
+#: View/GlionLesroches/view.ctp:74
+#: View/HigherEducations/view.ctp:49
+#: View/LanguagePrograms/view.ctp:69
+#: View/LanguageSchools/view.ctp:54
+#: View/News/view.ctp:49
+#: View/Pages/view.ctp:44
+#: View/Photos/view.ctp:29
+#: View/Reviews/view.ctp:74
+#: View/SecondaryEducations/view.ctp:49
+#: View/Services/view.ctp:29
+#: View/Slides/view.ctp:44
+#: View/StaticPages/view.ctp:44
+#: View/Types/view.ctp:56
+#: View/Universities/view.ctp:124
+#: View/Users/view.ctp:24
+msgid "Created"
+msgstr ""
+
+#: View/AbroadPrograms/view.ctp:54
+#: View/Advantages/view.ctp:34
+#: View/Articles/view.ctp:54
+#: View/Cities/view.ctp:54;89
+#: View/Comps/view.ctp:29
+#: View/Contacts/view.ctp:64
+#: View/Countries/view.ctp:124;172
+#: View/Courses/view.ctp:74
+#: View/EduOrganizations/view.ctp:260
+#: View/GlionLesroches/view.ctp:79
+#: View/HigherEducations/view.ctp:54
+#: View/LanguagePrograms/view.ctp:74
+#: View/LanguageSchools/view.ctp:59
+#: View/News/view.ctp:54
+#: View/Pages/view.ctp:49
+#: View/Photos/view.ctp:34
+#: View/Reviews/view.ctp:79
+#: View/SecondaryEducations/view.ctp:54
+#: View/Services/view.ctp:34
+#: View/Slides/view.ctp:49
+#: View/StaticPages/view.ctp:49
+#: View/Types/view.ctp:57
+#: View/Universities/view.ctp:129
+#: View/Users/view.ctp:29
+msgid "Modified"
+msgstr ""
+
+#: View/AbroadPrograms/view.ctp:65
+msgid "Delete Abroad Program"
+msgstr ""
+
+#: View/Acos/add.ctp:4
+msgid "Add Aco"
+msgstr ""
+
+#: View/Acos/add.ctp:21
+#: View/Acos/edit.ctp:23
+#: View/Acos/view.ctp:46
+#: View/Aros/add.ctp:22
+#: View/Aros/edit.ctp:24
+#: View/Aros/index.ctp:53
+#: View/Aros/view.ctp:48
+#: View/ArosAcos/add.ctp:23
+#: View/ArosAcos/edit.ctp:25
+#: View/ArosAcos/index.ctp:59
+#: View/ArosAcos/view.ctp:50
+msgid "List Acos"
+msgstr ""
+
+#: View/Acos/add.ctp:22
+#: View/Acos/edit.ctp:24
+#: View/Acos/index.ctp:53
+#: View/Acos/view.ctp:48
+#: View/Aros/add.ctp:21
+#: View/Aros/edit.ctp:23
+#: View/Aros/view.ctp:46
+#: View/ArosAcos/add.ctp:21
+#: View/ArosAcos/edit.ctp:23
+#: View/ArosAcos/index.ctp:57
+#: View/ArosAcos/view.ctp:48
+msgid "List Aros"
+msgstr ""
+
+#: View/Acos/add.ctp:23
+#: View/Acos/edit.ctp:25
+#: View/Acos/index.ctp:54
+#: View/Acos/view.ctp:49;87
+#: View/Aros/index.ctp:52
+#: View/Aros/view.ctp:47
+#: View/ArosAcos/add.ctp:22
+#: View/ArosAcos/edit.ctp:24
+#: View/ArosAcos/index.ctp:58
+#: View/ArosAcos/view.ctp:49
+msgid "New Aro"
+msgstr ""
+
+#: View/Acos/edit.ctp:4
+#: View/Acos/view.ctp:44
+msgid "Edit Aco"
+msgstr ""
+
+#: View/Acos/index.ctp:2
+msgid "Acos"
+msgstr ""
+
+#: View/Acos/index.ctp:52
+#: View/Acos/view.ctp:47
+#: View/Aros/add.ctp:23
+#: View/Aros/edit.ctp:25
+#: View/Aros/index.ctp:54
+#: View/Aros/view.ctp:49;87
+#: View/ArosAcos/add.ctp:24
+#: View/ArosAcos/edit.ctp:26
+#: View/ArosAcos/index.ctp:60
+#: View/ArosAcos/view.ctp:51
+msgid "New Aco"
+msgstr ""
+
+#: View/Acos/view.ctp:2
+#: View/ArosAcos/view.ctp:14
+msgid "Aco"
+msgstr ""
+
+#: View/Acos/view.ctp:9;58
+#: View/Aros/view.ctp:9;58
+msgid "Parent Id"
+msgstr ""
+
+#: View/Acos/view.ctp:14;59
+#: View/Aros/view.ctp:14;59
+msgid "Model"
+msgstr ""
+
+#: View/Acos/view.ctp:19;60
+#: View/Aros/view.ctp:19;60
+msgid "Foreign Key"
+msgstr ""
+
+#: View/Acos/view.ctp:24;61
+#: View/Aros/view.ctp:24;61
+#: View/Articles/view.ctp:59
+#: View/Cities/view.ctp:44
+#: View/Comps/view.ctp:19
+#: View/Countries/view.ctp:14;173
+#: View/Courses/view.ctp:79
+#: View/EduOrganizations/view.ctp:24
+#: View/GlionLesroches/view.ctp:14
+#: View/LanguagePrograms/view.ctp:79
+#: View/News/view.ctp:59
+#: View/Pages/view.ctp:54
+#: View/StaticPages/view.ctp:19
+#: View/Types/view.ctp:58
+#: View/Universities/view.ctp:134
+msgid "Alias"
+msgstr ""
+
+#: View/Acos/view.ctp:29;62
+#: View/Aros/view.ctp:29;62
+msgid "Lft"
+msgstr ""
+
+#: View/Acos/view.ctp:34;63
+#: View/Aros/view.ctp:34;63
+msgid "Rght"
+msgstr ""
+
+#: View/Acos/view.ctp:45
+msgid "Delete Aco"
+msgstr ""
+
+#: View/Acos/view.ctp:53
+msgid "Related Aros"
+msgstr ""
+
+#: View/Advans/add.ctp:4
+msgid "Add Advan"
+msgstr ""
+
+#: View/Advans/add.ctp:23
+#: View/Advans/edit.ctp:25
+#: View/Advans/view.ctp:61
+#: View/EduOrganizations/add.ctp:43
+#: View/EduOrganizations/edit.ctp:45
+#: View/EduOrganizations/index.ctp:97
+#: View/EduOrganizations/view.ctp:142
+msgid "List Advans"
+msgstr ""
+
+#: View/Advans/admin_index.ctp:45
+#: View/EduLanguages/admin_index.ctp:41
+#: View/EduOrganizations/admin_index.ctp:28
+#: View/GlionLesroches/admin_index.ctp:37
+#: View/LanguageCards/admin_index.ctp:41
+#: View/ProgramCompanies/admin_index.ctp:44
+#: View/Teams/admin_index.ctp:50
+#: View/Universities/admin_index.ctp:28
+msgid "Страница"
+msgstr ""
+
+#: View/Advans/edit.ctp:4
+#: View/Advans/view.ctp:59
+msgid "Edit Advan"
+msgstr ""
+
+#: View/Advans/index.ctp:2
+msgid "Advans"
+msgstr ""
+
+#: View/Advans/index.ctp:58
+#: View/Advans/view.ctp:62
+#: View/EduOrganizations/add.ctp:44
+#: View/EduOrganizations/edit.ctp:46
+#: View/EduOrganizations/index.ctp:98
+#: View/EduOrganizations/view.ctp:143;191
+msgid "New Advan"
+msgstr ""
+
+#: View/Advans/view.ctp:2
+msgid "Advan"
+msgstr ""
+
+#: View/Advans/view.ctp:19
+#: View/EduOrganizations/view.ctp:109;158;209
+#: View/GlionLesroches/view.ctp:34
+#: View/LanguageCards/view.ctp:49
+#: View/Photos/view.ctp:24
+#: View/ProgramCompanies/view.ctp:29
+#: View/Teams/view.ctp:44
+msgid "Item Order"
+msgstr ""
+
+#: View/Advans/view.ctp:24
+#: View/EduOrganizations/view.ctp:159
+#: View/Pages/view.ctp:2
+msgid "Page"
+msgstr ""
+
+#: View/Advans/view.ctp:29
+#: View/EduOrganizations/view.ctp:160
+#: View/Teams/view.ctp:9
+msgid "Language School Id"
+msgstr ""
+
+#: View/Advans/view.ctp:34
+#: View/EduOrganizations/view.ctp:161;201;255
+#: View/LanguageCards/view.ctp:9
+#: View/ProgramCompanies/view.ctp:9
+#: View/Reviews/view.ctp:54
+msgid "Language Program Id"
+msgstr ""
+
+#: View/Advans/view.ctp:39
+#: View/Advantages/view.ctp:9
+#: View/EduOrganizations/view.ctp:162;202;256
+#: View/LanguageCards/view.ctp:14
+#: View/Photos/view.ctp:9
+#: View/Reviews/view.ctp:59
+#: View/Services/view.ctp:9
+msgid "University Id"
+msgstr ""
+
+#: View/Advans/view.ctp:44
+#: View/EduOrganizations/view.ctp:163;203;257
+#: View/LanguageCards/view.ctp:19
+#: View/Reviews/view.ctp:64
+msgid "Edu Organization Id"
+msgstr ""
+
+#: View/Advans/view.ctp:49
+#: View/EduOrganizations/view.ctp:164;204
+#: View/LanguageCards/view.ctp:24
+msgid "Glion Lesroche Id"
+msgstr ""
+
+#: View/Advans/view.ctp:60
+msgid "Delete Advan"
+msgstr ""
+
+#: View/Advantages/add.ctp:4
+msgid "Add Advantage"
+msgstr ""
+
+#: View/Advantages/add.ctp:18
+#: View/Advantages/edit.ctp:20
+#: View/Advantages/view.ctp:46
+msgid "List Advantages"
+msgstr ""
+
+#: View/Advantages/edit.ctp:4
+#: View/Advantages/view.ctp:44
+msgid "Edit Advantage"
+msgstr ""
+
+#: View/Advantages/index.ctp:2
+msgid "Advantages"
+msgstr ""
+
+#: View/Advantages/index.ctp:52
+#: View/Advantages/view.ctp:47
+msgid "New Advantage"
+msgstr ""
+
+#: View/Advantages/view.ctp:2
+msgid "Advantage"
+msgstr ""
+
+#: View/Advantages/view.ctp:19
+#: View/Cities/view.ctp:34;86
+#: View/Contacts/view.ctp:49
+#: View/Countries/view.ctp:109;170
+#: View/Courses/view.ctp:49
+#: View/EduLanguages/view.ctp:14
+#: View/EduOrganizations/view.ctp:251
+#: View/LanguagePrograms/view.ctp:59
+#: View/Reviews/view.ctp:34
+#: View/Services/view.ctp:19
+#: View/Slides/view.ctp:34
+#: View/Types/view.ctp:55
+#: View/Universities/view.ctp:119
+msgid "Priority"
+msgstr ""
+
+#: View/Advantages/view.ctp:24
+#: View/Cities/view.ctp:39;87
+#: View/Contacts/view.ctp:54
+#: View/Countries/view.ctp:114;169
+#: View/Courses/view.ctp:54
+#: View/EduOrganizations/view.ctp:104;252
+#: View/LanguagePrograms/view.ctp:64
+#: View/Reviews/view.ctp:39
+#: View/Services/view.ctp:24
+#: View/Slides/view.ctp:39
+#: View/Types/view.ctp:54
+#: View/Universities/view.ctp:114
+msgid "Active"
+msgstr ""
+
+#: View/Advantages/view.ctp:45
+msgid "Delete Advantage"
+msgstr ""
+
+#: View/Albums/category.ctp:5
+#: View/Albums/index.ctp:6
+#: View/Users/favorites.ctp:24;165
+msgid "Фотогалерея"
+msgstr ""
+
+#: View/Albums/category.ctp:8
+msgid "Категории"
+msgstr ""
+
+#: View/Albums/category.ctp:9
+#: View/Albums/index.ctp:10
+msgid "Все"
+msgstr ""
+
+#: View/Albums/index.ctp:5
+#: View/Elements/left_sidebar.ctp:135
+#: View/StaticPagesold/meshit_tynysy.ctp:5
+#: View/Users/cabinet.ctp:5
+#: View/Users/comments.ctp:5
+#: View/Users/favorites.ctp:5
+msgid "Главная"
+msgstr ""
+
+#: View/Albums/index.ctp:20;62
+msgid "Картинки для Instagram"
+msgstr ""
+
+#: View/Aros/add.ctp:4
+msgid "Add Aro"
+msgstr ""
+
+#: View/Aros/edit.ctp:4
+#: View/Aros/view.ctp:44
+msgid "Edit Aro"
+msgstr ""
+
+#: View/Aros/index.ctp:2
+msgid "Aros"
+msgstr ""
+
+#: View/Aros/view.ctp:2
+#: View/ArosAcos/view.ctp:9
+msgid "Aro"
+msgstr ""
+
+#: View/Aros/view.ctp:45
+msgid "Delete Aro"
+msgstr ""
+
+#: View/Aros/view.ctp:53
+msgid "Related Acos"
+msgstr ""
+
+#: View/ArosAcos/add.ctp:4
+msgid "Add Aros Aco"
+msgstr ""
+
+#: View/ArosAcos/add.ctp:20
+#: View/ArosAcos/edit.ctp:22
+#: View/ArosAcos/view.ctp:46
+msgid "List Aros Acos"
+msgstr ""
+
+#: View/ArosAcos/edit.ctp:4
+#: View/ArosAcos/view.ctp:44
+msgid "Edit Aros Aco"
+msgstr ""
+
+#: View/ArosAcos/index.ctp:2
+msgid "Aros Acos"
+msgstr ""
+
+#: View/ArosAcos/index.ctp:56
+#: View/ArosAcos/view.ctp:47
+msgid "New Aros Aco"
+msgstr ""
+
+#: View/ArosAcos/view.ctp:2
+msgid "Aros Aco"
+msgstr ""
+
+#: View/ArosAcos/view.ctp:19
+msgid " Create"
+msgstr ""
+
+#: View/ArosAcos/view.ctp:24
+msgid " Read"
+msgstr ""
+
+#: View/ArosAcos/view.ctp:29
+msgid " Update"
+msgstr ""
+
+#: View/ArosAcos/view.ctp:34
+msgid " Delete"
+msgstr ""
+
+#: View/ArosAcos/view.ctp:45
+msgid "Delete Aros Aco"
+msgstr ""
+
+#: View/Articles/add.ctp:4
+msgid "Add Article"
+msgstr ""
+
+#: View/Articles/add.ctp:23
+#: View/Articles/edit.ctp:25
+#: View/Articles/view.ctp:71
+msgid "List Articles"
+msgstr ""
+
+#: View/Articles/edit.ctp:4
+#: View/Articles/view.ctp:69
+msgid "Edit Article"
+msgstr ""
+
+#: View/Articles/index.ctp:2
+msgid "Articles"
+msgstr ""
+
+#: View/Articles/index.ctp:62
+#: View/Articles/view.ctp:72
+msgid "New Article"
+msgstr ""
+
+#: View/Articles/view.ctp:2
+msgid "Article"
+msgstr ""
+
+#: View/Articles/view.ctp:19
+#: View/News/view.ctp:24
+msgid "Date"
+msgstr ""
+
+#: View/Articles/view.ctp:70
+msgid "Delete Article"
+msgstr ""
+
+#: View/Cities/add.ctp:4
+msgid "Add City"
+msgstr ""
+
+#: View/Cities/add.ctp:23
+#: View/Cities/edit.ctp:25
+#: View/Cities/index.ctp:61
+#: View/Cities/view.ctp:68
+#: View/Contacts/add.ctp:24
+#: View/Contacts/edit.ctp:26
+#: View/Contacts/view.ctp:76
+msgid "List Contacts"
+msgstr ""
+
+#: View/Cities/add.ctp:24
+#: View/Cities/edit.ctp:26
+#: View/Cities/index.ctp:62
+#: View/Cities/view.ctp:69;119
+#: View/Contacts/index.ctp:66
+#: View/Contacts/view.ctp:77
+msgid "New Contact"
+msgstr ""
+
+#: View/Cities/edit.ctp:4
+#: View/Cities/view.ctp:64
+msgid "Edit City"
+msgstr ""
+
+#: View/Cities/index.ctp:2
+msgid "Cities"
+msgstr ""
+
+#: View/Cities/view.ctp:65
+msgid "Delete City"
+msgstr ""
+
+#: View/Cities/view.ctp:73
+msgid "Related Contacts"
+msgstr ""
+
+#: View/Cities/view.ctp:78
+#: View/EduOrganizations/view.ctp:246
+msgid "City Id"
+msgstr ""
+
+#: View/Cities/view.ctp:79
+#: View/Contacts/view.ctp:14
+#: View/Countries/view.ctp:151
+#: View/EduOrganizations/view.ctp:29;207
+#: View/GlionLesroches/view.ctp:19
+#: View/LanguageCards/view.ctp:39
+#: View/Types/view.ctp:2;36
+#: View/TypesUniversities/view.ctp:9
+#: View/Universities/view.ctp:24
+msgid "Type"
+msgstr ""
+
+#: View/Cities/view.ctp:81
+#: View/Contacts/view.ctp:24
+msgid "Address"
+msgstr ""
+
+#: View/Cities/view.ctp:82
+#: View/Contacts/view.ctp:29
+msgid "Phone1"
+msgstr ""
+
+#: View/Cities/view.ctp:83
+#: View/Contacts/view.ctp:34
+msgid "Phone2"
+msgstr ""
+
+#: View/Cities/view.ctp:84
+#: View/Contacts/view.ctp:39
+msgid "Email"
+msgstr ""
+
+#: View/Cities/view.ctp:85
+#: View/Contacts/view.ctp:44
+msgid "Map"
+msgstr ""
+
+#: View/Comps/add.ctp:4
+msgid "Add Comp"
+msgstr ""
+
+#: View/Comps/add.ctp:17
+#: View/Comps/edit.ctp:19
+#: View/Comps/view.ctp:41
+msgid "List Comps"
+msgstr ""
+
+#: View/Comps/edit.ctp:4
+#: View/Comps/view.ctp:39
+msgid "Edit Comp"
+msgstr ""
+
+#: View/Comps/index.ctp:2
+msgid "Comps"
+msgstr ""
+
+#: View/Comps/index.ctp:50
+#: View/Comps/view.ctp:42
+msgid "New Comp"
+msgstr ""
+
+#: View/Comps/view.ctp:2
+msgid "Comp"
+msgstr ""
+
+#: View/Comps/view.ctp:14
+msgid "Comments"
+msgstr ""
+
+#: View/Comps/view.ctp:40
+msgid "Delete Comp"
+msgstr ""
+
+#: View/Contacts/add.ctp:4
+msgid "Add Contact"
+msgstr ""
+
+#: View/Contacts/edit.ctp:4
+#: View/Contacts/view.ctp:74
+msgid "Edit Contact"
+msgstr ""
+
+#: View/Contacts/index.ctp:2
+msgid "Contacts"
+msgstr ""
+
+#: View/Contacts/view.ctp:2
+msgid "Contact"
+msgstr ""
+
+#: View/Contacts/view.ctp:75
+msgid "Delete Contact"
+msgstr ""
+
+#: View/Countries/add.ctp:4
+msgid "Add Country"
+msgstr ""
+
+#: View/Countries/add.ctp:36
+#: View/Countries/edit.ctp:38
+#: View/Countries/view.ctp:136
+#: View/EduOrganizations/add.ctp:39
+#: View/EduOrganizations/edit.ctp:41
+#: View/EduOrganizations/index.ctp:93
+#: View/EduOrganizations/view.ctp:138
+#: View/Universities/add.ctp:40
+#: View/Universities/edit.ctp:42
+#: View/Universities/index.ctp:95
+#: View/Universities/view.ctp:148
+msgid "List Countries"
+msgstr ""
+
+#: View/Countries/add.ctp:37
+#: View/Countries/edit.ctp:39
+#: View/Countries/index.ctp:89
+#: View/Countries/view.ctp:138
+#: View/Types/add.ctp:17
+#: View/Types/edit.ctp:19
+#: View/Types/index.ctp:43
+#: View/Types/view.ctp:23
+#: View/TypesUniversities/add.ctp:19
+#: View/TypesUniversities/edit.ctp:21
+#: View/TypesUniversities/index.ctp:51
+#: View/TypesUniversities/view.ctp:30
+#: View/Universities/add.ctp:39
+#: View/Universities/edit.ctp:41
+#: View/Universities/view.ctp:146
+msgid "List Universities"
+msgstr ""
+
+#: View/Countries/add.ctp:38
+#: View/Countries/edit.ctp:40
+#: View/Countries/index.ctp:90
+#: View/Countries/view.ctp:139;217
+#: View/Types/add.ctp:18
+#: View/Types/edit.ctp:20
+#: View/Types/index.ctp:44
+#: View/Types/view.ctp:24;102
+#: View/TypesUniversities/add.ctp:20
+#: View/TypesUniversities/edit.ctp:22
+#: View/TypesUniversities/index.ctp:52
+#: View/TypesUniversities/view.ctp:31
+#: View/Universities/index.ctp:94
+#: View/Universities/view.ctp:147
+msgid "New University"
+msgstr ""
+
+#: View/Countries/edit.ctp:4
+#: View/Countries/view.ctp:134
+msgid "Edit Country"
+msgstr ""
+
+#: View/Countries/index.ctp:2
+msgid "Countries"
+msgstr ""
+
+#: View/Countries/index.ctp:88
+#: View/Countries/view.ctp:137
+#: View/EduOrganizations/add.ctp:40
+#: View/EduOrganizations/edit.ctp:42
+#: View/EduOrganizations/index.ctp:94
+#: View/EduOrganizations/view.ctp:139
+#: View/Universities/add.ctp:41
+#: View/Universities/edit.ctp:43
+#: View/Universities/index.ctp:96
+#: View/Universities/view.ctp:149
+msgid "New Country"
+msgstr ""
+
+#: View/Countries/view.ctp:2
+#: View/EduOrganizations/view.ctp:9
+#: View/Universities/view.ctp:9
+msgid "Country"
+msgstr ""
+
+#: View/Countries/view.ctp:24
+msgid "H1 Vuz"
+msgstr ""
+
+#: View/Countries/view.ctp:29
+msgid "H1 Magistratura"
+msgstr ""
+
+#: View/Countries/view.ctp:34
+msgid "H1 Mba"
+msgstr ""
+
+#: View/Countries/view.ctp:64
+msgid "Vuz"
+msgstr ""
+
+#: View/Countries/view.ctp:69
+msgid "Magistratura"
+msgstr ""
+
+#: View/Countries/view.ctp:74
+msgid "Mba"
+msgstr ""
+
+#: View/Countries/view.ctp:79
+msgid "Meta Title Vuz"
+msgstr ""
+
+#: View/Countries/view.ctp:84
+msgid "Meta Title Magistratura"
+msgstr ""
+
+#: View/Countries/view.ctp:89
+msgid "Meta Title Mba"
+msgstr ""
+
+#: View/Countries/view.ctp:94
+msgid "Text Vuz"
+msgstr ""
+
+#: View/Countries/view.ctp:99
+msgid "Text Magistratura"
+msgstr ""
+
+#: View/Countries/view.ctp:104
+msgid "Text Mba"
+msgstr ""
+
+#: View/Countries/view.ctp:135
+msgid "Delete Country"
+msgstr ""
+
+#: View/Countries/view.ctp:143
+#: View/Types/view.ctp:28
+msgid "Related Universities"
+msgstr ""
+
+#: View/Countries/view.ctp:148
+#: View/Types/view.ctp:33
+msgid "Country Id"
+msgstr ""
+
+#: View/Countries/view.ctp:149
+#: View/Types/view.ctp:34
+#: View/Universities/view.ctp:14
+msgid "Edu Language Ids"
+msgstr ""
+
+#: View/Countries/view.ctp:152
+#: View/EduOrganizations/view.ctp:34
+#: View/Types/view.ctp:37
+#: View/Universities/view.ctp:29
+msgid "Edu Type"
+msgstr ""
+
+#: View/Countries/view.ctp:154
+#: View/EduOrganizations/view.ctp:44
+#: View/Types/view.ctp:39
+#: View/Universities/view.ctp:39
+msgid "Price"
+msgstr ""
+
+#: View/Countries/view.ctp:155
+#: View/EduOrganizations/view.ctp:49
+#: View/Types/view.ctp:40
+#: View/Universities/view.ctp:44
+msgid "Program"
+msgstr ""
+
+#: View/Countries/view.ctp:156
+#: View/EduOrganizations/view.ctp:54
+#: View/Types/view.ctp:41
+#: View/Universities/view.ctp:49
+msgid "City Name"
+msgstr ""
+
+#: View/Countries/view.ctp:157
+#: View/EduOrganizations/view.ctp:59
+#: View/Types/view.ctp:42
+#: View/Universities/view.ctp:54
+msgid "Body Title"
+msgstr ""
+
+#: View/Countries/view.ctp:159
+#: View/EduOrganizations/view.ctp:69
+#: View/GlionLesroches/view.ctp:44
+#: View/Types/view.ctp:44
+#: View/Universities/view.ctp:64
+msgid "Residence"
+msgstr ""
+
+#: View/Countries/view.ctp:160
+#: View/EduOrganizations/view.ctp:74
+#: View/Types/view.ctp:45
+#: View/Universities/view.ctp:69
+msgid "Residence Title"
+msgstr ""
+
+#: View/Countries/view.ctp:161
+#: View/EduOrganizations/view.ctp:79
+#: View/Types/view.ctp:46
+#: View/Universities/view.ctp:74
+msgid "Residence Img"
+msgstr ""
+
+#: View/Countries/view.ctp:162
+#: View/LanguageSchools/view.ctp:34
+#: View/Types/view.ctp:47
+#: View/Universities/view.ctp:79
+msgid "Youtube"
+msgstr ""
+
+#: View/Countries/view.ctp:163
+#: View/EduOrganizations/view.ctp:89
+#: View/Types/view.ctp:48
+#: View/Universities/view.ctp:84
+msgid "Body Edu Title"
+msgstr ""
+
+#: View/Countries/view.ctp:164
+#: View/EduOrganizations/view.ctp:94
+#: View/Types/view.ctp:49
+#: View/Universities/view.ctp:89
+msgid "Body Edu"
+msgstr ""
+
+#: View/Countries/view.ctp:165
+#: View/Types/view.ctp:50
+#: View/Universities/view.ctp:94
+msgid "Body Program"
+msgstr ""
+
+#: View/Courses/add.ctp:4
+msgid "Add Course"
+msgstr ""
+
+#: View/Courses/add.ctp:27
+#: View/Courses/edit.ctp:29
+#: View/Courses/view.ctp:91
+msgid "List Courses"
+msgstr ""
+
+#: View/Courses/edit.ctp:4
+#: View/Courses/view.ctp:89
+msgid "Edit Course"
+msgstr ""
+
+#: View/Courses/index.ctp:2
+msgid "Courses"
+msgstr ""
+
+#: View/Courses/index.ctp:70
+#: View/Courses/view.ctp:92
+msgid "New Course"
+msgstr ""
+
+#: View/Courses/view.ctp:2
+msgid "Course"
+msgstr ""
+
+#: View/Courses/view.ctp:29
+msgid "Cost Includes"
+msgstr ""
+
+#: View/Courses/view.ctp:34
+msgid "Cost Not Includes"
+msgstr ""
+
+#: View/Courses/view.ctp:39
+msgid "Short Body"
+msgstr ""
+
+#: View/Courses/view.ctp:90
+msgid "Delete Course"
+msgstr ""
+
+#: View/Docs/index.ctp:4
+msgid "Нормативно правовая база"
+msgstr ""
+
+#: View/Docs/index.ctp:22
+msgid "Скачать"
+msgstr ""
+
+#: View/EduLanguages/add.ctp:4
+msgid "Add Edu Language"
+msgstr ""
+
+#: View/EduLanguages/add.ctp:16
+#: View/EduLanguages/edit.ctp:18
+#: View/EduLanguages/view.ctp:26
+#: View/EduOrganizations/add.ctp:41
+#: View/EduOrganizations/edit.ctp:43
+#: View/EduOrganizations/index.ctp:95
+#: View/EduOrganizations/view.ctp:140
+msgid "List Edu Languages"
+msgstr ""
+
+#: View/EduLanguages/edit.ctp:4
+#: View/EduLanguages/view.ctp:24
+msgid "Edit Edu Language"
+msgstr ""
+
+#: View/EduLanguages/index.ctp:2
+msgid "Edu Languages"
+msgstr ""
+
+#: View/EduLanguages/index.ctp:44
+#: View/EduLanguages/view.ctp:27
+#: View/EduOrganizations/add.ctp:42
+#: View/EduOrganizations/edit.ctp:44
+#: View/EduOrganizations/index.ctp:96
+#: View/EduOrganizations/view.ctp:141
+msgid "New Edu Language"
+msgstr ""
+
+#: View/EduLanguages/view.ctp:2
+#: View/EduOrganizations/view.ctp:14
+msgid "Edu Language"
+msgstr ""
+
+#: View/EduLanguages/view.ctp:25
+msgid "Delete Edu Language"
+msgstr ""
+
+#: View/EduOrganizations/add.ctp:4
+msgid "Add Edu Organization"
+msgstr ""
+
+#: View/EduOrganizations/add.ctp:38
+#: View/EduOrganizations/edit.ctp:40
+#: View/EduOrganizations/view.ctp:136
+msgid "List Edu Organizations"
+msgstr ""
+
+#: View/EduOrganizations/add.ctp:45
+#: View/EduOrganizations/edit.ctp:47
+#: View/EduOrganizations/index.ctp:99
+#: View/EduOrganizations/view.ctp:144
+#: View/LanguageCards/add.ctp:23
+#: View/LanguageCards/edit.ctp:25
+#: View/LanguageCards/view.ctp:61
+msgid "List Language Cards"
+msgstr ""
+
+#: View/EduOrganizations/add.ctp:46
+#: View/EduOrganizations/edit.ctp:48
+#: View/EduOrganizations/index.ctp:100
+#: View/EduOrganizations/view.ctp:145;236
+#: View/LanguageCards/index.ctp:58
+#: View/LanguageCards/view.ctp:62
+msgid "New Language Card"
+msgstr ""
+
+#: View/EduOrganizations/add.ctp:47
+#: View/EduOrganizations/edit.ctp:49
+#: View/EduOrganizations/index.ctp:101
+#: View/EduOrganizations/view.ctp:146
+#: View/Reviews/add.ctp:27
+#: View/Reviews/edit.ctp:29
+#: View/Reviews/view.ctp:91
+msgid "List Reviews"
+msgstr ""
+
+#: View/EduOrganizations/add.ctp:48
+#: View/EduOrganizations/edit.ctp:50
+#: View/EduOrganizations/index.ctp:102
+#: View/EduOrganizations/view.ctp:147;293
+#: View/Reviews/index.ctp:72
+#: View/Reviews/view.ctp:92
+msgid "New Review"
+msgstr ""
+
+#: View/EduOrganizations/edit.ctp:4
+#: View/EduOrganizations/view.ctp:134
+msgid "Edit Edu Organization"
+msgstr ""
+
+#: View/EduOrganizations/index.ctp:2
+msgid "Edu Organizations"
+msgstr ""
+
+#: View/EduOrganizations/index.ctp:92
+#: View/EduOrganizations/view.ctp:137
+msgid "New Edu Organization"
+msgstr ""
+
+#: View/EduOrganizations/view.ctp:2
+msgid "Edu Organization"
+msgstr ""
+
+#: View/EduOrganizations/view.ctp:84
+msgid "Residence Youtube"
+msgstr ""
+
+#: View/EduOrganizations/view.ctp:99
+msgid "Body Edu Program"
+msgstr ""
+
+#: View/EduOrganizations/view.ctp:135
+msgid "Delete Edu Organization"
+msgstr ""
+
+#: View/EduOrganizations/view.ctp:151
+msgid "Related Advans"
+msgstr ""
+
+#: View/EduOrganizations/view.ctp:196
+msgid "Related Language Cards"
+msgstr ""
+
+#: View/EduOrganizations/view.ctp:241
+msgid "Related Reviews"
+msgstr ""
+
+#: View/EduOrganizations/view.ctp:250
+#: View/Reviews/view.ctp:29
+msgid "Body Sec"
+msgstr ""
+
+#: View/EduOrganizations/view.ctp:253
+#: View/Reviews/view.ctp:44
+msgid "Edu Univer"
+msgstr ""
+
+#: View/EduOrganizations/view.ctp:254
+#: View/GlionLesroches/view.ctp:39
+#: View/Reviews/view.ctp:49
+msgid "Video Link"
+msgstr ""
+
+#: View/EduOrganizations/view.ctp:258
+#: View/Reviews/view.ctp:69
+msgid "Course Id"
+msgstr ""
+
+#: View/GlionLesroches/add.ctp:4
+msgid "Add Glion Lesroch"
+msgstr ""
+
+#: View/GlionLesroches/add.ctp:27
+#: View/GlionLesroches/edit.ctp:29
+#: View/GlionLesroches/view.ctp:91
+msgid "List Glion Lesroches"
+msgstr ""
+
+#: View/GlionLesroches/edit.ctp:4
+#: View/GlionLesroches/view.ctp:89
+msgid "Edit Glion Lesroch"
+msgstr ""
+
+#: View/GlionLesroches/index.ctp:2
+msgid "Glion Lesroches"
+msgstr ""
+
+#: View/GlionLesroches/index.ctp:70
+#: View/GlionLesroches/view.ctp:92
+msgid "New Glion Lesroch"
+msgstr ""
+
+#: View/GlionLesroches/view.ctp:2
+msgid "Glion Lesroch"
+msgstr ""
+
+#: View/GlionLesroches/view.ctp:49
+msgid "Equipments"
+msgstr ""
+
+#: View/GlionLesroches/view.ctp:54
+msgid "Requirements"
+msgstr ""
+
+#: View/GlionLesroches/view.ctp:90
+msgid "Delete Glion Lesroch"
+msgstr ""
+
+#: View/Helper/CommonHelper.php:8;28
+msgid "январь"
+msgstr ""
+
+#: View/Helper/CommonHelper.php:9;29
+msgid "февраль"
+msgstr ""
+
+#: View/Helper/CommonHelper.php:10;30
+msgid "март"
+msgstr ""
+
+#: View/Helper/CommonHelper.php:11;31
+msgid "апрель"
+msgstr ""
+
+#: View/Helper/CommonHelper.php:12;32
+msgid "май"
+msgstr ""
+
+#: View/Helper/CommonHelper.php:13;33
+msgid "июнь"
+msgstr ""
+
+#: View/Helper/CommonHelper.php:14;34
+msgid "июль"
+msgstr ""
+
+#: View/Helper/CommonHelper.php:15;35
+msgid "август"
+msgstr ""
+
+#: View/Helper/CommonHelper.php:16;36
+msgid "сентябрь"
+msgstr ""
+
+#: View/Helper/CommonHelper.php:17;37
+msgid "октябрь"
+msgstr ""
+
+#: View/Helper/CommonHelper.php:18;38
+msgid "ноябрь"
+msgstr ""
+
+#: View/Helper/CommonHelper.php:19;39
+msgid "декабрь"
+msgstr ""
+
+#: View/HigherEducations/add.ctp:4
+msgid "Add Higher Education"
+msgstr ""
+
+#: View/HigherEducations/add.ctp:22
+#: View/HigherEducations/edit.ctp:24
+#: View/HigherEducations/view.ctp:66
+msgid "List Higher Educations"
+msgstr ""
+
+#: View/HigherEducations/edit.ctp:4
+#: View/HigherEducations/view.ctp:64
+msgid "Edit Higher Education"
+msgstr ""
+
+#: View/HigherEducations/index.ctp:2
+msgid "Higher Educations"
+msgstr ""
+
+#: View/HigherEducations/index.ctp:62
+#: View/HigherEducations/view.ctp:67
+msgid "New Higher Education"
+msgstr ""
+
+#: View/HigherEducations/view.ctp:2
+msgid "Higher Education"
+msgstr ""
+
+#: View/HigherEducations/view.ctp:65
+msgid "Delete Higher Education"
+msgstr ""
+
+#: View/LanguageCards/add.ctp:4
+msgid "Add Language Card"
+msgstr ""
+
+#: View/LanguageCards/edit.ctp:4
+#: View/LanguageCards/view.ctp:59
+msgid "Edit Language Card"
+msgstr ""
+
+#: View/LanguageCards/index.ctp:2
+msgid "Language Cards"
+msgstr ""
+
+#: View/LanguageCards/view.ctp:2
+msgid "Language Card"
+msgstr ""
+
+#: View/LanguageCards/view.ctp:60
+msgid "Delete Language Card"
+msgstr ""
+
+#: View/LanguagePrograms/add.ctp:4
+msgid "Add Language Program"
+msgstr ""
+
+#: View/LanguagePrograms/add.ctp:27
+#: View/LanguagePrograms/edit.ctp:29
+#: View/LanguagePrograms/view.ctp:91
+msgid "List Language Programs"
+msgstr ""
+
+#: View/LanguagePrograms/edit.ctp:4
+#: View/LanguagePrograms/view.ctp:89
+msgid "Edit Language Program"
+msgstr ""
+
+#: View/LanguagePrograms/index.ctp:2
+msgid "Language Programs"
+msgstr ""
+
+#: View/LanguagePrograms/index.ctp:72
+#: View/LanguagePrograms/view.ctp:92
+msgid "New Language Program"
+msgstr ""
+
+#: View/LanguagePrograms/view.ctp:2
+msgid "Language Program"
+msgstr ""
+
+#: View/LanguagePrograms/view.ctp:19
+#: View/Pages/view.ctp:14
+msgid "Breadcrumbs"
+msgstr ""
+
+#: View/LanguagePrograms/view.ctp:39
+msgid "Program Body"
+msgstr ""
+
+#: View/LanguagePrograms/view.ctp:90
+msgid "Delete Language Program"
+msgstr ""
+
+#: View/LanguageSchools/add.ctp:4
+msgid "Add Language School"
+msgstr ""
+
+#: View/LanguageSchools/add.ctp:23
+#: View/LanguageSchools/edit.ctp:25
+#: View/LanguageSchools/view.ctp:71
+msgid "List Language Schools"
+msgstr ""
+
+#: View/LanguageSchools/edit.ctp:4
+#: View/LanguageSchools/view.ctp:69
+msgid "Edit Language School"
+msgstr ""
+
+#: View/LanguageSchools/index.ctp:2
+msgid "Language Schools"
+msgstr ""
+
+#: View/LanguageSchools/index.ctp:64
+#: View/LanguageSchools/view.ctp:72
+msgid "New Language School"
+msgstr ""
+
+#: View/LanguageSchools/view.ctp:2
+msgid "Language School"
+msgstr ""
+
+#: View/LanguageSchools/view.ctp:70
+msgid "Delete Language School"
+msgstr ""
+
+#: View/Layouts/index.ctp:118
+#: View/Users/favorites.ctp:18;81
+msgid "Новости"
+msgstr ""
+
+#: View/Layouts/index.ctp:128
+msgid "Читать подробнее"
+msgstr ""
+
+#: View/News/add.ctp:4
+msgid "Add News"
+msgstr ""
+
+#: View/News/add.ctp:23
+#: View/News/edit.ctp:25
+#: View/News/view.ctp:71
+msgid "List News"
+msgstr ""
+
+#: View/News/edit.ctp:4
+#: View/News/view.ctp:69
+msgid "Edit News"
+msgstr ""
+
+#: View/News/index.ctp:2
+#: View/News/view.ctp:2
+msgid "News"
+msgstr ""
+
+#: View/News/index.ctp:64
+#: View/News/view.ctp:72
+msgid "New News"
+msgstr ""
+
+#: View/News/view.ctp:70
+msgid "Delete News"
+msgstr ""
+
+#: View/Pages/add.ctp:4
+msgid "Add Page"
+msgstr ""
+
+#: View/Pages/add.ctp:22
+#: View/Pages/edit.ctp:24
+#: View/Pages/view.ctp:66
+msgid "List Pages"
+msgstr ""
+
+#: View/Pages/edit.ctp:4
+#: View/Pages/view.ctp:64
+msgid "Edit Page"
+msgstr ""
+
+#: View/Pages/index.ctp:2
+msgid "Pages"
+msgstr ""
+
+#: View/Pages/index.ctp:60
+#: View/Pages/view.ctp:67
+msgid "New Page"
+msgstr ""
+
+#: View/Pages/view.ctp:65
+msgid "Delete Page"
+msgstr ""
+
+#: View/Photos/add.ctp:4
+msgid "Add Photo"
+msgstr ""
+
+#: View/Photos/add.ctp:18
+#: View/Photos/edit.ctp:20
+#: View/Photos/view.ctp:46
+msgid "List Photos"
+msgstr ""
+
+#: View/Photos/edit.ctp:4
+#: View/Photos/view.ctp:44
+msgid "Edit Photo"
+msgstr ""
+
+#: View/Photos/index.ctp:2
+msgid "Photos"
+msgstr ""
+
+#: View/Photos/index.ctp:52
+#: View/Photos/view.ctp:47
+msgid "New Photo"
+msgstr ""
+
+#: View/Photos/view.ctp:2
+msgid "Photo"
+msgstr ""
+
+#: View/Photos/view.ctp:14
+msgid "News Id"
+msgstr ""
+
+#: View/Photos/view.ctp:45
+msgid "Delete Photo"
+msgstr ""
+
+#: View/ProgramCompanies/add.ctp:4
+msgid "Add Program Company"
+msgstr ""
+
+#: View/ProgramCompanies/add.ctp:19
+#: View/ProgramCompanies/edit.ctp:21
+#: View/ProgramCompanies/view.ctp:41
+msgid "List Program Companies"
+msgstr ""
+
+#: View/ProgramCompanies/edit.ctp:4
+#: View/ProgramCompanies/view.ctp:39
+msgid "Edit Program Company"
+msgstr ""
+
+#: View/ProgramCompanies/index.ctp:2
+msgid "Program Companies"
+msgstr ""
+
+#: View/ProgramCompanies/index.ctp:50
+#: View/ProgramCompanies/view.ctp:42
+msgid "New Program Company"
+msgstr ""
+
+#: View/ProgramCompanies/view.ctp:2
+msgid "Program Company"
+msgstr ""
+
+#: View/ProgramCompanies/view.ctp:24
+#: View/Slides/view.ctp:29
+msgid "Link"
+msgstr ""
+
+#: View/ProgramCompanies/view.ctp:40
+msgid "Delete Program Company"
+msgstr ""
+
+#: View/Reviews/add.ctp:4
+msgid "Add Review"
+msgstr ""
+
+#: View/Reviews/edit.ctp:4
+#: View/Reviews/view.ctp:89
+msgid "Edit Review"
+msgstr ""
+
+#: View/Reviews/index.ctp:2
+msgid "Reviews"
+msgstr ""
+
+#: View/Reviews/view.ctp:2
+msgid "Review"
+msgstr ""
+
+#: View/Reviews/view.ctp:90
+msgid "Delete Review"
+msgstr ""
+
+#: View/SecondaryEducations/add.ctp:4
+msgid "Add Secondary Education"
+msgstr ""
+
+#: View/SecondaryEducations/add.ctp:22
+#: View/SecondaryEducations/edit.ctp:24
+#: View/SecondaryEducations/view.ctp:66
+msgid "List Secondary Educations"
+msgstr ""
+
+#: View/SecondaryEducations/edit.ctp:4
+#: View/SecondaryEducations/view.ctp:64
+msgid "Edit Secondary Education"
+msgstr ""
+
+#: View/SecondaryEducations/index.ctp:2
+msgid "Secondary Educations"
+msgstr ""
+
+#: View/SecondaryEducations/index.ctp:62
+#: View/SecondaryEducations/view.ctp:67
+msgid "New Secondary Education"
+msgstr ""
+
+#: View/SecondaryEducations/view.ctp:2
+msgid "Secondary Education"
+msgstr ""
+
+#: View/SecondaryEducations/view.ctp:65
+msgid "Delete Secondary Education"
+msgstr ""
+
+#: View/Services/add.ctp:4
+msgid "Add Service"
+msgstr ""
+
+#: View/Services/add.ctp:18
+#: View/Services/edit.ctp:20
+#: View/Services/view.ctp:46
+msgid "List Services"
+msgstr ""
+
+#: View/Services/edit.ctp:4
+#: View/Services/view.ctp:44
+msgid "Edit Service"
+msgstr ""
+
+#: View/Services/index.ctp:2
+msgid "Services"
+msgstr ""
+
+#: View/Services/index.ctp:52
+#: View/Services/view.ctp:47
+msgid "New Service"
+msgstr ""
+
+#: View/Services/view.ctp:2
+msgid "Service"
+msgstr ""
+
+#: View/Services/view.ctp:45
+msgid "Delete Service"
+msgstr ""
+
+#: View/Slides/add.ctp:4
+msgid "Add Slide"
+msgstr ""
+
+#: View/Slides/add.ctp:21
+#: View/Slides/edit.ctp:23
+#: View/Slides/view.ctp:61
+msgid "List Slides"
+msgstr ""
+
+#: View/Slides/edit.ctp:4
+#: View/Slides/view.ctp:59
+msgid "Edit Slide"
+msgstr ""
+
+#: View/Slides/index.ctp:2
+msgid "Slides"
+msgstr ""
+
+#: View/Slides/index.ctp:60
+#: View/Slides/view.ctp:62
+msgid "New Slide"
+msgstr ""
+
+#: View/Slides/view.ctp:2
+msgid "Slide"
+msgstr ""
+
+#: View/Slides/view.ctp:60
+msgid "Delete Slide"
+msgstr ""
+
+#: View/StaticPages/add.ctp:4
+msgid "Add Static Page"
+msgstr ""
+
+#: View/StaticPages/add.ctp:21
+#: View/StaticPages/edit.ctp:23
+#: View/StaticPages/view.ctp:61
+msgid "List Static Pages"
+msgstr ""
+
+#: View/StaticPages/edit.ctp:4
+#: View/StaticPages/view.ctp:59
+msgid "Edit Static Page"
+msgstr ""
+
+#: View/StaticPages/index.ctp:2
+msgid "Static Pages"
+msgstr ""
+
+#: View/StaticPages/index.ctp:58
+#: View/StaticPages/view.ctp:62
+msgid "New Static Page"
+msgstr ""
+
+#: View/StaticPages/view.ctp:2
+msgid "Static Page"
+msgstr ""
+
+#: View/StaticPages/view.ctp:60
+msgid "Delete Static Page"
+msgstr ""
+
+#: View/StaticPagesold/meshit_tynysy.ctp:6;8
+msgid "Мешіт тынысы"
+msgstr ""
+
+#: View/StaticPagesold/meshit_tynysy.ctp:15
+msgid "Подробнее"
+msgstr ""
+
+#: View/StaticPagesold/meshit_tynysy.ctp:38
+msgid "Новости мечети"
+msgstr ""
+
+#: View/StaticPagesold/meshit_tynysy.ctp:49
+msgid "новости"
+msgstr ""
+
+#: View/Teams/add.ctp:4
+msgid "Add Team"
+msgstr ""
+
+#: View/Teams/add.ctp:22
+#: View/Teams/edit.ctp:24
+#: View/Teams/view.ctp:56
+msgid "List Teams"
+msgstr ""
+
+#: View/Teams/edit.ctp:4
+#: View/Teams/view.ctp:54
+msgid "Edit Team"
+msgstr ""
+
+#: View/Teams/index.ctp:2
+msgid "Teams"
+msgstr ""
+
+#: View/Teams/index.ctp:56
+#: View/Teams/view.ctp:57
+msgid "New Team"
+msgstr ""
+
+#: View/Teams/view.ctp:2
+msgid "Team"
+msgstr ""
+
+#: View/Teams/view.ctp:24
+msgid "Position"
+msgstr ""
+
+#: View/Teams/view.ctp:29
+msgid "Short Position"
+msgstr ""
+
+#: View/Teams/view.ctp:39
+msgid "Page Id"
+msgstr ""
+
+#: View/Teams/view.ctp:55
+msgid "Delete Team"
+msgstr ""
+
+#: View/Types/add.ctp:4
+msgid "Add Type"
+msgstr ""
+
+#: View/Types/add.ctp:16
+#: View/Types/edit.ctp:18
+#: View/Types/view.ctp:21
+#: View/TypesUniversities/add.ctp:17
+#: View/TypesUniversities/edit.ctp:19
+#: View/TypesUniversities/index.ctp:49
+#: View/TypesUniversities/view.ctp:28
+#: View/Universities/add.ctp:42
+#: View/Universities/edit.ctp:44
+#: View/Universities/index.ctp:97
+#: View/Universities/view.ctp:150
+msgid "List Types"
+msgstr ""
+
+#: View/Types/edit.ctp:4
+#: View/Types/view.ctp:19
+msgid "Edit Type"
+msgstr ""
+
+#: View/Types/index.ctp:2
+msgid "Types"
+msgstr ""
+
+#: View/Types/index.ctp:42
+#: View/Types/view.ctp:22
+#: View/TypesUniversities/add.ctp:18
+#: View/TypesUniversities/edit.ctp:20
+#: View/TypesUniversities/index.ctp:50
+#: View/TypesUniversities/view.ctp:29
+#: View/Universities/add.ctp:43
+#: View/Universities/edit.ctp:45
+#: View/Universities/index.ctp:98
+#: View/Universities/view.ctp:151;179
+msgid "New Type"
+msgstr ""
+
+#: View/Types/view.ctp:20
+msgid "Delete Type"
+msgstr ""
+
+#: View/TypesUniversities/add.ctp:4
+msgid "Add Types University"
+msgstr ""
+
+#: View/TypesUniversities/add.ctp:16
+#: View/TypesUniversities/edit.ctp:18
+#: View/TypesUniversities/view.ctp:26
+msgid "List Types Universities"
+msgstr ""
+
+#: View/TypesUniversities/edit.ctp:4
+#: View/TypesUniversities/view.ctp:24
+msgid "Edit Types University"
+msgstr ""
+
+#: View/TypesUniversities/index.ctp:2
+msgid "Types Universities"
+msgstr ""
+
+#: View/TypesUniversities/index.ctp:48
+#: View/TypesUniversities/view.ctp:27
+msgid "New Types University"
+msgstr ""
+
+#: View/TypesUniversities/view.ctp:2
+msgid "Types University"
+msgstr ""
+
+#: View/TypesUniversities/view.ctp:14
+#: View/Universities/view.ctp:2
+msgid "University"
+msgstr ""
+
+#: View/TypesUniversities/view.ctp:25
+msgid "Delete Types University"
+msgstr ""
+
+#: View/Universities/add.ctp:4
+msgid "Add University"
+msgstr ""
+
+#: View/Universities/edit.ctp:4
+#: View/Universities/view.ctp:144
+msgid "Edit University"
+msgstr ""
+
+#: View/Universities/index.ctp:2
+msgid "Universities"
+msgstr ""
+
+#: View/Universities/view.ctp:145
+msgid "Delete University"
+msgstr ""
+
+#: View/Universities/view.ctp:155
+msgid "Related Types"
+msgstr ""
+
+#: View/Users/add.ctp:4
+msgid "Add User"
+msgstr ""
+
+#: View/Users/add.ctp:17
+#: View/Users/edit.ctp:19
+#: View/Users/view.ctp:41
+msgid "List Users"
+msgstr ""
+
+#: View/Users/cabinet.ctp:6;12
+msgid "Профиль"
+msgstr ""
+
+#: View/Users/cabinet.ctp:16
+msgid "Фамилия"
+msgstr ""
+
+#: View/Users/cabinet.ctp:20
+#: View/Users/registration.ctp:21
+msgid "Имя"
+msgstr ""
+
+#: View/Users/cabinet.ctp:24
+msgid "Отчество"
+msgstr ""
+
+#: View/Users/cabinet.ctp:31
+#: View/Users/registration.ctp:27
+msgid "Мужчина"
+msgstr ""
+
+#: View/Users/cabinet.ctp:37
+#: View/Users/registration.ctp:33
+msgid "Женщина"
+msgstr ""
+
+#: View/Users/cabinet.ctp:42
+msgid "Город проживания"
+msgstr ""
+
+#: View/Users/cabinet.ctp:44
+msgid "Выберите город"
+msgstr ""
+
+#: View/Users/cabinet.ctp:51
+msgid "Сохарнить изменение"
+msgstr ""
+
+#: View/Users/comments.ctp:6
+#: View/Users/favorites.ctp:6
+msgid "Личный кабинет"
+msgstr ""
+
+#: View/Users/comments.ctp:7;9
+msgid "Мои комментарии"
+msgstr ""
+
+#: View/Users/comments.ctp:24
+msgid "Комментарий"
+msgstr ""
+
+#: View/Users/edit.ctp:4
+#: View/Users/view.ctp:39
+msgid "Edit User"
+msgstr ""
+
+#: View/Users/favorites.ctp:7;9
+msgid "Избранное"
+msgstr ""
+
+#: View/Users/favorites.ctp:12
+msgid "Все подряд"
+msgstr ""
+
+#: View/Users/favorites.ctp:15;39
+msgid "Статьи"
+msgstr ""
+
+#: View/Users/favorites.ctp:21;123
+msgid "Вопросы-ответы"
+msgstr ""
+
+#: View/Users/favorites.ctp:27;190
+msgid "Аудио"
+msgstr ""
+
+#: View/Users/favorites.ctp:30;232
+msgid "Видео"
+msgstr ""
+
+#: View/Users/favorites.ctp:33;274
+msgid "Книги"
+msgstr ""
+
+#: View/Users/index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Users/index.ctp:50
+#: View/Users/view.ctp:42
+msgid "New User"
+msgstr ""
+
+#: View/Users/registration.ctp:6
+msgid "Регистрация"
+msgstr ""
+
+#: View/Users/registration.ctp:8
+msgid "Вход"
+msgstr ""
+
+#: View/Users/registration.ctp:12
+msgid "Электронная почта"
+msgstr ""
+
+#: View/Users/registration.ctp:15
+msgid "Пароль"
+msgstr ""
+
+#: View/Users/registration.ctp:18
+msgid "Повторный пароль"
+msgstr ""
+
+#: View/Users/registration.ctp:38
+msgid "Зарегистрироваться"
+msgstr ""
+
+#: View/Users/registration.ctp:41
+msgid "или"
+msgstr ""
+
+#: View/Users/registration.ctp:45
+msgid "через Фейсбук"
+msgstr ""
+
+#: View/Users/registration.ctp:50
+msgid "через Твиттер"
+msgstr ""
+
+#: View/Users/registration.ctp:55
+msgid "через Вконтакте"
+msgstr ""
+
+#: View/Users/registration.ctp:60
+msgid "через Гугл+"
+msgstr ""
+
+#: View/Users/registration.ctp:69
+msgid "Регистрируясь, вы соглашаетесь с правилами сайта"
+msgstr ""
+
+#: View/Users/registration.ctp:72
+msgid "Не распространять заведомо ложную информацию, а также информацию, противоречащую законодательству Республики Казахстан"
+msgstr ""
+
+#: View/Users/registration.ctp:73
+msgid "Не разжигать межнациональную, межрелигиозную или межрасовую рознь"
+msgstr ""
+
+#: View/Users/registration.ctp:74
+msgid "Не оскорблять пользователей сайта"
+msgstr ""
+
+#: View/Users/registration.ctp:75
+msgid "Не призывать к насилию, агрессии, преступлениям и другим деструктивным действиям"
+msgstr ""
+
+#: View/Users/registration.ctp:76
+msgid "Не пропагандировать религиозные убеждения, противоречащие убеждениям Ахлю Сунна уаль Джамаа"
+msgstr ""
+
+#: View/Users/registration.ctp:78
+msgid "Полные правила сайта"
+msgstr ""
+
+#: View/Users/view.ctp:2
+msgid "User"
+msgstr ""
+
+#: View/Users/view.ctp:9
+msgid "Username"
+msgstr ""
+
+#: View/Users/view.ctp:14
+msgid "Password"
+msgstr ""
+
+#: View/Users/view.ctp:19
+msgid "Role"
+msgstr ""
+
+#: View/Users/view.ctp:40
+msgid "Delete User"
+msgstr ""
+
+#: Model/AbroadProgram.php:validation for field city_id
+#: Model/Advantage.php:validation for field university_id
+#: Model/ArosAco.php:validation for field aro_id;validation for field aco_id
+#: Model/Contact.php:validation for field city_id
+#: Model/HigherEducation.php:validation for field city_id
+#: Model/LanguageProgram.php:validation for field city_id
+#: Model/LanguageSchool.php:validation for field city_id
+#: Model/Photo.php:validation for field university_id
+#: Model/Review.php:validation for field city_id
+#: Model/SecondaryEducation.php:validation for field city_id
+#: Model/Service.php:validation for field university_id
+#: Model/TypesUniversity.php:validation for field type_id;validation for field university_id
+msgid "numeric"
+msgstr ""
+
+#: Model/AbroadProgram.php:validation for field title
+#: Model/Advantage.php:validation for field body
+#: Model/ArosAco.php:validation for field _create;validation for field _read;validation for field _update;validation for field _delete
+#: Model/Article.php:validation for field title;validation for field body;validation for field img;validation for field keywords;validation for field description;validation for field alias
+#: Model/City.php:validation for field title;validation for field alias
+#: Model/Comp.php:validation for field body
+#: Model/Country.php:validation for field title;validation for field alias
+#: Model/Course.php:validation for field title;validation for field alias
+#: Model/EduOrganization.php:validation for field alias
+#: Model/GlionLesroch.php:validation for field alias
+#: Model/HigherEducation.php:validation for field title
+#: Model/LanguageProgram.php:validation for field title;validation for field alias
+#: Model/LanguageSchool.php:validation for field title
+#: Model/News.php:validation for field title;validation for field body;validation for field img;validation for field keywords;validation for field description;validation for field alias
+#: Model/Page.php:validation for field title;validation for field body;validation for field keywords;validation for field description;validation for field alias
+#: Model/Review.php:validation for field title
+#: Model/SecondaryEducation.php:validation for field title
+#: Model/Service.php:validation for field body
+#: Model/Slide.php:validation for field img
+#: Model/StaticPage.php:validation for field title;validation for field alias
+#: Model/Type.php:validation for field title
+#: Model/University.php:validation for field title;validation for field alias
+msgid "notEmpty"
+msgstr ""
+
+#: Model/Album.php:validation for field title
+#: Model/Category.php:validation for field title
+#: Model/GlionLesroche.php:validation for field title
+#: Model/Request.php:validation for field title
 msgid "Введите название"
 msgstr ""
 
-#: Model/News.php:validation for field body
-msgid "Введите текст"
+#: Model/Article.php:validation for field date
+#: Model/News.php:validation for field date
+msgid "date"
 msgstr ""
 
-#: Model/News.php:validation for field img
+#: Model/Category.php:validation for field img
+#: Model/GlionLesroche.php:validation for field img
+#: Model/Image.php:validation for field img
+#: Model/Partner.php:validation for field img
+#: Model/Picture.php:validation for field img
+#: Model/Request.php:validation for field doc
+msgid "Ошибка загрузки картинки"
+msgstr ""
+
+#: Model/Category.php:validation for field img
+#: Model/Image.php:validation for field img
+#: Model/Partner.php:validation for field img
+#: Model/Picture.php:validation for field img
 msgid "Максимальный размер картинки 2MB"
 msgstr ""
 
-#: Model/News.php:validation for field img
+#: Model/Category.php:validation for field img
+#: Model/GlionLesroche.php:validation for field img
+#: Model/Partner.php:validation for field img
+msgid "Ошибка обработки картинки"
+msgstr ""
+
+#: Model/Doc.php:validation for field doc
+msgid "Ошибка загрузки файла"
+msgstr ""
+
+#: Model/Doc.php:validation for field doc
+msgid "Максимальный размер файла 2MB"
+msgstr ""
+
+#: Model/Doc.php:validation for field doc
+msgid "Ошибка обработки файла"
+msgstr ""
+
+#: Model/GlionLesroche.php:validation for field img
+msgid "Максимальный размер картинки 1MB"
+msgstr ""
+
+#: Model/Image.php:validation for field img
+#: Model/Picture.php:validation for field img
 msgid "Ошибка обработки обработки картинки"
+msgstr ""
+
+#: Model/Request.php:validation for field body
+#: Model/Setting.php:validation for field title
+msgid "Введите текст"
+msgstr ""
+
+#: Model/Request.php:validation for field doc
+msgid "Only docx files"
+msgstr ""
+
+#: Model/Request.php:validation for field doc
+msgid "Максимальный размер документа 2MB"
+msgstr ""
+
+#: Model/Request.php:validation for field doc
+msgid "Ошибка обработки документа"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:41
+msgid "-> Testing :url"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:67
+msgid "Total Requests made: :requests"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:68
+msgid "Total Time elapsed: :duration (seconds)"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:72
+msgid "Requests/Second: :rps req/sec"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:76
+msgid "Average request time: :average-time seconds"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:80
+msgid "Standard deviation of average request time: :std-dev"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:84
+msgid "Longest/shortest request: :longest sec/:shortest sec"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:134
+msgid "Allows you to obtain some rough benchmarking statisticsabout a fully qualified URL."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:139
+msgid "The URL to request."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:144
+msgid "Number of iterations to perform."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:148
+msgid "Maximum total time for all iterations, in seconds.If a single iteration takes more than the timeout, only one request will be made"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:152
+msgid "Example Use: `cake benchmark --n 10 --t 100 http://localhost/testsite`. <info>Note:</info> this benchmark does not include browser render times."
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:159
+msgid "Component initialization"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:281
+msgid "Controller action"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:284
+msgid "Controller action start"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:304
+msgid "Processing toolbar state"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:327
+msgid "Processing toolbar data"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:362
+msgid "Controller render start"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:446
+msgid "Could not load DebugToolbar panel %s"
+msgstr ""
+
+#: Plugin/DebugKit/Lib/DebugTimer.php:128
+msgid "Core Processing (Derived from $_SERVER[\"REQUEST_TIME\"])"
+msgstr ""
+
+#: Plugin/DebugKit/Lib/FireCake.php:310
+msgid "Headers already sent in %s on line %s. Cannot send log data to FirePHP."
+msgstr ""
+
+#: Plugin/DebugKit/Lib/FireCake.php:331
+msgid "Incorrect parameter count for FireCake::fb()"
+msgstr ""
+
+#: Plugin/DebugKit/Lib/FireCake.php:410
+msgid "Maximum number (99,999) of messages reached!"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/debug_toolbar.ctp:23
+msgid "There are no active panels. You must enable a panel to see its output."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:20
+msgid "App Constants"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:36
+msgid "CakePHP Constants"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:52
+msgid "PHP Environment"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:70
+msgid "Hidef Environment"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:19
+msgid "Request History"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:21
+msgid "No previous requests logged."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:23
+msgid "previous requests available"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:25
+msgid "Restore to current request"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/include_panel.ctp:19
+msgid "Included Files"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:19
+msgid "Logs"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:27
+msgid "Time"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:27
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:42;66
+msgid "Message"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:38
+msgid "There were no log entries made this request"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:19
+msgid "Request"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:27
+msgid "No post data."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:36
+msgid "No querystring data."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:49
+msgid "Current Route"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/session_panel.ctp:19
+msgid "Session"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:24
+msgid "Sql Logs"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:39
+msgid "No query logs when debug < 2."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:41
+msgid "No query logs."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:45
+msgid "Total Time: %s ms <br />Total Queries: %s queries"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:54
+msgid "Query Explain:"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:57
+msgid "Click an \"Explain\" link above, to see the query explanation."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:63
+msgid "No active database connections"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:35
+msgid "Memory"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:38
+msgid "Peak Memory Use"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:42
+msgid "Memory use"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:55
+msgid "Timers"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:57
+msgid "%s (ms)"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:58
+msgid "Total Request Time:"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:67
+msgid "Time in ms"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:68
+msgid "Graph"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/variables_panel.ctp:19
+msgid "View Variables"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:45
+msgid "Rendering View"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:60
+msgid "Rendering %s"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:86
+msgid "View render complete"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/HtmlToolbarHelper.php:230
+msgid "Explain"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/SimpleGraphHelper.php:80
+msgid "Starting %sms into the request, taking %sms"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/TidyHelper.php:99
+msgid "No markup errors found"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/ToolbarHelper.php:189
+msgid "maybe slow"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/WhitespaceShell.php:90
+msgid "Absolute path or relative to APP."
+msgstr ""
+
+#: Console/ConsoleErrorHandler.php:57
+msgid "<error>Error:</error> %s\n%s"
+msgstr ""
+
+#: Console/ConsoleErrorHandler.php:83
+msgid "%s in [%s, line %s]"
+msgstr ""
+
+#: Console/ConsoleErrorHandler.php:84
+msgid "<error>%s Error:</error> %s\n"
+msgstr ""
+
+#: Console/ConsoleInputArgument.php:98
+msgid " <comment>(optional)</comment>"
+msgstr ""
+
+#: Console/ConsoleInputArgument.php:101
+#: Console/ConsoleInputOption.php:130
+msgid " <comment>(choices: %s)</comment>"
+msgstr ""
+
+#: Console/ConsoleInputArgument.php:145
+msgid "\"%s\" is not a valid value for %s. Please use one of \"%s\""
+msgstr ""
+
+#: Console/ConsoleInputOption.php:95
+msgid "Short option \"%s\" is invalid, short options must be one letter."
+msgstr ""
+
+#: Console/ConsoleInputOption.php:127
+msgid " <comment>(default: %s)</comment>"
+msgstr ""
+
+#: Console/ConsoleInputOption.php:190
+msgid "\"%s\" is not a valid value for --%s. Please use one of \"%s\""
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:147
+msgid "Display this help."
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:154
+msgid "Enable verbose output."
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:158
+msgid "Enable quiet output."
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:493
+msgid "Missing required arguments. %s is required."
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:576
+msgid "Unknown short option `%s`"
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:592
+msgid "Unknown option `%s`"
+msgstr ""
+
+#: Console/ConsoleOptionParser.php:645
+msgid "Too many arguments."
+msgstr ""
+
+#: Console/HelpFormatter.php:70
+msgid "<info>Usage:</info>"
+msgstr ""
+
+#: Console/HelpFormatter.php:75
+msgid "<info>Subcommands:</info>"
+msgstr ""
+
+#: Console/HelpFormatter.php:86
+msgid "To see help on a subcommand use <info>`cake %s [subcommand] --help`</info>"
+msgstr ""
+
+#: Console/HelpFormatter.php:93
+msgid "<info>Options:</info>"
+msgstr ""
+
+#: Console/HelpFormatter.php:108
+msgid "<info>Arguments:</info>"
+msgstr ""
+
+#: Console/Shell.php:239
+#: Console/Command/ServerShell.php:112
+msgid "<info>Welcome to CakePHP %s Console</info>"
+msgstr ""
+
+#: Console/Shell.php:241
+#: Console/Command/ServerShell.php:114
+msgid "App : %s"
+msgstr ""
+
+#: Console/Shell.php:242
+#: Console/Command/ServerShell.php:115
+#: Console/Command/Task/PluginTask.php:64
+#: Console/Command/Task/TestTask.php:112
+msgid "Path: %s"
+msgstr ""
+
+#: Console/Shell.php:705
+msgid "<error>Error:</error> %s"
+msgstr ""
+
+#: Console/Shell.php:743
+msgid "<warning>File `%s` exists</warning>"
+msgstr ""
+
+#: Console/Shell.php:744
+msgid "Do you want to overwrite?"
+msgstr ""
+
+#: Console/Shell.php:747
+msgid "<error>Quitting</error>."
+msgstr ""
+
+#: Console/Shell.php:750
+msgid "Skip `%s`"
+msgstr ""
+
+#: Console/Shell.php:754
+msgid "Creating file %s"
+msgstr ""
+
+#: Console/Shell.php:761
+msgid "<success>Wrote</success> `%s`"
+msgstr ""
+
+#: Console/Shell.php:765
+msgid "<error>Could not write to `%s`</error>."
+msgstr ""
+
+#: Console/Shell.php:785
+msgid "PHPUnit is not installed. Do you want to bake unit test files anyway?"
+msgstr ""
+
+#: Console/Shell.php:791
+msgid "You can download PHPUnit from %s"
+msgstr ""
+
+#: Console/Command/AclShell.php:77
+msgid "Error: Your current CakePHP configuration is set to an ACL implementation other than DB."
+msgstr ""
+
+#: Console/Command/AclShell.php:78
+msgid "Please change your core config to reflect your decision to use DbAcl before attempting to use this script"
+msgstr ""
+
+#: Console/Command/AclShell.php:80
+msgid "Current ACL Classname: %s"
+msgstr ""
+
+#: Console/Command/AclShell.php:88
+#: Console/Command/BakeShell.php:88
+#: Console/Command/I18nShell.php:54
+msgid "Your database configuration was not found. Take a moment to create one."
+msgstr ""
+
+#: Console/Command/AclShell.php:133
+msgid "/ can not be used as an alias!"
+msgstr ""
+
+#: Console/Command/AclShell.php:133
+msgid "\t/ is the root, please supply a sub alias"
+msgstr ""
+
+#: Console/Command/AclShell.php:139
+msgid "<success>New %s</success> '%s' created."
+msgstr ""
+
+#: Console/Command/AclShell.php:141
+msgid "There was a problem creating a new %s '%s'."
+msgstr ""
+
+#: Console/Command/AclShell.php:161;165
+msgid "Node Not Deleted. "
+msgstr ""
+
+#: Console/Command/AclShell.php:161
+msgid "There was an error deleting the %s."
+msgstr ""
+
+#: Console/Command/AclShell.php:163
+msgid "<success>%s deleted.</success>"
+msgstr ""
+
+#: Console/Command/AclShell.php:165
+msgid "There was an error deleting the %s. Node does not exist."
+msgstr ""
+
+#: Console/Command/AclShell.php:187
+msgid "Error in setting new parent. Please make sure the parent node exists, and is not a descendant of the node specified."
+msgstr ""
+
+#: Console/Command/AclShell.php:189
+msgid "Node parent set to %s"
+msgstr ""
+
+#: Console/Command/AclShell.php:207
+msgid "Supplied Node '%s' not found"
+msgstr ""
+
+#: Console/Command/AclShell.php:208;324;326;534
+msgid "No tree returned."
+msgstr ""
+
+#: Console/Command/AclShell.php:211
+msgid "Path:"
+msgstr ""
+
+#: Console/Command/AclShell.php:245
+msgid "%s is <success>allowed</success>."
+msgstr ""
+
+#: Console/Command/AclShell.php:247
+msgid "%s is <error>not allowed</error>."
+msgstr ""
+
+#: Console/Command/AclShell.php:260
+msgid "Permission <success>granted</success>."
+msgstr ""
+
+#: Console/Command/AclShell.php:262
+msgid "Permission was <error>not granted</error>."
+msgstr ""
+
+#: Console/Command/AclShell.php:275
+msgid "Permission denied."
+msgstr ""
+
+#: Console/Command/AclShell.php:277
+msgid "Permission was not denied."
+msgstr ""
+
+#: Console/Command/AclShell.php:290
+msgid "Permission inherited."
+msgstr ""
+
+#: Console/Command/AclShell.php:292
+msgid "Permission was not inherited."
+msgstr ""
+
+#: Console/Command/AclShell.php:324;326;534
+#: Console/Command/ApiShell.php:92
+#: Console/Command/Task/DbConfigTask.php:254
+#: Utility/Folder.php:690
+msgid "%s not found"
+msgstr ""
+
+#: Console/Command/AclShell.php:376
+msgid "Type of node to create."
+msgstr ""
+
+#: Console/Command/AclShell.php:380
+msgid "A console tool for managing the DbAcl"
+msgstr ""
+
+#: Console/Command/AclShell.php:382
+msgid "Create a new ACL node"
+msgstr ""
+
+#: Console/Command/AclShell.php:384
+msgid "Creates a new ACL object <node> under the parent"
+msgstr ""
+
+#: Console/Command/AclShell.php:385
+msgid "You can use `root` as the parent when creating nodes to create top level nodes."
+msgstr ""
+
+#: Console/Command/AclShell.php:389
+msgid "The node selector for the parent."
+msgstr ""
+
+#: Console/Command/AclShell.php:393
+msgid "The alias to use for the newly created node."
+msgstr ""
+
+#: Console/Command/AclShell.php:399
+msgid "Deletes the ACL object with the given <node> reference"
+msgstr ""
+
+#: Console/Command/AclShell.php:401
+msgid "Delete an ACL node."
+msgstr ""
+
+#: Console/Command/AclShell.php:405
+msgid "The node identifier to delete."
+msgstr ""
+
+#: Console/Command/AclShell.php:411
+msgid "Moves the ACL node under a new parent."
+msgstr ""
+
+#: Console/Command/AclShell.php:413
+msgid "Moves the ACL object specified by <node> beneath <parent>"
+msgstr ""
+
+#: Console/Command/AclShell.php:417
+msgid "The node to move"
+msgstr ""
+
+#: Console/Command/AclShell.php:421
+msgid "The new parent for <node>."
+msgstr ""
+
+#: Console/Command/AclShell.php:427
+msgid "Print out the path to an ACL node."
+msgstr ""
+
+#: Console/Command/AclShell.php:430
+msgid "Returns the path to the ACL object specified by <node>."
+msgstr ""
+
+#: Console/Command/AclShell.php:431
+msgid "This command is useful in determining the inheritance of permissions for a certain object in the tree."
+msgstr ""
+
+#: Console/Command/AclShell.php:436
+msgid "The node to get the path of"
+msgstr ""
+
+#: Console/Command/AclShell.php:442
+msgid "Check the permissions between an ACO and ARO."
+msgstr ""
+
+#: Console/Command/AclShell.php:445
+msgid "Use this command to check ACL permissions."
+msgstr ""
+
+#: Console/Command/AclShell.php:448
+msgid "ARO to check."
+msgstr ""
+
+#: Console/Command/AclShell.php:449
+msgid "ACO to check."
+msgstr ""
+
+#: Console/Command/AclShell.php:450
+msgid "Action to check"
+msgstr ""
+
+#: Console/Command/AclShell.php:454
+msgid "Grant an ARO permissions to an ACO."
+msgstr ""
+
+#: Console/Command/AclShell.php:457
+msgid "Use this command to grant ACL permissions. Once executed, the ARO specified (and its children, if any) will have ALLOW access to the specified ACO action (and the ACO's children, if any)."
+msgstr ""
+
+#: Console/Command/AclShell.php:460
+msgid "ARO to grant permission to."
+msgstr ""
+
+#: Console/Command/AclShell.php:461
+msgid "ACO to grant access to."
+msgstr ""
+
+#: Console/Command/AclShell.php:462
+msgid "Action to grant"
+msgstr ""
+
+#: Console/Command/AclShell.php:466
+msgid "Deny an ARO permissions to an ACO."
+msgstr ""
+
+#: Console/Command/AclShell.php:469
+msgid "Use this command to deny ACL permissions. Once executed, the ARO specified (and its children, if any) will have DENY access to the specified ACO action (and the ACO's children, if any)."
+msgstr ""
+
+#: Console/Command/AclShell.php:472
+msgid "ARO to deny."
+msgstr ""
+
+#: Console/Command/AclShell.php:473
+msgid "ACO to deny."
+msgstr ""
+
+#: Console/Command/AclShell.php:474
+msgid "Action to deny"
+msgstr ""
+
+#: Console/Command/AclShell.php:478
+msgid "Inherit an ARO's parent permissions."
+msgstr ""
+
+#: Console/Command/AclShell.php:481
+msgid "Use this command to force a child ARO object to inherit its permissions settings from its parent."
+msgstr ""
+
+#: Console/Command/AclShell.php:484
+msgid "ARO to have permissions inherit."
+msgstr ""
+
+#: Console/Command/AclShell.php:485
+msgid "ACO to inherit permissions on."
+msgstr ""
+
+#: Console/Command/AclShell.php:486
+msgid "Action to inherit"
+msgstr ""
+
+#: Console/Command/AclShell.php:490
+msgid "View a tree or a single node's subtree."
+msgstr ""
+
+#: Console/Command/AclShell.php:493
+msgid "The view command will return the ARO or ACO tree."
+msgstr ""
+
+#: Console/Command/AclShell.php:494
+msgid "The optional node parameter allows you to return"
+msgstr ""
+
+#: Console/Command/AclShell.php:495
+msgid "only a portion of the requested tree."
+msgstr ""
+
+#: Console/Command/AclShell.php:499
+msgid "The optional node to view the subtree of."
+msgstr ""
+
+#: Console/Command/AclShell.php:503
+msgid "Initialize the DbAcl tables. Uses this command : cake schema create DbAcl"
+msgstr ""
+
+#: Console/Command/AclShell.php:570
+msgid "Could not find node using reference \"%s\""
+msgstr ""
+
+#: Console/Command/ApiShell.php:100
+msgid "%s::%s() could not be found"
+msgstr ""
+
+#: Console/Command/ApiShell.php:117
+msgid "Select a number to see the more information about a specific method. q to quit. l to list."
+msgstr ""
+
+#: Console/Command/ApiShell.php:119
+msgid "Done"
+msgstr ""
+
+#: Console/Command/ApiShell.php:148
+msgid "Lookup doc block comments for classes in CakePHP."
+msgstr ""
+
+#: Console/Command/ApiShell.php:150
+msgid "Either a full path or type of class (model, behavior, controller, component, view, helper)"
+msgstr ""
+
+#: Console/Command/ApiShell.php:152
+msgid "A CakePHP core class name (e.g: Component, HtmlHelper)."
+msgstr ""
+
+#: Console/Command/ApiShell.php:155
+msgid "The specific method you want help on."
+msgstr ""
+
+#: Console/Command/ApiShell.php:194
+msgid "Command %s not found"
+msgstr ""
+
+#: Console/Command/ApiShell.php:211
+#: View/Helper/NumberHelper.php:63
+#: View/Helper/TextHelper.php:78
+#: View/Helper/TimeHelper.php:61
+msgid "%s could not be found"
+msgstr ""
+
+#: Console/Command/BakeShell.php:92
+msgid "Interactive Bake Shell"
+msgstr ""
+
+#: Console/Command/BakeShell.php:94
+msgid "[D]atabase Configuration"
+msgstr ""
+
+#: Console/Command/BakeShell.php:95
+msgid "[M]odel"
+msgstr ""
+
+#: Console/Command/BakeShell.php:96
+msgid "[V]iew"
+msgstr ""
+
+#: Console/Command/BakeShell.php:97
+msgid "[C]ontroller"
+msgstr ""
+
+#: Console/Command/BakeShell.php:98
+msgid "[P]roject"
+msgstr ""
+
+#: Console/Command/BakeShell.php:99
+msgid "[F]ixture"
+msgstr ""
+
+#: Console/Command/BakeShell.php:100
+msgid "[T]est case"
+msgstr ""
+
+#: Console/Command/BakeShell.php:101
+#: Console/Command/I18nShell.php:71
+msgid "[Q]uit"
+msgstr ""
+
+#: Console/Command/BakeShell.php:103
+msgid "What would you like to Bake?"
+msgstr ""
+
+#: Console/Command/BakeShell.php:129
+msgid "You have made an invalid selection. Please choose a type of class to Bake by entering D, M, V, F, T, or C."
+msgstr ""
+
+#: Console/Command/BakeShell.php:197
+msgid "<success>Bake All complete</success>"
+msgstr ""
+
+#: Console/Command/BakeShell.php:200
+msgid "Bake All could not continue without a valid model"
+msgstr ""
+
+#: Console/Command/BakeShell.php:214
+msgid "The Bake script generates controllers, views and models for your application. If run with no command line arguments, Bake guides the user through the class creation process. You can customize the generation process by telling Bake where different parts of your application are using command line arguments."
+msgstr ""
+
+#: Console/Command/BakeShell.php:218
+msgid "Bake a complete MVC. optional <name> of a Model"
+msgstr ""
+
+#: Console/Command/BakeShell.php:220
+msgid "Bake a new app folder in the path supplied or in current directory if no path is specified"
+msgstr ""
+
+#: Console/Command/BakeShell.php:223
+msgid "Bake a new plugin folder in the path supplied or in current directory if no path is specified."
+msgstr ""
+
+#: Console/Command/BakeShell.php:226
+msgid "Bake a database.php file in config directory."
+msgstr ""
+
+#: Console/Command/BakeShell.php:229
+msgid "Bake a model."
+msgstr ""
+
+#: Console/Command/BakeShell.php:232
+msgid "Bake views for controllers."
+msgstr ""
+
+#: Console/Command/BakeShell.php:235
+msgid "Bake a controller."
+msgstr ""
+
+#: Console/Command/BakeShell.php:238
+msgid "Bake a fixture."
+msgstr ""
+
+#: Console/Command/BakeShell.php:241
+msgid "Bake a unit test."
+msgstr ""
+
+#: Console/Command/BakeShell.php:244
+msgid "Database connection to use in conjunction with `bake all`."
+msgstr ""
+
+#: Console/Command/BakeShell.php:249
+#: Console/Command/Task/ControllerTask.php:495
+#: Console/Command/Task/FixtureTask.php:91
+#: Console/Command/Task/ModelTask.php:1020
+#: Console/Command/Task/ProjectTask.php:443
+#: Console/Command/Task/TestTask.php:568
+#: Console/Command/Task/ViewTask.php:438
+msgid "Theme to use when baking code."
+msgstr ""
+
+#: Console/Command/CommandListShell.php:52
+msgid "<info>Current Paths:</info>"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:58
+msgid "<info>Changing Paths:</info>"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:59
+msgid "Your working path should be the same as your application path. To change your path use the '-app' param."
+msgstr ""
+
+#: Console/Command/CommandListShell.php:60
+msgid "Example: %s or %s"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:62
+msgid "<info>Available Shells:</info>"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:90
+msgid "To run an app or core command, type <info>cake shell_name [args]</info>"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:91
+msgid "To run a plugin command, type <info>cake Plugin.shell_name [args]</info>"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:92
+msgid "To get help on a specific command, type <info>cake shell_name --help</info>"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:131
+msgid "Get the list of available shells for this CakePHP application."
+msgstr ""
+
+#: Console/Command/CommandListShell.php:133
+msgid "Does nothing (deprecated)"
+msgstr ""
+
+#: Console/Command/CommandListShell.php:136
+msgid "Get the listing as XML."
+msgstr ""
+
+#: Console/Command/CompletionShell.php:107
+msgid "Used by shells like bash to autocomplete command name, options and arguments"
+msgstr ""
+
+#: Console/Command/CompletionShell.php:109
+msgid "Output a list of available commands"
+msgstr ""
+
+#: Console/Command/CompletionShell.php:111
+msgid "List all availables"
+msgstr ""
+
+#: Console/Command/CompletionShell.php:116
+msgid "Output a list of available subcommands"
+msgstr ""
+
+#: Console/Command/CompletionShell.php:118
+msgid "List subcommands for a command"
+msgstr ""
+
+#: Console/Command/CompletionShell.php:121;132
+msgid "The command name"
+msgstr ""
+
+#: Console/Command/CompletionShell.php:127
+msgid "Output a list of available options"
+msgstr ""
+
+#: Console/Command/CompletionShell.php:129
+msgid "List options"
+msgstr ""
+
+#: Console/Command/CompletionShell.php:138
+msgid "This command is not intended to be called manually"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:91;249
+msgid "Model classes:"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:99
+msgid "There was an error loading the routes config. Please check that the file exists and contains no errors."
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:211
+msgid "Invalid command"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:276
+msgid "Created %s association between %s and %s"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:279
+msgid "Please verify you are using valid models and association types"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:313
+msgid "Removed %s association between %s and %s"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:316
+msgid "Please verify you are using valid models, valid current association, and valid association types"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:375
+msgid "No result set found"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:378
+msgid "%s is not a valid model"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:402
+msgid "Saved record for %s"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:430
+msgid "Please verify that you selected a valid model"
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:441
+msgid "There was an error loading the routes config. Please check that the file exists and is free of parse errors."
+msgstr ""
+
+#: Console/Command/ConsoleShell.php:443
+msgid "Routes configuration reloaded, %d routes connected"
+msgstr ""
+
+#: Console/Command/I18nShell.php:66
+msgid "<info>I18n Shell</info>"
+msgstr ""
+
+#: Console/Command/I18nShell.php:68
+msgid "[E]xtract POT file from sources"
+msgstr ""
+
+#: Console/Command/I18nShell.php:69
+msgid "[I]nitialize i18n database table"
+msgstr ""
+
+#: Console/Command/I18nShell.php:70
+msgid "[H]elp"
+msgstr ""
+
+#: Console/Command/I18nShell.php:73
+msgid "What would you like to do?"
+msgstr ""
+
+#: Console/Command/I18nShell.php:87
+msgid "You have made an invalid selection. Please choose a command to execute by entering E, I, H, or Q."
+msgstr ""
+
+#: Console/Command/I18nShell.php:111
+msgid "I18n Shell initializes i18n database table for your application and generates .pot files(s) with translations."
+msgstr ""
+
+#: Console/Command/I18nShell.php:113
+msgid "Initialize the i18n table."
+msgstr ""
+
+#: Console/Command/I18nShell.php:115
+msgid "Extract the po translations from your application"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:109
+msgid "Schema file (%s) could not be found."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:120
+msgid "Generating Schema..."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:135
+msgid "Schema file exists.\n [O]verwrite\n [S]napshot\n [Q]uit\nWould you like to do?"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:189;192
+msgid "Schema file: %s generated"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:209
+msgid "Schema could not be loaded"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:233
+msgid "SQL dump file created in %s"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:236
+msgid "SQL dump could not be created"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:279
+msgid "Performing a dry run."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:295
+msgid "<error>Error</error>: The chosen schema could not be loaded. Attempted to load:"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:296
+msgid "- file: %s"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:297
+msgid "- name: %s"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:330;394
+msgid "Schema is up to date."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:334
+msgid "The following table(s) will be dropped."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:338
+msgid "Are you sure you want to drop the table(s)?"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:340
+msgid "Dropping table(s)."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:344
+msgid "The following table(s) will be created."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:348
+msgid "Are you sure you want to create the table(s)?"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:350
+msgid "Creating table(s)."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:353
+msgid "End create."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:367
+msgid "Comparing Database to Schema..."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:398
+msgid "The following statements will run."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:401
+msgid "Are you sure you want to alter the tables?"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:404
+msgid "Updating Database..."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:408
+msgid "End update."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:421
+msgid "Sql could not be run"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:429
+msgid "%s is up to date."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:432
+msgid "Dry run for %s :"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:450
+msgid "%s updated."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:467
+msgid "The plugin to use."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:471
+msgid "Set the db config to use."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:475
+msgid "Path to read and write schema.php"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:479
+msgid "File name to read and write."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:482
+msgid "Classname to use. If its Plugin.class, both name and plugin options will be set."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:488
+msgid "Snapshot number to use/make."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:492
+msgid "Specify models as comma separated list."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:495
+msgid "Perform a dry run on create and update commands. Queries will be output instead of run."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:502
+msgid "Force \"generate\" to create a new schema"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:506
+msgid "Write the dumped SQL to a file."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:509
+msgid "Tables to exclude as comma separated list."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:513
+msgid "Do not prompt for confirmation. Be careful!"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:518
+msgid "The Schema Shell generates a schema object from the database and updates the database from the schema."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:520
+msgid "Read and output the contents of a schema file"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:526
+msgid "Reads from --connection and writes to --path. Generate snapshots with -s"
+msgstr ""
+
+#: Console/Command/SchemaShell.php:530
+msgid "Generate a snapshot."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:534
+msgid "Dump database SQL based on a schema file to stdout."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:540
+msgid "Drop and create tables based on the schema file."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:545;558
+msgid "Name of schema to use."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:548;561
+msgid "Only create the specified table."
+msgstr ""
+
+#: Console/Command/SchemaShell.php:553
+msgid "Alter the tables based on the schema file."
+msgstr ""
+
+#: Console/Command/ServerShell.php:116
+msgid "DocumentRoot: %s"
+msgstr ""
+
+#: Console/Command/ServerShell.php:127
+msgid "<warning>This command is available on %s or above</warning>"
+msgstr ""
+
+#: Console/Command/ServerShell.php:139
+msgid "built-in server is running in http://%s%s/"
+msgstr ""
+
+#: Console/Command/ServerShell.php:152
+msgid "PHP Built-in Server for CakePHP"
+msgstr ""
+
+#: Console/Command/ServerShell.php:153
+msgid "<warning>[WARN] Don't use this at the production environment</warning>"
+msgstr ""
+
+#: Console/Command/ServerShell.php:156
+msgid "ServerHost"
+msgstr ""
+
+#: Console/Command/ServerShell.php:159
+msgid "ListenPort"
+msgstr ""
+
+#: Console/Command/ServerShell.php:162
+msgid "DocumentRoot"
+msgstr ""
+
+#: Console/Command/TestShell.php:49
+#: Console/Command/TestsuiteShell.php:43
+msgid "The CakePHP Testsuite allows you to run test cases from the command line"
+msgstr ""
+
+#: Console/Command/TestShell.php:51
+msgid "The category for the test, or test file, to test."
+msgstr ""
+
+#: Console/Command/TestShell.php:54
+msgid "The path to the file, or test file, to test."
+msgstr ""
+
+#: Console/Command/TestShell.php:57
+msgid "<file> Log test execution in JUnit XML format to file."
+msgstr ""
+
+#: Console/Command/TestShell.php:60
+msgid "<file> Log test execution in JSON format to file."
+msgstr ""
+
+#: Console/Command/TestShell.php:63
+msgid "<file> Log test execution in TAP format to file."
+msgstr ""
+
+#: Console/Command/TestShell.php:66
+msgid "Log test execution to DBUS."
+msgstr ""
+
+#: Console/Command/TestShell.php:69
+msgid "<dir> Generate code coverage report in HTML format."
+msgstr ""
+
+#: Console/Command/TestShell.php:72
+msgid "<file> Write code coverage data in Clover XML format."
+msgstr ""
+
+#: Console/Command/TestShell.php:75
+msgid "<file> Write agile documentation in HTML format to file."
+msgstr ""
+
+#: Console/Command/TestShell.php:78
+msgid "<file> Write agile documentation in Text format to file."
+msgstr ""
+
+#: Console/Command/TestShell.php:81
+msgid "<pattern> Filter which tests to run."
+msgstr ""
+
+#: Console/Command/TestShell.php:84
+msgid "<name> Only runs tests from the specified group(s)."
+msgstr ""
+
+#: Console/Command/TestShell.php:87
+msgid "<name> Exclude tests from the specified group(s)."
+msgstr ""
+
+#: Console/Command/TestShell.php:90
+msgid "List available test groups."
+msgstr ""
+
+#: Console/Command/TestShell.php:93
+msgid "TestSuiteLoader implementation to use."
+msgstr ""
+
+#: Console/Command/TestShell.php:96
+msgid "<times> Runs the test(s) repeatedly."
+msgstr ""
+
+#: Console/Command/TestShell.php:99
+msgid "Report test execution progress in TAP format."
+msgstr ""
+
+#: Console/Command/TestShell.php:102
+msgid "Report test execution progress in TestDox format."
+msgstr ""
+
+#: Console/Command/TestShell.php:106
+msgid "Do not use colors in output."
+msgstr ""
+
+#: Console/Command/TestShell.php:109
+msgid "Write to STDERR instead of STDOUT."
+msgstr ""
+
+#: Console/Command/TestShell.php:112
+msgid "Stop execution upon first error or failure."
+msgstr ""
+
+#: Console/Command/TestShell.php:115
+msgid "Stop execution upon first failure."
+msgstr ""
+
+#: Console/Command/TestShell.php:118
+msgid "Stop execution upon first skipped test."
+msgstr ""
+
+#: Console/Command/TestShell.php:121
+msgid "Stop execution upon first incomplete test."
+msgstr ""
+
+#: Console/Command/TestShell.php:124
+msgid "Mark a test as incomplete if no assertions are made."
+msgstr ""
+
+#: Console/Command/TestShell.php:127
+msgid "Waits for a keystroke after each test."
+msgstr ""
+
+#: Console/Command/TestShell.php:130
+msgid "Run each test in a separate PHP process."
+msgstr ""
+
+#: Console/Command/TestShell.php:133
+msgid "Do not backup and restore $GLOBALS for each test."
+msgstr ""
+
+#: Console/Command/TestShell.php:136
+msgid "Backup and restore static attributes for each test."
+msgstr ""
+
+#: Console/Command/TestShell.php:139
+msgid "Try to check source files for syntax errors."
+msgstr ""
+
+#: Console/Command/TestShell.php:142
+msgid "<file> A \"bootstrap\" PHP file that is run before the tests."
+msgstr ""
+
+#: Console/Command/TestShell.php:145
+msgid "<file> Read configuration from XML file."
+msgstr ""
+
+#: Console/Command/TestShell.php:148
+msgid "Ignore default configuration file (phpunit.xml)."
+msgstr ""
+
+#: Console/Command/TestShell.php:151
+msgid "<path(s)> Prepend PHP include_path with given path(s)."
+msgstr ""
+
+#: Console/Command/TestShell.php:154
+msgid "key[=value] Sets a php.ini value."
+msgstr ""
+
+#: Console/Command/TestShell.php:157
+msgid "Choose a custom fixture manager."
+msgstr ""
+
+#: Console/Command/TestShell.php:159
+msgid "More verbose output."
+msgstr ""
+
+#: Console/Command/TestShell.php:250
+#: Console/Command/TestsuiteShell.php:88
+msgid "CakePHP Test Shell"
+msgstr ""
+
+#: Console/Command/TestShell.php:299
+msgid "No test cases available \n\n"
+msgstr ""
+
+#: Console/Command/TestShell.php:313
+msgid "What test case would you like to run?"
+msgstr ""
+
+#: Console/Command/TestsuiteShell.php:44
+msgid "<warning>This shell is for backwards-compatibility only</warning>\nuse the test shell instead"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:73
+msgid "<warning>Dry-run mode enabled!</warning>"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:76
+msgid "<warning>No git repository detected!</warning>"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:91
+msgid "Running %s"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:140
+msgid "Upgrading locations for plugin %s"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:145
+msgid "Upgrading locations for app directory"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:162;618;645;737
+msgid "Moving %s to %s"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:760
+msgid "Updating %s..."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:801
+msgid " * Updating %s"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:805
+msgid "Done updating %s"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:823
+msgid "The plugin to update. Only the specified plugin will be updated."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:827
+msgid "The extension(s) to search. A pipe delimited list, or a preg_match compatible subpattern"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:832
+msgid "Use git command for moving files around."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:837
+msgid "Dry run the update, no files will actually be modified."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:844
+msgid "A tool to help automate upgrading an application or plugin from CakePHP 1.3 to 2.0. Be sure to have a backup of your application before running these commands."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:848
+msgid "Run all upgrade commands."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:851
+msgid "Update tests class names to FooTest rather than FooTestCase."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:854
+msgid "Move files and folders to their new homes."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:857
+msgid "Update the i18n translation method calls."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:860
+msgid "Update calls to helpers."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:863
+msgid "Update removed basics functions to PHP native functions."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:866
+msgid "Update removed request access, and replace with $this->request."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:869
+msgid "Update Configure::read() to Configure::read('debug')"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:872
+msgid "Replace Obsolete constants"
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:875
+msgid "Return early on controller redirect calls."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:878
+msgid "Update components to extend Component class."
+msgstr ""
+
+#: Console/Command/UpgradeShell.php:881
+msgid "Replace use of cakeError with exceptions."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:75
+msgid "Baking basic crud methods for "
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:81;121
+msgid "Adding %s methods"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:132
+msgid "No Controllers were baked, Models need to exist before Controllers can be baked."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:144
+msgid "Bake Controller\nPath: %s"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:153
+msgid "Baking %sController"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:163
+msgid "Would you like to build your controller interactively?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:165
+msgid "Warning: Choosing no will overwrite the %sController."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:172
+msgid "Would you like to use dynamic scaffolding?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:185
+msgid "Would you like to use Session flash messages?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:208
+#: Console/Command/Task/DbConfigTask.php:238
+#: Console/Command/Task/ModelTask.php:274
+#: Console/Command/Task/PluginTask.php:105
+#: Console/Command/Task/ProjectTask.php:196
+#: Console/Command/Task/ViewTask.php:332
+msgid "Look okay?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:237
+msgid "The following controller will be created:"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:239
+msgid "Controller Name:\n\t%s"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:246
+msgid "Helpers:"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:247
+msgid "Components:"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:274
+msgid "Would you like to create some basic class methods \n(index(), add(), view(), edit())?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:278
+msgid "Would you like to create the basic class methods for admin routing?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:300
+msgid "You must have a model for this class to build basic methods. Please try again."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:332
+msgid "Baking controller class for %s..."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:376
+msgid "Would you like this controller to use other helpers\nbesides HtmlHelper and FormHelper?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:377
+msgid "Please provide a comma separated list of the other\nhelper names you'd like to use.\nExample: 'Text, Js, Time'"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:389
+msgid "Would you like this controller to use other components\nbesides PaginatorComponent?"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:390
+msgid "Please provide a comma separated list of the component names you'd like to use.\nExample: 'Acl, Security, RequestHandler'"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:425
+msgid "Possible Controllers based on your current database:"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:449
+msgid "Enter a number from the list above,\ntype in the name of another controller, or 'q' to exit"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:451
+#: Console/Command/Task/ModelTask.php:984
+msgid "Exit"
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:456
+msgid "The Controller name you supplied was empty,\nor the number you selected was not an option. Please try again."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:478
+msgid "Bake a controller for a model. Using options you can bake public, admin or both."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:480
+msgid "Name of the controller to bake. Can use Plugin.name to bake controllers into plugins."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:482
+msgid "Bake a controller with basic crud actions (index, view, add, edit, delete)."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:485
+msgid "Bake a controller with crud actions for one of the Routing.prefixes."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:489
+msgid "Plugin to bake the controller into."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:492
+msgid "The connection the controller's model is on."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:498
+#: Console/Command/Task/FixtureTask.php:94
+#: Console/Command/Task/ModelTask.php:1026
+#: Console/Command/Task/TestTask.php:574
+#: Console/Command/Task/ViewTask.php:444
+msgid "Force overwriting existing files without prompting."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:500
+msgid "Bake all controllers with CRUD methods."
+msgstr ""
+
+#: Console/Command/Task/ControllerTask.php:502
+#: Console/Command/Task/FixtureTask.php:101
+#: Console/Command/Task/ModelTask.php:1028
+#: Console/Command/Task/TestTask.php:576
+#: Console/Command/Task/ViewTask.php:448
+msgid "Omitting all arguments and options will enter into an interactive mode."
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:89
+msgid "Database Configuration:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:98
+msgid "Name:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:101
+msgid "The name may only contain unaccented latin characters, numbers or underscores"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:104
+msgid "The name must start with an unaccented latin character or an underscore"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:108
+msgid "Datasource:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:110
+msgid "Persistent Connection?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:119
+msgid "Database Host:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:124
+msgid "Port?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:133
+msgid "User:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:139
+msgid "Password:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:142
+msgid "The password you supplied was empty. Use an empty password?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:151
+msgid "Database Name:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:156
+msgid "Table Prefix?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:164
+msgid "Table encoding?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:173
+msgid "Table schema?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:187
+msgid "Do you wish to add another database configuration?"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:210
+msgid "The following database configuration will be created:"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:212
+msgid "Name:         %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:213
+msgid "Datasource:   %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:214
+msgid "Persistent:   %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:215
+msgid "Host:         %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:218
+msgid "Port:         %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:221
+msgid "User:         %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:222
+msgid "Pass:         %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:223
+msgid "Database:     %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:226
+msgid "Table prefix: %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:230
+msgid "Schema:       %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:234
+msgid "Encoding:     %s"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:365
+msgid "Use Database Config"
+msgstr ""
+
+#: Console/Command/Task/DbConfigTask.php:379
+msgid "Bake new database configuration settings."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:123
+msgid "Current paths: %s\nWhat is the path you would like to extract?\n[Q]uit [D]one"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:130;207
+msgid "Extract Aborted"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:136
+msgid "<warning>No directories selected.</warning> Please choose a directory."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:141;213
+msgid "The directory path you supplied was not found. Please try again."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:175
+msgid "Would you like to extract the messages from the CakePHP core?"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:203
+msgid "What is the path you would like to output?\n[Q]uit"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:223
+msgid "Would you like to merge all domain and category strings into the default.pot file?"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:233
+msgid "The output directory %s was not found or writable."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:283
+msgid "Extracting..."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:285
+msgid "Paths:"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:289
+msgid "Output Directory: "
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:299
+msgid "Done."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:311
+msgid "CakePHP Language String Extraction:"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:313
+msgid "Directory where your application is located."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:315
+msgid "Comma separated list of paths."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:317
+msgid "Merge all domain and category strings into the default.po file."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:320
+msgid "Full path to output directory."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:322
+msgid "Comma separated list of files."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:326
+msgid "Ignores all files in plugins if this command is run inside from the same app directory."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:328
+msgid "Extracts tokens only from the plugin specified and puts the result in the plugin's Locale directory."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:332
+msgid "Ignores validation messages in the $validate property. If this flag is not set and the command is run from the same app directory, all messages in model validation rules will be extracted as tokens."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:337
+msgid "If set to a value, the localization domain to be used for model validation messages."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:339
+msgid "Comma separated list of directories to exclude. Any path containing a path segment with the provided values will be skipped. E.g. test,vendors"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:345
+msgid "Always overwrite existing .pot files."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:347
+msgid "Extract messages from the CakePHP core libs."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:362
+msgid "Processing %s..."
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:655
+msgid "Error: %s already exists in this location. Overwrite? [Y]es, [N]o, [A]ll"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:662
+msgid "What would you like to name this file?"
+msgstr ""
+
+#: Console/Command/Task/ExtractTask.php:758
+msgid "Invalid marker content in %s:%s\n* %s("
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:71
+msgid "Generate fixtures for use with the test suite. You can use `bake fixture all` to bake all fixtures."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:73
+msgid "Name of the fixture to bake. Can use Plugin.name to bake plugin fixtures."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:75
+msgid "When using generated data, the number of records to include in the fixture(s)."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:79
+msgid "Which database configuration to use for baking."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:83
+msgid "CamelCased name of the plugin to bake fixtures for."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:86
+msgid "Importing schema for fixtures rather than hardcoding it."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:96
+msgid "Used with --count and <name>/all commands to pull [n] records from the live tables, where [n] is either --count or the default of 10."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:160
+msgid "Bake Fixture\nPath: %s"
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:184
+msgid "Would you like to import schema for this fixture?"
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:192
+msgid "Would you like to use record importing for this fixture?"
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:198
+msgid "Would you like to build this fixture with data from %s's table?"
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:286
+msgid "Baking test fixture for %s..."
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:419
+msgid "Please provide a SQL fragment to use as conditions\nExample: WHERE 1=1"
+msgstr ""
+
+#: Console/Command/Task/FixtureTask.php:423
+msgid "How many records do you want to import?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:128
+msgid "Baking %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:176
+msgid "Make a selection from the choices above"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:193
+msgid "Bake Model\nPath: %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:208
+msgid "The table %s doesn't exist or could not be automatically detected\ncontinue anyway?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:234
+msgid "Would you like to supply validation criteria \nfor the fields in your model?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:240
+msgid "Would you like to define model associations\n(hasMany, hasOne, belongsTo, etc.)?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:249
+msgid "The following Model will be created:"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:251
+msgid "Name:       %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:254
+msgid "DB Config:  %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:257
+msgid "DB Table:   %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:260
+msgid "Primary Key: %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:263
+msgid "Validation: %s"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:266
+msgid "Associations:"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:320
+msgid "What is the primaryKey?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:331
+msgid "A displayField could not be automatically detected\nwould you like to choose one?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:336
+msgid "Choose a field from the options above:"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:411
+msgid "or enter in a valid regex validation string.\nAlternatively [s] skip the rest of the fields.\n"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:420
+msgid "Field: <info>%s</info>"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:421
+msgid "Type: <info>%s</info>"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:423
+msgid "Please select one of the following validation options:"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:435
+msgid "%s - Do not do any validation on this field."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:473
+msgid "You have already chosen that validation rule,\nplease choose again"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:477
+msgid "Please make a valid selection."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:499
+msgid "Would you like to add another validation rule\nor skip the rest of the fields?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:521
+msgid "One moment while the associations are detected."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:551
+msgid "None found."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:553
+msgid "Please confirm the following associations:"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:725
+msgid "Would you like to define some additional model associations?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:730
+msgid "What is the association type?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:731
+msgid "Enter a number"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:733
+msgid "For the following options be very careful to match your setup exactly.\nAny spelling mistakes will cause errors."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:737
+msgid "What is the alias for this association?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:738
+msgid "What className will %s use?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:760
+msgid "What is the table for this model?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:766
+msgid "A helpful List of possible keys"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:767
+msgid "What is the foreignKey?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:771
+msgid "What is the foreignKey? Specify your own."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:774
+msgid "What is the associationForeignKey?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:775
+msgid "What is the joinTable?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:787
+msgid "Define another association?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:859
+msgid "Baking model class for %s..."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:893
+msgid "Possible Models based on your current database:"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:925
+msgid "Given your model named '%s',\nCake would expect a database table named '%s'"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:926
+msgid "Do you want to use this table?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:929
+msgid "What is the name of the table (without prefix)?"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:961
+msgid "Your database does not have any tables."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:980
+msgid "Enter a number from the list above,\ntype in the name of another model, or 'q' to exit"
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:989
+msgid "The model name you supplied was empty,\nor the number you selected was not an option. Please try again."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:1010
+msgid "Bake models."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:1012
+msgid "Name of the model to bake. Can use Plugin.name to bake plugin models."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:1014
+msgid "Bake all model files with associations and validation."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:1017
+msgid "Plugin to bake the model into."
+msgstr ""
+
+#: Console/Command/Task/ModelTask.php:1023
+msgid "The connection the model table is on."
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:63
+msgid "Plugin: %s already exists, no action taken"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:81
+msgid "Enter the name of the plugin in CamelCase format"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:85
+msgid "An error occurred trying to bake: %s in %s"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:101
+msgid "<info>Plugin Name:</info> %s"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:102
+msgid "<info>Plugin Directory:</info> %s"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:169
+#: Console/Command/Task/ProjectTask.php:207
+msgid "<success>Created:</success> %s in %s"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:211
+msgid "Choose a plugin path from the paths above."
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:229
+msgid "Create the directory structure, AppModel and AppController classes for a new plugin. Can create plugins in any of your bootstrapped plugin paths."
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:232
+msgid "CamelCased name of the plugin to create."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:58
+msgid "What is the path to the project you want to bake?"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:68
+msgid "<warning>A project already exists in this location:</warning> %s Overwrite?"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:80
+msgid " * Random hash key created for 'Security.salt'"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:82
+msgid "Unable to generate random hash for 'Security.salt', you should change it in %s"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:87
+msgid " * Random seed created for 'Security.cipherSeed'"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:89
+msgid "Unable to generate random seed for 'Security.cipherSeed', you should change it in %s"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:94
+msgid " * Cache prefix set"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:96
+msgid "The cache prefix was <error>NOT</error> set"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:101
+msgid " * app/Console/cake.php path set."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:103
+msgid "Unable to set console path for app/Console."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:109
+msgid "<info>CakePHP is on your `include_path`. CAKE_CORE_INCLUDE_PATH will be set, but commented out.</info>"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:111
+msgid "<warning>CakePHP is not on your `include_path`, CAKE_CORE_INCLUDE_PATH will be hard coded.</warning>"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:112
+msgid "You can fix this by adding CakePHP to your `include_path`."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:117;118
+msgid " * CAKE_CORE_INCLUDE_PATH set to %s in %s"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:120
+msgid "Unable to set CAKE_CORE_INCLUDE_PATH, you should change it in %s"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:124
+msgid "   * <warning>Remember to check these values after moving to production server</warning>"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:129
+msgid "Could not set permissions on %s"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:134
+msgid "<success>Project baked successfully!</success>"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:136
+msgid "Project baked but with <warning>some issues.</warning>."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:173
+msgid "What is the path to the directory layout you wish to copy?"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:178
+msgid "The directory path you supplied was empty. Please try again."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:182
+msgid "Directory path does not exist please choose another:"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:192
+msgid "<info>Skel Directory</info>: "
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:193
+msgid "<info>Will be copied to</info>: "
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:210
+msgid "<error>Could not create</error> '%s' properly."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:224
+msgid "<error>Bake Aborted.</error>"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:392
+msgid "You have more than one routing prefix configured"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:401
+msgid "Please choose a prefix to bake with."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:406;416
+msgid "You need to enable %s in %s to use prefix routing."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:409
+msgid "What would you like the prefix route to be?"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:410
+msgid "Example: %s"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:412
+msgid "Enter a routing prefix:"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:415
+msgid "<error>Unable to write to</error> %s."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:435
+msgid "Generate a new CakePHP project skeleton."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:437
+msgid "Application directory to make, if it starts with \"/\" the path is absolute."
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:440
+msgid "Create empty files in each of the directories. Good if you are using git"
+msgstr ""
+
+#: Console/Command/Task/ProjectTask.php:446
+msgid "The directory layout to use for the new application skeleton. Defaults to cake/Console/Templates/skel of CakePHP used to create the project."
+msgstr ""
+
+#: Console/Command/Task/TemplateTask.php:176
+msgid "You have more than one set of templates installed."
+msgstr ""
+
+#: Console/Command/Task/TemplateTask.php:177
+msgid "Please choose the template set you wish to use:"
+msgstr ""
+
+#: Console/Command/Task/TemplateTask.php:187
+msgid "Which bake theme would you like to use?"
+msgstr ""
+
+#: Console/Command/Task/TemplateTask.php:213
+msgid "Could not find template for %s"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:111
+msgid "Bake Tests"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:118
+msgid "Incorrect type provided. Please choose one of %s"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:144
+msgid "Bake is detecting possible fixtures..."
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:162
+msgid "Baking test case for %s %s ..."
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:188
+msgid "Select an object type:"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:198
+msgid "Enter the type of object to bake a test for or (q)uit"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:222
+msgid "Choose a %s class"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:229
+msgid "Choose an existing class, or enter the name of a class that does not exist"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:453
+msgid "Bake could not detect fixtures, would you like to add some?"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:456
+msgid "Please provide a comma separated list of the fixtures names you'd like to use.\nExample: 'app.comment, app.post, plugin.forums.post'"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:554
+msgid "Bake test case skeletons for classes."
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:556
+msgid "Type of class to bake, can be any of the following: controller, model, helper, component or behavior."
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:565
+msgid "An existing class to bake tests for."
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:571
+msgid "CamelCased name of the plugin to bake tests for."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:209
+msgid "Would you like bake to build your views interactively?\nWarning: Choosing no will overwrite %s views if they exist."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:216
+msgid "Would you like to create some CRUD views\n(index, add, view, edit) for this controller?\nNOTE: Before doing so, you'll need to create your controller\nand model classes (including associated models)."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:219
+msgid "Would you like to create the views for admin routing?"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:238
+msgid "View Scaffolding Complete.\n"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:255
+msgid "Controller not found"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:267
+msgid "The file '%s' could not be found.\nIn order to bake a view, you'll need to first create the controller."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:319
+msgid "Action Name? (use lowercase_underscored function name)"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:321
+msgid "The action name you supplied was empty. Please try again."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:326
+msgid "The following view will be created:"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:328
+msgid "Controller Name: %s"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:329
+msgid "Action Name:     %s"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:330
+msgid "Path:            %s"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:337
+msgid "Bake Aborted."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:354
+msgid "Baking `%s` view file..."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:423
+msgid "Bake views for a controller, using built-in or custom templates."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:425
+msgid "Name of the controller views to bake. Can be Plugin.name as a shortcut for plugin baking."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:427
+msgid "Will bake a single action's file. core templates are (index, add, edit, view)"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:429
+msgid "Will bake the template in <action> but create the filename after <alias>."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:432
+msgid "Plugin to bake the view into."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:434
+msgid "Set to only bake views for a prefix in Routing.prefixes"
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:441
+msgid "The connection the connected model is on."
+msgstr ""
+
+#: Console/Command/Task/ViewTask.php:446
+msgid "Bake all CRUD action views for all controllers. Requires models and controllers to exist."
+msgstr ""
+
+#: View/Errors/error500.ctp:19
+#: View/Errors/fatal_error.ctp:20
+#: View/Errors/missing_action.ctp:19;23
+#: View/Errors/missing_behavior.ctp:21;25
+#: View/Errors/missing_component.ctp:21;25
+#: View/Errors/missing_connection.ctp:19;30
+#: View/Errors/missing_controller.ctp:21;25
+#: View/Errors/missing_database.ctp:19;23
+#: View/Errors/missing_datasource.ctp:21
+#: View/Errors/missing_datasource_config.ctp:19
+#: View/Errors/missing_helper.ctp:21;25
+#: View/Errors/missing_layout.ctp:19
+#: View/Errors/missing_plugin.ctp:19;23
+#: View/Errors/missing_table.ctp:19
+#: View/Errors/missing_view.ctp:19
+#: View/Errors/pdo_error.ctp:19
+#: View/Errors/private_action.ctp:19
+#: View/Errors/scaffold_error.ctp:19
+msgid "Error"
+msgstr ""
+
+#: View/Errors/error500.ctp:20
+#: Error/ExceptionRenderer.php:245
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: Controller/Scaffold.php:127
+msgid "Scaffold :: "
+msgstr ""
+
+#: Controller/Scaffold.php:166;233;302
+msgid "Invalid %s"
+msgstr ""
+
+#: Controller/Scaffold.php:221
+msgid "updated"
+msgstr ""
+
+#: Controller/Scaffold.php:224
+msgid "saved"
+msgstr ""
+
+#: Controller/Scaffold.php:244
+msgid "The %1$s has been %2$s"
+msgstr ""
+
+#: Controller/Scaffold.php:254
+msgid "Please correct errors below."
+msgstr ""
+
+#: Controller/Scaffold.php:305
+msgid "The %1$s with id: %2$s has been deleted."
+msgstr ""
+
+#: Controller/Scaffold.php:308
+msgid "There was an error deleting the %1$s with id: %2$s"
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:432
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: Error/ExceptionRenderer.php:222
+msgid "Not Found"
+msgstr ""
+
+#: Model/Validator/CakeValidationSet.php:286
+msgid "This field cannot be left blank"
+msgstr ""
+
+#: Network/CakeResponse.php:1355
+msgid "The requested file was not found"
+msgstr ""
+
+#: Utility/CakeNumber.php:119
+msgid "%s KB"
+msgstr ""
+
+#: Utility/CakeNumber.php:121
+msgid "%s MB"
+msgstr ""
+
+#: Utility/CakeNumber.php:123
+msgid "%s GB"
+msgstr ""
+
+#: Utility/CakeNumber.php:125
+msgid "%s TB"
+msgstr ""
+
+#: Utility/CakeNumber.php:117
+msgid "%d Byte"
+msgid_plural "%d Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:397
+msgid "Today, %s"
+msgstr ""
+
+#: Utility/CakeTime.php:400
+msgid "Yesterday, %s"
+msgstr ""
+
+#: Utility/CakeTime.php:403
+msgid "Tomorrow, %s"
+msgstr ""
+
+#: Utility/CakeTime.php:408
+msgid "Sunday"
+msgstr ""
+
+#: Utility/CakeTime.php:409
+msgid "Monday"
+msgstr ""
+
+#: Utility/CakeTime.php:410
+msgid "Tuesday"
+msgstr ""
+
+#: Utility/CakeTime.php:411
+msgid "Wednesday"
+msgstr ""
+
+#: Utility/CakeTime.php:412
+msgid "Thursday"
+msgstr ""
+
+#: Utility/CakeTime.php:413
+msgid "Friday"
+msgstr ""
+
+#: Utility/CakeTime.php:414
+msgid "Saturday"
+msgstr ""
+
+#: Utility/CakeTime.php:420
+msgid "On %s %s"
+msgstr ""
+
+#: Utility/CakeTime.php:743
+msgid "%s ago"
+msgstr ""
+
+#: Utility/CakeTime.php:744
+msgid "in %s"
+msgstr ""
+
+#: Utility/CakeTime.php:745
+msgid "on %s"
+msgstr ""
+
+#: Utility/CakeTime.php:801
+msgid "just now"
+msgstr ""
+
+#: Utility/CakeTime.php:924
+msgid "in about a second"
+msgstr ""
+
+#: Utility/CakeTime.php:925
+msgid "in about a minute"
+msgstr ""
+
+#: Utility/CakeTime.php:926
+msgid "in about an hour"
+msgstr ""
+
+#: Utility/CakeTime.php:927
+msgid "in about a day"
+msgstr ""
+
+#: Utility/CakeTime.php:928
+msgid "in about a week"
+msgstr ""
+
+#: Utility/CakeTime.php:929
+msgid "in about a year"
+msgstr ""
+
+#: Utility/CakeTime.php:933
+msgid "about a second ago"
+msgstr ""
+
+#: Utility/CakeTime.php:934
+msgid "about a minute ago"
+msgstr ""
+
+#: Utility/CakeTime.php:935
+msgid "about an hour ago"
+msgstr ""
+
+#: Utility/CakeTime.php:936
+msgid "about a day ago"
+msgstr ""
+
+#: Utility/CakeTime.php:937
+msgid "about a week ago"
+msgstr ""
+
+#: Utility/CakeTime.php:938
+msgid "about a year ago"
+msgstr ""
+
+#: Utility/CakeTime.php:958;980
+msgid "days"
+msgstr ""
+
+#: Utility/CakeTime.php:895
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:898
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:901
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:904
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:907
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:910
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:913
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/String.php:701
+msgid "and"
+msgstr ""
+
+#: View/ViewBlock.php:78
+msgid "A view block with the name '%s' is already/still open."
+msgstr ""
+
+#: View/Helper/FormHelper.php:732
+msgid "Error in field %s"
+msgstr ""
+
+#: View/Helper/FormHelper.php:921
+#: View/Scaffolds/form.ctp:46
+#: View/Scaffolds/index.ctp:77;92
+#: View/Scaffolds/view.ctp:63;78;188
+msgid "New %s"
+msgstr ""
+
+#: View/Helper/FormHelper.php:927
+#: View/Scaffolds/view.ctp:51;109
+msgid "Edit %s"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1500
+msgid "empty"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2874
+msgid "January"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2875
+msgid "February"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2876
+msgid "March"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2877
+msgid "April"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2878
+msgid "May"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2879
+msgid "June"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2880
+msgid "July"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2881
+msgid "August"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2882
+msgid "September"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2883
+msgid "October"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2884
+msgid "November"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2885
+msgid "December"
+msgstr ""
+
+#: View/Helper/HtmlHelper.php:782
+msgid "Home"
+msgstr ""
+
+#: View/Helper/PaginatorHelper.php:637
+msgid " of "
+msgstr ""
+
+#: View/Scaffolds/form.ctp:35
+msgid "List"
+msgstr ""
+
+#: View/Scaffolds/form.ctp:42
+#: View/Scaffolds/index.ctp:85
+#: View/Scaffolds/view.ctp:59;72
+msgid "List %s"
+msgstr ""
+
+#: View/Scaffolds/view.ctp:18
+msgid "View %s"
+msgstr ""
+
+#: View/Scaffolds/view.ctp:55
+msgid "Delete %s"
+msgstr ""
+
+#: View/Scaffolds/view.ctp:93;133
+msgid "Related %s"
+msgstr ""
+
+#: View/Layouts/error.ctp:17
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: Cache/Cache.php:173
+msgid "Cache engine %s is not available."
+msgstr ""
+
+#: Cache/Cache.php:177
+msgid "Cache engines must use %s as a base class."
+msgstr ""
+
+#: Cache/Cache.php:181
+msgid "Cache engine \"%s\" is not properly configured. Ensure required extensions are installed, and credentials/permissions are correct"
+msgstr ""
+
+#: Cache/Cache.php:321
+msgid "%s cache was unable to write '%s' to %s cache"
+msgstr ""
+
+#: Cache/Cache.php:543
+msgid "Invalid cache group %s"
+msgstr ""
+
+#: Cache/Engine/FileEngine.php:313
+msgid "Files cannot be atomically decremented."
+msgstr ""
+
+#: Cache/Engine/FileEngine.php:325
+msgid "Files cannot be atomically incremented."
+msgstr ""
+
+#: Cache/Engine/FileEngine.php:362
+msgid "Could not apply permission mask \"%s\" on cache file \"%s\""
+msgstr ""
+
+#: Cache/Engine/FileEngine.php:385
+msgid "%s is not writable"
+msgstr ""
+
+#: Cache/Engine/MemcacheEngine.php:166;183
+msgid "Method %s not implemented for compressed cache in %s"
+msgstr ""
+
+#: Cache/Engine/MemcachedEngine.php:133
+msgid "Memcached extension is not build with SASL support"
+msgstr ""
+
+#: Cache/Engine/MemcachedEngine.php:160
+msgid "%s is not a valid serializer engine for Memcached"
+msgstr ""
+
+#: Cache/Engine/MemcachedEngine.php:166
+msgid "Memcached extension is not compiled with %s support"
+msgstr ""
+
+#: Configure/IniReader.php:101
+#: Configure/PhpReader.php:64
+msgid "Cannot load configuration files with ../ in them."
+msgstr ""
+
+#: Configure/IniReader.php:106
+#: Configure/PhpReader.php:69
+msgid "Could not load configuration file: %s"
+msgstr ""
+
+#: Configure/PhpReader.php:74
+msgid "No variable %s found in %s"
+msgstr ""
+
+#: Console/Command/TestShell.php:175
+msgid "Please install PHPUnit framework v3.7 <info>(http://www.phpunit.de)</info>"
+msgstr ""
+
+#: Console/Command/TestShell.php:371
+msgid "Test case %s cannot be run via this shell"
+msgstr ""
+
+#: Console/Command/TestShell.php:384;401
+msgid "Test case %s not found"
+msgstr ""
+
+#: Console/Command/Task/PluginTask.php:187
+msgid "%s modified"
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:322
+msgid "Invalid object type."
+msgstr ""
+
+#: Console/Command/Task/TestTask.php:341
+msgid "Invalid type name"
+msgstr ""
+
+#: Controller/Component/AclComponent.php:67
+msgid "Could not find %s."
+msgstr ""
+
+#: Controller/Component/AclComponent.php:91
+msgid "AclComponent adapters must implement AclInterface"
+msgstr ""
+
+#: Controller/Component/AclComponent.php:162;176
+msgid "%s is deprecated, use %s instead"
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:496
+msgid "Authorization adapter \"%s\" was not found."
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:499
+msgid "Authorization objects must implement an %s method."
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:796
+msgid "Authentication adapter \"%s\" was not found."
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:799
+msgid "Authentication objects must implement an %s method."
+msgstr ""
+
+#: Controller/Component/CookieComponent.php:387
+msgid "You must use cipher, rijndael or aes for cookie encryption type"
+msgstr ""
+
+#: Controller/Component/RequestHandlerComponent.php:757
+msgid "You must give a handler callback."
+msgstr ""
+
+#: Controller/Component/SecurityComponent.php:335;620
+msgid "The request has been black-holed"
+msgstr ""
+
+#: Controller/Component/Acl/PhpAcl.php:104
+msgid "\"roles\" section not found in configuration."
+msgstr ""
+
+#: Controller/Component/Acl/PhpAcl.php:108
+msgid "Neither \"allow\" nor \"deny\" rules were provided in configuration."
+msgstr ""
+
+#: Controller/Component/Acl/PhpAcl.php:528
+msgid "cycle detected when inheriting %s from %s. Path: %s"
+msgstr ""
+
+#: Controller/Component/Auth/BaseAuthenticate.php:172
+msgid "Password hasher class \"%s\" was not found."
+msgstr ""
+
+#: Controller/Component/Auth/BaseAuthenticate.php:175
+msgid "Password hasher must extend AbstractPasswordHasher class."
+msgstr ""
+
+#: Controller/Component/Auth/BaseAuthorize.php:95
+msgid "$controller needs to be an instance of Controller"
+msgstr ""
+
+#: Controller/Component/Auth/ControllerAuthorize.php:49
+msgid "$controller does not implement an %s method."
+msgstr ""
+
+#: Controller/Component/Auth/CrudAuthorize.php:83
+msgid "CrudAuthorize::authorize() - Attempted access of un-mapped action \"%1$s\" in controller \"%2$s\""
+msgstr ""
+
+#: Core/Configure.php:73
+msgid "Can't find application core file. Please create %s, and make sure it is readable by PHP."
+msgstr ""
+
+#: Core/Configure.php:93
+msgid "Can't find application bootstrap file. Please create %s, and make sure it is readable by PHP."
+msgstr ""
+
+#: Core/Configure.php:341
+msgid "There is no \"%s\" adapter."
+msgstr ""
+
+#: Core/Configure.php:344
+msgid "The \"%s\" adapter, does not have a %s method."
+msgstr ""
+
+#: Event/CakeEventManager.php:102
+msgid "The eventKey variable is required"
+msgstr ""
+
+#: I18n/I18n.php:229
+msgid "You cannot use \"\" as a domain."
+msgstr ""
+
+#: I18n/I18n.php:269
+msgid "Missing plural form translation for \"%s\" in \"%s\" domain, \"%s\" locale.  Check your po file for correct plurals and valid Plural-Forms header."
+msgstr ""
+
+#: Log/CakeLog.php:191
+msgid "Invalid key name"
+msgstr ""
+
+#: Log/CakeLog.php:194
+msgid "Missing logger class name"
+msgstr ""
+
+#: Log/CakeLog.php:315;333;352
+msgid "Stream %s not found"
+msgstr ""
+
+#: Log/LogEngineCollection.php:44
+msgid "logger class %s does not implement a %s method."
+msgstr ""
+
+#: Log/LogEngineCollection.php:69
+msgid "Could not load class %s"
+msgstr ""
+
+#: Log/Engine/FileLog.php:150
+msgid "Could not apply permission mask \"%s\" on log file \"%s\""
+msgstr ""
+
+#: Model/AclNode.php:178
+msgid "AclNode::node() - Couldn't find %s node identified by \"%s\""
+msgstr ""
+
+#: Model/BehaviorCollection.php:226
+msgid "%s - Method %s not found in any attached behavior"
+msgstr ""
+
+#: Model/CakeSchema.php:613
+msgid "Schema generation error: invalid column type %s for %s.%s does not exist in DBO"
+msgstr ""
+
+#: Model/Model.php:1413
+msgid "(Model::getColumnTypes) Unable to build model field data. If you are using a model without a database table, try implementing schema()"
+msgstr ""
+
+#: Model/Model.php:3729
+msgid "Invalid join model settings in %s. The association parameter has the wrong type, expecting a string or array, but was passed type: %s"
+msgstr ""
+
+#: Model/Permission.php:84
+msgid "%s - Failed ARO node lookup in permissions check. Node references:\nAro: %s\nAco: %s"
+msgstr ""
+
+#: Model/Permission.php:95
+msgid "%s - Failed ACO node lookup in permissions check. Node references:\nAro: %s\nAco: %s"
+msgstr ""
+
+#: Model/Permission.php:106
+msgid "ACO permissions key %s does not exist in %s"
+msgstr ""
+
+#: Model/Permission.php:177
+msgid "%s - Invalid node"
+msgstr ""
+
+#: Model/Permission.php:195
+msgid "Invalid permission key \"%s\""
+msgstr ""
+
+#: Model/Behavior/AclBehavior.php:66
+msgid "Callback %s not defined in %s"
+msgstr ""
+
+#: Model/Behavior/AclBehavior.php:83
+msgid "AclBehavior is setup with more then one type, please specify type parameter for node()"
+msgstr ""
+
+#: Model/Behavior/ContainableBehavior.php:342
+msgid "Model \"%s\" is not associated with model \"%s\""
+msgstr ""
+
+#: Model/Behavior/TranslateBehavior.php:71
+msgid "Datasource %s for TranslateBehavior of model %s is not connected"
+msgstr ""
+
+#: Model/Behavior/TranslateBehavior.php:606
+msgid "You cannot bind a translation named \"name\"."
+msgstr ""
+
+#: Model/Behavior/TranslateBehavior.php:628
+msgid "Association %s is already bound to model %s"
+msgstr ""
+
+#: Model/Datasource/CakeSession.php:516
+msgid "Unable to configure the session, setting %s failed."
+msgstr ""
+
+#: Model/Datasource/CakeSession.php:575
+msgid "Could not load %s to handle the session."
+msgstr ""
+
+#: Model/Datasource/CakeSession.php:581
+msgid "Chosen SessionHandler does not implement CakeSessionHandlerInterface it cannot be used with an engine key."
+msgstr ""
+
+#: Model/Datasource/DboSource.php:255
+msgid "Selected driver is not enabled"
+msgstr ""
+
+#: Model/Datasource/DboSource.php:1263
+msgid "Error in Model %s"
+msgstr ""
+
+#: Model/Datasource/DboSource.php:3217
+msgid "Invalid schema object"
+msgstr ""
+
+#: Model/Datasource/DboSource.php:3327
+#: Model/Datasource/Database/Sqlite.php:407
+msgid "Column name or type not defined in schema"
+msgstr ""
+
+#: Model/Datasource/DboSource.php:3332
+#: Model/Datasource/Database/Sqlite.php:412
+msgid "Column type %s does not exist"
+msgstr ""
+
+#: Model/Datasource/Database/Mysql.php:342
+#: Model/Datasource/Database/Sqlserver.php:227
+msgid "Could not describe table for %s"
+msgstr ""
+
+#: Model/Validator/CakeValidationRule.php:281
+msgid "Could not find validation handler %s for %s"
+msgstr ""
+
+#: Network/CakeRequest.php:449
+msgid "Method %s does not exist"
+msgstr ""
+
+#: Network/CakeResponse.php:632
+msgid "Unknown status code"
+msgstr ""
+
+#: Network/CakeResponse.php:676
+msgid "Invalid status code"
+msgstr ""
+
+#: Network/CakeResponse.php:1340
+msgid "The requested file contains `..` and will not be read."
+msgstr ""
+
+#: Network/CakeResponse.php:1353
+msgid "The requested file %s was not found or not readable"
+msgstr ""
+
+#: Network/CakeSocket.php:301
+msgid "Connection timed out"
+msgstr ""
+
+#: Network/CakeSocket.php:368
+msgid "Invalid encryption scheme chosen"
+msgstr ""
+
+#: Network/CakeSocket.php:382
+msgid "Unable to perform enableCrypto operation on CakeSocket"
+msgstr ""
+
+#: Network/Email/CakeEmail.php:375
+msgid "From requires only 1 email address."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:391
+msgid "Sender requires only 1 email address."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:407
+msgid "Reply-To requires only 1 email address."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:423
+msgid "Disposition-Notification-To requires only 1 email address."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:439
+msgid "Return-Path requires only 1 email address."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:614
+msgid "Invalid email: \"%s\""
+msgstr ""
+
+#: Network/Email/CakeEmail.php:692;707
+msgid "$headers should be an array."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:919
+msgid "Format not available."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:954
+msgid "Class \"%s\" not found."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:956
+msgid "The \"%s\" does not have a %s method."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:977
+msgid "Invalid format for Message-ID. The text should be something like \"<uuid@server.com>\""
+msgstr ""
+
+#: Network/Email/CakeEmail.php:1056
+msgid "No file or data specified."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:1059
+msgid "No filename specified."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:1066
+msgid "File not found: \"%s\""
+msgstr ""
+
+#: Network/Email/CakeEmail.php:1149
+msgid "From is not specified."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:1152
+msgid "You need to specify at least one destination for to, cc or bcc."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:1227
+msgid "%s not found."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:1231
+msgid "Unknown email configuration \"%s\"."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:155
+msgid "Unable to connect to SMTP server."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:176
+msgid "SMTP server did not accept the connection or trying to connect to non TLS SMTP server using TLS."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:181
+msgid "SMTP server did not accept the connection."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:199
+msgid "SMTP server did not accept the username."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:204
+msgid "SMTP server did not accept the password."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:207
+msgid "SMTP authentication method not allowed, check if SMTP server requires TLS."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:209
+msgid "AUTH command not recognized or not implemented, SMTP server may not require authentication."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:360
+msgid "SMTP timeout."
+msgstr ""
+
+#: Network/Email/SmtpTransport.php:373
+msgid "SMTP Error: %s"
+msgstr ""
+
+#: Network/Http/HttpResponse.php:21
+msgid "HttpResponse is deprecated due to naming conflicts. Use HttpSocketResponse instead."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:244
+msgid "Invalid resource."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:410
+msgid "Class %s not found."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:635
+msgid "Unknown authentication method."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:638
+msgid "The %s does not support authentication."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:664
+msgid "Unknown authentication method for proxy."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:667
+msgid "The %s does not support proxy authentication."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:918
+msgid "HttpSocket::_buildRequestLine - Passed an invalid request line string. Activate quirks mode to do this."
+msgstr ""
+
+#: Network/Http/HttpSocket.php:936
+msgid "HttpSocket::_buildRequestLine - The \"*\" asterisk character is only allowed for the following methods: %s. Activate quirks mode to work outside of HTTP/1.1 specs."
+msgstr ""
+
+#: Network/Http/HttpSocketResponse.php:151
+msgid "Invalid response."
+msgstr ""
+
+#: Network/Http/HttpSocketResponse.php:155
+msgid "Invalid HTTP response."
+msgstr ""
+
+#: Routing/Router.php:233
+msgid "Route class not found, or route class is not a subclass of CakeRoute"
+msgstr ""
+
+#: Utility/CakeNumber.php:163
+msgid "No unit type."
+msgstr ""
+
+#: Utility/ClassRegistry.php:117
+msgid "(ClassRegistry::init() Attempted to create instance of a class with a numeric name"
+msgstr ""
+
+#: Utility/ClassRegistry.php:149
+msgid "Cannot create instance of %s, as it is abstract or is an interface"
+msgstr ""
+
+#: Utility/Debugger.php:630
+msgid "Invalid Debugger output format."
+msgstr ""
+
+#: Utility/Debugger.php:846
+msgid "Please change the value of %s in %s to a salt value specific to your application."
+msgstr ""
+
+#: Utility/Debugger.php:850
+msgid "Please change the value of %s in %s to a numeric (digits only) seed value specific to your application."
+msgstr ""
+
+#: Utility/Folder.php:409;432
+msgid "%s changed to %s"
+msgstr ""
+
+#: Utility/Folder.php:413;434
+msgid "%s NOT changed to %s"
+msgstr ""
+
+#: Utility/Folder.php:537
+msgid "%s is a file"
+msgstr ""
+
+#: Utility/Folder.php:548;732
+msgid "%s created"
+msgstr ""
+
+#: Utility/Folder.php:552
+msgid "%s NOT created"
+msgstr ""
+
+#: Utility/Folder.php:624;632;644
+msgid "%s removed"
+msgstr ""
+
+#: Utility/Folder.php:626;634;646
+msgid "%s NOT removed"
+msgstr ""
+
+#: Utility/Folder.php:699
+msgid "%s not writable"
+msgstr ""
+
+#: Utility/Folder.php:715
+msgid "%s copied to %s"
+msgstr ""
+
+#: Utility/Folder.php:717
+msgid "%s NOT copied to %s"
+msgstr ""
+
+#: Utility/Folder.php:736
+msgid "%s not created"
+msgstr ""
+
+#: Utility/Hash.php:53
+msgid "Invalid Parameter %s, should be dot separated path or array."
+msgstr ""
+
+#: Utility/Hash.php:414
+msgid "Hash::combine() needs an equal number of keys + values."
+msgstr ""
+
+#: Utility/Hash.php:1081
+msgid "Invalid data array to nest."
+msgstr ""
+
+#: Utility/ObjectCollection.php:124
+msgid "Cannot use modParams with indexes that do not exist."
+msgstr ""
+
+#: Utility/Security.php:159
+msgid "Invalid value, cost must be between %s and %s"
+msgstr ""
+
+#: Utility/Security.php:186;219
+msgid "You cannot use an empty key for %s"
+msgstr ""
+
+#: Utility/Security.php:223
+msgid "You must specify the operation for Security::rijndael(), either encrypt or decrypt"
+msgstr ""
+
+#: Utility/Security.php:227
+msgid "You must use a key larger than 32 bytes for Security::rijndael()"
+msgstr ""
+
+#: Utility/Security.php:286
+msgid "Invalid salt: %s for %s Please visit http://www.php.net/crypt and read the appropriate section for building %s salts."
+msgstr ""
+
+#: Utility/Security.php:339
+msgid "Invalid key for %s, key must be at least 256 bits (32 bytes) long."
+msgstr ""
+
+#: Utility/Security.php:355
+msgid "The data to decrypt cannot be empty."
+msgstr ""
+
+#: Utility/Validation.php:272
+msgid "You must define the $operator parameter for %s"
+msgstr ""
+
+#: Utility/Validation.php:290
+msgid "You must define a regular expression for %s"
+msgstr ""
+
+#: Utility/Validation.php:869
+msgid "Could not find %s class, unable to complete validation."
+msgstr ""
+
+#: Utility/Validation.php:873
+msgid "Method %s does not exist on %s unable to complete validation."
+msgstr ""
+
+#: Utility/Validation.php:967
+msgid "Can not determine the mimetype."
+msgstr ""
+
+#: Utility/Xml.php:108;112;117
+msgid "XML cannot be read."
+msgstr ""
+
+#: Utility/Xml.php:115;194
+msgid "Invalid input."
+msgstr ""
+
+#: Utility/Xml.php:149
+msgid "Xml cannot be read."
+msgstr ""
+
+#: Utility/Xml.php:198
+msgid "The key of input must be alphanumeric"
+msgstr ""
+
+#: Utility/Xml.php:275;288
+msgid "Invalid array"
+msgstr ""
+
+#: Utility/Xml.php:339
+msgid "The input is not instance of SimpleXMLElement, DOMDocument or DOMNode."
+msgstr ""
+
+#: View/Helper.php:192
+msgid "Method %1$s::%2$s does not exist"
+msgstr ""
+
+#: View/View.php:425
+msgid "Element Not Found: %s"
+msgstr ""
+
+#: View/View.php:731
+msgid "You cannot extend an element which does not exist (%s)."
+msgstr ""
+
+#: View/View.php:747
+msgid "You cannot have views extend themselves."
+msgstr ""
+
+#: View/View.php:750
+msgid "You cannot have views extend in a loop."
+msgstr ""
+
+#: View/View.php:942
+msgid "The \"%s\" block was left open. Blocks are not allowed to cross files."
+msgstr ""
+
+#: View/Elements/sql_dump.ctp:81
+msgid "Encountered unexpected %s. Cannot generate SQL log."
+msgstr ""
+
+#: View/Errors/fatal_error.ctp:18
+msgid "Fatal Error"
+msgstr ""
+
+#: View/Errors/fatal_error.ctp:24
+msgid "File"
+msgstr ""
+
+#: View/Errors/fatal_error.ctp:28
+msgid "Line"
+msgstr ""
+
+#: View/Errors/fatal_error.ctp:32
+#: View/Errors/missing_action.ctp:38
+#: View/Errors/missing_behavior.ctp:35
+#: View/Errors/missing_component.ctp:35
+#: View/Errors/missing_connection.ctp:35
+#: View/Errors/missing_controller.ctp:35
+#: View/Errors/missing_database.ctp:27
+#: View/Errors/missing_datasource.ctp:28
+#: View/Errors/missing_datasource_config.ctp:23
+#: View/Errors/missing_helper.ctp:35
+#: View/Errors/missing_layout.ctp:40
+#: View/Errors/missing_plugin.ctp:39
+#: View/Errors/missing_table.ctp:23
+#: View/Errors/missing_view.ctp:40
+#: View/Errors/pdo_error.ctp:33
+#: View/Errors/private_action.ctp:23
+#: View/Errors/scaffold_error.ctp:23
+msgid "Notice"
+msgstr ""
+
+#: View/Errors/fatal_error.ctp:33
+#: View/Errors/missing_action.ctp:39
+#: View/Errors/missing_behavior.ctp:36
+#: View/Errors/missing_component.ctp:36
+#: View/Errors/missing_connection.ctp:36
+#: View/Errors/missing_controller.ctp:36
+#: View/Errors/missing_database.ctp:28
+#: View/Errors/missing_datasource.ctp:29
+#: View/Errors/missing_datasource_config.ctp:24
+#: View/Errors/missing_helper.ctp:36
+#: View/Errors/missing_layout.ctp:41
+#: View/Errors/missing_plugin.ctp:40
+#: View/Errors/missing_table.ctp:24
+#: View/Errors/missing_view.ctp:41
+#: View/Errors/pdo_error.ctp:34
+#: View/Errors/private_action.ctp:24
+#: View/Errors/scaffold_error.ctp:24
+msgid "If you want to customize this error message, create %s"
+msgstr ""
+
+#: View/Errors/missing_action.ctp:18
+msgid "Missing Method in %s"
+msgstr ""
+
+#: View/Errors/missing_action.ctp:20
+msgid "The action %1$s is not defined in controller %2$s"
+msgstr ""
+
+#: View/Errors/missing_action.ctp:24
+msgid "Create %1$s%2$s in file: %3$s."
+msgstr ""
+
+#: View/Errors/missing_behavior.ctp:19
+msgid "Missing Behavior"
+msgstr ""
+
+#: View/Errors/missing_behavior.ctp:22
+#: View/Errors/missing_component.ctp:22
+#: View/Errors/missing_controller.ctp:22
+#: View/Errors/missing_helper.ctp:22
+msgid "%s could not be found."
+msgstr ""
+
+#: View/Errors/missing_behavior.ctp:26
+#: View/Errors/missing_component.ctp:26
+#: View/Errors/missing_controller.ctp:26
+#: View/Errors/missing_helper.ctp:26
+msgid "Create the class %s below in file: %s"
+msgstr ""
+
+#: View/Errors/missing_component.ctp:19
+msgid "Missing Component"
+msgstr ""
+
+#: View/Errors/missing_connection.ctp:17
+#: View/Errors/missing_database.ctp:17
+msgid "Missing Database Connection"
+msgstr ""
+
+#: View/Errors/missing_connection.ctp:20
+msgid "A Database connection using \"%s\" was missing or unable to connect."
+msgstr ""
+
+#: View/Errors/missing_connection.ctp:24
+msgid "The database server returned this error: %s"
+msgstr ""
+
+#: View/Errors/missing_connection.ctp:31
+msgid "%s driver is NOT enabled"
+msgstr ""
+
+#: View/Errors/missing_controller.ctp:19
+msgid "Missing Controller"
+msgstr ""
+
+#: View/Errors/missing_database.ctp:20
+msgid "Scaffold requires a database connection"
+msgstr ""
+
+#: View/Errors/missing_database.ctp:24
+#: View/Errors/missing_layout.ctp:24
+#: View/Errors/missing_view.ctp:24
+msgid "Confirm you have created the file: %s"
+msgstr ""
+
+#: View/Errors/missing_datasource.ctp:19
+msgid "Missing Datasource"
+msgstr ""
+
+#: View/Errors/missing_datasource.ctp:22
+msgid "Datasource class %s could not be found."
+msgstr ""
+
+#: View/Errors/missing_datasource_config.ctp:17
+msgid "Missing Datasource Configuration"
+msgstr ""
+
+#: View/Errors/missing_datasource_config.ctp:20
+msgid "The datasource configuration %1$s was not found in database.php."
+msgstr ""
+
+#: View/Errors/missing_helper.ctp:19
+msgid "Missing Helper"
+msgstr ""
+
+#: View/Errors/missing_layout.ctp:17
+msgid "Missing Layout"
+msgstr ""
+
+#: View/Errors/missing_layout.ctp:20
+msgid "The layout file %s can not be found or does not exist."
+msgstr ""
+
+#: View/Errors/missing_plugin.ctp:17
+msgid "Missing Plugin"
+msgstr ""
+
+#: View/Errors/missing_plugin.ctp:20
+msgid "The application is trying to load a file from the %s plugin"
+msgstr ""
+
+#: View/Errors/missing_plugin.ctp:24
+msgid "Make sure your plugin %s is in the %s directory and was loaded"
+msgstr ""
+
+#: View/Errors/missing_plugin.ctp:32
+msgid "Loading all plugins"
+msgstr ""
+
+#: View/Errors/missing_plugin.ctp:33
+msgid "If you wish to load all plugins at once, use the following line in your %s file"
+msgstr ""
+
+#: View/Errors/missing_table.ctp:17
+msgid "Missing Database Table"
+msgstr ""
+
+#: View/Errors/missing_table.ctp:20
+msgid "Table %1$s for model %2$s was not found in datasource %3$s."
+msgstr ""
+
+#: View/Errors/missing_view.ctp:17
+msgid "Missing View"
+msgstr ""
+
+#: View/Errors/missing_view.ctp:20
+msgid "The view for %1$s%2$s was not found."
+msgstr ""
+
+#: View/Errors/pdo_error.ctp:17
+msgid "Database Error"
+msgstr ""
+
+#: View/Errors/pdo_error.ctp:24
+msgid "SQL Query"
+msgstr ""
+
+#: View/Errors/pdo_error.ctp:29
+msgid "SQL Query Params"
+msgstr ""
+
+#: View/Errors/private_action.ctp:17
+msgid "Private Method in %s"
+msgstr ""
+
+#: View/Errors/private_action.ctp:20
+msgid "%s%s cannot be accessed directly."
+msgstr ""
+
+#: View/Errors/scaffold_error.ctp:17
+msgid "Scaffold Error"
+msgstr ""
+
+#: View/Errors/scaffold_error.ctp:20
+msgid "Method _scaffoldError in was not found in the controller"
+msgstr ""
+
+#: View/Helper/CacheHelper.php:161
+msgid "Unable to write view cache file: \"%s\" for \"%s\""
+msgstr ""
+
+#: View/Helper/FormHelper.php:1627
+msgid "Missing field name for FormHelper::%s"
+msgstr ""
+
+#: View/Helper/HtmlHelper.php:1235
+msgid "Cannot load the configuration file. Wrong \"configFile\" configuration."
+msgstr ""
+
+#: View/Helper/HtmlHelper.php:1241
+msgid "Cannot load the configuration file. Unknown reader."
+msgstr ""
+
+#: View/Helper/JsHelper.php:152
+msgid "JsHelper:: Missing Method %s is undefined"
+msgstr ""
+
+#: View/Helper/MootoolsEngineHelper.php:311
+msgid "%s requires a \"drag\" option to properly function"
+msgstr ""
+
+#: View/Helper/PaginatorHelper.php:99
+msgid "%s does not implement a %s method, it is incompatible with %s"
+msgstr ""
+
+#: Utility/CakeTime.php:152
+msgid "abday"
+msgstr ""
+
+#: Utility/CakeTime.php:158
+msgid "day"
+msgstr ""
+
+#: Utility/CakeTime.php:164
+msgid "d_t_fmt"
+msgstr ""
+
+#: Utility/CakeTime.php:186
+msgid "abmon"
+msgstr ""
+
+#: Utility/CakeTime.php:192
+msgid "mon"
+msgstr ""
+
+#: Utility/CakeTime.php:203
+msgid "am_pm"
+msgstr ""
+
+#: Utility/CakeTime.php:210
+msgid "t_fmt_ampm"
+msgstr ""
+
+#: Utility/CakeTime.php:224
+msgid "d_fmt"
+msgstr ""
+
+#: Utility/CakeTime.php:230
+msgid "t_fmt"
 msgstr ""
 
