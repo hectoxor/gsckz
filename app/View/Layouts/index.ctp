@@ -12,13 +12,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="/favicon.svg?v=1.1" />
-        <link rel="stylesheet" href="/css/slick.css" />
+
+		<link rel="stylesheet" href="/css/slick.css" />
         <link rel="stylesheet" href="/css/jquery.fancybox.min.css" />
         <link rel="stylesheet" href="/css/styleNew.css?v=1.658486" />
+
+		<link rel="stylesheet" href="/css/style.css" />
+
         <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script> -->
         <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"></script>
     </head>
 </div>
+	<body>
+		<?php echo $this->element('navbar') ?>
+
+
+	</body>
+
     <body>
         <div class="alert <?=(isset($_SESSION['Message']['good']) || isset($_SESSION['Message']['bad'])) ? 'alert--active' : '';?>">
             <div class="container">
@@ -29,7 +39,7 @@
                 <div class="my-alert__close"></div>
             </div>
         </div>
-        <?php echo $this->element('left_sidebar') ?>
+<!--        --><?php //echo $this->element('left_sidebar') ?>
         <section class="header-bottom">
             <img class="header-bottom__img" src="../img/pic_horizont2.jpg">
             <div class="container">
