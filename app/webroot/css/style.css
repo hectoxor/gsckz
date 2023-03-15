@@ -1,10 +1,12 @@
 /* User Interface CSS */
 
+@import 'ui/fonts.css';
 @import 'ui/common.css';
 @import 'ui/box.css';
 @import 'ui/icons.css';
 @import 'ui/button.css';
 @import 'ui/checkbox.css';
+
 
 /* Components CSS */
 @import 'component/footer.css';

@@ -1,0 +1,66 @@
+.hero-bg {
+	left: calc(100% - 45%);
+	top: -64px;
+	position: relative;
+	width: 640px;
+}
+
+.hero-illustration-content {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 45%;
+}
+
+.hero-inner {
+	padding: 0 40px;
+	position: relative;
+	top: -545px;
+}
+
+.illustration-1 { /* Graduation hat */
+	top: 138px;
+	right: 38px;
+	position: relative;
+	width: 70px;
+	display: block;
+	animation: float 3s ease-in-out infinite;
+}
+
+.illustration-2 { /* Illustration */
+	top: -111px;
+	right: 0px;
+	position: relative;
+	width: 400px;
+	display: block;
+	animation: float 6s ease-in-out infinite;
+}
+.illustration-shadow-2 {
+	top: 350px;
+	right: 0px;
+	position: relative;
+	width: 400px;
+	display: block;
+}
+
+.illustration-3 { /* Globe */
+	top: -515px;
+	right: -262px;
+	position: relative;
+	width: 120px;
+	display: block;
+	animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-15px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}

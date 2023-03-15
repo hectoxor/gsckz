@@ -19,6 +19,9 @@
 
 	--font-family-primary: 'Gilroy', sans-serif;
 	--font-family-secondary: 'Montserrat', sans-serif;
+
+	--color-box-shadow-layer-1: #00103D29;
+	--color-box-shadow-layer-2: #00103D47;
 }
 
 * {
@@ -81,7 +84,6 @@
 .text-transform-lowercase {
 	text-transform: lowercase;
 }
-
 
 .text {
 	padding: 0;
@@ -195,7 +197,7 @@ h6, .text-type-h6, .text-type-large-14 {
 	user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 600px) {
 	h1, .text-type-h1, .text-type-large {
 		font-family: 'Inter', sans-serif;
 		font-size: 24px;
