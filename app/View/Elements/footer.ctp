@@ -2,11 +2,7 @@
     <div class="container">
         <div class="footer__wrapper">
             <div class="footer__top">
-                <div class="footer__logo logo">
-                    <a class="logo-pic" href="/<?= $lang ?>"><img src="/img/SVG/logo-2.svg" alt=""></a>
-                    <p>GSC STUDY</p>
-                </div>
-                <div class="footer--nav">                    
+                <div class="footer--nav">
                     <nav class="footer-nav footer__menu">
                         <ul class="footer-nav__items">
                             <li class="footer-nav__item">образование за рубежом</li>
@@ -36,6 +32,10 @@
                     </nav>
                 </div>
             </div>
+			<div class="footer__logo logo">
+				<a class="logo-pic" href="/<?= $lang ?>"><img src="/img/SVG/logo-2.svg" alt=""></a>
+				<p>GSC STUDY</p>
+			</div>
             <div class="footer__bottom">
                 <div class="footer__rights">© 2022 Частная школа «GSC Study»</div>
                 <div class="footer__creators"><a href="https://astanacreative.kz/" target="_blank">Разработка сайтов в Астане</a></div>
@@ -47,9 +47,9 @@
     <div class="pop-check">
         <span class="popup__heading">Выберите город</span>
         <ul class="pop-city">
-            <li><a href="/">Нур-Султан</a></li> 
-            <li><a href="/almaty">Алматы</a></li>                                                                   
-            <li><a href="/aktau">Актау</a></li>                                                                    
+            <li><a href="/">Нур-Султан</a></li>
+            <li><a href="/almaty">Алматы</a></li>
+            <li><a href="/aktau">Актау</a></li>
             <li><a href="/pavlodar">Павлодар </a></li>
         </ul>
     </div>
@@ -58,9 +58,9 @@
     <div class="pop-check">
         <span class="popup__heading">Выберите город</span>
         <ul class="pop-city">
-            <li><a href="/">Нур-Султан</a></li> 
-            <li><a href="/almaty">Алматы</a></li>                                                                   
-            <li><a href="/aktau">Актау</a></li>                                                                    
+            <li><a href="/">Нур-Султан</a></li>
+            <li><a href="/almaty">Алматы</a></li>
+            <li><a href="/aktau">Актау</a></li>
             <li><a href="/pavlodar">Павлодар </a></li>
         </ul>
     </div>
@@ -70,15 +70,15 @@
     <div class="popup">
         <span class="popup__heading">Оставить отзыв</span>
         <div class="popup-row">
-            <label>Имя:</label><input type="text" required>                        
+            <label>Имя:</label><input type="text" required>
         </div>
         <div class="popup-row">
-            <label>Отзыв:</label><textarea required></textarea>                        
+            <label>Отзыв:</label><textarea required></textarea>
         </div>
         <div class="popup-row">
             <div class="input-file">
-                <input id="file-otzyv" name="file-otzyv" type="file"><label for="file-otzyv">Выберите фотографию</label>                            
-            </div>    
+                <input id="file-otzyv" name="file-otzyv" type="file"><label for="file-otzyv">Выберите фотографию</label>
+            </div>
         </div>
         <button class="btn" type="submit">Отправить</button>
     </div>
@@ -116,7 +116,7 @@
                     <li class="js-type-study">Магистратура</li>
                     <li class="js-type-study">Языковые курсы</li>
                     <li class="js-type-study">Летние каникулы за рубежом</li>
-                </ul>    
+                </ul>
             </div>
             <input class="form_input" type="text" name="city" placeholder="Ваш город" required="">
             <input type="hidden" class="js-input-type" name="custom_edu_type" value="Бакалавриат">
@@ -124,7 +124,7 @@
             <div id="RecaptchaField1"></div>
             <div class="form-btn more-btn button--sumbit" data-id="0" onclick="checkCapcha()" type="submit">Отправить</div>
         </form>
-        <div class="request_text">Оставляя сообщение вы соглашаетесь на обработку 
+        <div class="request_text">Оставляя сообщение вы соглашаетесь на обработку
         <a href="javascript:;" target="_blank">персональных данных.</a></div>
     </div>
 </div>
@@ -139,11 +139,11 @@
             <?php if($this->Session->check('city')): ?>
                 <input type="hidden" name="city" value="<?=$this->Common->get_city($this->Session->read('city'))?>">
             <?php else: ?>
-               <input type="hidden" name="city" value="Нур-Султан"> 
+               <input type="hidden" name="city" value="Нур-Султан">
             <?php endif ?>
             <div class="form-btn more-btn" data-id="1" onclick="checkCapcha()" type="submit">Отправить</div>
         </form>
-        <div class="request_text">Оставляя сообщение вы соглашаетесь на обработку 
+        <div class="request_text">Оставляя сообщение вы соглашаетесь на обработку
         <a href="javascript:;" target="_blank">персональных данных.</a></div>
     </div>
 </div>
