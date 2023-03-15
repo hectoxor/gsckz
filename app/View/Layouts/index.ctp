@@ -34,17 +34,28 @@
 				<img class="illustration-3" src="/assets/globe.png" />
 			</div>
 			<div class="hero-inner">
-				<h1 class="text text-color-secondary">Помогаем</h1>
-				<h1 class="text text-color-large">поступить за рубеж</h1>
-				<h1 class="text text-color-large">и выучить английский</h1>
-
-				<div class="note-content">
-					<span class="text text-color-black text-type-medium">
+                <div class="hero-inner-title">
+                    <h1 class="text text-color-secondary">Помогаем</h1>
+                    <h1 class="text text-color-large">поступить за рубеж</h1>
+                    <h1 class="text text-color-large">и выучить английский</h1>
+                </div>
+				<div class="note-content my-25">
+                    <span class="note-border"></span>
+					<span class="text text-color-black text-type-medium ">
 						<b>GSC STUDY</b> — образовательный центр, где вам не придется переживать о сроках подачи документов,
 						мотивационном письме и готовности визы. Мы сопровождаем наших студентов в вопросах изучения языка, сдачи международных
 						экзаменов и поступления в учебные заведения.
 					</span>
 				</div>
+                <div class="container">
+                    <a href="/" class="button button-primary">
+                        <span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">получить консультацию</span>
+                    </a>
+                    <a href="/" class="button button-secondary">
+                        <span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">узнать уровень английского</span>
+                    </a>
+
+                </div>
 			</div>
 		</section>
 	</body>
@@ -59,17 +70,17 @@
                 <div class="my-alert__close"></div>
             </div>
         </div>
-<!--        --><?php //echo $this->element('left_sidebar') ?>
-<!--        <section class="header-bottom">-->
-<!--            <img class="header-bottom__img" src="../img/pic_horizont2.jpg">-->
-<!--            <div class="container">-->
-<!--                <div class="header-bottom__wrapper">-->
-<!--                    <h1 class="header-bottom__title way way--active">--><?php //= $slides[0]['Slide']['title'] ?><!--</h1>-->
-<!--                    <div class="subtitle way way--active">--><?php //= $slides[0]['Slide']['body'] ?><!--</div>-->
-<!--                    <a href="javascript:;" data-src="#school" data-fancybox="" class="btn header-bottom-btn way way--active">Оставить заявку</a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </section>-->
+        <?php //echo $this->element('left_sidebar') ?>
+        <section class="header-bottom">
+            <img class="header-bottom__img" src="../img/pic_horizont2.jpg">
+            <div class="container">
+                <div class="header-bottom__wrapper">
+                    <h1 class="header-bottom__title way way--active"><?php //= $slides[0]['Slide']['title'] ?></h1>
+                    <div class="subtitle way way--active"><?php //= $slides[0]['Slide']['body'] ?></div>
+                    <a href="javascript:;" data-src="#school" data-fancybox="" class="btn header-bottom-btn way way--active">Оставить заявку</a>
+                </div>
+            </div>
+        </section>
         <section class="section expert">
             <div class="container">
                 <div class="expert__wrapper">
@@ -119,13 +130,13 @@
                 </div>
             </div>
         </section>
-<!--        <div class="popuptest" id="popuptest" style="display: none;">-->
-<!--            <div class="popuptest-block">-->
-<!--                <div class="popuptest-title">Узнай свой уровень английского</div>-->
-<!--                <a href="/test" class="popuptest-link">Пройди тест онлайн</a>-->
-<!--            </div>-->
-<!--        </div>-->
-       <!--  <?php if( isset($univers) && $univers ): ?>
+        <div class="popuptest" id="popuptest" style="display: none;">
+            <div class="popuptest-block">
+                <div class="popuptest-title">Узнай свой уровень английского</div>
+                <a href="/test" class="popuptest-link">Пройди тест онлайн</a>
+            </div>
+        </div>
+        <?php if( isset($univers) && $univers ): ?>
             <section class="section univers">
                 <div class="container">
                     <h2 class="title">Поступайте в лучшие университеты мира</h2>
@@ -141,7 +152,7 @@
                     </div>
                 </div>
             </section>
-        <?php endif; ?> -->
+        <?php endif; ?>
         <?php if( isset($news) && $news ): ?>
             <section class="section news">
                 <div class="container">

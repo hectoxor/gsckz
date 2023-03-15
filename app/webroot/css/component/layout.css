@@ -1,8 +1,8 @@
 .hero-bg {
-	left: calc(100% - 45%);
+	left: calc(100% - 600px);
 	top: -64px;
 	position: relative;
-	width: 640px;
+	width: 600px;
 }
 
 .hero-illustration-content {
@@ -10,13 +10,29 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 45%;
+	width: 600px;
 }
 
 .hero-inner {
-	padding: 0 40px;
+	padding: 0 24px;
 	position: relative;
-	top: -545px;
+	top: -500px;
+}
+
+.note-content {
+	display: flex;
+	max-width: 600px;
+	gap: 24px;
+}
+
+.note-content > .text {
+	line-height: 27px;
+}
+
+.note-border {
+	width: 24px;
+	background: var(--color-gradient);
+	border-radius: var(--common-border-radius);
 }
 
 .illustration-1 { /* Graduation hat */
