@@ -1,3 +1,7 @@
+.hero-section {
+	height: 100vh;
+}
+
 .hero-bg {
 	left: calc(100% - 600px);
 	top: -64px;

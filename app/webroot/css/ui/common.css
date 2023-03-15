@@ -27,6 +27,13 @@
 	--color-button-background-secondary: linear-gradient(94.69deg, #BA447D -9.75%, #E2C26A 89.71%);
 
 	--color-gradient: linear-gradient(to bottom, rgba(226,194,105,1) 30%, rgba(186,68,125,1) 95%);
+
+	--color-info-card-background-1: #B09445;
+	--color-info-card-background-border-1: #F3D788;
+	--color-info-card-background-2: #4B6746;
+	--color-info-card-background-border-2: #60845A;
+	--color-info-card-background-3: #BA447D;
+	--color-info-card-background-border-3: #DF619D;
 }
 
 * {

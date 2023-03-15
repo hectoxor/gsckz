@@ -43,3 +43,13 @@
 	-webkit-mask-size: cover;
 	mask-size: cover;
 }
+
+.ico-arrow-right {
+	width: 12.5px;
+	height: 10px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/arrow-right.svg) no-repeat 50% 50%;;
+	mask: url(../../assets/icons/arrow-right.svg) no-repeat 50% 50%;;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}

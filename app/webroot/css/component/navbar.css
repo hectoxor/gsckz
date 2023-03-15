@@ -30,18 +30,6 @@
 	text-decoration: none;
 }
 
-.nav-mobile {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	gap: 16px;
-	transition: transform 400ms ease;
-}
-
-.nav-desktop {
-	display: none;
-}
-
 .nav-dropdown {
 	display: flex;
 	flex-direction: column;

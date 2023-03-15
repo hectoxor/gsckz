@@ -89,7 +89,7 @@
 			<div class="nav-text">
 				<span class="text text-type-medium-20 text-color-white text-font-weight-600 text-font-family-primary">+7 (700) 127 77 88</span>
 			</div>
-			<a href="/" class="nav-link nav-button button outline-button text-color-white">
+			<a href="/" class="nav-link nav-button button button-outline text-color-white">
 				<span class="text text-type-medium-14 text-color-white text-font-weight-700 text-font-family-primary text-transform-uppercase">Получить консультацию</span>
 			</a>
 		</li>

@@ -58,9 +58,49 @@
                 </div>
 			</div>
 		</section>
+
+        <section class="container px-8">
+            <div class="card card-type-1">
+                <h3 class="text text-transform-uppercase">Образование за рубежом</h3>
+                <span class="text text-type-medium text-font-weight-500">
+                    Находим учебное заведение с подходящей программой и условиями. Сопровождаем на всем пути подготовки и подачи документов.
+                </span>
+
+                <a href="/" class="button button-outline text-color-white">
+                    <span class="ico ico-20">
+                        <i class="ico-arrow-right"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="card card-type-2">
+                <h3 class="text text-transform-uppercase">Школа английского языка</h3>
+                <span class="text text-type-medium text-font-weight-500">
+                    Обучаем английскому детей с 6 лет, подростков и взрослых офлайн и онлайн. Готовим к международным экзаменам IELTS и SAT.
+                </span>
+
+                <a href="/" class="button button-outline text-color-white">
+                    <span class="ico ico-20">
+                        <i class="ico-arrow-right"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="card card-type-3">
+                <h3 class="text text-transform-uppercase">Летние программы</h3>
+                <span class="text text-type-medium text-font-weight-500">
+                    Организуем каникулы с полным погружением в языковую среду. Обеспечиваем безопасное пребывание наших учеников в лучших колледжах Лондона, Нью-Йорка, Лос-Анджелеса и Сеула.
+                </span>
+
+                <a href="/" class="button button-outline text-color-white">
+                    <span class="ico ico-20">
+                        <i class="ico-arrow-right"></i>
+                    </span>
+                </a>
+            </div>
+        </section>
+
 	</body>
 
-    <body>
+    <!-- <body>
         <div class="alert <?=(isset($_SESSION['Message']['good']) || isset($_SESSION['Message']['bad'])) ? 'alert--active' : '';?>">
             <div class="container">
                 <?php //var_dump($_SESSION); ?>
@@ -216,5 +256,5 @@
             	});
             }
         </script>
-    </body>
+    </body> -->
 </html>
