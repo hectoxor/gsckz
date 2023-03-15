@@ -24,7 +24,7 @@
     </head>
 </div>
 	<body>
-		<?php echo $this->element('navbar') ?>
+         <?php echo $this->element('navbar') ?>
 		<section class="hero-section">
 			<img class="hero-bg" src="/assets/bg-gradient1.png" />
 			<div class="hero-illustration-content">
