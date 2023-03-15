@@ -1,7 +1,7 @@
 # User specific & automatically generated files #
 #################################################
 /app/Config/database.php
-/cache/
+/app/tmp
 /lib/Cake/Console/Templates/skel/tmp/
 /plugins
 /vendors
@@ -22,6 +22,5 @@
 ._*
 .Spotlight-V100
 .Trashes
-Icon?
 ehthumbs.db
 Thumbs.db
