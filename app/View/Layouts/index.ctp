@@ -231,6 +231,17 @@
                 </div>
             </div>
         </section>
+        <section class="container--column px-8 my-25">
+            <h2 class="text">Наши сертификаты</h2>
+            <div class="container justify-center">
+                <img src="/assets/certificates/certificate-1.png" />
+                <img src="/assets/certificates/certificate-1.png" />
+                <img src="/assets/certificates/certificate-1.png" />
+                <img src="/assets/certificates/certificate-1.png" />
+                <img src="/assets/certificates/certificate-1.png" />
+                <img src="/assets/certificates/certificate-1.png" />
+            </div>
+        </section>
 	</body>
 
     <!-- <body>
