@@ -15,7 +15,7 @@
 
 <!--		<link rel="stylesheet" href="/css/slick.css" />-->
 <!--        <link rel="stylesheet" href="/css/jquery.fancybox.min.css" />-->
-<!--        <link rel="stylesheet" href="/css/styleNew.css?v=1.658486" />-->
+       <!-- <link rel="stylesheet" href="/css/styleNew.css?v=1.658486" /> -->
 
 		<link rel="stylesheet" href="/css/style.css" />
 
@@ -147,6 +147,28 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+        </section>
+        <section class="timeline-container container px-8">
+            <div class="container--column align-center flex-1">
+                <img class="img" src="/assets/timeline-1.png" height="512px" />
+                <h5 class="text text-transform-uppercase">2011 год — Первый офис в Астане</h5>
+            </div>
+            <div class="container--column align-center flex-1">
+                <img class="img" src="/assets/timeline-2.png" height="512px" />
+                <h5 class="text text-transform-uppercase"> 2012 — Начало сотрудничества с Sommet Education</h5>
+            </div>
+            <div class="container--column align-center flex-1">
+                <img class="img" src="/assets/timeline-3.png" height="512px" />
+                <h5 class="text text-transform-uppercase">2021 — Получение аккредитации Quality English</h5>
+            </div>
+            <div class="container--column align-center flex-1">
+                <img class="img" src="/assets/timeline-3.png" height="512px" />
+                <h5 class="text text-transform-uppercase">2021 — Партнерство с British Council</h5>
+            </div>
+            <div class="container--column align-center flex-1">
+                <img class="img" src="/assets/timeline-3.png" height="512px" />
+                <h5 class="text text-transform-uppercase">2023 — Открытие филиала в Алматы</h5>
             </div>
         </section>
 	</body>
