@@ -23,7 +23,7 @@
         <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"></script>
     </head>
 </div>
-	<body>
+	<body class="container--column gap-24">
 		<?php echo $this->element('navbar') ?>
 		<section class="hero-section">
 			<img class="hero-bg" src="/assets/bg-gradient1.png" />
@@ -242,6 +242,37 @@
                 <img src="/assets/certificates/certificate-1.png" />
             </div>
         </section>
+        <section class="container--column justify-center align-center gap-56 background-secondary px-8 pt-25 pb-40 my-25">
+            <div class="container">
+                <div class="container--column flex-1">
+                    <img src="/assets/icons/fill-out.svg" height="80px" />
+                    <h3 class="text text-color-white text-align-center text-transform-uppercase">Подаете заявку</h3>
+                    <span class="text text-color-white text-type-medium-14 text-align-center">
+                        Чтобы получить консультацию, вы можете оставить заявку на сайте или позвонить нам по телефону
+                    </span>
+                </div>
+                <div class="container--column flex-1">
+                    <img src="/assets/icons/assistant.svg" height="80px" />
+                    <h3 class="text text-color-white text-align-center text-transform-uppercase">Получаете бесплатную консультацию</h3>
+                    <span class="text text-color-white text-type-medium-14 text-align-center">
+                        С вами свяжется менеджер и подробно расскажет обо всех программах GSC STUDY
+                    </span>
+                </div>
+                <div class="container--column flex-1">
+                    <img src="/assets/icons/grad-hat.svg" height="80px" />
+                    <h3 class="text text-color-white text-align-center text-transform-uppercase">Выбираете программу</h3>
+                    <span class="text text-color-white text-type-medium-14 text-align-center">
+                        После консультации вы можете выбрать подходящую программу, составить план действий и расписание
+                    </span>
+                </div>
+            </div>
+            <a href="/" class="button button-white">
+                <span class="text text-type-medium-14 text-color-secondary text-font-weight-500 text-transform-uppercase">
+                    Получить консультацию
+                </span>
+            </a>
+        </section>
+
 	</body>
 
     <!-- <body>

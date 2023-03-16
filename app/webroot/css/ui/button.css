@@ -24,3 +24,8 @@
 	color: var(--color-text-white);
 	padding: 16px 24px;
 }
+
+.button-white {
+	background: var(--color-background-primary);
+	padding: 16px 24px;
+}
