@@ -31,3 +31,8 @@
     background: var(--color-info-card-background-3);
     border-color: var(--color-info-card-background-border-3);
 }
+
+.card-type-gradient {
+    background-image: linear-gradient(to right bottom, #e2c269, #e99f5d, #e67c60, #d75b6d, #ba447d);
+    border: none;
+}

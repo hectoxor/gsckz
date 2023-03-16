@@ -421,6 +421,36 @@
 }
 
 
+.pl-auto {
+	padding-left: auto;
+}
+
+.pr-auto {
+	padding-right: auto;
+}
+
+.pt-auto {
+	padding-top: auto;
+}
+
+.pb-auto {
+	padding-bottom: auto;
+}
+
+.px-auto {
+	padding-left: auto;
+	padding-right: auto;
+}
+
+.py-auto {
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+.p-auto {
+	padding: auto;
+}
+
 /* margin */
 
 .m-1 {
@@ -842,4 +872,34 @@
 .my-40 {
 	padding-top: calc(var(--offset-base-size)  * 40);
 	padding-bottom: calc(var(--offset-base-size)  * 40);
+}
+
+.ml-auto {
+	margin-left: auto;
+}
+
+.mr-auto {
+	margin-right: auto;
+}
+
+.mt-auto {
+	margin-top: auto;
+}
+
+.mb-auto {
+	margin-bottom: auto;
+}
+
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.my-auto {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.m-auto {
+	margin: auto;
 }

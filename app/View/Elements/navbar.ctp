@@ -7,7 +7,7 @@
 		</li>
 		<li class="nav-dropdown" tabindex="0">
 			<div class="nav-dropdown-text">
-				<span class="text text-type-medium text-color-primary text-font-weight-600">Образование за рубежом</span>
+				<span class="text text-type-medium text-color-primary text-font-weight-600 text-overflow">Образование за рубежом</span>
 				<span class="ico ico-16">
 					<i class="ico-chevron-down"></i>
 				</span>
@@ -38,12 +38,12 @@
 		</li>
 		<li class="nav-text">
 			<a href="/" class="nav-link">
-				<span class="text text-type-medium text-color-primary text-font-weight-600">Школа английского</span>
+				<span class="text text-type-medium text-color-primary text-font-weight-600 text-overflow">Школа английского</span>
 			</a>
 		</li>
 		<li class="nav-dropdown" tabindex="0">
 			<div class="nav-dropdown-text">
-				<span class="text text-type-medium text-color-primary text-font-weight-600">Летние программы</span>
+				<span class="text text-type-medium text-color-primary text-font-weight-600 text-overflow">Летние программы</span>
 				<span class="ico ico-16">
 						<i class="ico-chevron-down"></i>
 					</span>
@@ -62,7 +62,7 @@
 		</li>
 		<li class="nav-text">
 			<a href="/" class="nav-link">
-				<span class="text text-type-medium text-color-primary text-font-weight-600">Контакты</span>
+				<span class="text text-type-medium text-color-primary text-font-weight-600 text-overflow">Контакты</span>
 			</a>
 		</li>
 

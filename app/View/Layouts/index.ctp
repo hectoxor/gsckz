@@ -171,7 +171,7 @@
                 <h5 class="text text-transform-uppercase">2023 — Открытие филиала в Алматы</h5>
             </div>
         </section>
-        <section class="container px-8">
+        <section class="container px-8 my-25">
             <div class="container--column align-start flex-1 gap-0">
                 <h2 class="text">12 лет отправляем</h2>
                 <h2 class="text">учиться за рубеж</h2>
@@ -184,18 +184,50 @@
             <div class="grid flex-1 gap-56 row-3 pt-25">
                 <div class="container--column align-center flex-1 gap-0">
                     <img class="img mb-4 " src="/assets/illustration-4.svg" height="80px" />
-                    <h4 class="text">Стран</h4>
-                    <span class="text text-type-medium-18">в которых мы помогаем получить образование нашим ученикам</span>
+                    <h4 class="text text-align-center">Стран</h4>
+                    <span class="text text-type-medium-18 text-align-center">в которых мы помогаем получить образование нашим ученикам</span>
                 </div>
                 <div class="container--column align-center flex-1 gap-0">
                     <img class="img mb-4" src="/assets/illustration-5.svg" height="80px" />
-                    <h4 class="text">Студентов</h4>
-                    <span class="text text-type-medium-18">в год поступают за рубеж с нашим сопровождением</span>
+                    <h4 class="text text-align-center">Студентов</h4>
+                    <span class="text text-type-medium-18 text-align-center">в год поступают за рубеж с нашим сопровождением</span>
                 </div>
                 <div class="container--column align-center flex-1 gap-0">
                     <img class="img mb-4" src="/assets/illustration-6.svg" height="80px" />
-                    <h4 class="text">Учебных заведений</h4>
-                    <span class="text text-type-medium-18">сотрудничают с GSC STUDY по всему миру</span>
+                    <h4 class="text text-align-center">Учебных заведений</h4>
+                    <span class="text text-type-medium-18 text-align-center">сотрудничают с GSC STUDY по всему миру</span>
+                </div>
+            </div>
+        </section>
+        <section class="container--column px-8 my-25">
+            <h2 class="text">Сопровождаем на каждом этапе поступления</h2>
+            <div class="container">
+                <div class="card card-type-gradient flex-1">
+                    <h5 class="text text-transform-uppercase">План поступления</h5>
+                    <span class="text text-type-medium-14">представляем список учебных заведений по вашему портфолио и пошаговую стратегию поступления.</span>
+                    <a href="/" class="button button-outline button-ico border-circle text-color-white ml-auto">
+                        <span class="ico ico-20">
+                            <i class="ico-tl-arrow"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="card card-type-gradient flex-1">
+                    <h5 class="text text-transform-uppercase">Сбор документов</h5>
+                    <span class="text text-type-medium-14">заполняем онлайн заявки и подготавливаем сопроводительные документы.</span>
+                    <a href="/" class="button button-outline button-ico border-circle text-color-white ml-auto">
+                        <span class="ico ico-20">
+                            <i class="ico-tl-arrow"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="card card-type-gradient flex-1">
+                    <h5 class="text text-transform-uppercase">Приглашение и виза</h5>
+                    <span class="text text-type-medium-14">помогаем выполнить все условия зачисления и подготовиться к интервью для учебной визы.</span>
+                    <a href="/" class="button button-outline button-ico border-circle text-color-white ml-auto">
+                        <span class="ico ico-20">
+                            <i class="ico-tl-arrow"></i>
+                        </span>
+                    </a>
                 </div>
             </div>
         </section>

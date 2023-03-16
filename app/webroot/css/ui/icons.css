@@ -73,3 +73,13 @@
 	-webkit-mask-size: cover;
 	mask-size: cover;
 }
+
+.ico-tl-arrow {
+	width: 12px;
+	height: 8px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/tl-arrow.svg) no-repeat 50% 50%;
+	mask: url(../../assets/icons/tl-arrow.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
