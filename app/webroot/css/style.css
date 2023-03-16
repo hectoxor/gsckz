@@ -1,12 +1,15 @@
 /* User Interface CSS */
 
-@import 'ui/fonts.css';
 @import 'ui/common.css';
+@import 'ui/fonts.css';
+@import 'ui/images.css';
+@import 'ui/container.css';
+@import 'ui/typography.css';
 @import 'ui/box.css';
 @import 'ui/icons.css';
 @import 'ui/button.css';
 @import 'ui/checkbox.css';
-
+@import 'ui/card.css';
 
 /* Components CSS */
 @import 'component/footer.css';

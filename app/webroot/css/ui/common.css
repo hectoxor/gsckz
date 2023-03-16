@@ -3,7 +3,8 @@
 
 	--common-border-radius: 4px;
 
-	--color-background: #FFFFFF;
+	--color-background-primary: #FFFFFF;
+	--color-background-secondary: #135585;
 
 	--color-text-primary: #2E2E2E;
 	--color-text-secondary: #135585;
@@ -22,268 +23,39 @@
 
 	--color-box-shadow-layer-1: #00103D29;
 	--color-box-shadow-layer-2: #00103D47;
+
+	--color-button-background-primary: linear-gradient(91.85deg, #566DBD -20.1%, #3DAFFF 98.46%);
+	--color-button-background-secondary: linear-gradient(94.69deg, #BA447D -9.75%, #E2C26A 89.71%);
+
+	--color-gradient: linear-gradient(to bottom, rgba(226,194,105,1) 30%, rgba(186,68,125,1) 95%);
+
+	--color-info-card-background-1: #B09445;
+	--color-info-card-background-border-1: #F3D788;
+	--color-info-card-background-2: #4B6746;
+	--color-info-card-background-border-2: #60845A;
+	--color-info-card-background-3: #BA447D;
+	--color-info-card-background-border-3: #DF619D;
 }
 
 * {
 	box-sizing: border-box;
 }
-/* Typography Classes */
 
-.text-color-primary {
-	color: var(--color-text-primary);
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.text-color-secondary {
-	color: var(--color-text-secondary);
-}
-
-.text-color-large {
-	color: var(--color-text-large);
-}
-
-.text-color-white {
-	color: var(--color-text-white);
-}
-
-.text-color-black {
-	color: var(--color-text-black);
-}
-
-.text-color-link {
-	color: var(--color-text-link);
-}
-
-.text-font-weight-400 {
-	font-weight: 400 !important;
-}
-
-.text-font-weight-500 {
-	font-weight: 500 !important;
-}
-
-.text-font-weight-600 {
-	font-weight: 600 !important;
-}
-
-.text-font-weight-700 {
-	font-weight: 700 !important;
-}
-
-.text-font-family-primary {
-	font-family: var(--font-family-primary) !important;
-}
-
-.text-font-family-secondary {
-	font-family: var(--font-family-secondary) !important;
-}
-
-.text-transform-uppercase {
-	text-transform: uppercase;
-}
-
-.text-transform-lowercase {
-	text-transform: lowercase;
-}
-
-.text {
+ul {
+	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-h1, .text-type-h1, .text-type-large {
-	font-family: 'Inter', sans-serif;
-	font-size: 64px;
-	font-weight: 700;
-	line-height: 75px;
-	letter-spacing: 0;
+.separator {
+	border-bottom: 1px solid var(--color-separator-alpha);
 }
 
-h2, .text-type-h2, .text-type-large-48 {
-	font-family: 'Inter', sans-serif;
-	font-size: 48px;
-	font-weight: 700;
-	line-height: 56px;
-	letter-spacing: 0;
-	text-align: left;
-}
-
-h3, .text-type-h3, .text-type-large-24 {
-	font-family: 'Gilroy', sans-serif;
-	font-size: 24px;
-	font-weight: 700;
-	line-height: 29px;
-	letter-spacing: 0;
-	text-align: left;
-}
-
-h4, .text-type-h4, .text-type-large-18 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 26px;
-	letter-spacing: 0;
-}
-
-h5, .text-type-h5, .text-type-large-16 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 28px;
-	letter-spacing: 0;
-}
-
-h6, .text-type-h6, .text-type-large-14 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 28px;
-	letter-spacing: 0;
-}
-
-
-.text-type-medium {
-	font-family: 'Gilroy', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-	letter-spacing: 0;
-}
-
-.text-type-medium-20 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 37px;
-	letter-spacing: 0;
-}
-
-.text-type-medium-18 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 26px;
-	letter-spacing: 0;
-}
-
-.text-type-medium-16 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 26px;
-	letter-spacing: 0;
-}
-
-.text-type-medium-14 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 28px;
-	letter-spacing: 0;
-}
-
-.text-type-small {
-	font-family: 'Gilroy', sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 24px;
-	letter-spacing: 0;
-}
-
-.no-select {
-	-webkit-touch-callout: none; /* iOS Safari */
-	-webkit-user-select: none; /* Safari */
-	-moz-user-select: none; /* Old versions of Firefox */
-	-ms-user-select: none; /* Internet Explorer/Edge */
-	user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
-}
-
-@media screen and (max-width: 600px) {
-	h1, .text-type-h1, .text-type-large {
-		font-family: 'Inter', sans-serif;
-		font-size: 24px;
-		font-weight: 700;
-		line-height: 33px;
-		letter-spacing: 0;
-	}
-
-	h2, .text-type-h2, .text-type-large-48 {
-		font-family: 'Inter', sans-serif;
-		font-size: 24px;
-		font-weight: 700;
-		line-height: 28px;
-		letter-spacing: 0;
-	}
-
-	h3, .text-type-h3, .text-type-large-24 {
-		font-family: 'Gilroy', sans-serif;
-		font-size: 20px;
-		font-weight: 700;
-		line-height: 24px;
-		letter-spacing: 0;
-	}
-
-	h4, .text-type-h4, .text-type-large-18 {
-		font-family: 'Montserrat', sans-serif;
-		font-size: 18px;
-		font-weight: 700;
-		line-height: 26px;
-		letter-spacing: 0;
-	}
-
-	h5, .text-type-h5, .text-type-large-16 {
-		font-family: 'Montserrat', sans-serif;
-		font-size: 12px;
-		font-weight: 700;
-		line-height: 14px;
-		letter-spacing: 0;
-	}
-
-	.text-type-medium {
-		font-family: 'Gilroy', sans-serif;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 21px;
-		letter-spacing: 0;
-	}
-
-	.text-type-medium-20 {
-		font-family: 'Gilroy', sans-serif;
-		font-size: 14px;
-		font-weight: 500;
-		line-height: 21px;
-		letter-spacing: 0;
-	}
-
-	.text-type-medium-18 {
-		font-family: 'Montserrat', sans-serif;
-		font-size: 18px;
-		font-weight: 700;
-		line-height: 26px;
-		letter-spacing: 0;
-	}
-
-	.text-type-medium-16 {
-		font-family: 'Montserrat', sans-serif;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 26px;
-		letter-spacing: 0;
-	}
-
-	.text-type-medium-14 {
-		font-family: 'Gilroy', sans-serif;
-		font-size: 14px;
-		font-weight: 500;
-		line-height: 21px;
-		letter-spacing: 0;
-	}
-
-	.text-type-small {
-		font-family: 'Gilroy', sans-serif;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 24px;
-		letter-spacing: 0;
-		text-align: center;
-	}
+.separator--vertical {
+	border-left: 1px solid var(--color-separator-alpha);
 }

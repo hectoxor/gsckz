@@ -1,8 +1,12 @@
+.hero-section {
+	height: 100vh;
+}
+
 .hero-bg {
-	left: calc(100% - 45%);
+	left: calc(100% - 600px);
 	top: -64px;
 	position: relative;
-	width: 640px;
+	width: 600px;
 }
 
 .hero-illustration-content {
@@ -10,13 +14,74 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 45%;
+	width: 600px;
 }
 
 .hero-inner {
-	padding: 0 40px;
+	padding: 0 24px;
 	position: relative;
-	top: -545px;
+	top: -500px;
+}
+
+.note-content {
+	display: flex;
+	max-width: 600px;
+	gap: 24px;
+}
+
+.note-content > .text {
+	line-height: 27px;
+}
+
+.note-border {
+	width: 24px;
+	background: var(--color-gradient);
+	border-radius: var(--common-border-radius);
+}
+
+.info-illustration-2-container {
+	gap: 0px;
+	display: grid;
+	grid-template-columns: 0.75fr 1fr;
+}
+
+.info-illustration-3-container {
+	gap: 0px;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.list-style-frown, .list-style-smile { 
+	padding-left: 32px; /* Location where markers are at */
+}
+
+.list-style-frown > li::before,
+.list-style-smile > li::before {
+	content: "";
+	background-size: 60% 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+
+	width: 20px;
+	height: 20px;
+
+	display: block;
+	transform: translate(-32px, 20px);
+}
+
+.list-style-frown > li::before {
+	background-image: url('../../assets/icons/frown.svg');
+	background-color: #ED722C;
+}
+
+.list-style-smile > li::before {
+	background-image: url('../../assets/icons/smile.svg');
+	background-color: #48BB53;
+}
+
+.timeline-container .img {
+	border-radius: 10px;
 }
 
 .illustration-1 { /* Graduation hat */

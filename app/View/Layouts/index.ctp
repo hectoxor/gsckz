@@ -24,7 +24,7 @@
     </head>
 </div>
 	<body>
-         <?php echo $this->element('navbar') ?>
+		<?php echo $this->element('navbar') ?>
 		<section class="hero-section">
 			<img class="hero-bg" src="/assets/bg-gradient1.png" />
 			<div class="hero-illustration-content">
@@ -164,9 +164,7 @@
                 </div>
             </section>
         <?php endif; ?>
-
         <?php echo $this->element('footer') ?>
-
        <script>
             var CaptchaCallback = function() {
                 // grecaptcha.render('RecaptchaField1', {'sitekey' : '6LffIpccAAAAAJfPSByDZuJgvbBuEcUIQRaZo3fy'});
@@ -192,7 +190,6 @@
                 return false;
               }
             }
-
         </script>
         <script src="/js/jquery-3.0.0.min.js"></script>
         <script src="/js/jquery.waypoints.min.js"></script>
@@ -209,10 +206,4 @@
             }
         </script>
     </body>
-
-
-
-
-
-
 </html>

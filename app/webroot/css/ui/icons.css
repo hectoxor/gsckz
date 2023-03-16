@@ -43,3 +43,43 @@
 	-webkit-mask-size: cover;
 	mask-size: cover;
 }
+
+.ico-arrow-right {
+	width: 12.5px;
+	height: 10px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/arrow-right.svg) no-repeat 50% 50%;;
+	mask: url(../../assets/icons/arrow-right.svg) no-repeat 50% 50%;;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+.ico-frown {
+	width: 9px;
+	height: 9px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/frown.svg) no-repeat 50% 50%;;
+	mask: url(../../assets/icons/frown.svg) no-repeat 50% 50%;;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+.ico-smile {
+	width: 9px;
+	height: 9px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/smile.svg) no-repeat 50% 50%;;
+	mask: url(../../assets/icons/smile.svg) no-repeat 50% 50%;;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+.ico-tl-arrow {
+	width: 12px;
+	height: 8px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/tl-arrow.svg) no-repeat 50% 50%;
+	mask: url(../../assets/icons/tl-arrow.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
