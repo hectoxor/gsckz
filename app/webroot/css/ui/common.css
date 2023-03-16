@@ -53,8 +53,15 @@ ul {
 
 .img {
 	width: 100%;
-	object-fit: cover;
 	display: block;
+}
+
+.object-fit-cover {
+	object-fit: cover;
+}
+
+.object-fit-contain {
+	object-fit: contain;
 }
 
 .separator {

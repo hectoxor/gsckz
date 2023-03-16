@@ -149,26 +149,54 @@
                 </div>
             </div>
         </section>
-        <section class="timeline-container container px-8">
+        <section class="timeline-container container px-8 my-25">
             <div class="container--column align-center flex-1">
-                <img class="img" src="/assets/timeline-1.png" height="512px" />
+                <img class="img object-fit-cover" src="/assets/timeline-1.png" height="512px" />
                 <h5 class="text text-transform-uppercase">2011 год — Первый офис в Астане</h5>
             </div>
             <div class="container--column align-center flex-1">
-                <img class="img" src="/assets/timeline-2.png" height="512px" />
+                <img class="img object-fit-cover" src="/assets/timeline-2.png" height="512px" />
                 <h5 class="text text-transform-uppercase"> 2012 — Начало сотрудничества с Sommet Education</h5>
             </div>
             <div class="container--column align-center flex-1">
-                <img class="img" src="/assets/timeline-3.png" height="512px" />
+                <img class="img object-fit-cover" src="/assets/timeline-3.png" height="512px" />
                 <h5 class="text text-transform-uppercase">2021 — Получение аккредитации Quality English</h5>
             </div>
             <div class="container--column align-center flex-1">
-                <img class="img" src="/assets/timeline-3.png" height="512px" />
+                <img class="img object-fit-cover" src="/assets/timeline-3.png" height="512px" />
                 <h5 class="text text-transform-uppercase">2021 — Партнерство с British Council</h5>
             </div>
             <div class="container--column align-center flex-1">
-                <img class="img" src="/assets/timeline-3.png" height="512px" />
+                <img class="img object-fit-cover" src="/assets/timeline-3.png" height="512px" />
                 <h5 class="text text-transform-uppercase">2023 — Открытие филиала в Алматы</h5>
+            </div>
+        </section>
+        <section class="container px-8">
+            <div class="container--column align-start flex-1 gap-0">
+                <h2 class="text">12 лет отправляем</h2>
+                <h2 class="text">учиться за рубеж</h2>
+                <span class="text text-type-medium-20 pt-12">
+                    За эти годы мы разрешили немало сложных ситуаций: не понаслышке знаем, что такое успеть подать документы, 
+                    когда осталось совсем мало времени до конца приема заявок. Всю коммуникацию с учебными заведениями мы берем 
+                    на себя: от начала подачи документов до заселения в общежитие.
+                </span>
+            </div>
+            <div class="grid flex-1 gap-56 row-3 pt-25">
+                <div class="container--column align-center flex-1 gap-0">
+                    <img class="img mb-4 " src="/assets/illustration-4.svg" height="80px" />
+                    <h4 class="text">Стран</h4>
+                    <span class="text text-type-medium-18">в которых мы помогаем получить образование нашим ученикам</span>
+                </div>
+                <div class="container--column align-center flex-1 gap-0">
+                    <img class="img mb-4" src="/assets/illustration-5.svg" height="80px" />
+                    <h4 class="text">Студентов</h4>
+                    <span class="text text-type-medium-18">в год поступают за рубеж с нашим сопровождением</span>
+                </div>
+                <div class="container--column align-center flex-1 gap-0">
+                    <img class="img mb-4" src="/assets/illustration-6.svg" height="80px" />
+                    <h4 class="text">Учебных заведений</h4>
+                    <span class="text text-type-medium-18">сотрудничают с GSC STUDY по всему миру</span>
+                </div>
             </div>
         </section>
 	</body>

@@ -69,3 +69,55 @@
 .flex-4 {
 	flex: 4;
 }	
+
+.gap-0 {
+	gap: 0;
+}
+
+.gap-8 {
+	gap: 8px;
+}
+
+.gap-16 {
+	gap: 16px;
+}
+
+.gap-24 {
+	gap: 24px;
+}
+
+.gap-32 {
+	gap: 32px;
+}
+
+.gap-40 {
+	gap: 40px;
+}
+
+.gap-48 {
+	gap: 48px;
+}
+
+.gap-56 {
+	gap: 56px;
+}
+
+.gap-64 {
+	gap: 64px;
+}
+
+.row-1 {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.row-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.row-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.row-4 {
+	grid-template-columns: repeat(4, 1fr);
+}
