@@ -164,7 +164,9 @@
                 </div>
             </section>
         <?php endif; ?>
+
         <?php echo $this->element('footer') ?>
+
        <script>
             var CaptchaCallback = function() {
                 // grecaptcha.render('RecaptchaField1', {'sitekey' : '6LffIpccAAAAAJfPSByDZuJgvbBuEcUIQRaZo3fy'});
@@ -190,6 +192,7 @@
                 return false;
               }
             }
+
         </script>
         <script src="/js/jquery-3.0.0.min.js"></script>
         <script src="/js/jquery.waypoints.min.js"></script>
@@ -206,4 +209,10 @@
             }
         </script>
     </body>
+
+
+
+
+
+
 </html>

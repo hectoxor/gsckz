@@ -1,0 +1,2815 @@
+2023-03-15 12:27:44 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 12:28:21 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 12:41:13 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 13:00:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 13:03:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 14:44:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 14:44:38 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 16:21:18 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 18:26:52 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 18:27:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 18:27:35 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 18:32:09 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 18:32:55 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 18:33:10 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 18:47:54 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 18:48:46 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 18:49:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 18:49:48 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-15 18:50:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:18:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:22:45 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:28:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:31:44 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:32:04 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /favicon.ico
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:33:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:49:18 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 13:49:18 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 13:49:18 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:49:18 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 13:49:18 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 13:49:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:49:18 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 13:49:18 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 13:49:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:49:18 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 13:49:18 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 13:49:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:49:19 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 13:49:19 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 13:49:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:49:19 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 13:49:19 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 13:49:19 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /favicon.ico
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:49:19 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 13:49:19 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /favicon.ico
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 13:52:58 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 13:52:58 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 13:52:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:52:59 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 13:52:59 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 13:52:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:52:59 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 13:52:59 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 13:52:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:52:59 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 13:52:59 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 13:52:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:52:59 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 13:52:59 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 13:52:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 13:52:59 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 13:52:59 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 15:54:47 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 15:54:47 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 15:54:48 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:54:48 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 15:54:48 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 15:54:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:54:48 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 15:54:48 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 15:54:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:54:48 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 15:54:48 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 15:54:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:54:48 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 15:54:48 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 15:54:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:54:48 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 15:54:48 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 15:54:55 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 15:54:55 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 15:54:55 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:54:55 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 15:54:55 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 15:54:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:54:55 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 15:54:55 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 15:54:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:54:55 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 15:54:55 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 15:54:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:54:55 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 15:54:55 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 15:54:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:54:56 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\footer.ctp, line 9]
+2023-03-16 15:54:56 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Vlady\\...', 9, Array)
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-03-16 15:59:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:59:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:59:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:59:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:59:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:59:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:59:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:59:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:59:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 15:59:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:00:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:00:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:00:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:00:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:00:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:04:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:04:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:04:21 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:04:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:04:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:06:22 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:06:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:06:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:06:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:06:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:08:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:08:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:08:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:08:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:08:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:09:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:09:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:10:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:10:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:10:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:12:09 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:12:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:12:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:12:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:12:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:13:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:13:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:13:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:13:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:13:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:13:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:13:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:13:32 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:13:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:13:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:18 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:35 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:14:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:15:22 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:15:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:15:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:15:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:15:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:16:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:16:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:16:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:16:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:16:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:44 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:17:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:18:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:18:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:18:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:18:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:18:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:19:44 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:19:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:19:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:19:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:19:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:22:53 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:22:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:22:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:22:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:22:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:23:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:23:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:23:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:23:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:23:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:23:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:23:53 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:23:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:23:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:23:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:25:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:25:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:25:08 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:25:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:25:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:26:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:26:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:26:00 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:26:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:26:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:27:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:27:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:27:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:27:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:27:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:28:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:28:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:28:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:28:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:28:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:29:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:29:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:29:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:29:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:29:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:30:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:30:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:30:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:30:34 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:30:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:31:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:31:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:31:40 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:31:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:31:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:37:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:37:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:37:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:37:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:37:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:37:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:37:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:37:38 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:37:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:37:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:13 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:45:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:46:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:46:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:46:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:46:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:46:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:47:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:47:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:47:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:47:27 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:47:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:48:33 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:48:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:48:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:48:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:48:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:48:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:48:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:48:52 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:48:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:48:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:00 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:52 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:49:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:52:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:52:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:52:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:52:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:52:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:53:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:53:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:53:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:53:39 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:53:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:53:47 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:53:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:53:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:53:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:53:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:54:00 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:54:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:54:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:54:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/FuturaPT-Book.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 16:54:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 18:26:48 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 18:28:44 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 18:29:07 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 18:29:21 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 18:29:35 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 18:29:45 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 18:30:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 18:30:30 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-16 18:33:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/icons/chevron-down.svg
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
