@@ -39,6 +39,47 @@
 	border-radius: var(--common-border-radius);
 }
 
+.info-illustration-2-container {
+	gap: 0px;
+	display: grid;
+	grid-template-columns: 0.75fr 1fr;
+}
+
+.info-illustration-3-container {
+	gap: 0px;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.list-style-frown, .list-style-smile { 
+	padding-left: 32px; /* Location where markers are at */
+}
+
+.list-style-frown > li::before,
+.list-style-smile > li::before {
+	content: "";
+	background-size: 60% 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+
+	width: 20px;
+	height: 20px;
+
+	display: block;
+	transform: translate(-32px, 20px);
+}
+
+.list-style-frown > li::before {
+	background-image: url('../../assets/icons/frown.svg');
+	background-color: #ED722C;
+}
+
+.list-style-smile > li::before {
+	background-image: url('../../assets/icons/smile.svg');
+	background-color: #48BB53;
+}
+
 .illustration-1 { /* Graduation hat */
 	top: 138px;
 	right: 38px;

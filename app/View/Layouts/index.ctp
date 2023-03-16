@@ -54,11 +54,9 @@
                     <a href="/" class="button button-secondary">
                         <span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">узнать уровень английского</span>
                     </a>
-
                 </div>
 			</div>
 		</section>
-
         <section class="container px-8">
             <div class="card card-type-1">
                 <h3 class="text text-transform-uppercase">Образование за рубежом</h3>
@@ -97,7 +95,60 @@
                 </a>
             </div>
         </section>
-
+        <section class="container px-8 my-25">
+            <div class="info-illustration-2-container align-center">
+                <img class="img" src="/assets/illustration-2.png" />
+                <div>
+                    <h3 class="text text-transform-uppercase text-overflow">В одиночку:</h3>
+                    <ul class="list-style-frown">
+                        <li>
+                            <span class="text text-type-medium">
+                                приходится тратить много времени и сил на поиск учебных материалов
+                            </span>
+                        </li>
+                        <li>
+                            <span class="text text-type-medium">
+                                искать учебные заведения с подходящей программой
+                            </span>
+                        </li>
+                        <li>
+                            <span class="text text-type-medium">
+                                разбираться с условиями подачи заявок в университеты разных стран
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="separator--vertical"></div>
+            <div class="info-illustration-3-container align-start">
+                <img class="img" src="/assets/illustration-3.png" />
+                <div class="">
+                    <h3 class="text text-transform-uppercase">в gsc study:</h3>
+                    <ul class="list-style-smile">
+                        <li>
+                            <span class="text text-type-medium">
+                                находят друзей с общими целями и мотивацией
+                            </span>
+                        </li>
+                        <li>
+                            <span class="text text-type-medium">
+                                изучают язык по наработанным годами материалам
+                            </span>
+                        </li>
+                        <li>
+                            <span class="text text-type-medium">
+                                знакомятся с новыми людьми и культурой разных стран во время летних каникул
+                            </span>
+                        </li>
+                        <li>
+                            <span class="text text-type-medium">
+                                получают полное сопровождение при поступлении в зарубежную школу или университет
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 	</body>
 
     <!-- <body>
