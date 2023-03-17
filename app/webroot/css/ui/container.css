@@ -70,6 +70,14 @@
 	justify-content: space-around;
 }
 
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-nowrap {
+	flex-wrap: nowrap;
+}
+
 .flex-1 {
 	flex: 1;
 }

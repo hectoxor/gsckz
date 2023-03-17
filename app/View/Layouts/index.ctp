@@ -272,6 +272,16 @@
                 </span>
             </a>
         </section>
+        <section class="container--column px-8 my-25">
+            <h2 class="text">Наши партнеры</h2>
+            <div class="container justify-center flex-wrap">
+                <img src="/assets/partners/default.png" />
+                <img src="/assets/partners/default.png" />
+                <img src="/assets/partners/default.png" />
+                <img src="/assets/partners/default.png" />
+            </div>
+        </section>
+
         <?php echo $this->element('footer') ?>
 	</body>
 
