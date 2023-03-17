@@ -1,8 +1,7 @@
-<footer class="footer" id="footer">
+<footer class="footer">
 	<div class="container">
 		<div class="footer__wrapper">
 			<div class="footer__top">
-
 				<div class="footer--nav">
 					<nav class="footer-nav footer__menu">
 						<ul class="footer-nav__items">
