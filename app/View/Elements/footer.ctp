@@ -1,166 +1,52 @@
-<footer class="footer">
-	<div class="container">
-		<div class="footer__wrapper">
-			<div class="footer__top">
-				<div class="footer--nav">
-					<nav class="footer-nav footer__menu">
-						<ul class="footer-nav__items">
-							<li class="footer-nav__item">образование за рубежом</li>
-							<li class="footer-nav__item"><a href="/<?= $lang ?>abroad-program<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Языковые курсы</a></li>
-							<li class="footer-nav__item"><a href="/secondary_educations?city=nur-sultan">Среднее образование</a></li>
-							<li class="footer-nav__item"><a href="/higher_educations?city=nur-sultan">Высшее образование</a></li>
+<footer class="container--column px-40 py-20 background-secondary">
+	<div class="container justify-between">
+		<div class="container--column gap-0">
+			<h5 class="text text-transform-uppercase text-color-white text-underline-none pb-6">образование за рубежом</h4>
+			<a href="/" class="text text-type-small text-color-white text-underline-none">Языковые курсы</a>
+			<a href="/" class="text text-type-small text-color-white text-underline-none">Среднее образование</a>
+			<a href="/" class="text text-type-small text-color-white text-underline-none">Высшее образование</a>
+		</div>
+		<div class="container--column gap-0">
+			<h5 class="text text-transform-uppercase text-color-white text-underline-none pb-6">&nbsp</h4>
+			<a href="/" class="text text-type-small text-color-white text-underline-none">Glion and Les Roches</a>
+			<a href="/" class="text text-type-small text-color-white text-underline-none">Летние каникулы за рубежом</a>
+		</div>
+		<div class="container--column gap-0">
+			<h5 class="text text-transform-uppercase text-color-white text-underline-none pb-6">языковая школа</h4>
+			<a href="/" class="text text-type-small text-color-white text-underline-none">Языковые курсы</a>
+			<a href="/" class="text text-type-small text-color-white text-underline-none">О языковой школе</a>
+			<a href="/" class="text text-type-small text-color-white text-underline-none">Онлайн тест</a>
+		</div>
+		<div class="container--column gap-0">
+			<h5 class="text text-transform-uppercase text-color-white text-underline-none pb-6">Меню</h4>
+			<a href="/" class="text text-type-small text-color-white text-underline-none">О компании</a>
+			<a href="/" class="text text-type-small text-color-white text-underline-none">Новости</a>
+			<a href="/" class="text text-type-small text-color-white text-underline-none">Отзывы</a>
+			<a href="/" class="text text-type-small text-color-white text-underline-none">Контакты</a>
+		</div>
+		<div class="container--column align-center gap-8">
+			<a href="/">
+				<img src="/assets/icons/logo-2.svg" alt="Logo" />
+			</a>
+			<span class="text text-type-small text-color-white">Мы в социальных сетях:</span>
 
-						</ul>
-					</nav>
-					<nav class="footer-nav footer__menu">
-						<ul class="footer-nav__items">
-							<li class="footer-nav__item">ㅤ</li>
-
-							<li class="footer-nav__item"><a href="/glion_lesroches?type=glion">Glion and Les Roches</a></li>
-							<li class="footer-nav__item"><a href="/<?= $lang ?>courses">Летние каникулы за рубежом</a></li>
-						</ul>
-					</nav>
-					<nav class="footer-nav footer__menu">
-						<ul class="footer-nav__items">
-							<li class="footer-nav__item">языковая школа</li>
-							<li class="footer-nav__item"><a href="/<?= $lang ?>language-school<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">О языковой школе</a></li>
-							<li class="footer-nav__item"><a href="/language-programs?city=nur-sultan">Языковые курсы</a></li>
-							<li class="footer-nav__item"><a href="/<?= $lang ?>test">Онлайн тест</a></li>
-						</ul>
-					</nav>
-					<nav class="footer-nav footer__menu">
-						<ul class="footer-nav__items">
-							<li class="footer-nav__item">Меню</li>
-							<li class="footer-nav__item"><a href="/<?= $lang ?>page/about">О компании</a></li>
-							<li class="footer-nav__item"><a href="/<?= $lang ?>news<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Новости</a></li>
-							<li class="footer-nav__item"><a href="/<?= $lang ?>reviews?city=<?= $current_city ?>">Отзывы</a></li>
-							<li class="footer-nav__item"><a href="/<?= $lang ?>contacts?city=<?=$current_city?>&type=school">Контакты</a></li>
-						</ul>
-					</nav>
-
-				</div>
-				<div class="footer__logo logo">
-					<nav class="footer-nav footer__menu">
-						<ul class="footer-nav__items">
-							<a class="logo-pic" href="/<?= $lang ?>"><img src="/img/SVG/logo-2.svg" alt=""></a>
-							<li class="footer-nav__item"><a href="/<?= $lang ?>">Instagram</a></li>
-							<li class="footer-nav__item"><a href="/<?= $lang ?>">Youtube</a></li>
-						</ul>
-					</nav>
-
-				</div>
-
-
-			</div>
-
-			<div class="footer__bottom">
-				<div class="footer__rights">© 2022 Частная школа «GSC Study»</div>
-
+			<div class="container gap-12">
+				<a href="/" class="button button-ico text-color-white background-alpha border-circle">
+					<span class="ico ico-20">
+						<i class="ico-instagram"></i>
+					</span>
+				</a>
+				<a href="/" class="button button-ico text-color-white background-alpha border-circle">
+					<span class="ico ico-20">
+						<i class="ico-youtube"></i>
+					</span>
+				</a>
 			</div>
 		</div>
+	</div>
+	<div class="container">
+		<span class="text text-type-medium-14 text-color-white">
+			© 2022 Частная школа «GSC Study»
+		</span>
 	</div>
 </footer>
-<div style="display: none;" id="citymoblie">
-	<div class="pop-check">
-		<span class="popup__heading">Выберите город</span>
-		<ul class="pop-city">
-			<li><a href="/">Нур-Султан</a></li>
-			<li><a href="/almaty">Алматы</a></li>
-			<li><a href="/aktau">Актау</a></li>
-			<li><a href="/pavlodar">Павлодар </a></li>
-		</ul>
-	</div>
-</div>
-<div style="display: none;" id="citymoblie">
-	<div class="pop-check">
-		<span class="popup__heading">Выберите город</span>
-		<ul class="pop-city">
-			<li><a href="/">Нур-Султан</a></li>
-			<li><a href="/almaty">Алматы</a></li>
-			<li><a href="/aktau">Актау</a></li>
-			<li><a href="/pavlodar">Павлодар </a></li>
-		</ul>
-	</div>
-</div>
-
-<div style="display: none;" id="otzyv">
-	<div class="popup">
-		<span class="popup__heading">Оставить отзыв</span>
-		<div class="popup-row">
-			<label>Имя:</label><input type="text" required>
-		</div>
-		<div class="popup-row">
-			<label>Отзыв:</label><textarea required></textarea>
-		</div>
-		<div class="popup-row">
-			<div class="input-file">
-				<input id="file-otzyv" name="file-otzyv" type="file"><label for="file-otzyv">Выберите фотографию</label>
-			</div>
-		</div>
-		<button class="btn" type="submit">Отправить</button>
-	</div>
-</div>
-<div id="type-popup" class="hidden-p">
-	<div class="popup">
-		<span class="popup__heading">Оставить заявку</span>
-		<div class="type-popup">
-			<a href="javascript:;" data-id="#school" class="type-popup__item">
-				<div class="type-popup__img">
-					<img src="/img/svg/popup-abroad.svg">
-				</div>
-				<span class="type-popup__name">Образование за рубежом</span>
-			</a>
-			<a href="javascript:;" data-src="#abroad" data-fancybox="images" fancybox="" class="type-popup__item">
-				<div class="type-popup__img">
-					<img src="/img/svg/popup-school.svg">
-				</div>
-				<span class="type-popup__name">Языковая<br> школа</span>
-			</a>
-		</div>
-	</div>
-</div>
-<div id="school" class="hidden-p">
-	<div class="request-block">
-		<div class="request-title"><span>Образование за рубежом</span></div>
-		<form class="form" action="/requests/send" method="POST" enctype="">
-			<input class="form_input" type="text" name="name" placeholder="Ваше ФИО" required="">
-			<input class="form_input" type="tel" name="phone" placeholder="Ваш номер" required="">
-			<textarea placeholder="Ваши пожелания" class="form_textarea" name="note"></textarea>
-			<div class="form-select">
-				<span class="form-select__heading">Бакалавриат</span>
-				<ul class="form-select-area">
-					<li class="js-type-study">Бакалавриат</li>
-					<li class="js-type-study">Магистратура</li>
-					<li class="js-type-study">Языковые курсы</li>
-					<li class="js-type-study">Летние каникулы за рубежом</li>
-				</ul>
-			</div>
-			<input class="form_input" type="text" name="city" placeholder="Ваш город" required="">
-			<input type="hidden" class="js-input-type" name="custom_edu_type" value="Бакалавриат">
-			<input type="hidden" name="page" value="b24">
-			<div id="RecaptchaField1"></div>
-			<div class="form-btn more-btn button--sumbit" data-id="0" onclick="checkCapcha()" type="submit">Отправить</div>
-		</form>
-		<div class="request_text">Оставляя сообщение вы соглашаетесь на обработку
-			<a href="javascript:;" target="_blank">персональных данных.</a></div>
-	</div>
-</div>
-<div id="abroad" class="hidden-p">
-	<div class="request-block">
-		<div class="request-title"><span>Языковая школа</span></div>
-		<form class="form" action="/requests/send" method="POST" enctype="">
-			<input class="form_input" type="text" name="name" placeholder="Ваше ФИО" required="">
-			<input class="form_input" type="tel" name="phone" placeholder="Ваш номер" required="">
-			<input type="hidden" name="page" value="diplomat">
-			<div id="RecaptchaField2"></div>
-			<?php if($this->Session->check('city')): ?>
-				<input type="hidden" name="city" value="<?=$this->Common->get_city($this->Session->read('city'))?>">
-			<?php else: ?>
-				<input type="hidden" name="city" value="Нур-Султан">
-			<?php endif ?>
-			<div class="form-btn more-btn" data-id="1" onclick="checkCapcha()" type="submit">Отправить</div>
-		</form>
-		<div class="request_text">Оставляя сообщение вы соглашаетесь на обработку
-			<a href="javascript:;" target="_blank">персональных данных.</a></div>
-	</div>
-</div>

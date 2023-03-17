@@ -10,6 +10,10 @@
 	background: var(--color-background-secondary);
 }
 
+.background-alpha {
+	background: var(--color-background-alpha);
+}
+
 .container {
 	display: flex;
 	flex-direction: row;

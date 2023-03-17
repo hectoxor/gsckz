@@ -191,6 +191,10 @@ h6, .text-type-h6, .text-type-large-14 {
     text-decoration: underline;
 }
 
+.text-underline-none {
+	text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
 	h1, .text-type-h1, .text-type-large {
 		font-family: 'Inter', sans-serif;

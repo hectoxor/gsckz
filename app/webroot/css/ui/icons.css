@@ -83,3 +83,23 @@
 	-webkit-mask-size: cover;
 	mask-size: cover;
 }
+
+.ico-instagram {
+	width: 17px;
+	height: 17px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/instagram.svg) no-repeat 50% 50%;
+	mask: url(../../assets/icons/instagram.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+.ico-youtube {
+	width: 18px;
+	height: 13px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/youtube.svg) no-repeat 50% 50%;
+	mask: url(../../assets/icons/youtube.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
