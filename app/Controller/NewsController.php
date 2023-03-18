@@ -11,9 +11,9 @@ class NewsController extends AppController{
 	// }
 	
 	public function index(){
-		
 		$this->News->locale = Configure::read('Config.language');
 		// $this->News->bindTranslation(array('title' => 'titleTranslation'));
+
 		if($this->Session->check('city')){
 			$alias = $this->Session->read('city');
 		}else{
@@ -29,6 +29,7 @@ class NewsController extends AppController{
 		$bc = array(array('link' => '', 'title' => 'Новости'));
 		$news = $this->Paginator->paginate('News');
 		$title_for_layout = __('Новости');
+
 		$this->set(compact('title_for_layout', 'news', 'bc'));
 	}
 

@@ -39,7 +39,7 @@ class PagesController extends AppController {
 		$news = $this->News->find('all', array(
 			'conditions' => array('News.city_id' => array($city_id, 0)),
 			'order' => array('News.date' => 'DESC'),
-			'limit' => 3
+			'limit' => 4
 		));
 		$comps = $this->Comp->find('all');
 		// $price = $this->Doc->findById(1);

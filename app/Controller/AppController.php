@@ -79,6 +79,7 @@ class AppController extends Controller {
             
         }
 
+        // TODO: Improve this code
         if(isset($this->params['language']) && $this->params['language'] == 'kz'){
             Configure::write('Config.language', 'kz');
             $this->Session->write('lang',  'kz');
@@ -88,6 +89,7 @@ class AppController extends Controller {
         }else{
             Configure::write('Config.language', 'ru');
         }
+
         $l = Configure::read('Config.language');
         $lang = ($this->params['language']) ? $this->params['language'] . '/' : '';
 
@@ -109,6 +111,7 @@ class AppController extends Controller {
             'conditions' => array('Course.active' => 1),
             'order' => array('Course.priority' => 'DESC')
         ));
+
 		//debug($cities);
         // if(isset($_GET['city']) && !empty($_GET['city'])){
         //     $alias = $_GET['city'];
@@ -124,9 +127,5 @@ class AppController extends Controller {
         // debug($this->Session->read('city'));die;
         
         $this->set(compact('admin', 'params', 'cities', 'courses', 'current_city', 'l', 'lang'));
-
     }
-
-    
-
 }

@@ -13,8 +13,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="/favicon.svg?v=1.1" />
 
-<!--		<link rel="stylesheet" href="/css/slick.css" />-->
-<!--        <link rel="stylesheet" href="/css/jquery.fancybox.min.css" />-->
+		<!-- <link rel="stylesheet" href="/css/slick.css" /> -->
+       <!-- <link rel="stylesheet" href="/css/jquery.fancybox.min.css" /> -->
        <!-- <link rel="stylesheet" href="/css/styleNew.css?v=1.658486" /> -->
 
 		<link rel="stylesheet" href="/css/style.css" />
@@ -149,25 +149,25 @@
                 </div>
             </div>
         </section>
-        <section class="timeline-container container px-8 my-25">
+        <section class="container px-8 my-25">
             <div class="container--column align-center flex-1">
-                <img class="img object-fit-cover" src="/assets/timeline-1.png" height="512px" />
+                <img class="img object-fit-cover border-radius-10" src="/assets/timeline-1.png" height="512px" />
                 <h5 class="text text-transform-uppercase">2011 год — Первый офис в Астане</h5>
             </div>
             <div class="container--column align-center flex-1">
-                <img class="img object-fit-cover" src="/assets/timeline-2.png" height="512px" />
+                <img class="img object-fit-cover border-radius-10" src="/assets/timeline-2.png" height="512px" />
                 <h5 class="text text-transform-uppercase"> 2012 — Начало сотрудничества с Sommet Education</h5>
             </div>
             <div class="container--column align-center flex-1">
-                <img class="img object-fit-cover" src="/assets/timeline-3.png" height="512px" />
+                <img class="img object-fit-cover border-radius-10" src="/assets/timeline-3.png" height="512px" />
                 <h5 class="text text-transform-uppercase">2021 — Получение аккредитации Quality English</h5>
             </div>
             <div class="container--column align-center flex-1">
-                <img class="img object-fit-cover" src="/assets/timeline-3.png" height="512px" />
+                <img class="img object-fit-cover border-radius-10" src="/assets/timeline-3.png" height="512px" />
                 <h5 class="text text-transform-uppercase">2021 — Партнерство с British Council</h5>
             </div>
             <div class="container--column align-center flex-1">
-                <img class="img object-fit-cover" src="/assets/timeline-3.png" height="512px" />
+                <img class="img object-fit-cover border-radius-10" src="/assets/timeline-3.png" height="512px" />
                 <h5 class="text text-transform-uppercase">2023 — Открытие филиала в Алматы</h5>
             </div>
         </section>
@@ -272,16 +272,43 @@
                 </span>
             </a>
         </section>
+
+        <!-- TODO: Create "About company section" -->
+        <section>
+        </section>
+
         <section class="container--column px-8 my-25">
             <h2 class="text">Наши партнеры</h2>
-            <div class="container justify-center flex-wrap">
+            <div class="grid grid-column-4 justify-center">
+                <img src="/assets/partners/default.png" />
                 <img src="/assets/partners/default.png" />
                 <img src="/assets/partners/default.png" />
                 <img src="/assets/partners/default.png" />
                 <img src="/assets/partners/default.png" />
             </div>
         </section>
-
+        <!-- TODO: Figure out which part of the code determines the number of news items listed here -->
+        <!-- Understood where. routes.php handles which controller to use when displaying some view. From there we can determine which variables are used  -->
+        <?php if( isset($news) && $news ): ?>
+            <section class="container--column px-8 my-25">
+                <h2 class="text">Новости</h2>
+                <div class="container">
+                    <?php foreach($news as $item): ?>
+                    <div class="container--column flex-1">
+                        <a href="/">
+                            <img class="img object-fit-contain border-radius-10" src="/img/news/thumbs/<?=$item['News']['img']?>" height="512px">
+                        </a>
+                        <a href="/" class="text text-type-h4 text-underline-none text-color-primary">
+                            <?=$item['News']['title']?>
+                        </a>
+                        <span class="text text-type-medium">
+                            <?= $this->Text->truncate(strip_tags($item['News']['body']), 128, array('ellipsis' => '...', 'exact' => true)) ?>
+                        </span>
+                    </div>
+                    <?php endforeach ?>
+                </div>
+            </section>
+        <?php endif; ?>
         <?php echo $this->element('footer') ?>
 	</body>
 

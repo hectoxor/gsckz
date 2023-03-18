@@ -2,6 +2,38 @@
 	border-radius: 50% !important;
 }
 
+.border-radius-2 {
+	border-radius: 2px !important;
+}
+
+.border-radius-4 {
+	border-radius: 4px !important;
+}
+
+.border-radius-8 {
+	border-radius: 8px !important;
+}
+
+.border-radius-10 {
+	border-radius: 10px !important;
+}
+
+.border-radius-12 {
+	border-radius: 12px !important;
+}
+
+.border-radius-16 {
+	border-radius: 16px !important;
+}
+
+.border-radius-20 {
+	border-radius: 20px !important;
+}
+
+.border-radius-24 {
+	border-radius: 24px !important;
+}
+
 .background-primary {
 	background: var(--color-background-primary);
 }
@@ -36,6 +68,30 @@
 	display: grid;
 	grid-template-rows: repeat(2, 1fr);
 	gap: 24px;
+}
+
+.grid-column-1 {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-column-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-column-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-column-4 {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-column-5 {
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-column-6 {
+	grid-template-columns: repeat(6, 1fr);
 }
 
 .align-center {
