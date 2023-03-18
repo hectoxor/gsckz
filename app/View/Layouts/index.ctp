@@ -217,7 +217,7 @@
         </section>
         <section class="container--column px-8 my-25">
             <h2 class="text">Сопровождаем на каждом этапе поступления</h2>
-            <div class="container">
+            <div class="container container--column-mobile">
                 <div class="card card-type-gradient flex-1">
                     <h5 class="text text-transform-uppercase">План поступления</h5>
                     <span class="text text-type-medium-14">представляем список учебных заведений по вашему портфолио и пошаговую стратегию поступления.</span>
