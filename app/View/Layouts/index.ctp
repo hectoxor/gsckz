@@ -255,11 +255,10 @@
                 <img src="/assets/certificates/certificate-1.png" />
                 <img src="/assets/certificates/certificate-1.png" />
                 <img src="/assets/certificates/certificate-1.png" />
-                <img src="/assets/certificates/certificate-1.png" />
             </div>
         </section>
         <section class="container--column justify-center align-center gap-56 background-secondary px-8 pt-25 pb-40 my-25">
-            <div class="container">
+            <div class="container container--column-mobile">
                 <div class="container--column flex-1">
                     <img src="/assets/icons/fill-out.svg" height="80px" />
                     <h3 class="text text-color-white text-align-center text-transform-uppercase">Подаете заявку</h3>
@@ -295,8 +294,7 @@
 
         <section class="container--column px-8 my-25">
             <h2 class="text">Наши партнеры</h2>
-            <div class="grid grid-column-4 justify-center">
-                <img src="/assets/partners/default.png" />
+            <div class="container flex-wrap justify-center">
                 <img src="/assets/partners/default.png" />
                 <img src="/assets/partners/default.png" />
                 <img src="/assets/partners/default.png" />
