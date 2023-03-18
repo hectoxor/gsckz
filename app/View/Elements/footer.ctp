@@ -1,28 +1,35 @@
 <footer class="container--column px-40 py-20 background-secondary">
-	<div class="container justify-between">
+	<div class="container container--column-mobile justify-between">
 		<div class="container--column gap-0">
-			<h5 class="text text-transform-uppercase text-color-white text-underline-none pb-6">образование за рубежом</h4>
-			<a href="/" class="text text-type-small text-color-white text-underline-none">Языковые курсы</a>
-			<a href="/" class="text text-type-small text-color-white text-underline-none">Среднее образование</a>
-			<a href="/" class="text text-type-small text-color-white text-underline-none">Высшее образование</a>
+			<h5 class="text text-type-medium text-transform-uppercase text-color-white text-font-weight-600 text-underline-none pb-6">образование за рубежом</h4>
+
+			<div class="container justify-between">
+				<div class="container--column gap-0">
+					<a href="/" class="text text-type-small text-color-white text-underline-none">Языковые курсы</a>
+					<a href="/" class="text text-type-small text-color-white text-underline-none">Среднее образование</a>
+					<a href="/" class="text text-type-small text-color-white text-underline-none">Высшее образование</a>
+				</div>
+
+				<div class="container--column gap-0">
+					<a href="/" class="text text-type-small text-color-white text-underline-none">Glion and Les Roches</a>
+					<a href="/" class="text text-type-small text-color-white text-underline-none">Летние каникулы за рубежом</a>
+				</div>
+			</div>
 		</div>
-		<div class="container--column gap-0">
-			<h5 class="text text-transform-uppercase text-color-white text-underline-none pb-6">&nbsp</h4>
-			<a href="/" class="text text-type-small text-color-white text-underline-none">Glion and Les Roches</a>
-			<a href="/" class="text text-type-small text-color-white text-underline-none">Летние каникулы за рубежом</a>
-		</div>
-		<div class="container--column gap-0">
-			<h5 class="text text-transform-uppercase text-color-white text-underline-none pb-6">языковая школа</h4>
-			<a href="/" class="text text-type-small text-color-white text-underline-none">Языковые курсы</a>
-			<a href="/" class="text text-type-small text-color-white text-underline-none">О языковой школе</a>
-			<a href="/" class="text text-type-small text-color-white text-underline-none">Онлайн тест</a>
-		</div>
-		<div class="container--column gap-0">
-			<h5 class="text text-transform-uppercase text-color-white text-underline-none pb-6">Меню</h4>
-			<a href="/" class="text text-type-small text-color-white text-underline-none">О компании</a>
-			<a href="/" class="text text-type-small text-color-white text-underline-none">Новости</a>
-			<a href="/" class="text text-type-small text-color-white text-underline-none">Отзывы</a>
-			<a href="/" class="text text-type-small text-color-white text-underline-none">Контакты</a>
+		<div class="container justify-between gap-56">
+			<div class="container--column gap-0">
+				<h5 class="text text-type-medium text-transform-uppercase text-color-white text-font-weight-600 text-underline-none pb-6">языковая школа</h4>
+				<a href="/" class="text text-type-small text-color-white text-underline-none">Языковые курсы</a>
+				<a href="/" class="text text-type-small text-color-white text-underline-none">О языковой школе</a>
+				<a href="/" class="text text-type-small text-color-white text-underline-none">Онлайн тест</a>
+			</div>
+			<div class="container--column gap-0">
+				<h5 class="text text-type-medium text-transform-uppercase text-color-white text-font-weight-600 text-underline-none pb-6">Меню</h4>
+				<a href="/" class="text text-type-small text-color-white text-underline-none">О компании</a>
+				<a href="/" class="text text-type-small text-color-white text-underline-none">Новости</a>
+				<a href="/" class="text text-type-small text-color-white text-underline-none">Отзывы</a>
+				<a href="/" class="text text-type-small text-color-white text-underline-none">Контакты</a>
+			</div>
 		</div>
 		<div class="container--column align-center gap-8">
 			<a href="/">
