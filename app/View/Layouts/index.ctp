@@ -73,7 +73,7 @@
                 </div>
 			</div>
 		</section>
-        <section class="container px-8">
+        <section class="container container--column-mobile px-8 my-25">
             <div class="card card-type-1">
                 <h3 class="text text-transform-uppercase">Образование за рубежом</h3>
                 <span class="text text-type-medium text-font-weight-500">

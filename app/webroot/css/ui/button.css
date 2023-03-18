@@ -6,14 +6,14 @@
 	text-align: center;
 }
 
-.button-ico {
-	padding: 9px; /* Looks bad but is required */
-}
-
 .button-outline {
 	background-color: transparent;
 	border: 1px solid currentColor;
 	padding: 8px 24px;
+}
+
+.button-ico {
+	padding: 9px; /* Looks bad but is required */
 }
 
 .button-primary {
