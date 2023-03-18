@@ -3,6 +3,7 @@
 	padding: 16px 24px;
 	border-radius: var(--common-border-radius);
 	text-decoration: none;
+	text-align: center;
 }
 
 .button-ico {

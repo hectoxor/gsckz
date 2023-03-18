@@ -4,37 +4,51 @@
         <meta charset="utf-8">
         <title><?=$title_for_layout?></title>
         <?php if(isset($meta['keywords'])): ?>
-            <meta name="keywords" content="<?=$meta['keywords']?>">
+            <?php echo $this->Html->meta('keywords', $meta['keywords']); ?>
         <?php endif; ?>
         <?php if(isset($meta['description'])): ?>
-            <meta name="description" content="<?=$meta['description']?>">
+            <?php echo $this->Html->meta('description', $meta['description']); ?>
         <?php endif; ?>
+        
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="/favicon.svg?v=1.1" />
 
-		<!-- <link rel="stylesheet" href="/css/slick.css" /> -->
-       <!-- <link rel="stylesheet" href="/css/jquery.fancybox.min.css" /> -->
-       <!-- <link rel="stylesheet" href="/css/styleNew.css?v=1.658486" /> -->
-       <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script> -->
+        <?php
+            echo $this->Html->meta(
+                'favicon.ico',
+                '/favicon.svg?v=1.1',
+                array('type' => 'icon')
+            );
+        ?>
+
+	    <!-- <link rel="stylesheet" href="/css/slick.css" /> -->
+        <!-- <link rel="stylesheet" href="/css/jquery.fancybox.min.css" /> -->
+        <!-- <link rel="stylesheet" href="/css/styleNew.css?v=1.658486" /> -->
+        <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script> -->
        <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"></script> -->
-       
-       <link rel="stylesheet" href="/css/style.css" />
+            
+        <link rel="stylesheet" href="/css/style.css" />
 
-       <script src="/js/jquery-3.0.0.min.js" defer></script>
-       <script src="/js/index.js" defer></script>
+        <?php
+            echo $this->Html->script(
+                array('jquery-3.0.0.min', 'index'),
+                array('defer' => true)
+            );
+        ?>
     </head>
 </div>
 	<body class="container--column gap-24">
 		<?php echo $this->element('navbar') ?>
-		<section class="hero-section">
-			<img class="hero-bg" src="/assets/bg-gradient1.png" />
-			<div class="hero-illustration-content">
-				<img class="illustration-1" src="/assets/graduation-hat.png" />
-				<img class="illustration-shadow-2" src="/assets/illustration-1-shadow.png" />
-				<img class="illustration-2" src="/assets/illustration-1.png" />
-				<img class="illustration-3" src="/assets/globe.png" />
-			</div>
+		<section class="hero-section px-8">
+            <div class="hero-section-bg">
+                <img class="hero-bg" src="/assets/bg-gradient1.png" />
+                <div class="hero-illustration-content">
+                    <img class="illustration-1" src="/assets/graduation-hat.png" />
+                    <img class="illustration-shadow-2" src="/assets/illustration-1-shadow.png" />
+                    <img class="illustration-2" src="/assets/illustration-1.png" />
+                    <img class="illustration-3" src="/assets/globe.png" />
+                </div>
+            </div>
 			<div class="hero-inner">
                 <div class="hero-inner-title">
                     <h1 class="text text-color-secondary">Помогаем</h1>
@@ -49,7 +63,7 @@
 						экзаменов и поступления в учебные заведения.
 					</span>
 				</div>
-                <div class="container">
+                <div class="container container--column-mobile">
                     <a href="/" class="button button-primary">
                         <span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">получить консультацию</span>
                     </a>
@@ -298,7 +312,7 @@
                     <?php foreach($news as $item): ?>
                     <div class="container--column flex-1">
                         <a href="/">
-                            <img class="img object-fit-contain border-radius-10" src="/img/news/thumbs/<?=$item['News']['img']?>" height="512px">
+                            <img class="img object-fit-cover border-radius-10" src="/img/news/thumbs/<?=$item['News']['img']?>" height="512px">
                         </a>
                         <a href="/" class="text text-type-h4 text-underline-none text-color-primary">
                             <?=$item['News']['title']?>

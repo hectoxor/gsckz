@@ -202,3 +202,29 @@
 	grid-template-columns: repeat(4, 1fr);
 }
 
+
+@media (max-width: 768px) {
+	.container-mobile {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+	}
+
+	.grid-mobile {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 24px;
+	}
+
+	.container--column-mobile {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+	}
+
+	.grid--column-mobile {
+		display: grid;
+		grid-template-rows: repeat(1, 1fr);
+		gap: 24px;
+	}
+}
