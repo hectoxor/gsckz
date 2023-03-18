@@ -111,7 +111,7 @@
                 </a>
             </div>
         </section>
-        <section class="container px-8 my-25">
+        <section class="container container--column-mobile px-8 my-25">
             <div class="info-illustration-2-container align-center">
                 <img class="img" src="/assets/illustration-2.png" />
                 <div>
@@ -165,7 +165,7 @@
                 </div>
             </div>
         </section>
-        <section class="container px-8 my-25">
+        <section class="container grid-mobile px-8 my-25">
             <div class="container--column align-center flex-1">
                 <img class="img object-fit-cover border-radius-10" src="/assets/timeline-1.png" height="512px" />
                 <h5 class="text text-transform-uppercase">2011 год — Первый офис в Астане</h5>
