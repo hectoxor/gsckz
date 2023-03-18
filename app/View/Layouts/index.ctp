@@ -187,7 +187,7 @@
                 <h5 class="text text-transform-uppercase">2023 — Открытие филиала в Алматы</h5>
             </div>
         </section>
-        <section class="container px-8 my-25">
+        <section class="container container--column-mobile px-8 my-25">
             <div class="container--column align-start flex-1 gap-0">
                 <h2 class="text">12 лет отправляем</h2>
                 <h2 class="text">учиться за рубеж</h2>
@@ -197,7 +197,7 @@
                     на себя: от начала подачи документов до заселения в общежитие.
                 </span>
             </div>
-            <div class="grid flex-1 gap-56 row-3 pt-25">
+            <div class="grid grid--column-mobile flex-1 gap-56 row-3 pt-25">
                 <div class="container--column align-center flex-1 gap-0">
                     <img class="img mb-4 " src="/assets/illustration-4.svg" height="80px" />
                     <h4 class="text text-align-center">Стран</h4>
