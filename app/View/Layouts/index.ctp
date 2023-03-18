@@ -16,11 +16,13 @@
 		<!-- <link rel="stylesheet" href="/css/slick.css" /> -->
        <!-- <link rel="stylesheet" href="/css/jquery.fancybox.min.css" /> -->
        <!-- <link rel="stylesheet" href="/css/styleNew.css?v=1.658486" /> -->
+       <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script> -->
+       <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"></script> -->
+       
+       <link rel="stylesheet" href="/css/style.css" />
 
-		<link rel="stylesheet" href="/css/style.css" />
-
-        <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script> -->
-        <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"></script>
+       <script src="/js/jquery-3.0.0.min.js" defer></script>
+       <script src="/js/index.js" defer></script>
     </head>
 </div>
 	<body class="container--column gap-24">
@@ -64,7 +66,7 @@
                     Находим учебное заведение с подходящей программой и условиями. Сопровождаем на всем пути подготовки и подачи документов.
                 </span>
 
-                <a href="/" class="button button-outline text-color-white">
+                <a href="/" class="button button-outline button-ico text-color-white">
                     <span class="ico ico-20">
                         <i class="ico-arrow-right"></i>
                     </span>
@@ -76,7 +78,7 @@
                     Обучаем английскому детей с 6 лет, подростков и взрослых офлайн и онлайн. Готовим к международным экзаменам IELTS и SAT.
                 </span>
 
-                <a href="/" class="button button-outline text-color-white">
+                <a href="/" class="button button-outline button-ico text-color-white">
                     <span class="ico ico-20">
                         <i class="ico-arrow-right"></i>
                     </span>
@@ -88,7 +90,7 @@
                     Организуем каникулы с полным погружением в языковую среду. Обеспечиваем безопасное пребывание наших учеников в лучших колледжах Лондона, Нью-Йорка, Лос-Анджелеса и Сеула.
                 </span>
 
-                <a href="/" class="button button-outline text-color-white">
+                <a href="/" class="button button-outline button-ico text-color-white">
                     <span class="ico ico-20">
                         <i class="ico-arrow-right"></i>
                     </span>
@@ -310,6 +312,9 @@
             </section>
         <?php endif; ?>
         <?php echo $this->element('footer') ?>
+
+        <!-- https://book.cakephp.org/2/en/core-libraries/helpers/js.html -->
+        <?php echo $this->Js->writeBuffer(); ?>
 	</body>
 
     <!-- <body>

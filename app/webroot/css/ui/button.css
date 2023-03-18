@@ -1,31 +1,30 @@
 .button {
-	padding: 8px 20px;
+	/* all: unset; */
+	padding: 16px 24px;
 	border-radius: var(--common-border-radius);
 	text-decoration: none;
 }
 
 .button-ico {
-	padding: 8px;
+	padding: 9px; /* Looks bad but is required */
 }
 
 .button-outline {
 	background-color: transparent;
 	border: 1px solid currentColor;
+	padding: 8px 24px;
 }
 
 .button-primary {
 	background: var(--color-button-background-primary);
 	color: var(--color-text-white);
-	padding: 16px 24px;
 }
 
 .button-secondary {
 	background: var(--color-button-background-secondary);
 	color: var(--color-text-white);
-	padding: 16px 24px;
 }
 
 .button-white {
 	background: var(--color-background-primary);
-	padding: 16px 24px;
 }

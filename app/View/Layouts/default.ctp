@@ -7,14 +7,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="google-site-verification" content="JGiHeng_D0sCzgiklesd4vMgZc_EF_WXPwMOjQXwu7I" />
-		<?php 
+		<!-- <?php 
 		echo $this->Html->meta('icon');
 		echo $this->Html->css(array('cake.generic', 'admin-style.css'));
 		echo $this->Html->script(array('ckeditor/ckeditor'));
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
-		 ?>
+		 ?> -->
+
 		 <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156557152-1"></script>
         <script>
@@ -186,7 +187,7 @@
 		<script src="/libs/html5shiv/html5shiv-printshiv.min.js"></script>
 		<script src="/libs/respond/respond.min.js"></script>
 		<![endif]-->
-		<script src="/js/jquery-3.0.0.min.js"></script>  					
+		<script src="/js/jquery-3.0.0.min.js"></script>
 		<script>
 			 $('.menu__li--under').on('click', function () {                              
             	if($(this).hasClass('active')){
