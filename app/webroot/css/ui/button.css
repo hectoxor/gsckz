@@ -1,9 +1,14 @@
+.button-unset {
+	all: unset;
+}
+
 .button {
 	/* all: unset; */
 	padding: 16px 24px;
 	border-radius: var(--common-border-radius);
 	text-decoration: none;
 	text-align: center;
+	cursor: pointer;
 }
 
 .button-outline {
