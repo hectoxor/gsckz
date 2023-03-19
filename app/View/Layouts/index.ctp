@@ -9,7 +9,7 @@
         <?php if(isset($meta['description'])): ?>
             <?php echo $this->Html->meta('description', $meta['description']); ?>
         <?php endif; ?>
-        
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -26,7 +26,7 @@
         <!-- <link rel="stylesheet" href="/css/styleNew.css?v=1.658486" /> -->
         <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script> -->
        <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"></script> -->
-            
+
         <link rel="stylesheet" href="/css/style.css" />
 
         <?php
@@ -192,8 +192,8 @@
                 <h2 class="text">12 лет отправляем</h2>
                 <h2 class="text">учиться за рубеж</h2>
                 <span class="text text-type-medium-20 pt-12">
-                    За эти годы мы разрешили немало сложных ситуаций: не понаслышке знаем, что такое успеть подать документы, 
-                    когда осталось совсем мало времени до конца приема заявок. Всю коммуникацию с учебными заведениями мы берем 
+                    За эти годы мы разрешили немало сложных ситуаций: не понаслышке знаем, что такое успеть подать документы,
+                    когда осталось совсем мало времени до конца приема заявок. Всю коммуникацию с учебными заведениями мы берем
                     на себя: от начала подачи документов до заселения в общежитие.
                 </span>
             </div>
@@ -289,8 +289,37 @@
         </section>
 
         <!-- TODO: Create "About company section" -->
-        <section>
-        </section>
+		<div class = "about-company">
+			<div class="container container--column-mobile">
+				<div class="info-illustration-2-container justify-center">
+					<section class="container px-8 my-35">
+						<div class="about-company-index flex-1">
+							<img class="img11" src="/assets/icons/venera.svg" style ="
+							  margin-left: 150px;
+							 />
+						</div>
+						/*<div class="separator--vertical"></div>
+						<div class="container--column flex-1">
+							<h2 class="text11">Байжигитова Венера Тимуровна</h2>
+							<span class="text11 text-type-medium-20 pt-12">
+									Я верю, что самое главное в нашей работе — счастье ребенка. Отправляясь за границу,
+									дети начинают вершить судьбу, а мы сопровождаем их на этом пути.
+							</span>
+							<button class = "button11" type="submit" style ="
+								border: none;
+								cursor: pointer;
+								appearance: none;
+								background-color: inherit;
+							">
+								<img src="/assets/about-company.svg" alt="о компании" border="0" />
+							</button>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+
+
 
         <section class="container--column px-8 my-25">
             <h2 class="text">Наши партнеры</h2>
