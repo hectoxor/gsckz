@@ -9,7 +9,7 @@
         <?php if(isset($meta['description'])): ?>
             <?php echo $this->Html->meta('description', $meta['description']); ?>
         <?php endif; ?>
-        
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -26,7 +26,7 @@
         <!-- <link rel="stylesheet" href="/css/styleNew.css?v=1.658486" /> -->
         <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script> -->
        <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"></script> -->
-            
+
         <link rel="stylesheet" href="/css/style.css" />
 
         <?php
@@ -64,10 +64,10 @@
 					</span>
 				</div>
                 <div class="container container--column-mobile">
-                    <a class="button button-primary" onclick="handleModalToggle('apply-modal');">
+                    <a href="/" class="button button-primary">
                         <span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">получить консультацию</span>
                     </a>
-                    <a class="button button-secondary" onclick="handleModalToggle('english-school-apply-modal');">
+                    <a href="/" class="button button-secondary">
                         <span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">узнать уровень английского</span>
                     </a>
                 </div>
@@ -192,8 +192,8 @@
                 <h2 class="text">12 лет отправляем</h2>
                 <h2 class="text">учиться за рубеж</h2>
                 <span class="text text-type-medium-20 pt-12">
-                    За эти годы мы разрешили немало сложных ситуаций: не понаслышке знаем, что такое успеть подать документы, 
-                    когда осталось совсем мало времени до конца приема заявок. Всю коммуникацию с учебными заведениями мы берем 
+                    За эти годы мы разрешили немало сложных ситуаций: не понаслышке знаем, что такое успеть подать документы,
+                    когда осталось совсем мало времени до конца приема заявок. Всю коммуникацию с учебными заведениями мы берем
                     на себя: от начала подачи документов до заселения в общежитие.
                 </span>
             </div>
@@ -281,7 +281,7 @@
                     </span>
                 </div>
             </div>
-            <a class="button button-white" onclick="handleModalToggle('apply-modal');">
+            <a href="/" class="button button-white">
                 <span class="text text-type-medium-14 text-color-secondary text-font-weight-500 text-transform-uppercase">
                     Получить консультацию
                 </span>
@@ -289,8 +289,37 @@
         </section>
 
         <!-- TODO: Create "About company section" -->
-        <section>
-        </section>
+		<div class = "about-company">
+			<div class="container container--column-mobile">
+				<div class="info-illustration-2-container justify-center">
+					<section class="container px-8 my-35">
+						<div class="about-company-index flex-1">
+							<img class="img11" src="/assets/icons/venera.svg" style ="
+							  margin-left: 150px;
+							 />
+						</div>
+						/*<div class="separator--vertical"></div>
+						<div class="container--column flex-1">
+							<h2 class="text11">Байжигитова Венера Тимуровна</h2>
+							<span class="text11 text-type-medium-20 pt-12">
+									Я верю, что самое главное в нашей работе — счастье ребенка. Отправляясь за границу,
+									дети начинают вершить судьбу, а мы сопровождаем их на этом пути.
+							</span>
+							<button class = "button11" type="submit" style ="
+								border: none;
+								cursor: pointer;
+								appearance: none;
+								background-color: inherit;
+							">
+								<img src="/assets/about-company.svg" alt="о компании" border="0" />
+							</button>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+
+
 
         <section class="container--column px-8 my-25">
             <h2 class="text">Наши партнеры</h2>
@@ -312,7 +341,7 @@
                         <a href="/">
                             <img class="img object-fit-cover border-radius-10" src="/img/news/thumbs/<?=$item['News']['img']?>" height="512px">
                         </a>
-                        <a href="/" class="text text-type-h4 text-transform-uppercase text-underline-none text-color-primary">
+                        <a href="/" class="text text-type-h4 text-underline-none text-color-primary">
                             <?=$item['News']['title']?>
                         </a>
                         <span class="text text-type-medium">
@@ -324,98 +353,6 @@
             </section>
         <?php endif; ?>
         <?php echo $this->element('footer') ?>
-
-
-        <div id="english-school-apply-modal" class="modal" data-toggled="false">
-            <div class="modal--overlay"></div>
-            <div class="modal--body">
-                <div class="modal--close">
-                    <div class="button button-ico border-circle" onclick="handleModalToggle('english-school-apply-modal');">
-                        <span class="ico ico-20">
-                            <i class="ico-close"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="modal--content">
-                    <div class="modal--title container--column gap-0">
-                        <h3 class="text text-align-center">Языковая школа</h3>
-                    </div>
-                    <form class="w-100">
-                        <div class="container--column pb-25">
-                            <input class="input input-ico input-user-ico text text-type-medium" type="text" name="name" placeholder="Фамилия Имя" required />
-                            <input class="input input-ico input-phone-ico text text-type-medium" type="text" name="phone" placeholder="Номер телефона" required />
-                            <button class="button button-primary button-unset" type="submit">
-                                <span class="text text-type-medium-14 text-color-white text-font-weight-500 text-transform-uppercase">
-                                    Отправить
-                                </span>
-                            </button>
-                            <div class="container--column gap-0">
-                                <span class="text text-type-small text-align-center">
-                                    Оставляя сообщение вы соглашаетесь
-                                </span>
-                                <span class="text text-type-small text-align-center">
-                                    на обработку 
-                                    <a href="/" class="text text-type-small text-color-primary">
-                                        персональных данных
-                                    </a>
-                                </span>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <div id="apply-modal" class="modal" data-toggled="false">
-            <div class="modal--overlay"></div>
-            <div class="modal--body">
-                <div class="modal--close">
-                    <div class="button button-ico border-circle" onclick="handleModalToggle('apply-modal');">
-                        <span class="ico ico-20">
-                            <i class="ico-close"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="modal--content">
-                    <div class="modal--title container--column gap-0">
-                        <h3 class="text text-align-center">Образование за</h3>
-                        <h3 class="text text-align-center">pубежом</h3>
-                    </div>
-                    <form class="w-100">
-                        <div class="container--column pb-25">
-                            <input class="input input-ico input-user-ico text text-type-medium" type="text" name="name" placeholder="Фамилия Имя" required />
-                            <input class="input input-ico input-phone-ico text text-type-medium" type="text" name="phone" placeholder="Номер телефона" required />
-                            <input class="input text-type-medium" type="text"  name="city" placeholder="Ваш город" required />
-                            <div class="select-dropdown">
-                                <select class="text text-type-medium" required>
-                                    <option value="" disabled selected hidden>Выберите программу</option>
-                                    <option value="Бакалавриат">Бакалавриат</option>
-                                    <option value="Магистратура">Магистратура</option>
-                                    <option value="Языковые курсы">Языковые курсы</option>
-                                    <option value="Летние каникулы за рубежом">Летние каникулы за рубежом</option>
-                                </select>
-                            </div>
-                            <button class="button button-primary button-unset" type="submit">
-                                <span class="text text-type-medium-14 text-color-white text-font-weight-500 text-transform-uppercase">
-                                    Отправить заявку
-                                </span>
-                            </button>
-                            <div class="container--column gap-0">
-                                <span class="text text-type-small text-align-center">
-                                    Оставляя сообщение вы соглашаетесь
-                                </span>
-                                <span class="text text-type-small text-align-center">
-                                    на обработку 
-                                    <a href="/" class="text text-type-small text-color-primary">
-                                        персональных данных
-                                    </a>
-                                </span>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
 
         <!-- https://book.cakephp.org/2/en/core-libraries/helpers/js.html -->
         <?php echo $this->Js->writeBuffer(); ?>

@@ -13,10 +13,3 @@ window.matchMedia("(max-width: 768px)").onchange = e => {
     
     navbar.dataset.toggled = "false";
 };
-
-/* -- Modal Toggle -- */
-
-const handleModalToggle = (id) => {
-    const modal = document.getElementById(id);
-    modal.dataset.toggled = modal.dataset.toggled === "true" ? "false" : "true";
-}

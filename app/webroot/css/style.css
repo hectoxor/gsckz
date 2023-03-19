@@ -10,8 +10,6 @@
 @import 'ui/button.css';
 @import 'ui/checkbox.css';
 @import 'ui/card.css';
-@import 'ui/modal.css';
-@import 'ui/input.css';
 
 /* Components CSS */
 @import 'component/footer.css';
