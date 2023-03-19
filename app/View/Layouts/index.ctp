@@ -4,35 +4,51 @@
         <meta charset="utf-8">
         <title><?=$title_for_layout?></title>
         <?php if(isset($meta['keywords'])): ?>
-            <meta name="keywords" content="<?=$meta['keywords']?>">
+            <?php echo $this->Html->meta('keywords', $meta['keywords']); ?>
         <?php endif; ?>
         <?php if(isset($meta['description'])): ?>
-            <meta name="description" content="<?=$meta['description']?>">
+            <?php echo $this->Html->meta('description', $meta['description']); ?>
         <?php endif; ?>
+        
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="/favicon.svg?v=1.1" />
 
-<!--		<link rel="stylesheet" href="/css/slick.css" />-->
-<!--        <link rel="stylesheet" href="/css/jquery.fancybox.min.css" />-->
-       <!-- <link rel="stylesheet" href="/css/styleNew.css?v=1.658486" /> -->
+        <?php
+            echo $this->Html->meta(
+                'favicon.ico',
+                '/favicon.svg?v=1.1',
+                array('type' => 'icon')
+            );
+        ?>
 
-		<link rel="stylesheet" href="/css/style.css" />
-
+	    <!-- <link rel="stylesheet" href="/css/slick.css" /> -->
+        <!-- <link rel="stylesheet" href="/css/jquery.fancybox.min.css" /> -->
+        <!-- <link rel="stylesheet" href="/css/styleNew.css?v=1.658486" /> -->
         <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script> -->
-        <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"></script>
+       <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"></script> -->
+            
+        <link rel="stylesheet" href="/css/style.css" />
+
+        <?php
+            echo $this->Html->script(
+                array('jquery-3.0.0.min', 'index'),
+                array('defer' => true)
+            );
+        ?>
     </head>
 </div>
 	<body class="container--column gap-24">
 		<?php echo $this->element('navbar') ?>
-		<section class="hero-section">
-			<img class="hero-bg" src="/assets/bg-gradient1.png" />
-			<div class="hero-illustration-content">
-				<img class="illustration-1" src="/assets/graduation-hat.png" />
-				<img class="illustration-shadow-2" src="/assets/illustration-1-shadow.png" />
-				<img class="illustration-2" src="/assets/illustration-1.png" />
-				<img class="illustration-3" src="/assets/globe.png" />
-			</div>
+		<section class="hero-section px-8">
+            <div class="hero-section-bg">
+                <img class="hero-bg" src="/assets/bg-gradient1.png" />
+                <div class="hero-illustration-content">
+                    <img class="illustration-1" src="/assets/graduation-hat.png" />
+                    <img class="illustration-shadow-2" src="/assets/illustration-1-shadow.png" />
+                    <img class="illustration-2" src="/assets/illustration-1.png" />
+                    <img class="illustration-3" src="/assets/globe.png" />
+                </div>
+            </div>
 			<div class="hero-inner">
                 <div class="hero-inner-title">
                     <h1 class="text text-color-secondary">Помогаем</h1>
@@ -47,7 +63,7 @@
 						экзаменов и поступления в учебные заведения.
 					</span>
 				</div>
-                <div class="container">
+                <div class="container container--column-mobile">
                     <a href="/" class="button button-primary">
                         <span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">получить консультацию</span>
                     </a>
@@ -57,14 +73,14 @@
                 </div>
 			</div>
 		</section>
-        <section class="container px-8">
+        <section class="container container--column-mobile px-8 my-25">
             <div class="card card-type-1">
                 <h3 class="text text-transform-uppercase">Образование за рубежом</h3>
                 <span class="text text-type-medium text-font-weight-500">
                     Находим учебное заведение с подходящей программой и условиями. Сопровождаем на всем пути подготовки и подачи документов.
                 </span>
 
-                <a href="/" class="button button-outline text-color-white">
+                <a href="/" class="button button-outline button-ico text-color-white">
                     <span class="ico ico-20">
                         <i class="ico-arrow-right"></i>
                     </span>
@@ -76,7 +92,7 @@
                     Обучаем английскому детей с 6 лет, подростков и взрослых офлайн и онлайн. Готовим к международным экзаменам IELTS и SAT.
                 </span>
 
-                <a href="/" class="button button-outline text-color-white">
+                <a href="/" class="button button-outline button-ico text-color-white">
                     <span class="ico ico-20">
                         <i class="ico-arrow-right"></i>
                     </span>
@@ -88,14 +104,14 @@
                     Организуем каникулы с полным погружением в языковую среду. Обеспечиваем безопасное пребывание наших учеников в лучших колледжах Лондона, Нью-Йорка, Лос-Анджелеса и Сеула.
                 </span>
 
-                <a href="/" class="button button-outline text-color-white">
+                <a href="/" class="button button-outline button-ico text-color-white">
                     <span class="ico ico-20">
                         <i class="ico-arrow-right"></i>
                     </span>
                 </a>
             </div>
         </section>
-        <section class="container px-8 my-25">
+        <section class="container container--column-mobile px-8 my-25">
             <div class="info-illustration-2-container align-center">
                 <img class="img" src="/assets/illustration-2.png" />
                 <div>
@@ -149,29 +165,29 @@
                 </div>
             </div>
         </section>
-        <section class="timeline-container container px-8 my-25">
+        <section class="container grid-mobile px-8 my-25">
             <div class="container--column align-center flex-1">
-                <img class="img object-fit-cover" src="/assets/timeline-1.png" height="512px" />
+                <img class="img object-fit-cover border-radius-10" src="/assets/timeline-1.png" height="512px" />
                 <h5 class="text text-transform-uppercase">2011 год — Первый офис в Астане</h5>
             </div>
             <div class="container--column align-center flex-1">
-                <img class="img object-fit-cover" src="/assets/timeline-2.png" height="512px" />
+                <img class="img object-fit-cover border-radius-10" src="/assets/timeline-2.png" height="512px" />
                 <h5 class="text text-transform-uppercase"> 2012 — Начало сотрудничества с Sommet Education</h5>
             </div>
             <div class="container--column align-center flex-1">
-                <img class="img object-fit-cover" src="/assets/timeline-3.png" height="512px" />
+                <img class="img object-fit-cover border-radius-10" src="/assets/timeline-3.png" height="512px" />
                 <h5 class="text text-transform-uppercase">2021 — Получение аккредитации Quality English</h5>
             </div>
             <div class="container--column align-center flex-1">
-                <img class="img object-fit-cover" src="/assets/timeline-3.png" height="512px" />
+                <img class="img object-fit-cover border-radius-10" src="/assets/timeline-3.png" height="512px" />
                 <h5 class="text text-transform-uppercase">2021 — Партнерство с British Council</h5>
             </div>
             <div class="container--column align-center flex-1">
-                <img class="img object-fit-cover" src="/assets/timeline-3.png" height="512px" />
+                <img class="img object-fit-cover border-radius-10" src="/assets/timeline-3.png" height="512px" />
                 <h5 class="text text-transform-uppercase">2023 — Открытие филиала в Алматы</h5>
             </div>
         </section>
-        <section class="container px-8 my-25">
+        <section class="container container--column-mobile px-8 my-25">
             <div class="container--column align-start flex-1 gap-0">
                 <h2 class="text">12 лет отправляем</h2>
                 <h2 class="text">учиться за рубеж</h2>
@@ -181,7 +197,7 @@
                     на себя: от начала подачи документов до заселения в общежитие.
                 </span>
             </div>
-            <div class="grid flex-1 gap-56 row-3 pt-25">
+            <div class="grid grid--column-mobile flex-1 gap-56 row-3 pt-25">
                 <div class="container--column align-center flex-1 gap-0">
                     <img class="img mb-4 " src="/assets/illustration-4.svg" height="80px" />
                     <h4 class="text text-align-center">Стран</h4>
@@ -201,7 +217,7 @@
         </section>
         <section class="container--column px-8 my-25">
             <h2 class="text">Сопровождаем на каждом этапе поступления</h2>
-            <div class="container">
+            <div class="container container--column-mobile">
                 <div class="card card-type-gradient flex-1">
                     <h5 class="text text-transform-uppercase">План поступления</h5>
                     <span class="text text-type-medium-14">представляем список учебных заведений по вашему портфолио и пошаговую стратегию поступления.</span>
@@ -233,8 +249,7 @@
         </section>
         <section class="container--column px-8 my-25">
             <h2 class="text">Наши сертификаты</h2>
-            <div class="container justify-center">
-                <img src="/assets/certificates/certificate-1.png" />
+            <div class="container flex-wrap justify-center">
                 <img src="/assets/certificates/certificate-1.png" />
                 <img src="/assets/certificates/certificate-1.png" />
                 <img src="/assets/certificates/certificate-1.png" />
@@ -243,7 +258,7 @@
             </div>
         </section>
         <section class="container--column justify-center align-center gap-56 background-secondary px-8 pt-25 pb-40 my-25">
-            <div class="container">
+            <div class="container container--column-mobile">
                 <div class="container--column flex-1">
                     <img src="/assets/icons/fill-out.svg" height="80px" />
                     <h3 class="text text-color-white text-align-center text-transform-uppercase">Подаете заявку</h3>
@@ -272,17 +287,46 @@
                 </span>
             </a>
         </section>
+
+        <!-- TODO: Create "About company section" -->
+        <section>
+        </section>
+
         <section class="container--column px-8 my-25">
             <h2 class="text">Наши партнеры</h2>
-            <div class="container justify-center flex-wrap">
+            <div class="container flex-wrap justify-center">
                 <img src="/assets/partners/default.png" />
                 <img src="/assets/partners/default.png" />
                 <img src="/assets/partners/default.png" />
                 <img src="/assets/partners/default.png" />
             </div>
         </section>
-
+        <!-- TODO: Figure out which part of the code determines the number of news items listed here -->
+        <!-- Understood where. routes.php handles which controller to use when displaying some view. From there we can determine which variables are used  -->
+        <?php if( isset($news) && $news ): ?>
+            <section class="container--column px-8 my-25">
+                <h2 class="text">Новости</h2>
+                <div class="container">
+                    <?php foreach($news as $item): ?>
+                    <div class="container--column flex-1">
+                        <a href="/">
+                            <img class="img object-fit-cover border-radius-10" src="/img/news/thumbs/<?=$item['News']['img']?>" height="512px">
+                        </a>
+                        <a href="/" class="text text-type-h4 text-underline-none text-color-primary">
+                            <?=$item['News']['title']?>
+                        </a>
+                        <span class="text text-type-medium">
+                            <?= $this->Text->truncate(strip_tags($item['News']['body']), 128, array('ellipsis' => '...', 'exact' => true)) ?>
+                        </span>
+                    </div>
+                    <?php endforeach ?>
+                </div>
+            </section>
+        <?php endif; ?>
         <?php echo $this->element('footer') ?>
+
+        <!-- https://book.cakephp.org/2/en/core-libraries/helpers/js.html -->
+        <?php echo $this->Js->writeBuffer(); ?>
 	</body>
 
     <!-- <body>

@@ -103,3 +103,13 @@
 	-webkit-mask-size: cover;
 	mask-size: cover;
 }
+
+.ico-close {
+	width: 12px;
+	height: 12px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/close.svg) no-repeat 50% 50%;
+	mask: url(../../assets/icons/close.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}

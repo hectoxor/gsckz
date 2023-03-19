@@ -1,5 +1,17 @@
 .hero-section {
 	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.hero-section-bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.hero-inner {
+	width: 100%;
 }
 
 .hero-bg {
@@ -15,12 +27,6 @@
 	top: 0;
 	right: 0;
 	width: 600px;
-}
-
-.hero-inner {
-	padding: 0 24px;
-	position: relative;
-	top: -500px;
 }
 
 .note-content {
@@ -80,10 +86,6 @@
 	background-color: #48BB53;
 }
 
-.timeline-container .img {
-	border-radius: 10px;
-}
-
 .illustration-1 { /* Graduation hat */
 	top: 138px;
 	right: 38px;
@@ -131,5 +133,23 @@
 }
 
 
+@media (max-width: 1200px) {
+	.hero-section {
+		height: calc(100vh + 25vw);
+		align-items: flex-end;
+	}
+}
 
+@media (max-width: 768px) {
+	:root {
+		--mobile-hero-illustration-offset: 50%;
+	}
 
+	.hero-bg {
+		left: calc(100% - 600px + var(--mobile-hero-illustration-offset));
+	}
+
+	.hero-illustration-content {
+		right: calc(-1 * var(--mobile-hero-illustration-offset) + 128px);
+	}
+}
