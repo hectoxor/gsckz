@@ -318,9 +318,6 @@
 				</div>
 			</div>
 		</div>
-
-
-
         <section class="container--column px-8 my-25">
             <h2 class="text">Наши партнеры</h2>
             <div class="container flex-wrap justify-center">
@@ -353,8 +350,6 @@
             </section>
         <?php endif; ?>
         <?php echo $this->element('footer') ?>
-
-
         <div id="english-school-apply-modal" class="modal" data-toggled="false">
             <div class="modal--overlay"></div>
             <div class="modal--body">
