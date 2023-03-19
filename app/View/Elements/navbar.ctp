@@ -100,7 +100,7 @@
 				<div class="nav-text">
 					<span class="text text-type-medium-20 text-color-white text-font-weight-600 text-font-family-primary text-overflow">+7 (700) 127 77 88</span>
 				</div>
-				<a href="/" class="nav-link button button-outline text-color-white">
+				<a class="nav-link button button-outline text-color-white" onclick="handleModalToggle('apply-modal');">
 					<span class="text text-type-medium-14 text-color-white text-font-weight-700 text-font-family-primary text-transform-uppercase text-overflow">Получить консультацию</span>
 				</a>
 			</div>

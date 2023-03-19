@@ -64,10 +64,10 @@
 					</span>
 				</div>
                 <div class="container container--column-mobile">
-                    <a href="/" class="button button-primary">
+                    <a class="button button-primary" onclick="handleModalToggle('apply-modal');">
                         <span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">получить консультацию</span>
                     </a>
-                    <a href="/" class="button button-secondary">
+                    <a class="button button-secondary" onclick="handleModalToggle('english-school-apply-modal');">
                         <span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">узнать уровень английского</span>
                     </a>
                 </div>
@@ -281,7 +281,7 @@
                     </span>
                 </div>
             </div>
-            <a href="/" class="button button-white">
+            <a class="button button-white" onclick="handleModalToggle('apply-modal');">
                 <span class="text text-type-medium-14 text-color-secondary text-font-weight-500 text-transform-uppercase">
                     Получить консультацию
                 </span>
@@ -341,7 +341,7 @@
                         <a href="/">
                             <img class="img object-fit-cover border-radius-10" src="/img/news/thumbs/<?=$item['News']['img']?>" height="512px">
                         </a>
-                        <a href="/" class="text text-type-h4 text-underline-none text-color-primary">
+                        <a href="/" class="text text-type-h4 text-transform-uppercase text-underline-none text-color-primary">
                             <?=$item['News']['title']?>
                         </a>
                         <span class="text text-type-medium">
@@ -353,6 +353,98 @@
             </section>
         <?php endif; ?>
         <?php echo $this->element('footer') ?>
+
+
+        <div id="english-school-apply-modal" class="modal" data-toggled="false">
+            <div class="modal--overlay"></div>
+            <div class="modal--body">
+                <div class="modal--close">
+                    <div class="button button-ico border-circle" onclick="handleModalToggle('english-school-apply-modal');">
+                        <span class="ico ico-20">
+                            <i class="ico-close"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="modal--content">
+                    <div class="modal--title container--column gap-0">
+                        <h3 class="text text-align-center">Языковая школа</h3>
+                    </div>
+                    <form class="w-100">
+                        <div class="container--column pb-25">
+                            <input class="input input-ico input-user-ico text text-type-medium" type="text" name="name" placeholder="Фамилия Имя" required />
+                            <input class="input input-ico input-phone-ico text text-type-medium" type="text" name="phone" placeholder="Номер телефона" required />
+                            <button class="button button-primary button-unset" type="submit">
+                                <span class="text text-type-medium-14 text-color-white text-font-weight-500 text-transform-uppercase">
+                                    Отправить
+                                </span>
+                            </button>
+                            <div class="container--column gap-0">
+                                <span class="text text-type-small text-align-center">
+                                    Оставляя сообщение вы соглашаетесь
+                                </span>
+                                <span class="text text-type-small text-align-center">
+                                    на обработку 
+                                    <a href="/" class="text text-type-small text-color-primary">
+                                        персональных данных
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="apply-modal" class="modal" data-toggled="false">
+            <div class="modal--overlay"></div>
+            <div class="modal--body">
+                <div class="modal--close">
+                    <div class="button button-ico border-circle" onclick="handleModalToggle('apply-modal');">
+                        <span class="ico ico-20">
+                            <i class="ico-close"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="modal--content">
+                    <div class="modal--title container--column gap-0">
+                        <h3 class="text text-align-center">Образование за</h3>
+                        <h3 class="text text-align-center">pубежом</h3>
+                    </div>
+                    <form class="w-100">
+                        <div class="container--column pb-25">
+                            <input class="input input-ico input-user-ico text text-type-medium" type="text" name="name" placeholder="Фамилия Имя" required />
+                            <input class="input input-ico input-phone-ico text text-type-medium" type="text" name="phone" placeholder="Номер телефона" required />
+                            <input class="input text-type-medium" type="text"  name="city" placeholder="Ваш город" required />
+                            <div class="select-dropdown">
+                                <select class="text text-type-medium" required>
+                                    <option value="" disabled selected hidden>Выберите программу</option>
+                                    <option value="Бакалавриат">Бакалавриат</option>
+                                    <option value="Магистратура">Магистратура</option>
+                                    <option value="Языковые курсы">Языковые курсы</option>
+                                    <option value="Летние каникулы за рубежом">Летние каникулы за рубежом</option>
+                                </select>
+                            </div>
+                            <button class="button button-primary button-unset" type="submit">
+                                <span class="text text-type-medium-14 text-color-white text-font-weight-500 text-transform-uppercase">
+                                    Отправить заявку
+                                </span>
+                            </button>
+                            <div class="container--column gap-0">
+                                <span class="text text-type-small text-align-center">
+                                    Оставляя сообщение вы соглашаетесь
+                                </span>
+                                <span class="text text-type-small text-align-center">
+                                    на обработку 
+                                    <a href="/" class="text text-type-small text-color-primary">
+                                        персональных данных
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
         <!-- https://book.cakephp.org/2/en/core-libraries/helpers/js.html -->
         <?php echo $this->Js->writeBuffer(); ?>
