@@ -36,7 +36,6 @@
             );
         ?>
     </head>
-</div>
 	<body class="container--column gap-24">
 		<?php echo $this->element('navbar') ?>
 		<section class="hero-section px-8">
@@ -80,7 +79,7 @@
                     Находим учебное заведение с подходящей программой и условиями. Сопровождаем на всем пути подготовки и подачи документов.
                 </span>
 
-                <a href="/" class="button button-outline button-ico text-color-white">
+                <a href="/" class="button button-outline button-ico text-color-white mt-auto">
                     <span class="ico ico-20">
                         <i class="ico-arrow-right"></i>
                     </span>
@@ -92,7 +91,7 @@
                     Обучаем английскому детей с 6 лет, подростков и взрослых офлайн и онлайн. Готовим к международным экзаменам IELTS и SAT.
                 </span>
 
-                <a href="/" class="button button-outline button-ico text-color-white">
+                <a href="/" class="button button-outline button-ico text-color-white mt-auto">
                     <span class="ico ico-20">
                         <i class="ico-arrow-right"></i>
                     </span>
@@ -104,7 +103,7 @@
                     Организуем каникулы с полным погружением в языковую среду. Обеспечиваем безопасное пребывание наших учеников в лучших колледжах Лондона, Нью-Йорка, Лос-Анджелеса и Сеула.
                 </span>
 
-                <a href="/" class="button button-outline button-ico text-color-white">
+                <a href="/" class="button button-outline button-ico text-color-white mt-auto">
                     <span class="ico ico-20">
                         <i class="ico-arrow-right"></i>
                     </span>
@@ -221,7 +220,7 @@
                 <div class="card card-type-gradient flex-1">
                     <h5 class="text text-transform-uppercase">План поступления</h5>
                     <span class="text text-type-medium-14">представляем список учебных заведений по вашему портфолио и пошаговую стратегию поступления.</span>
-                    <a href="/" class="button button-outline button-ico border-circle text-color-white ml-auto">
+                    <a href="/" class="button button-outline button-ico border-circle text-color-white ml-auto mt-auto">
                         <span class="ico ico-20">
                             <i class="ico-tl-arrow"></i>
                         </span>
@@ -230,7 +229,7 @@
                 <div class="card card-type-gradient flex-1">
                     <h5 class="text text-transform-uppercase">Сбор документов</h5>
                     <span class="text text-type-medium-14">заполняем онлайн заявки и подготавливаем сопроводительные документы.</span>
-                    <a href="/" class="button button-outline button-ico border-circle text-color-white ml-auto">
+                    <a href="/" class="button button-outline button-ico border-circle text-color-white ml-auto mt-auto">
                         <span class="ico ico-20">
                             <i class="ico-tl-arrow"></i>
                         </span>
@@ -239,7 +238,7 @@
                 <div class="card card-type-gradient flex-1">
                     <h5 class="text text-transform-uppercase">Приглашение и виза</h5>
                     <span class="text text-type-medium-14">помогаем выполнить все условия зачисления и подготовиться к интервью для учебной визы.</span>
-                    <a href="/" class="button button-outline button-ico border-circle text-color-white ml-auto">
+                    <a href="/" class="button button-outline button-ico border-circle text-color-white ml-auto mt-auto">
                         <span class="ico ico-20">
                             <i class="ico-tl-arrow"></i>
                         </span>
@@ -287,8 +286,6 @@
                 </span>
             </a>
         </section>
-
-        <!-- TODO: Create "About company section" -->
         <section class="grid container--column-mobile justify-center px-8 my-35">
             <div class="container">
                 <img class="img object-fit-cover border-circle" src="/assets/venera.png"/>
@@ -304,35 +301,6 @@
                 </a>
             </div>
         </section>
-		<!-- <div class = "about-company">
-			<div class="container container--column-mobile">
-				<div class="info-illustration-2-container justify-center">
-					<section class="container px-8 my-35">
-						<div class="about-company-index flex-1">
-							<img class="img11" src="/assets/icons/venera.svg" style ="
-							  margin-left: 150px;
-							 />
-						</div>
-						/*<div class="separator--vertical"></div>
-						<div class="container--column flex-1">
-							<h2 class="text11">Байжигитова Венера Тимуровна</h2>
-							<span class="text11 text-type-medium-20 pt-12">
-									Я верю, что самое главное в нашей работе — счастье ребенка. Отправляясь за границу,
-									дети начинают вершить судьбу, а мы сопровождаем их на этом пути.
-							</span>
-							<button class = "button11" type="submit" style ="
-								border: none;
-								cursor: pointer;
-								appearance: none;
-								background-color: inherit;
-							">
-								<img src="/assets/about-company.svg" alt="о компании" border="0" />
-							</button>
-						</div>
-					</section>
-				</div>
-			</div>
-		</div> -->
         <section class="container--column px-8 my-25">
             <h2 class="text">Наши партнеры</h2>
             <div class="container flex-wrap justify-center">
@@ -365,98 +333,6 @@
             </section>
         <?php endif; ?>
         <?php echo $this->element('footer') ?>
-        <div id="english-school-apply-modal" class="modal" data-toggled="false">
-            <div class="modal--overlay"></div>
-            <div class="modal--body">
-                <div class="modal--close">
-                    <div class="button button-ico border-circle" onclick="handleModalToggle('english-school-apply-modal');">
-                        <span class="ico ico-20">
-                            <i class="ico-close"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="modal--content">
-                    <div class="modal--title container--column gap-0">
-                        <h3 class="text text-align-center">Языковая школа</h3>
-                    </div>
-                    <form class="w-100">
-                        <div class="container--column pb-25">
-                            <input class="input input-ico input-user-ico text text-type-medium" type="text" name="name" placeholder="Фамилия Имя" required />
-                            <input class="input input-ico input-phone-ico text text-type-medium" type="text" name="phone" placeholder="Номер телефона" required />
-                            <button class="button button-primary button-unset" type="submit">
-                                <span class="text text-type-medium-14 text-color-white text-font-weight-500 text-transform-uppercase">
-                                    Отправить
-                                </span>
-                            </button>
-                            <div class="container--column gap-0">
-                                <span class="text text-type-small text-align-center">
-                                    Оставляя сообщение вы соглашаетесь
-                                </span>
-                                <span class="text text-type-small text-align-center">
-                                    на обработку 
-                                    <a href="/" class="text text-type-small text-color-primary">
-                                        персональных данных
-                                    </a>
-                                </span>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div id="apply-modal" class="modal" data-toggled="false">
-            <div class="modal--overlay"></div>
-            <div class="modal--body">
-                <div class="modal--close">
-                    <div class="button button-ico border-circle" onclick="handleModalToggle('apply-modal');">
-                        <span class="ico ico-20">
-                            <i class="ico-close"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="modal--content">
-                    <div class="modal--title container--column gap-0">
-                        <h3 class="text text-align-center">Образование за</h3>
-                        <h3 class="text text-align-center">pубежом</h3>
-                    </div>
-                    <form class="w-100">
-                        <div class="container--column pb-25">
-                            <input class="input input-ico input-user-ico text text-type-medium" type="text" name="name" placeholder="Фамилия Имя" required />
-                            <input class="input input-ico input-phone-ico text text-type-medium" type="text" name="phone" placeholder="Номер телефона" required />
-                            <input class="input text-type-medium" type="text"  name="city" placeholder="Ваш город" required />
-                            <div class="select-dropdown">
-                                <select class="text text-type-medium" required>
-                                    <option value="" disabled selected hidden>Выберите программу</option>
-                                    <option value="Бакалавриат">Бакалавриат</option>
-                                    <option value="Магистратура">Магистратура</option>
-                                    <option value="Языковые курсы">Языковые курсы</option>
-                                    <option value="Летние каникулы за рубежом">Летние каникулы за рубежом</option>
-                                </select>
-                            </div>
-                            <button class="button button-primary button-unset" type="submit">
-                                <span class="text text-type-medium-14 text-color-white text-font-weight-500 text-transform-uppercase">
-                                    Отправить заявку
-                                </span>
-                            </button>
-                            <div class="container--column gap-0">
-                                <span class="text text-type-small text-align-center">
-                                    Оставляя сообщение вы соглашаетесь
-                                </span>
-                                <span class="text text-type-small text-align-center">
-                                    на обработку 
-                                    <a href="/" class="text text-type-small text-color-primary">
-                                        персональных данных
-                                    </a>
-                                </span>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <!-- https://book.cakephp.org/2/en/core-libraries/helpers/js.html -->
-        <?php echo $this->Js->writeBuffer(); ?>
 	</body>
 
     <!-- <body>

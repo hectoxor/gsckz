@@ -135,7 +135,7 @@
 
 @media (max-width: 1200px) {
 	.hero-section {
-		height: calc(100vh + 25vw);
+		height: calc(100vh + 20vw);
 		align-items: flex-end;
 	}
 }

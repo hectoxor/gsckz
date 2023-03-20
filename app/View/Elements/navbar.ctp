@@ -30,7 +30,7 @@
 					<a href="/" class="nav-dropdown-content__item nav-link">
 						<span class="text text-type-medium text-color-primary text-font-weight-600">Les Roches</span>
 					</a>
-					<a href="/" class="nav-dropdown-content__item nav-link">
+					<a href="/courses" class="nav-dropdown-content__item nav-link">
 						<span class="text text-type-medium text-color-primary text-font-weight-600">Летние каникулы за рубежом</span>
 					</a>
 					<a href="/" class="nav-dropdown-content__item nav-link">

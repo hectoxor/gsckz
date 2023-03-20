@@ -23,7 +23,6 @@ class CoursesController extends AppController {
 		$this->set(compact('data', 'meta', 'title_for_layout'));
 	}
 
-
 	public function view($alias = null){
 		$this->Course->locale = Configure::read('Config.language');
 		$this->Review->locale = Configure::read('Config.language');

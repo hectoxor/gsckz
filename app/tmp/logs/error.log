@@ -10745,3 +10745,178 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
 [main] - APP/webroot/index.php, line 118
 
+2023-03-20 05:48:27 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-20 05:48:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-20 05:48:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-20 06:08:32 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-20 06:08:32 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-20 06:10:23 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/Merriweather-Bold.woff
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-20 06:10:23 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/Merriweather-Bold.ttf
+Stack Trace:
+#0 /Users/hereugo/Projects/gsckz/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-20 06:12:14 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-20 06:13:29 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-20 06:14:34 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-20 06:17:02 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-20 07:33:53 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-20 07:34:33 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-20 07:41:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-20 07:42:14 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-20 07:42:37 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-20 07:42:50 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+

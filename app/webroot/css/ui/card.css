@@ -13,10 +13,6 @@
     padding: 24px;
 }
 
-.card > *:last-child {
-    margin-top: auto;
-}
-
 .card-type-1 {
     background: var(--color-info-card-background-1);
     border-color: var(--color-info-card-background-border-1);

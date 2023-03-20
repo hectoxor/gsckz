@@ -1,5 +1,4 @@
 /* User Interface CSS */
-
 @import 'ui/common.css';
 @import 'ui/fonts.css';
 @import 'ui/images.css';
@@ -16,5 +15,8 @@
 /* Components CSS */
 @import 'component/footer.css';
 @import 'component/navbar.css';
+
+/* Pages CSS */
 @import 'component/news.css';
 @import 'component/layout.css';
+@import 'component/courses.css';

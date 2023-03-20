@@ -1,64 +1,64 @@
-<div class="page-header-content">
-	<div class="container">
-		<h1 class="title">Летние курсы за рубежом</h1>
-		<nav class="page-header-nav">
-			<ul>
-                <li><a href="javascript:;">Языковые курсы за рубежом</a></li>
-                <li><a href="/<?= $lang ?>secondary_educations<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Среднее образование</a></li>
-                <li><a href="/<?= $lang ?>higher_educations<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Высшее образование</a></li>
-                <li><a href="/<?= $lang ?>glion_lesroches?type=glion<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Glion</a></li>
-                <li class=""><a href="/<?= $lang ?>glion_lesroches?type=les_roches<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Les Roches</a></li>
-                <li class="active"><a href="/<?= $lang ?>courses<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Летние каникулы за рубежом</a></li>
-                <li class=""><a href="/<?= $lang ?>contacts<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Контакты</a></li>
-            </ul>
-		</nav>
+<section class="hero-section px-8">
+	<div class="hero-section-bg">
+		<img class="hero-bg" src="/assets/bg-gradient1.png" />
+		<div class="hero-illustration-content">
+			<img class="illustration-7" src="/assets/illustration-7.png" />
+			<img class="illustration-8" src="/assets/illustration-8.png" />
+		</div>
 	</div>
-</div>
-
-<?php if( isset($data) && $data ): ?>
-	<section class="section summer-holidays">
-		<div class="container">
-			<h1 class="title">Список стран</h1>
-
-			<div class="summer-holidays__items">
-				<?php foreach( $data as $item ): ?>
-					<div class="summer-holidays__item">
-						<a class="summer-holidays__item-pic pic-increase" href="/<?= $lang ?>course/<?= $item['Course']['alias'] ?>"> 
-							<img alt="" src="/img/courses/<?= $item['Course']['img'] ?>" /> 
-						</a> 
-						<a class="summer-holidays__item-title" href="/<?= $lang ?>course/<?= $item['Course']['alias'] ?>"><?= $item['Course']['title'] ?></a> 
-						<a class="btn more" href="/<?= $lang ?>course/<?= $item['Course']['alias'] ?>">Подробнее</a>
-					</div>
-				<?php endforeach; ?>
-			</div>
+	<div class="hero-inner">
+		<div class="hero-inner-title">
+			<h1 class="text text-color-large">Летние программы</h1>
 		</div>
-	</section>
-<?php endif; ?>
-
-<section class="section req">
-	<div class="container">
-		<h2 class="title">подберем для вас учебное заведение</h2>
-		<div class="request">
-			<form class="form" action="/requests/send" method="POST">
-                <div class="input-parent">
-                    <input class="form_input" type="text" name="name" placeholder="Фамилия Имя Отчество" required="">
-                    <input class="form_input" type="email" name="mail" placeholder="Электронная почта" required="">
-                    <input class="form_input" type="tel" name="phone" placeholder="Номер телефона" required="">
-
-                    <input name="url" value="<?php echo Router::url(null, true) ?>" type="hidden">
-                    <input name="page" type="hidden" value="b24">
-
-                    <?php if($this->Session->check('city')): ?>
-                        <input type="hidden" name="city" value="<?=$this->Common->get_city($this->Session->read('city'))?>">
-                    <?php else: ?>
-                       <input type="hidden" name="city" value="Нур-Султан"> 
-                    <?php endif ?>
-                </div>
-                <div class="input-parent input-parent--sec">
-                    <div id="RecaptchaField3"></div>
-                </div>
-                <div class="btn more" data-id="2" onclick="checkCapcha2()" type="submit">Оставить заявку</div>
-            </form>
+		<div class="container--column w-50 mt-5 mb-25">
+			<!-- <span class="note-border"></span> -->
+			<span class="text text-color-black text-type-medium-20">
+				Каникулы с GSC STUDY — это трехнедельные поездки в города США, Европы и Южной Кореи для подростков от 13 до 18 лет.
+			</span>
+			<span class="text text-color-black text-type-medium-20">
+				Программа включает в себя ежедневные экскурсии и 15 часов английского в неделю с носителями языка. 
+			</span>
 		</div>
+		<a class="button button-primary" onclick="handleModalToggle('apply-modal');">
+			<span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">получить консультацию</span>
+		</a>
+	</div>
+</section>
+
+
+<!-- TODO: 3 Yellow info boxes and one long green box -->
+<section class="container container--column-mobile px-8 mb-25">
+	<div class="card card-type-1 gap-0">
+		<div class="container--column h-100 w-100 justify-center align-center">
+			<h3 class="text text-transform-uppercase text-align-center">Языковая среда</h3>
+		</div>
+		<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">
+			<span class="ico ico-20">
+				<i class="ico-tl-arrow"></i>
+			</span>
+		</a>
+	</div>
+	<div class="card card-type-1 gap-0">
+		<div class="container--column h-100 w-100 justify-center align-center">
+			<h3 class="text text-transform-uppercase text-align-center">Сопровождение</h3>			
+			<span class="text text-type-medium text-font-weight-500">
+				Дети едут в сопровождении доверенных преподавателей центра, которые владеют английским языком и помогут разрешить все возникающие вопросы. 
+			</span>
+		</div>
+		<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">
+			<span class="ico ico-20">
+				<i class="ico-tl-arrow"></i>
+			</span>
+		</a>
+	</div>
+	<div class="card card-type-1 gap-0">
+		<div class="container--column h-100 w-100 justify-center align-center">
+			<h3 class="text text-transform-uppercase text-align-center">Безопасность</h3>			
+		</div>
+		<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">
+			<span class="ico ico-20">
+				<i class="ico-tl-arrow"></i>
+			</span>
+		</a>
 	</div>
 </section>

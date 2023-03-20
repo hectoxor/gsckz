@@ -1,0 +1,17 @@
+.illustration-7 { /* Books */
+    top: 200px;
+    right: 100px;
+    position: relative;
+    width: 550px;
+    display: block;
+    animation: float 3s ease-in-out infinite;
+}
+
+.illustration-8 { /* Sun weather */
+    top: -150px;
+    right: 150px;
+    position: relative;
+    width: 150px;
+    display: block;
+    animation: float 2s ease-in-out infinite;
+}
