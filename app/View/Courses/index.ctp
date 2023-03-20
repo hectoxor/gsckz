@@ -27,38 +27,56 @@
 
 
 <!-- TODO: 3 Yellow info boxes and one long green box -->
-<section class="container container--column-mobile px-8 mb-25">
-	<div class="card card-type-1 gap-0">
-		<div class="container--column h-100 w-100 justify-center align-center">
-			<h3 class="text text-transform-uppercase text-align-center">Языковая среда</h3>
+<section class="container--column px-8">
+	<div class="container container--column-mobile">
+		<div class="card card-type-1 gap-0">
+			<div class="container--column h-100 w-100 justify-center align-center">
+				<h3 class="text text-transform-uppercase text-align-center">Языковая среда</h3>
+			</div>
+			<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">
+				<span class="ico ico-20">
+					<i class="ico-tl-arrow"></i>
+				</span>
+			</a>
 		</div>
-		<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">
-			<span class="ico ico-20">
-				<i class="ico-tl-arrow"></i>
-			</span>
-		</a>
-	</div>
-	<div class="card card-type-1 gap-0">
-		<div class="container--column h-100 w-100 justify-center align-center">
-			<h3 class="text text-transform-uppercase text-align-center">Сопровождение</h3>			
-			<span class="text text-type-medium text-font-weight-500">
-				Дети едут в сопровождении доверенных преподавателей центра, которые владеют английским языком и помогут разрешить все возникающие вопросы. 
-			</span>
+		<div class="card card-type-1 gap-0">
+			<div class="container--column h-100 w-100 justify-center align-center">
+				<h3 class="text text-transform-uppercase text-align-center">Сопровождение</h3>			
+				<span class="text text-type-medium text-font-weight-500">
+					Дети едут в сопровождении доверенных преподавателей центра, которые владеют английским языком и помогут разрешить все возникающие вопросы. 
+				</span>
+			</div>
+			<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">
+				<span class="ico ico-20">
+					<i class="ico-tl-arrow"></i>
+				</span>
+			</a>
 		</div>
-		<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">
-			<span class="ico ico-20">
-				<i class="ico-tl-arrow"></i>
-			</span>
-		</a>
-	</div>
-	<div class="card card-type-1 gap-0">
-		<div class="container--column h-100 w-100 justify-center align-center">
-			<h3 class="text text-transform-uppercase text-align-center">Безопасность</h3>			
+		<div class="card card-type-1 gap-0">
+			<div class="container--column h-100 w-100 justify-center align-center">
+				<h3 class="text text-transform-uppercase text-align-center">Безопасность</h3>			
+			</div>
+			<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">
+				<span class="ico ico-20">
+					<i class="ico-tl-arrow"></i>
+				</span>
+			</a>
 		</div>
-		<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">
-			<span class="ico ico-20">
-				<i class="ico-tl-arrow"></i>
-			</span>
-		</a>
 	</div>
+	<div class="card card-type-2 gap-0">
+		<div class="container--column h-100 w-100 justify-center align-center p-10">
+			<h3 class="text text-transform-uppercase text-align-center">Наши студенты отмечают, что летние поездки помогают определиться с будущей страной обучения</h3>			
+		</div>
+	</div>
+</section>
+
+<span class="text text-color-black text-type-medium-20 px-8 mb-25">
+	Часто бывает так, что страна мечты в реальности ощущается иначе. Таким образом <b>летняя программа — возможность выбрать место дальнейшего обучения по душе.</b>
+</span>
+
+<section class="container container--column-mobile px-8">
+	<div class="container--column">
+		
+	</div>
+
 </section>

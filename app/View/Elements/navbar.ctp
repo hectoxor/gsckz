@@ -15,7 +15,7 @@
 					</span>
 				</div>
 				<div class="nav-dropdown-content py-4 px-8">
-					<a href="/" class="nav-dropdown-content__item nav-link">
+					<!-- <a href="/" class="nav-dropdown-content__item nav-link">
 						<span class="text text-type-medium text-color-primary text-font-weight-600">Языковые курсы</span>
 					</a>
 					<a href="/" class="nav-dropdown-content__item nav-link">
@@ -29,17 +29,17 @@
 					</a>
 					<a href="/" class="nav-dropdown-content__item nav-link">
 						<span class="text text-type-medium text-color-primary text-font-weight-600">Les Roches</span>
-					</a>
-					<a href="/courses" class="nav-dropdown-content__item nav-link">
+					</a> -->
+					<a href="/summer-programs" class="nav-dropdown-content__item nav-link">
 						<span class="text text-type-medium text-color-primary text-font-weight-600">Летние каникулы за рубежом</span>
 					</a>
-					<a href="/" class="nav-dropdown-content__item nav-link">
+					<a href="/contacts" class="nav-dropdown-content__item nav-link">
 						<span class="text text-type-medium text-color-primary text-font-weight-600">Контакты</span>
 					</a>
 				</div>
 			</div>
 			<div class="nav-text">
-				<a href="/" class="nav-link">
+				<a href="/language-school" class="nav-link">
 					<span class="text text-type-medium text-color-primary text-font-weight-600 text-overflow">Школа английского</span>
 				</a>
 			</div>
@@ -47,23 +47,23 @@
 				<div class="nav-dropdown-text">
 					<span class="text text-type-medium text-color-primary text-font-weight-600 text-overflow">Летние программы</span>
 					<span class="ico ico-16">
-							<i class="ico-chevron-down"></i>
-						</span>
+						<i class="ico-chevron-down"></i>
+					</span>
 				</div>
 				<div class="nav-dropdown-content py-4 px-8">
-					<a href="/" class="nav-dropdown-content__item nav-link">
+					<a href="/summer-programs" class="nav-dropdown-content__item nav-link">
 						<span class="text text-type-medium text-color-primary text-font-weight-600">Языковая среда</span>
 					</a>
-					<a href="/" class="nav-dropdown-content__item nav-link">
+					<a href="/summer-programs" class="nav-dropdown-content__item nav-link">
 						<span class="text text-type-medium text-color-primary text-font-weight-600">Сопровождение</span>
 					</a>
-					<a href="/" class="nav-dropdown-content__item nav-link">
+					<a href="/summer-programs" class="nav-dropdown-content__item nav-link">
 						<span class="text text-type-medium text-color-primary text-font-weight-600">Безопасность</span>
 					</a>
 				</div>
 			</div>
 			<div class="nav-text">
-				<a href="/" class="nav-link">
+				<a href="/contacts" class="nav-link">
 					<span class="text text-type-medium text-color-primary text-font-weight-600 text-overflow">Контакты</span>
 				</a>
 			</div>
@@ -71,7 +71,7 @@
 				<div class="nav-text">
 					<span class="text text-type-medium-20  text-font-weight-600 text-font-family-primary text-overflow">+7 (700) 127 77 88</span>
 				</div>
-				<a href="/" class="nav-link button button-primary">
+				<a class="nav-link button button-primary" onclick="handleModalToggle('apply-modal');">
 					<span class="text text-type-medium-14 text-color-white text-font-weight-700 text-font-family-primary text-transform-uppercase text-overflow">Получить консультацию</span>
 				</a>
 			</div>
