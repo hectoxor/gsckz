@@ -22,8 +22,9 @@
                                 <img src="/img/news/thumbs/<?= $item['News']['img'] ?>" alt="">
                             </a>
                             <a href="/<?= $lang ?>news/<?= $item['News']['alias'] ?>" class="news__item-title"><?=$item['News']['title']?></a>
-                            <p><?= $this->Text->truncate(strip_tags($item['News']['body']), 102, array('ellipsis' => '...', 'exact' => true)) ?></p>
+                            <p><?= $this->Text->truncate(strip_tags($item['News']['body']), 120, array('ellipsis' => '...', 'exact' => true)) ?></p>
                             <a href="/<?= $lang ?>news/<?= $item['News']['alias'] ?>" class="moree">Читать подробнее</a>
+
                         </div>
                     </div>
                 <?php endforeach; ?>

@@ -1325,13 +1325,12 @@ li {
 	display: -ms-flexbox;
 	display: flex;
 	flex-wrap: wrap;
-	margin-right: -25px;
 }
 
 .news__items.way--active .news__item {
 	opacity: 1;
 	-webkit-transform: none;
-	transform: none;
+	transform: revert;
 }
 
 .news__item {
@@ -1344,7 +1343,8 @@ li {
 }
 
 .news-item {
-	margin-right: 25px;
+	justify-content: center;
+	align-items: center;
 }
 
 .news__item:nth-child(2) {
