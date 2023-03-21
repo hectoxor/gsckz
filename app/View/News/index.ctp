@@ -10,7 +10,7 @@
                 </li>
             </ol>
             <h1 class="title">Новости</h1>
-        </div>    
+        </div>
     </div>
     <section class="section news-page">
         <div class="container">
@@ -25,10 +25,10 @@
                             <p><?= $this->Text->truncate(strip_tags($item['News']['body']), 102, array('ellipsis' => '...', 'exact' => true)) ?></p>
                             <a href="/<?= $lang ?>news/<?= $item['News']['alias'] ?>" class="moree">Читать подробнее</a>
                         </div>
-                    </div>    
+                    </div>
                 <?php endforeach; ?>
             </div>
-            <div class="pagi">     
+            <div class="pagi">
                 <div class="pag-bot">
                     <ul class="pagination">
                         <!-- <li class="pag-bot__arrow">
@@ -41,9 +41,10 @@
                                 'modulus' => 4
                                 )
                         ); ?>
+						<li class="pag-bot__arrow"><?php echo $this->Paginator->first('<<'); ?></li>
                         <li class="pag-bot__arrow"><?php echo $this->Paginator->last('>>'); ?></li>
                     </ul>
-                </div>  
+                </div>
             </div>
         </div>
     </section>
