@@ -333,6 +333,95 @@
             </section>
         <?php endif; ?>
         <?php echo $this->element('footer') ?>
+        <div id="english-school-apply-modal" class="modal" data-toggled="false">
+            <div class="modal--overlay"></div>
+            <div class="modal--body">
+                <div class="modal--close">
+                    <div class="button button-ico border-circle" onclick="handleModalToggle('english-school-apply-modal');">
+                        <span class="ico ico-20">
+                            <i class="ico-close"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="modal--content">
+                    <div class="modal--title container--column gap-0">
+                        <h3 class="text text-align-center">Языковая школа</h3>
+                    </div>
+                    <form class="w-100">
+                        <div class="container--column pb-25">
+                            <input class="input input-ico input-user-ico text text-type-medium" type="text" name="name" placeholder="Фамилия Имя" required />
+                            <input class="input input-ico input-phone-ico text text-type-medium" type="text" name="phone" placeholder="Номер телефона" required />
+                            <button class="button button-primary button-unset" type="submit">
+                                <span class="text text-type-medium-14 text-color-white text-font-weight-500 text-transform-uppercase">
+                                    Отправить
+                                </span>
+                            </button>
+                            <div class="container--column gap-0">
+                                <span class="text text-type-small text-align-center">
+                                    Оставляя сообщение вы соглашаетесь
+                                </span>
+                                <span class="text text-type-small text-align-center">
+                                    на обработку 
+                                    <a href="/" class="text text-type-small text-color-primary">
+                                        персональных данных
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="apply-modal" class="modal" data-toggled="false">
+            <div class="modal--overlay"></div>
+            <div class="modal--body">
+                <div class="modal--close">
+                    <div class="button button-ico border-circle" onclick="handleModalToggle('apply-modal');">
+                        <span class="ico ico-20">
+                            <i class="ico-close"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="modal--content">
+                    <div class="modal--title container--column gap-0">
+                        <h3 class="text text-align-center">Образование за</h3>
+                        <h3 class="text text-align-center">pубежом</h3>
+                    </div>
+                    <form class="w-100">
+                        <div class="container--column pb-25">
+                            <input class="input input-ico input-user-ico text text-type-medium" type="text" name="name" placeholder="Фамилия Имя" required />
+                            <input class="input input-ico input-phone-ico text text-type-medium" type="text" name="phone" placeholder="Номер телефона" required />
+                            <input class="input text-type-medium" type="text"  name="city" placeholder="Ваш город" required />
+                            <div class="select-dropdown">
+                                <select class="text text-type-medium" required>
+                                    <option value="" disabled selected hidden>Выберите программу</option>
+                                    <option value="Бакалавриат">Бакалавриат</option>
+                                    <option value="Магистратура">Магистратура</option>
+                                    <option value="Языковые курсы">Языковые курсы</option>
+                                    <option value="Летние каникулы за рубежом">Летние каникулы за рубежом</option>
+                                </select>
+                            </div>
+                            <button class="button button-primary button-unset" type="submit">
+                                <span class="text text-type-medium-14 text-color-white text-font-weight-500 text-transform-uppercase">
+                                    Отправить заявку
+                                </span>
+                            </button>
+                            <div class="container--column gap-0">
+                                <span class="text text-type-small text-align-center">
+                                    Оставляя сообщение вы соглашаетесь
+                                </span>
+                                <span class="text text-type-small text-align-center">
+                                    на обработку 
+                                    <a href="/" class="text text-type-small text-color-primary">
+                                        персональных данных
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 	</body>
 
     <!-- <body>
