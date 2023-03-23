@@ -41,7 +41,7 @@
 		</div>
 		<div class="card card-type-1 gap-0">
 			<div class="container--column h-100 w-100 justify-center align-center">
-				<h3 class="text text-transform-uppercase text-align-center">Сопровождение</h3>			
+				<h3 class="text text-transform-uppercase text-align-center">Сопровождение</h3>
 				<span class="text text-type-medium text-font-weight-500">
 					Дети едут в сопровождении доверенных преподавателей центра, которые владеют английским языком и помогут разрешить все возникающие вопросы. 
 				</span>
@@ -54,7 +54,7 @@
 		</div>
 		<div class="card card-type-1 gap-0">
 			<div class="container--column h-100 w-100 justify-center align-center">
-				<h3 class="text text-transform-uppercase text-align-center">Безопасность</h3>			
+				<h3 class="text text-transform-uppercase text-align-center">Безопасность</h3>
 			</div>
 			<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">
 				<span class="ico ico-20">
@@ -65,7 +65,7 @@
 	</div>
 	<div class="card card-type-2 gap-0">
 		<div class="container--column h-100 w-100 justify-center align-center p-10">
-			<h3 class="text text-transform-uppercase text-align-center">Наши студенты отмечают, что летние поездки помогают определиться с будущей страной обучения</h3>			
+			<h3 class="text text-transform-uppercase text-align-center">Наши студенты отмечают, что летние поездки помогают определиться с будущей страной обучения</h3>
 		</div>
 	</div>
 </section>
@@ -74,8 +74,52 @@
 	Часто бывает так, что страна мечты в реальности ощущается иначе. Таким образом <b>летняя программа — возможность выбрать место дальнейшего обучения по душе.</b>
 </span>
 
-<section class="container container--column-mobile px-8">
-	<div class="container--column">
-		
+<!--<section class="container container--column-mobile px-8">-->
+<!--<!--	<div class="container--column">-->-->
+<!--<!--		<section class="grid container--column-mobile justify-center px-8 my-35">-->-->
+<!--			<div class="container--row">-->
+<!--				<img src="/assets/britishcouncil.svg"/>-->
+<!--				<span class="text text-type-medium-20">-->
+<!--                        BRITISH COUNCIL-->
+<!--                </span>-->
+<!--			</div>-->
+<!--			<div class="container--row">-->
+<!--				<img src="/assets/qualityenglish.svg"/>-->
+<!--				<span class="text text-type-medium-20">-->
+<!--                        QUALITY ENGLISH-->
+<!--                </span>-->
+<!--			</div>-->
+<!--<!--		</section>-->-->
+<!--<!--	</div>-->-->
+<!--</section>-->
+
+<section class="container container--column-mobile px-8 my-25" style="
+    align-items: center;
+    justify-content: center;
+">
+	<div class="info-illustration-3-container align-start">
+		<a href="https://www.britishcouncil.org/">
+			<img class="img" src="/assets/britishcouncil.svg" />
+		</a>
+		<div class="">
+			<h3 class="text text-transform-uppercase" style="
+				margin-left: 35%;
+				margin-top: 20px;
+			">BRITISH COUNCIL</h3>
+
+		</div>
+	</div>
+	<div class="separator--vertical"></div>
+	<div class="info-illustration-3-container align-start">
+		<a href="https://www.quality-english.com/">
+			<img class="img" src="/assets/qualityenglish.svg" />
+		</a>
+		<div class="">
+			<h3 class="text text-transform-uppercase" style="
+				margin-left: 35%;
+				margin-top: 20px;
+			">QUALITY ENGLISH</h3>
+
+		</div>
 	</div>
 </section>

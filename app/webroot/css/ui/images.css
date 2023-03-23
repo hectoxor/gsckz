@@ -2,7 +2,10 @@
 	width: 100%;
 	display: block;
 }
-
+.img11{
+	width: 50%;
+	display: block;
+}
 .object-fit-cover {
 	object-fit: cover;
 }

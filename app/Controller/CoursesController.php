@@ -4,10 +4,10 @@
 class CoursesController extends AppController {
 
 	public $uses = array('Course', 'Page', 'Review');
-	
-	public function beforeFilter(){
-		parent::beforeFilter();
-	}   
+
+//	public function beforeFilter(){
+//		parent::beforeFilter();
+//	}
 
 	public function index(){
 		$this->Course->locale = Configure::read('Config.language');
@@ -26,16 +26,16 @@ class CoursesController extends AppController {
 	public function view($alias = null){
 		$this->Course->locale = Configure::read('Config.language');
 		$this->Review->locale = Configure::read('Config.language');
-		
+
 		// $this->News->locale = Configure::read('Config.language');
 		// $this->Course->locale = Configure::read('Config.language');
 		// $this->Course->bindTranslation(array('title' => 'titleTranslation', 'body' => 'bodyTranslation'));
-		
+
 		if(is_null($alias)){
 			throw new NotFoundException("Такой страницы нету");
 		}
 		$data = $this->Course->findByAlias($alias);
-		
+
 		if(!$data){
 			throw new NotFoundException("Такой страницы нету");
 		}
@@ -57,7 +57,7 @@ class CoursesController extends AppController {
 		$bc = array(array('link' => '', 'title' => $title_for_layout));
 		$this->set(compact('data', 'title_for_layout', 'meta', 'bc', 'reviews'));
 	}
-	
+
 
 	public function admin_index(){
 		$this->Course->locale = array('en', 'kz', 'ru');
@@ -67,8 +67,8 @@ class CoursesController extends AppController {
 		$data = $this->Course->find('all', array(
 			'fields' => array('id', 'title', 'alias')
 		));
-		
-		
+
+
 		$this->set(compact('data'));
 	}
 
@@ -80,7 +80,7 @@ class CoursesController extends AppController {
 		}else{
 			$this->Course->locale = 'ru';
 		}
-		
+
 		if(is_null($page_id) || !(int)$page_id || !$this->Course->exists($page_id)){
 			throw new NotFoundException('Такой страницы нет...');
 		}
@@ -128,7 +128,7 @@ class CoursesController extends AppController {
 			),
 			'order' => 'Review.id DESC',
 		));
-		
+
 		$this->set(compact('page_id', 'data', 'list', 'reviews'));
 	}
 
@@ -140,7 +140,7 @@ class CoursesController extends AppController {
 		}else{
 			$this->Course->locale = 'ru';
 		}
-		
+
 		if($this->request->is('post')){
 			$this->Course->create();
 			$data = $this->request->data['Course'];
@@ -148,7 +148,7 @@ class CoursesController extends AppController {
 			if(!isset($data['img']['name']) || !$data['img']['name']){
 				unset($data['img']);
 			}
-			
+
 			//Создаем alias
 			$slug = Inflector::slug(mb_strtolower($this->request->data['Course']['title']), '-');
 			$data[] = $this->request->data['Course'];
@@ -159,15 +159,15 @@ class CoursesController extends AppController {
 			}
 			// debug($data);
 
-			//Проверка на уникальность alias	
+			//Проверка на уникальность alias
 			$check_alias = $this->Course->findByAlias($data['alias']);
 			if(!empty($check_alias)) $data['alias'] = $data['alias'] . '-' . date("YmdHis");
-				
-			
+
+
 			if($this->Course->save($data)){
 				$this->Session->setFlash('Сохранено', 'default', array(), 'good');
-				
-				
+
+
 				return $this->redirect($this->referer());
 				// $redirect_url = '/admin/pages/edit/'.$new_page['Course']['id'].'?lang=ru';
 				// return $this->redirect($redirect_url);
@@ -175,7 +175,7 @@ class CoursesController extends AppController {
 				$this->Session->setFlash('Ошибка', 'default', array(), 'bad');
 			}
 		}
-		
+
 	}
 
 	public function admin_delete($id){

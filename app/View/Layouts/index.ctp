@@ -288,7 +288,7 @@
         </section>
         <section class="grid container--column-mobile justify-center px-8 my-35">
             <div class="container">
-                <img class="img object-fit-cover border-circle" src="/assets/venera.png"/>
+                <img class="img11" src="/assets/venera.png"/>
             </div>
             <div class="container--column w-50">
                 <h2 class="text">Байжигитова Венера Тимуровна</h2>
@@ -296,8 +296,8 @@
                         Я верю, что самое главное в нашей работе — счастье ребенка. Отправляясь за границу,
 						дети начинают вершить судьбу, а мы сопровождаем их на этом пути.
                 </span>
-                <a href="/" class="button button-primary">
-                    <span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">получить консультацию</span>
+                <a href="/about" class="button button-primary">
+                    <span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">О компании</span>
                 </a>
             </div>
         </section>
@@ -361,7 +361,7 @@
                                     Оставляя сообщение вы соглашаетесь
                                 </span>
                                 <span class="text text-type-small text-align-center">
-                                    на обработку 
+                                    на обработку
                                     <a href="/" class="text text-type-small text-color-primary">
                                         персональных данных
                                     </a>
@@ -411,7 +411,7 @@
                                     Оставляя сообщение вы соглашаетесь
                                 </span>
                                 <span class="text text-type-small text-align-center">
-                                    на обработку 
+                                    на обработку
                                     <a href="/" class="text text-type-small text-color-primary">
                                         персональных данных
                                     </a>
