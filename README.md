@@ -12,3 +12,14 @@ GSC STUDY — образовательный центр, где вам не пр
 
 - Амир Нурмухамбетов ([github](https://github.com/Hereugo))
 - Влад ([github](https://github.com/hectoxor))
+
+
+## TODO
+
+- [ ] School English Page (Английская школа)
+- [ ] Contacts Page (Контакты)
+- [ ] About Us (Company) Page (О компании)
+- [ ] News Page (Новости)
+- [ ] Catalog Page (Образование за рубежом)
+- [ ] University Info Page (Информация об университете)
+
