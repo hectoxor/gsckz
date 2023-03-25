@@ -859,7 +859,7 @@
 }
 .my-25 {
 	margin-top: calc(var(--offset-base-size)  * 25);
-	/*margin-bottom: calc(var(--offset-base-size)  * 25);*/
+	margin-bottom: calc(var(--offset-base-size)  * 25);
 }
 .my-30 {
 	margin-top: calc(var(--offset-base-size)  * 30);

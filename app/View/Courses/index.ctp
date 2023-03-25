@@ -28,7 +28,7 @@
 
 <!-- TODO: 3 Yellow info boxes and one long green box -->
 <section class="container--column px-8">
-	<div class="container container--column-mobile">
+	<div class="container container--column-mobile gap-1">
 		<div class="card card-type-1 gap-0">
 			<div class="container--column h-100 w-100 justify-center align-center">
 				<h3 class="text text-transform-uppercase text-align-center">Языковая среда</h3>
@@ -74,52 +74,17 @@
 	Часто бывает так, что страна мечты в реальности ощущается иначе. Таким образом <b>летняя программа — возможность выбрать место дальнейшего обучения по душе.</b>
 </span>
 
-<!--<section class="container container--column-mobile px-8">-->
-<!--<!--	<div class="container--column">-->-->
-<!--<!--		<section class="grid container--column-mobile justify-center px-8 my-35">-->-->
-<!--			<div class="container--row">-->
-<!--				<img src="/assets/britishcouncil.svg"/>-->
-<!--				<span class="text text-type-medium-20">-->
-<!--                        BRITISH COUNCIL-->
-<!--                </span>-->
-<!--			</div>-->
-<!--			<div class="container--row">-->
-<!--				<img src="/assets/qualityenglish.svg"/>-->
-<!--				<span class="text text-type-medium-20">-->
-<!--                        QUALITY ENGLISH-->
-<!--                </span>-->
-<!--			</div>-->
-<!--<!--		</section>-->-->
-<!--<!--	</div>-->-->
-<!--</section>-->
-
-<section class="container container--column-mobile px-8 my-25" style="
-    align-items: center;
-    justify-content: center;
-">
-	<div class="info-illustration-3-container align-start">
+<section class="container container--column-mobile align-center justify-center px-8 my-25 gap-40">
+	<div class="container--column align-center">
 		<a href="https://www.britishcouncil.org/">
 			<img class="img" src="/assets/britishcouncil.svg" />
 		</a>
-		<div class="">
-			<h3 class="text text-transform-uppercase" style="
-				margin-left: 35%;
-				margin-top: 20px;
-			">BRITISH COUNCIL</h3>
-
-		</div>
+		<h3 class="text text-transform-uppercase">BRITISH COUNCIL</h3>
 	</div>
-	<div class="separator--vertical"></div>
-	<div class="info-illustration-3-container align-start">
+	<div class="container--column align-center">
 		<a href="https://www.quality-english.com/">
 			<img class="img" src="/assets/qualityenglish.svg" />
 		</a>
-		<div class="">
-			<h3 class="text text-transform-uppercase" style="
-				margin-left: 35%;
-				margin-top: 20px;
-			">QUALITY ENGLISH</h3>
-
-		</div>
+		<h3 class="text text-transform-uppercase">QUALITY ENGLISH</h3>
 	</div>
 </section>

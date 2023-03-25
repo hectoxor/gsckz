@@ -286,21 +286,6 @@
                 </span>
             </a>
         </section>
-        <section class="grid container--column-mobile justify-center px-8 my-35">
-            <div class="container">
-                <img class="img11" src="/assets/venera.png"/>
-            </div>
-            <div class="container--column w-50">
-                <h2 class="text">Байжигитова Венера Тимуровна</h2>
-                <span class="text text-type-medium-20">
-                        Я верю, что самое главное в нашей работе — счастье ребенка. Отправляясь за границу,
-						дети начинают вершить судьбу, а мы сопровождаем их на этом пути.
-                </span>
-                <a href="/about" class="button button-primary">
-                    <span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">О компании</span>
-                </a>
-            </div>
-        </section>
         <section class="container--column px-8 my-25">
             <h2 class="text">Наши партнеры</h2>
             <div class="container flex-wrap justify-center">
