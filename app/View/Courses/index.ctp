@@ -10,8 +10,7 @@
 		<div class="hero-inner-title">
 			<h1 class="text text-color-large">Летние программы</h1>
 		</div>
-		<div class="container--column w-50 mt-5 mb-25">
-			<!-- <span class="note-border"></span> -->
+		<div class="container--column w-75 mt-5 mb-25">
 			<span class="text text-color-black text-type-medium-20">
 				Каникулы с GSC STUDY — это трехнедельные поездки в города США, Европы и Южной Кореи для подростков от 13 до 18 лет.
 			</span>
@@ -25,8 +24,6 @@
 	</div>
 </section>
 
-
-<!-- TODO: 3 Yellow info boxes and one long green box -->
 <section class="container--column px-8">
 	<div class="container container--column-mobile gap-1">
 		<div class="card card-type-1 gap-0">

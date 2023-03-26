@@ -1,5 +1,6 @@
 .hero-section {
-	height: 100vh;
+	padding-top: 120px;
+	padding-bottom: 120px;
 	display: flex;
 	align-items: center;
 }
@@ -11,7 +12,7 @@
 }
 
 .hero-inner {
-	width: 100%;
+	width: 850px;
 }
 
 .hero-bg {
@@ -135,8 +136,7 @@
 
 @media (max-width: 1200px) {
 	.hero-section {
-		height: calc(100vh + 20vw);
-		align-items: flex-end;
+		padding-top: 600px;
 	}
 }
 
