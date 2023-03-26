@@ -17,7 +17,7 @@ GSC STUDY — образовательный центр, где вам не пр
 ## TODO
 
 - [x] School English Page (Английская школа)
-- [ ] Contacts Page (Контакты)
+- [x] Contacts Page (Контакты)
 - [ ] About Us (Company) Page (О компании)
 - [ ] News Page (Новости)
 - [ ] Catalog Page (Образование за рубежом)
