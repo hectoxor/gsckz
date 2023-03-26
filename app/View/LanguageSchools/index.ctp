@@ -1,6 +1,6 @@
 <section class="hero-section px-8">
 	<div class="hero-section-bg">
-		<img class="hero-bg" src="/assets/bg-gradient1.png" />
+		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
 		<div class="hero-illustration-content">
 			<img class="illustration-9" src="/assets/illustration-9.png" />
 		</div>
@@ -9,7 +9,7 @@
 		<div class="hero-inner-title">
 			<h1 class="text text-color-large">Школа английского языка</h1>
 		</div>
-		<div class="container--column w-75 mt-5 mb-25">
+		<div class="container--column mt-5 mb-25">
 			<span class="text text-color-black text-type-medium-20">
                 Уровень преподавания в GSC STUDY одобрен независимой британской организацией Quality English, которая следит за качеством преподавания английского языка по всему миру.
 			</span>
@@ -17,7 +17,7 @@
 		<a class="button button-primary" onclick="handleModalToggle('apply-modal');">
 			<span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">получить консультацию</span>
 		</a>
-        <div class="container--column w-75 my-25">
+        <div class="container--column my-25">
 			<h3 class="text text-color-large">Программы обучения английскому языку:</h3>
             <div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
                 <span class="text text-type-medium text-color-primary">Детям от 6 до 9 лет</span>

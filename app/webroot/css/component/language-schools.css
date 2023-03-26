@@ -1,8 +1,14 @@
 .illustration-9 { /* School */
     top: 200px;
-    right: 50px;
+    right: -100px;
     position: relative;
     width: 400px;
     display: block;
     animation: float 3s ease-in-out infinite;
+}
+
+@media (max-width: 1200px) {
+    .illustration-9 {
+        right: calc(50% - 200px);
+    }
 }

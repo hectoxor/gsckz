@@ -22,6 +22,13 @@
 	width: 600px;
 }
 
+.hero-bg-2 {
+	left: calc(100% - 700px);
+	top: 0px;
+	position: relative;
+	width: 700px;
+}
+
 .hero-illustration-content {
 	display: block;
 	position: absolute;
@@ -135,21 +142,11 @@
 
 
 @media (max-width: 1200px) {
-	.hero-section {
+	.hero-inner {
+		width: 100%;
+	}
+
+	.hero-section:has(.hero-illustration-content) {
 		padding-top: 600px;
-	}
-}
-
-@media (max-width: 768px) {
-	:root {
-		--mobile-hero-illustration-offset: 50%;
-	}
-
-	.hero-bg {
-		left: calc(100% - 600px + var(--mobile-hero-illustration-offset));
-	}
-
-	.hero-illustration-content {
-		right: calc(-1 * var(--mobile-hero-illustration-offset) + 128px);
 	}
 }

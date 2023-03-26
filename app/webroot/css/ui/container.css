@@ -154,6 +154,14 @@
 	gap: 0 !important;
 }
 
+.gap-2 {
+	gap: 2px !important;
+}
+
+.gap-4 {
+	gap: 4px !important;
+}
+
 .gap-8 {
 	gap: 8px !important;
 }

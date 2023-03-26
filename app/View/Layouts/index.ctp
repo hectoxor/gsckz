@@ -40,7 +40,7 @@
 		<?php echo $this->element('navbar') ?>
 		<section class="hero-section px-8">
             <div class="hero-section-bg">
-                <img class="hero-bg" src="/assets/bg-gradient1.png" />
+                <img class="hero-bg" src="/assets/bg-gradient-1.png" />
                 <div class="hero-illustration-content">
                     <img class="illustration-1" src="/assets/graduation-hat.png" />
                     <img class="illustration-shadow-2" src="/assets/illustration-1-shadow.png" />
