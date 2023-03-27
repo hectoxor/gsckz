@@ -28,18 +28,11 @@
 <!--//Оставил секцию для навбара и фигни сверху-->
 <section class="hero-section px-5">
 	<div class="hero-section-bg">
-		<img class="hero-bg" src="/assets/bg-gradient1.png" />
+		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
 	</div>
-	<div class="hero-inner">
-		<div class="hero-inner-title">
-<!--			<h1 class="text text-color-large">О компании</h1>-->
-		</div>
-	</div>
-<!--	<div class="container--column w-50 mt-5 mb-25">-->
-<!--	</div>-->
-
 </section>
-<section class="grid container--column-mobile justify-center px-8 my-35">
+
+<div class="grid container--column-mobile justify-center px-8 my-35">
 	<div class="container">
 		<img class="img11" src="/assets/venera.png"/>
 	</div>
@@ -59,6 +52,7 @@
                         Образовательный центр GSC STUDY был открыт в 2011 году в Астане.
 Мы работаем по трем направлениям: образование за рубежом, школа английского языка и летние программы. Обучаем детей с 6 лет, подростков и взрослых. Помимо общего знания английского подготавливаем к сдаче международных экзаменов IELTS и SAT.
 </span>
+
 <section class="grid container--column-mobile justify-center px-8 my-35">
 	<div class="container">
 		<img class="img11" src="/assets/about-companyy.svg"/>
