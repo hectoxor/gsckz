@@ -143,3 +143,23 @@
 	-webkit-mask-size: cover;
 	mask-size: cover;
 }
+
+.ico-left-head-arrow {
+	width: 7px;
+	height: 13px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/left-head-arrow.svg) no-repeat 50% 50%;
+	mask: url(../../assets/icons/left-head-arrow.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+.ico-right-head-arrow {
+	width: 7px;
+	height: 13px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/right-head-arrow.svg) no-repeat 50% 50%;
+	mask: url(../../assets/icons/right-head-arrow.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}

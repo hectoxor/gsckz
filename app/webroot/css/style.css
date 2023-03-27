@@ -11,6 +11,7 @@
 @import 'ui/card.css';
 @import 'ui/modal.css';
 @import 'ui/input.css';
+@import 'ui/paginator.css';
 
 /* Components CSS */
 @import 'component/footer.css';
