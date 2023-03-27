@@ -1,6 +1,6 @@
 .illustration-7 { /* Books */
     top: 200px;
-    right: 100px;
+    right: -50px;
     position: relative;
     width: 550px;
     display: block;
@@ -9,7 +9,7 @@
 
 .illustration-8 { /* Sun weather */
     top: -150px;
-    right: 150px;
+    right: 0px;
     position: relative;
     width: 150px;
     display: block;

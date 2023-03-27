@@ -113,3 +113,33 @@
 	-webkit-mask-size: cover;
 	mask-size: cover;
 }
+
+.ico-phone {
+	width: 11px;
+	height: 11px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/phone.svg) no-repeat 50% 50%;
+	mask: url(../../assets/icons/phone.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+.ico-user {
+	width: 10px;
+	height: 13px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/user.svg) no-repeat 50% 50%;
+	mask: url(../../assets/icons/user.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+.ico-mail {
+	width: 13px;
+	height: 13px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/mail.svg) no-repeat 50% 50%;
+	mask: url(../../assets/icons/mail.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}

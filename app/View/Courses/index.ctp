@@ -1,6 +1,6 @@
 <section class="hero-section px-8">
 	<div class="hero-section-bg">
-		<img class="hero-bg" src="/assets/bg-gradient1.png" />
+		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
 		<div class="hero-illustration-content">
 			<img class="illustration-7" src="/assets/illustration-7.png" />
 			<img class="illustration-8" src="/assets/illustration-8.png" />
@@ -10,8 +10,7 @@
 		<div class="hero-inner-title">
 			<h1 class="text text-color-large">Летние программы</h1>
 		</div>
-		<div class="container--column w-50 mt-5 mb-25">
-			<!-- <span class="note-border"></span> -->
+		<div class="container--column mt-5 mb-25">
 			<span class="text text-color-black text-type-medium-20">
 				Каникулы с GSC STUDY — это трехнедельные поездки в города США, Европы и Южной Кореи для подростков от 13 до 18 лет.
 			</span>
@@ -25,10 +24,8 @@
 	</div>
 </section>
 
-
-<!-- TODO: 3 Yellow info boxes and one long green box -->
 <section class="container--column px-8">
-	<div class="container container--column-mobile">
+	<div class="container container--column-mobile gap-1">
 		<div class="card card-type-1 gap-0">
 			<div class="container--column h-100 w-100 justify-center align-center">
 				<h3 class="text text-transform-uppercase text-align-center">Языковая среда</h3>
@@ -74,52 +71,17 @@
 	Часто бывает так, что страна мечты в реальности ощущается иначе. Таким образом <b>летняя программа — возможность выбрать место дальнейшего обучения по душе.</b>
 </span>
 
-<!--<section class="container container--column-mobile px-8">-->
-<!--<!--	<div class="container--column">-->-->
-<!--<!--		<section class="grid container--column-mobile justify-center px-8 my-35">-->-->
-<!--			<div class="container--row">-->
-<!--				<img src="/assets/britishcouncil.svg"/>-->
-<!--				<span class="text text-type-medium-20">-->
-<!--                        BRITISH COUNCIL-->
-<!--                </span>-->
-<!--			</div>-->
-<!--			<div class="container--row">-->
-<!--				<img src="/assets/qualityenglish.svg"/>-->
-<!--				<span class="text text-type-medium-20">-->
-<!--                        QUALITY ENGLISH-->
-<!--                </span>-->
-<!--			</div>-->
-<!--<!--		</section>-->-->
-<!--<!--	</div>-->-->
-<!--</section>-->
-
-<section class="container container--column-mobile px-8 my-25" style="
-    align-items: center;
-    justify-content: center;
-">
-	<div class="info-illustration-3-container align-start">
+<section class="container container--column-mobile align-center justify-center px-8 my-25 gap-40">
+	<div class="container--column align-center">
 		<a href="https://www.britishcouncil.org/">
 			<img class="img" src="/assets/britishcouncil.svg" />
 		</a>
-		<div class="">
-			<h3 class="text text-transform-uppercase" style="
-				margin-left: 35%;
-				margin-top: 20px;
-			">BRITISH COUNCIL</h3>
-
-		</div>
+		<h3 class="text text-transform-uppercase">BRITISH COUNCIL</h3>
 	</div>
-	<div class="separator--vertical"></div>
-	<div class="info-illustration-3-container align-start">
+	<div class="container--column align-center">
 		<a href="https://www.quality-english.com/">
 			<img class="img" src="/assets/qualityenglish.svg" />
 		</a>
-		<div class="">
-			<h3 class="text text-transform-uppercase" style="
-				margin-left: 35%;
-				margin-top: 20px;
-			">QUALITY ENGLISH</h3>
-
-		</div>
+		<h3 class="text text-transform-uppercase">QUALITY ENGLISH</h3>
 	</div>
 </section>

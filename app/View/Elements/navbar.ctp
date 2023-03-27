@@ -7,60 +7,20 @@
 		</li>
 
 		<li class="nav-mobile-wrapper">
-			<div class="nav-dropdown" tabindex="0">
-				<div class="nav-dropdown-text">
+			<div class="nav-text">
+				<a href="/catalog" class="nav-link">
 					<span class="text text-type-medium text-color-primary text-font-weight-600 text-overflow">Образование за рубежом</span>
-					<span class="ico ico-16">
-						<i class="ico-chevron-down"></i>
-					</span>
-				</div>
-				<div class="nav-dropdown-content py-4 px-8">
-					<!-- <a href="/" class="nav-dropdown-content__item nav-link">
-						<span class="text text-type-medium text-color-primary text-font-weight-600">Языковые курсы</span>
-					</a>
-					<a href="/" class="nav-dropdown-content__item nav-link">
-						<span class="text text-type-medium text-color-primary text-font-weight-600">Среднее образование</span>
-					</a>
-					<a href="/" class="nav-dropdown-content__item nav-link">
-						<span class="text text-type-medium text-color-primary text-font-weight-600">Высшее образование</span>
-					</a>
-					<a href="/" class="nav-dropdown-content__item nav-link">
-						<span class="text text-type-medium text-color-primary text-font-weight-600">Glion</span>
-					</a>
-					<a href="/" class="nav-dropdown-content__item nav-link">
-						<span class="text text-type-medium text-color-primary text-font-weight-600">Les Roches</span>
-					</a> -->
-					<a href="/summer-programs" class="nav-dropdown-content__item nav-link">
-						<span class="text text-type-medium text-color-primary text-font-weight-600">Летние каникулы за рубежом</span>
-					</a>
-					<a href="/contacts" class="nav-dropdown-content__item nav-link">
-						<span class="text text-type-medium text-color-primary text-font-weight-600">Контакты</span>
-					</a>
-				</div>
+				</a>
 			</div>
 			<div class="nav-text">
 				<a href="/language-school" class="nav-link">
 					<span class="text text-type-medium text-color-primary text-font-weight-600 text-overflow">Школа английского</span>
 				</a>
 			</div>
-			<div class="nav-dropdown" tabindex="0">
-				<div class="nav-dropdown-text">
+			<div class="nav-text">
+				<a href="/summer-programs" class="nav-link">
 					<span class="text text-type-medium text-color-primary text-font-weight-600 text-overflow">Летние программы</span>
-					<span class="ico ico-16">
-						<i class="ico-chevron-down"></i>
-					</span>
-				</div>
-				<div class="nav-dropdown-content py-4 px-8">
-					<a href="/summer-programs" class="nav-dropdown-content__item nav-link">
-						<span class="text text-type-medium text-color-primary text-font-weight-600">Языковая среда</span>
-					</a>
-					<a href="/summer-programs" class="nav-dropdown-content__item nav-link">
-						<span class="text text-type-medium text-color-primary text-font-weight-600">Сопровождение</span>
-					</a>
-					<a href="/summer-programs" class="nav-dropdown-content__item nav-link">
-						<span class="text text-type-medium text-color-primary text-font-weight-600">Безопасность</span>
-					</a>
-				</div>
+				</a>
 			</div>
 			<div class="nav-text">
 				<a href="/contacts" class="nav-link">

@@ -796,21 +796,3 @@ Stack Trace:
 #1 C:\Users\Vlady\wtff\gsckz\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
 #2 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
-2023-03-23 16:50:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
-Exception Attributes: array (
-  'class' => 'AssetsController',
-  'plugin' => NULL,
-)
-Request URL: /assets/bg-gradient1.svg
-Stack Trace:
-#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2023-03-25 15:03:57 Error: [MissingControllerException] Controller class фищгеController could not be found.
-Exception Attributes: array (
-  'class' => 'фищгеController',
-  'plugin' => NULL,
-)
-Request URL: /фищге
-Stack Trace:
-#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}

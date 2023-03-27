@@ -21,6 +21,8 @@ input[type=text]:focus {
     padding-left: 40px;
 }
 
+
+/* TODO: They are filled black but should have similar color to text */
 .input-user-ico {
     background-image: url('../../assets/icons/user.svg');
 }
@@ -28,7 +30,6 @@ input[type=text]:focus {
 .input-phone-ico {
     background-image: url('../../assets/icons/phone.svg');
 }
-
 
 .select-dropdown,
 .select-dropdown * {

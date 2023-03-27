@@ -32,3 +32,7 @@
     background-image: linear-gradient(to right bottom, #e2c269, #e99f5d, #e67c60, #d75b6d, #ba447d);
     border: none;
 }
+
+.card-type-shallow {
+    box-shadow: inset 0px 2px 11px rgba(0, 0, 0, 0.1);
+}
