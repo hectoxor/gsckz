@@ -9,4 +9,35 @@
 .paginator-content {
     border-radius: 10000px;
     border: 1px solid var(--color-separator-alpha);
+
+    padding: 3px;
+}
+
+.paginator-item,
+.paginator-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+
+    width: 32px;
+    height: 32px;
+
+    /* text-type-medium */
+    font-family: 'Gilroy', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0;
+
+    color: var(--color-text-primary);
+}
+
+.paginator-item--active {
+    background: var(--color-gradient);
+    color: var(--color-text-white);
 }

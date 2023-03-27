@@ -34,3 +34,7 @@
 .button-white {
 	background: var(--color-background-primary);
 }
+
+.button-text-white {
+	color: var(--color-text-white);
+}

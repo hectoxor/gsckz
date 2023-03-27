@@ -300,20 +300,29 @@
         <?php if( isset($news) && $news ): ?>
             <section class="container--column px-8 my-25">
                 <h2 class="text">Новости</h2>
-                <div class="container">
-                    <?php foreach($news as $item): ?>
-                    <div class="container--column flex-1">
-                        <a href="/">
-                            <img class="img object-fit-cover border-radius-10" src="/img/news/thumbs/<?=$item['News']['img']?>" height="512px">
-                        </a>
-                        <a href="/" class="text text-type-h4 text-transform-uppercase text-underline-none text-color-primary">
-                            <?=$item['News']['title']?>
-                        </a>
-                        <span class="text text-type-medium">
-                            <?= $this->Text->truncate(strip_tags($item['News']['body']), 128, array('ellipsis' => '...', 'exact' => true)) ?>
-                        </span>
+
+                <div class="container--column align-center gap-40">
+                    <div class="container">
+                        <?php foreach($news as $item): ?>
+                        <div class="container--column flex-1">
+                            <a href="/">
+                                <img class="img object-fit-cover border-radius-10" src="/img/news/thumbs/<?=$item['News']['img']?>" height="512px">
+                            </a>
+                            <a href="/" class="text text-type-h4 text-transform-uppercase text-underline-none text-color-primary">
+                                <?=$item['News']['title']?>
+                            </a>
+                            <span class="text text-type-medium">
+                                <?= $this->Text->truncate(strip_tags($item['News']['body']), 120, array('ellipsis' => '...', 'exact' => true)) ?>
+                            </span>
+                            <a href="/news/<?= $item['News']['alias'] ?>" class="text text-type-medium text-color-link text-transform-uppercase mt-auto">Читать подробнее</a>
+                        </div>
+                        <?php endforeach ?>
                     </div>
-                    <?php endforeach ?>
+                    <a href="/news/" class="button button-primary">
+                        <span class="text text-type-medium text-color-white text-font-weight-600 text-transform-uppercase px-25">
+                            Все новости
+                        </span>
+                    </a> 
                 </div>
             </section>
         <?php endif; ?>
