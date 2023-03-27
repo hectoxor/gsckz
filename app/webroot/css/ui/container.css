@@ -46,6 +46,10 @@
 	background: var(--color-background-alpha);
 }
 
+.background-gradient {
+	background: var(--color-gradient);
+}
+
 .container {
 	display: flex;
 	flex-direction: row;
