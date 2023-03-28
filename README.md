@@ -7,6 +7,8 @@ GSC STUDY — образовательный центр, где вам не пр
 ## Технологии
 
 - [CakePHP 2](http://book.cakephp.org/2.0/en/index.html)
+- [MySQL 5.6](https://dev.mysql.com/doc/refman/5.6/en/)
+- [Composer](https://getcomposer.org/)
 
 ## Авторы
 
@@ -23,6 +25,8 @@ GSC STUDY — образовательный центр, где вам не пр
 - [ ] News Details Page (Новость)
 - [ ] Catalog Page (Образование за рубежом)
 - [ ] University Info Page (Информация об университете)
+- [ ] Put all text to DB (Все тексты в БД)
+- [ ] Translation for all pages (Перевод всех страниц)
 
 ## TODO (Vlad)
 
