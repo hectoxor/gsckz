@@ -1612,3 +1612,245 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
 [main] - APP/webroot/index.php, line 118
 
+2023-03-28 09:16:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:35:25 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:35:29 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:36:33 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:37:09 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:38:01 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:38:06 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:38:34 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:38:46 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:39:27 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:39:42 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:39:56 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:40:03 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:40:47 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:40:57 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:41:09 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:41:15 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:41:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:41:43 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:41:57 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:42:23 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2023-03-28 09:43:05 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/hereugo/Projects/gsckz/app/View/Pages/index.ctp, line 115]
+Trace:
+include - APP/View/Pages/index.ctp, line 115
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+

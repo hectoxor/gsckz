@@ -22,6 +22,10 @@
 	color: var(--color-text-link);
 }
 
+.text-color-gray {
+	color: var(--color-gray);
+}
+
 .text-font-weight-400 {
 	font-weight: 400 !important;
 }
