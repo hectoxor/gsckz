@@ -18,8 +18,8 @@ GSC STUDY — образовательный центр, где вам не пр
 
 - [x] School English Page (Английская школа)
 - [x] Contacts Page (Контакты)
-- [ ] About Us (Company) Page (О компании)
-- [ ] News Page (Новости)
+- [x] About Us (Company) Page (О компании)
+- [x] News Page (Новости)
+- [ ] News Details Page (Новость)
 - [ ] Catalog Page (Образование за рубежом)
 - [ ] University Info Page (Информация об университете)
-
