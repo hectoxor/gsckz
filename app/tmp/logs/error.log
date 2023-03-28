@@ -1,0 +1,38 @@
+2023-03-28 12:20:39 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\Behavior\TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 C:\Users\Vlady\wtff\gsckz\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 C:\Users\Vlady\wtff\gsckz\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#9 C:\Users\Vlady\wtff\gsckz\lib\Cake\Controller\Controller.php(367): Controller->loadModel('City')
+#10 C:\Users\Vlady\wtff\gsckz\lib\Cake\Controller\Controller.php(405): Controller->__isset('City')
+#11 C:\Users\Vlady\wtff\gsckz\app\Controller\AppController.php(96): Controller->__get('City')
+#12 C:\Users\Vlady\wtff\gsckz\app\Controller\PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 C:\Users\Vlady\wtff\gsckz\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 C:\Users\Vlady\wtff\gsckz\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 C:\Users\Vlady\wtff\gsckz\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#17 C:\Users\Vlady\wtff\gsckz\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-28 12:21:10 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

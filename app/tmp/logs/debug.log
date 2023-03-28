@@ -1,0 +1,192 @@
+2023-03-28 12:20:44 Debug: Notice (8): Undefined variable: l in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\navbar.ctp, line 42]
+Trace:
+include - APP\View\Elements\navbar.ctp, line 42
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::_renderElement() - CORE\Cake\View\View.php, line 1217
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Layouts\index.ctp, line 40
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-28 12:20:44 Debug: Notice (8): Undefined variable: h2 in [C:\Users\Vlady\wtff\gsckz\app\View\Layouts\index.ctp, line 450]
+Trace:
+include - APP\View\Layouts\index.ctp, line 450
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-28 12:20:44 Debug: Notice (8): Undefined variable: seotext in [C:\Users\Vlady\wtff\gsckz\app\View\Layouts\index.ctp, line 451]
+Trace:
+include - APP\View\Layouts\index.ctp, line 451
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-28 12:20:44 Debug: Notice (8): Undefined variable: lang in [C:\Users\Vlady\wtff\gsckz\app\View\Layouts\index.ctp, line 467]
+Trace:
+include - APP\View\Layouts\index.ctp, line 467
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-28 12:20:44 Debug: Notice (8): Undefined variable: lang in [C:\Users\Vlady\wtff\gsckz\app\View\Layouts\index.ctp, line 470]
+Trace:
+include - APP\View\Layouts\index.ctp, line 470
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-28 12:20:44 Debug: Notice (8): Undefined variable: lang in [C:\Users\Vlady\wtff\gsckz\app\View\Layouts\index.ctp, line 471]
+Trace:
+include - APP\View\Layouts\index.ctp, line 471
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-28 12:20:44 Debug: Notice (8): Undefined variable: lang in [C:\Users\Vlady\wtff\gsckz\app\View\Layouts\index.ctp, line 474]
+Trace:
+include - APP\View\Layouts\index.ctp, line 474
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-28 12:20:44 Debug: Notice (8): Undefined variable: lang in [C:\Users\Vlady\wtff\gsckz\app\View\Layouts\index.ctp, line 477]
+Trace:
+include - APP\View\Layouts\index.ctp, line 477
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-28 12:20:44 Debug: Notice (8): Undefined variable: lang in [C:\Users\Vlady\wtff\gsckz\app\View\Layouts\index.ctp, line 478]
+Trace:
+include - APP\View\Layouts\index.ctp, line 478
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-28 12:20:44 Debug: Notice (8): Undefined variable: lang in [C:\Users\Vlady\wtff\gsckz\app\View\Layouts\index.ctp, line 481]
+Trace:
+include - APP\View\Layouts\index.ctp, line 481
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-28 12:20:44 Debug: Notice (8): Undefined variable: lang in [C:\Users\Vlady\wtff\gsckz\app\View\Layouts\index.ctp, line 484]
+Trace:
+include - APP\View\Layouts\index.ctp, line 484
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-28 12:20:44 Debug: Notice (8): Undefined variable: lang in [C:\Users\Vlady\wtff\gsckz\app\View\Layouts\index.ctp, line 485]
+Trace:
+include - APP\View\Layouts\index.ctp, line 485
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2023-03-28 12:21:14 Debug: Notice (8): Undefined variable: l in [C:\Users\Vlady\wtff\gsckz\app\View\Elements\navbar.ctp, line 42]
+Trace:
+include - APP\View\Elements\navbar.ctp, line 42
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::_renderElement() - CORE\Cake\View\View.php, line 1217
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Layouts\page.ctp, line 62
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error400() - CORE\Cake\Error\ExceptionRenderer.php, line 233
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
