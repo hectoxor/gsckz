@@ -23,3 +23,10 @@ GSC STUDY — образовательный центр, где вам не пр
 - [ ] News Details Page (Новость)
 - [ ] Catalog Page (Образование за рубежом)
 - [ ] University Info Page (Информация об университете)
+
+## TODO (Vlad)
+
+- [ ] Transparent Logo (Логотип)
+- [ ] Get "logos" from partners (Логотипы партнеров)
+- [ ] Get "real certificates"
+- [ ] Set all href links to correct pages (Проверить все ссылки на страницах)
