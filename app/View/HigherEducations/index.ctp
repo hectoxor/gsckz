@@ -1,5 +1,50 @@
 
-<?php 
+<section class="hero-section px-8" style = "margin-left:16%">
+
+	<div class="hero-section-bg">
+		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
+
+	</div>
+
+	<div class="hero-inner">
+		<a href="\">
+			<span class="text text-color-black text-type-medium-20">
+             Главная
+	    </span>
+		</a>
+		<span> / </span>
+
+		<a href="catalog">
+			<span class="text text-color-black text-type-medium-20">
+             Образование за рубежом
+	    </span>
+		</a>
+
+		<div class="hero-inner-title">
+			<h1 class="text text-color-large">Школа английского языка</h1>
+		</div>
+		<div class="container--column mt-5 mb-25">
+			<span class="text text-color-black text-type-medium-20">
+                Уровень преподавания в GSC STUDY одобрен независимой британской организацией Quality English, которая следит за качеством преподавания английского языка по всему миру.
+			</span>
+		</div>
+
+		<div class="hero-inner-title">
+			<h1 class="text text-color-large" style = "font-size: 40px;">Выберите школу или колледж</h1>
+		</div>
+		<div class="container--column mt-5 mb-25">
+			<span class="text text-color-black text-type-medium-20">
+                В этом разделе представлена подробная информация о программах обучения, условиях проживания и стоимости в зарубежных школах и колледжах
+			</span>
+		</div>
+
+
+	</div>
+</section>
+
+
+
+<?php
     $country = '';
     $checked_country = '';
     if( isset($_GET['country_id']) && $_GET['country_id'] ){
@@ -16,24 +61,6 @@
 ?>
 
 <div class="content">
-	<div class="content-top">
-		<div class="container">
-			<h1 class="title">
-				<?=$data['HigherEducation']['h1']?>
-			</h1>
-			<nav class="page-header-nav">
-	             <ul>
-                    <li><a href="/<?= $lang ?>abroad-program<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Языковые курсы за рубежом</a></li>
-                    <li><a href="/<?= $lang ?>secondary_educations<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Среднее образование</a></li>
-                    <li class="active"><a href="/<?= $lang ?>higher_educations<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Высшее образование</a></li>
-                    <li class=""><a href="/<?= $lang ?>glion_lesroches?type=glion<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Glion</a></li>
-                    <li class=""><a href="/<?= $lang ?>glion_lesroches?type=les_roches<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Les Roches</a></li>
-                    <li class=""><a href="/<?= $lang ?>courses<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Летние каникулы за рубежом</a></li>
-                    <li class=""><a href="/<?= $lang ?>contacts<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>">Контакты</a></li>
-                </ul>
-	        </nav>
-	    </div>    
-	</div>
 	<section>
 		<div class="container">
 			<nav class="count-lang-nav">
@@ -83,7 +110,7 @@
                         <a href="/<?= $lang ?>university/<?= $item['University']['alias'] ?>" class="courses-aroad__item-title"><?= $item['University']['title'] ?></a>
                         <ul>
                             <li>
-                                Языки: 
+                                Языки:
                                 <?php $univer_langs = explode(',', $item['University']['edu_language_ids']); ?>
                                 <?php foreach( $univer_langs as $index => $univer_lang_id ): ?>
                                     <?= ($index > 0) ? ', ' : '' ?><?= $edu_langs[$univer_lang_id] ?>
@@ -108,7 +135,7 @@
 					<div class="share">
 						<span class="share__heading">Поделиться:</span>
 						<?=$this->element('share') ?>
-						<a class="btn" data-fancybox data-src="#zakazat" href="javascript:;">Заказать звонок</a> 
+						<a class="btn" data-fancybox data-src="#zakazat" href="javascript:;">Заказать звонок</a>
 					</div>
 				</div>
 			</div>
@@ -126,11 +153,11 @@
 
                         <input name="url" value="<?php echo Router::url(null, true) ?>" type="hidden">
                         <input name="page" type="hidden" value="b24">
-                        
+
                         <?php if($this->Session->check('city')): ?>
                             <input type="hidden" name="city" value="<?=$this->Common->get_city($this->Session->read('city'))?>">
                         <?php else: ?>
-                           <input type="hidden" name="city" value="Нур-Султан"> 
+                           <input type="hidden" name="city" value="Нур-Султан">
                         <?php endif ?>
                     </div>
                     <div class="input-parent input-parent--sec">
@@ -140,5 +167,5 @@
                 </form>
             </div>
         </div>
-    </section>	
+    </section>
 </div>

@@ -2,6 +2,7 @@
 	<div class="hero-section-bg">
 		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
 	</div>
+
 </section>
 
 <section class="container--column px-8">

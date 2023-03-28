@@ -1,0 +1,44 @@
+.page-header-nav {
+	padding-bottom: 25px;
+	border-bottom: 1px solid #efefef;
+	margin-bottom: 20px;
+}
+
+.page-header-nav ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.page-header-nav ul li.active a {
+	text-decoration: underline;
+	color: black;
+}
+
+.page-header-nav ul li a {
+	font-family: FuturaPT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.1em;
+	color: #737373;
+	-webkit-transition: 0.3s all;
+	transition: 0.3s all;
+}
+
+.page-header-nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.page-header-nav ul li {
+	margin-bottom: 5px;
+}
+
+.page-header-nav ul li:not(:last-child) {
+	margin-right: 25px;
+}
+

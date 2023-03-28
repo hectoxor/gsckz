@@ -27,9 +27,22 @@
 
 <!--//Оставил секцию для навбара и фигни сверху-->
 <section class="hero-section px-5">
+
 	<div class="hero-section-bg">
 		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
 	</div>
+	<a href="\">
+			<span class="text text-color-black text-type-medium-20">
+             Главная
+	    </span>
+	</a>
+	<span> / </span>
+
+	<a href="about">
+			<span class="text text-color-black text-type-medium-20">
+              О нас
+			</span>
+	</a>
 </section>
 
 <div class="grid container--column-mobile justify-center px-8 my-35">

@@ -36,3 +36,481 @@ Request URL: /catalog
 Stack Trace:
 #0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2023-03-28 12:50:39 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\Behavior\TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 C:\Users\Vlady\wtff\gsckz\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 C:\Users\Vlady\wtff\gsckz\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#9 C:\Users\Vlady\wtff\gsckz\lib\Cake\Controller\Controller.php(367): Controller->loadModel('City')
+#10 C:\Users\Vlady\wtff\gsckz\lib\Cake\Controller\Controller.php(405): Controller->__isset('City')
+#11 C:\Users\Vlady\wtff\gsckz\app\Controller\AppController.php(96): Controller->__get('City')
+#12 C:\Users\Vlady\wtff\gsckz\app\Controller\PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 C:\Users\Vlady\wtff\gsckz\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 C:\Users\Vlady\wtff\gsckz\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 C:\Users\Vlady\wtff\gsckz\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#17 C:\Users\Vlady\wtff\gsckz\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-28 12:50:53 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 12:58:34 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 12:58:52 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:05:12 Error: [MissingControllerException] Controller class PhpmyadminController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpmyadminController',
+  'plugin' => NULL,
+)
+Request URL: /phpmyadmin/
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:05:14 Error: [MissingControllerException] Controller class PhpmyadminController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpmyadminController',
+  'plugin' => NULL,
+)
+Request URL: /phpmyadmin/
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:05:16 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'gsc\'',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\Behavior\TranslateBehavior.php(68): ConnectionManager::getDataSource('default')
+#3 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\BehaviorCollection.php(145): TranslateBehavior->setup(Object(City), Array)
+#4 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Translate', Array)
+#5 C:\Users\Vlady\wtff\gsckz\lib\Cake\Model\Model.php(774): BehaviorCollection->init('City', Array)
+#6 [internal function]: Model->__construct(Array)
+#7 C:\Users\Vlady\wtff\gsckz\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#8 C:\Users\Vlady\wtff\gsckz\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#9 C:\Users\Vlady\wtff\gsckz\lib\Cake\Controller\Controller.php(367): Controller->loadModel('City')
+#10 C:\Users\Vlady\wtff\gsckz\lib\Cake\Controller\Controller.php(405): Controller->__isset('City')
+#11 C:\Users\Vlady\wtff\gsckz\app\Controller\AppController.php(96): Controller->__get('City')
+#12 C:\Users\Vlady\wtff\gsckz\app\Controller\PagesController.php(9): AppController->beforeFilter()
+#13 [internal function]: PagesController->beforeFilter(Object(CakeEvent))
+#14 C:\Users\Vlady\wtff\gsckz\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 C:\Users\Vlady\wtff\gsckz\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#16 C:\Users\Vlady\wtff\gsckz\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#17 C:\Users\Vlady\wtff\gsckz\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2023-03-28 13:33:32 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+
+2023-03-28 13:33:40 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:33:43 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:39:25 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:39:27 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:40:05 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:40:14 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:40:32 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+
+2023-03-28 13:41:03 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:42:46 Error: [MissingActionException] Action UniversitiesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UniversitiesController',
+  'action' => 'index',
+)
+Request URL: /Universities
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vlady\wtff\gsckz\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UniversitiesController), Object(CakeRequest))
+#2 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2023-03-28 13:42:48 Error: [MissingActionException] Action UniversitiesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UniversitiesController',
+  'action' => 'index',
+)
+Request URL: /Universities
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vlady\wtff\gsckz\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UniversitiesController), Object(CakeRequest))
+#2 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2023-03-28 13:43:18 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:44:06 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+
+2023-03-28 13:48:37 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:49:51 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+
+2023-03-28 13:49:58 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+
+2023-03-28 13:49:59 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:51:15 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:52:33 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:52:34 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:52:35 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:52:35 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+
+2023-03-28 13:52:39 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:53:11 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:54:53 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:54:59 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:55:18 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:55:19 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+
+2023-03-28 13:55:56 Error: [MissingActionException] Action UniversitiesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UniversitiesController',
+  'action' => 'index',
+)
+Request URL: /universities
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vlady\wtff\gsckz\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UniversitiesController), Object(CakeRequest))
+#2 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2023-03-28 13:56:59 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+
+2023-03-28 13:57:52 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 13:59:05 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+
+2023-03-28 14:09:37 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+
+2023-03-28 14:09:38 Error: [MissingControllerException] Controller class CatalogController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogController',
+  'plugin' => NULL,
+)
+Request URL: /catalog
+Stack Trace:
+#0 C:\Users\Vlady\wtff\gsckz\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-03-28 15:07:55 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+
+2023-03-28 15:08:10 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+
+2023-03-28 15:10:41 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+
+2023-03-28 15:10:51 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Vlady\wtff\gsckz\app\View\Pages\index.ctp, line 115]
+Trace:
+include - APP\View\Pages\index.ctp, line 115
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+

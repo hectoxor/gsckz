@@ -6,6 +6,19 @@
 		</div>
 	</div>
 	<div class="hero-inner">
+		<div class="hero-inner">
+			<a href="\">
+			<span class="text text-color-black text-type-medium-20">
+             Главная
+	    </span>
+			</a>
+			<span> / </span>
+
+			<a href="language-school">
+			<span class="text text-color-black text-type-medium-20">
+             Школа Английского
+	    </span>
+			</a>
 		<div class="hero-inner-title">
 			<h1 class="text text-color-large">Школа английского языка</h1>
 		</div>
