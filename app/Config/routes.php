@@ -8,7 +8,9 @@
 	Router::connect('/language-school', array('controller' => 'language_schools', 'action' => 'index'));
 	Router::connect('/contacts', array('controller' => 'contacts', 'action' => 'index'));
 	Router::connect('/about', array('controller' => 'pages', 'action' => 'about'));
-	
+
+    Router::connect('/catalog', array('controller' => 'HigherEducations', 'action' => 'index'));
+
 	// Router::connectNamed(array('lang'));
 	// Router::redirect('/index.php', '/', array('status' => 301));
 
@@ -23,12 +25,12 @@
 	// Router::redirect('/aktau', '/?city=aktau', array('status' => 301));
 	// Router::redirect('/karaganda', '/?city=karaganda', array('status' => 301));
 	//Router::redirect('/pavlodar', '/?city=pavlodar', array('status' => 301));
-	
+
 	// Router::connect('/admin', array('controller' => 'news', 'action' => 'index', 'admin' => true));
 
 	// Router::connect('/admin/courses', array('controller' => 'news', 'action' => 'index', 'admin' => true));
 	// Router::connect('/almaty', array('controller' => 'pages', 'action' => 'test'));
-	
+
 	// Router::connect('/test/test_test_general', array('controller' => 'requests', 'action' => 'test_test_general'));
 
 	// Router::connect('/test/:action', array('controller' => 'tests'));
@@ -62,7 +64,7 @@
 	// Router::connect('/service/*', array('controller' => 'services', 'action' => 'view'));
 	// Router::connect('/category-projects', array('controller' => 'category_projects', 'action' => 'index'));
 	// Router::connect('/category-projects/*', array('controller' => 'category_projects', 'action' => 'view'));
-	
+
 	// Router::connect('/static/*', array('controller' => 'static_pages', 'action' => 'index'));
 	// Router::connect('/admin/users/:action', array('controller' => 'users'));
 	// Router::connect('/', array('controller' => 'pages', 'action' => 'index', 'nur-sultan'));
@@ -72,119 +74,119 @@
 
 	// Router::connect('/page/*', array('controller' => 'pages', 'action' => 'page'));
 
-	// Router::connect('/:language', 
+	// Router::connect('/:language',
 	// 	array('controller' => 'pages', 'action' => 'index', 'nur-sultan'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/almaty', 
+	// Router::connect('/:language/almaty',
 	// 	array('controller' => 'pages', 'action' => 'index', 'almaty'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/aktau', 
+	// Router::connect('/:language/aktau',
 	// 	array('controller' => 'pages', 'action' => 'index', 'aktau'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/karaganda', 
+	// Router::connect('/:language/karaganda',
 	// 	array('controller' => 'pages', 'action' => 'index', 'karaganda'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/pavlodar', 
+	// Router::connect('/:language/pavlodar',
 	// 	array('controller' => 'pages', 'action' => 'index', 'pavlodar'),
 	// 	array('language' => '[a-z]{2}')
 	// );
 
-	// Router::connect('/:language/test/:action', 
+	// Router::connect('/:language/test/:action',
 	// 	array('controller' => 'tests'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/test', 
+	// Router::connect('/:language/test',
 	// 	array('controller' => 'pages', 'action' => 'test'),
 	// 	array('language' => '[a-z]{2}')
 	// );
 
-	// Router::connect('/:language/contacts', 
+	// Router::connect('/:language/contacts',
 	// 	array('controller' => 'contacts', 'action' => 'index'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/news', 
+	// Router::connect('/:language/news',
 	// 	array('controller' => 'news', 'action' => 'index'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/news/index/*', 
+	// Router::connect('/:language/news/index/*',
 	// 	array('controller' => 'news', 'action' => 'index'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/news/*', 
+	// Router::connect('/:language/news/*',
 	// 	array('controller' => 'news', 'action' => 'view'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/courses', 
+	// Router::connect('/:language/courses',
 	// 	array('controller' => 'courses', 'action' => 'index'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/course/*', 
+	// Router::connect('/:language/course/*',
 	// 	array('controller' => 'courses', 'action' => 'view'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/higher_educations/*', 
+	// Router::connect('/:language/higher_educations/*',
 	// 	array('controller' => 'higher_educations', 'action' => 'index'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/abroad-program/*', 
+	// Router::connect('/:language/abroad-program/*',
 	// 	array('controller' => 'abroad_programs', 'action' => 'index'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/language-school/*', 
+	// Router::connect('/:language/language-school/*',
 	// 	array('controller' => 'language_schools', 'action' => 'index'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/language-programs/*', 
+	// Router::connect('/:language/language-programs/*',
 	// 	array('controller' => 'language_programs', 'action' => 'index'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/language-program/*', 
+	// Router::connect('/:language/language-program/*',
 	// 	array('controller' => 'language_programs', 'action' => 'view'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/country/*', 
+	// Router::connect('/:language/country/*',
 	// 	array('controller' => 'countries', 'action' => 'index'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/article/*', 
+	// Router::connect('/:language/article/*',
 	// 	array('controller' => 'articles', 'action' => 'view'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/category/*', 
+	// Router::connect('/:language/category/*',
 	// 	array('controller' => 'categories', 'action' => 'view'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/university/*', 
+	// Router::connect('/:language/university/*',
 	// 	array('controller' => 'universities', 'action' => 'view'),
 	// 	array('language' => '[a-z]{2}')
 	// );
 
 
-	// Router::connect('/:language/glion_lesroches', 
+	// Router::connect('/:language/glion_lesroches',
 	// 	array('controller' => 'glion_lesroches', 'action' => 'index'),
 	// 	array('language' => '[a-z]{2}')
 	// );
-	// Router::connect('/:language/glion_lesroche/*', 
+	// Router::connect('/:language/glion_lesroche/*',
 	// 	array('controller' => 'glion_lesroches', 'action' => 'view'),
 	// 	array('language' => '[a-z]{2}')
 	// );
 
-	// Router::connect('/:language/secondary_educations', 
+	// Router::connect('/:language/secondary_educations',
 	// 	array('controller' => 'secondary_educations', 'action' => 'index'),
 	// 	array('language' => '[a-z]{2}')
 	// );
 
 
-	// Router::connect('/:language/static/*', 
+	// Router::connect('/:language/static/*',
 	// 	array('controller' => 'static_pages', 'action' => 'index'),
 	// 	array('language' => '[a-z]{2}')
 	// );
 
-	// Router::connect('/:language/page/*', 
+	// Router::connect('/:language/page/*',
 	// 	array('controller' => 'pages', 'action' => 'page'),
 	// 	array('language' => '[a-z]{2}')
 	// );
