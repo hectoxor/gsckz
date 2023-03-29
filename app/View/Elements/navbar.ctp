@@ -2,7 +2,7 @@
 	<ul class="navbar-nav">
 		<li class="logo">
 			<a href="/" class="nav-link">
-				<img src="/assets/logo.svg" alt="Logo GSC Study"/>
+				<img src="/assets/logoo.png " alt="Logo GSC Study" style = "width: 147px; height=60px" />
 			</a>
 		</li>
 

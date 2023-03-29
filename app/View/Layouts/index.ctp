@@ -79,7 +79,7 @@
                     Находим учебное заведение с подходящей программой и условиями. Сопровождаем на всем пути подготовки и подачи документов.
                 </span>
 
-                <a href="/" class="button button-outline button-ico text-color-white mt-auto">
+                <a href="/catalog" class="button button-outline button-ico text-color-white mt-auto">
                     <span class="ico ico-20">
                         <i class="ico-arrow-right"></i>
                     </span>
@@ -91,7 +91,7 @@
                     Обучаем английскому детей с 6 лет, подростков и взрослых офлайн и онлайн. Готовим к международным экзаменам IELTS и SAT.
                 </span>
 
-                <a href="/" class="button button-outline button-ico text-color-white mt-auto">
+                <a href="/language-school" class="button button-outline button-ico text-color-white mt-auto">
                     <span class="ico ico-20">
                         <i class="ico-arrow-right"></i>
                     </span>
@@ -103,7 +103,7 @@
                     Организуем каникулы с полным погружением в языковую среду. Обеспечиваем безопасное пребывание наших учеников в лучших колледжах Лондона, Нью-Йорка, Лос-Анджелеса и Сеула.
                 </span>
 
-                <a href="/" class="button button-outline button-ico text-color-white mt-auto">
+                <a href="/summer-programs" class="button button-outline button-ico text-color-white mt-auto">
                     <span class="ico ico-20">
                         <i class="ico-arrow-right"></i>
                     </span>
@@ -220,7 +220,7 @@
                 <div class="card card-type-gradient flex-1">
                     <h5 class="text text-transform-uppercase">План поступления</h5>
                     <span class="text text-type-medium-14">представляем список учебных заведений по вашему портфолио и пошаговую стратегию поступления.</span>
-                    <a href="/" class="button button-outline button-ico border-circle text-color-white ml-auto mt-auto">
+                    <a href="/contacts" class="button button-outline button-ico border-circle text-color-white ml-auto mt-auto" >
                         <span class="ico ico-20">
                             <i class="ico-tl-arrow"></i>
                         </span>
@@ -229,7 +229,7 @@
                 <div class="card card-type-gradient flex-1">
                     <h5 class="text text-transform-uppercase">Сбор документов</h5>
                     <span class="text text-type-medium-14">заполняем онлайн заявки и подготавливаем сопроводительные документы.</span>
-                    <a href="/" class="button button-outline button-ico border-circle text-color-white ml-auto mt-auto">
+                    <a href="/contacts" class="button button-outline button-ico border-circle text-color-white ml-auto mt-auto">
                         <span class="ico ico-20">
                             <i class="ico-tl-arrow"></i>
                         </span>
@@ -238,7 +238,7 @@
                 <div class="card card-type-gradient flex-1">
                     <h5 class="text text-transform-uppercase">Приглашение и виза</h5>
                     <span class="text text-type-medium-14">помогаем выполнить все условия зачисления и подготовиться к интервью для учебной визы.</span>
-                    <a href="/" class="button button-outline button-ico border-circle text-color-white ml-auto mt-auto">
+                    <a href="/contacts" class="button button-outline button-ico border-circle text-color-white ml-auto mt-auto">
                         <span class="ico ico-20">
                             <i class="ico-tl-arrow"></i>
                         </span>
@@ -306,8 +306,6 @@
             <div class="container flex-wrap justify-center">
                 <img src="/assets/partners/default.png" />
                 <img src="/assets/partners/default.png" />
-                <img src="/assets/partners/default.png" />
-                <img src="/assets/partners/default.png" />
             </div>
         </section>
         <!-- TODO: Figure out which part of the code determines the number of news items listed here -->
@@ -337,7 +335,7 @@
                         <span class="text text-type-medium text-color-white text-font-weight-600 text-transform-uppercase px-25">
                             Все новости
                         </span>
-                    </a> 
+                    </a>
                 </div>
             </section>
         <?php endif; ?>
