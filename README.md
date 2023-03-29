@@ -7,6 +7,8 @@ GSC STUDY — образовательный центр, где вам не пр
 ## Технологии
 
 - [CakePHP 2](http://book.cakephp.org/2.0/en/index.html)
+- [MySQL 5.6](https://dev.mysql.com/doc/refman/5.6/en/)
+- [Composer](https://getcomposer.org/)
 
 ## Авторы
 
@@ -18,8 +20,19 @@ GSC STUDY — образовательный центр, где вам не пр
 
 - [x] School English Page (Английская школа)
 - [x] Contacts Page (Контакты)
-- [ ] About Us (Company) Page (О компании)
-- [ ] News Page (Новости)
+- [x] About Us (Company) Page (О компании)
+- [x] News Page (Новости)
+- [ ] News Details Page (Новость)
 - [ ] Catalog Page (Образование за рубежом)
 - [ ] University Info Page (Информация об университете)
+- [ ] Put all text to DB (Все тексты в БД)
+- [ ] Test your english level (test)
+- [ ] Translation for all pages (Перевод всех страниц)
 
+
+## TODO (Vlad)
+
+- [ ] Transparent Logo (Логотип)
+- [ ] Get "logos" from partners (Логотипы партнеров)
+- [ ] Get "real certificates"
+- [ ] Set all href links to correct pages (Проверить все ссылки на страницах)
