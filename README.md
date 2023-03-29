@@ -23,7 +23,7 @@ GSC STUDY — образовательный центр, где вам не пр
 - [x] About Us (Company) Page (О компании)
 - [x] News Page (Новости)
 - [ ] News Details Page (Новость)
-- [ ] Catalog Page (Образование за рубежом)
+- [x] Catalog Page (Образование за рубежом)
 - [ ] University Info Page (Информация об университете)
 - [ ] Put all text to DB (Все тексты в БД)
 - [ ] Test your english level (test)

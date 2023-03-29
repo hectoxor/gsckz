@@ -3,8 +3,6 @@
 		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
 	</div>
 </section>
-
-
 <section class="container--column px-8 mx-40">
     <div class="container--column w-75 w-100-mobile">
         <h1 class="text text-color-large">Школа английского языка</h1>
