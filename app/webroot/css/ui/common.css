@@ -99,3 +99,38 @@ ul {
 .separator--vertical {
 	border-left: 1px solid var(--color-separator-alpha);
 }
+
+
+@media (max-width: 768px) {
+	.w-100-mobile {
+		width: 100% !important;
+	}
+	
+	.w-50-mobile {
+		width: 50% !important;
+	}
+	
+	.w-25-mobile {
+		width: 25% !important;
+	}
+	
+	.w-75-mobile {
+		width: 75% !important;
+	}
+	
+	.h-100-mobile {
+		height: 100% !important;
+	}
+	
+	.h-50-mobile {
+		height: 50% !important;
+	}
+	
+	.h-25-mobile {
+		height: 25% !important;
+	}
+	
+	.h-75-mobile {
+		height: 75% !important;
+	}
+}
