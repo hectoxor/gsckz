@@ -26,11 +26,13 @@ GSC STUDY — образовательный центр, где вам не пр
 - [ ] Catalog Page (Образование за рубежом)
 - [ ] University Info Page (Информация об университете)
 - [ ] Put all text to DB (Все тексты в БД)
+- [ ] Test your english level (test)
 - [ ] Translation for all pages (Перевод всех страниц)
+
 
 ## TODO (Vlad)
 
-- [ ] Transparent Logo (Логотип)
+- [x] Transparent Logo (Логотип)
 - [ ] Get "logos" from partners (Логотипы партнеров)
 - [ ] Get "real certificates"
-- [ ] Set all href links to correct pages (Проверить все ссылки на страницах)
+- [x] Set all href links to correct pages (Проверить все ссылки на страницах)

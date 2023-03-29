@@ -42,11 +42,11 @@
 			<div class="container--column h-100 w-100 justify-center align-center">
 				<h3 class="text text-transform-uppercase text-align-center">Языковая среда</h3>
 			</div>
-			<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">
-				<span class="ico ico-20">
-					<i class="ico-tl-arrow"></i>
-				</span>
-			</a>
+<!--			<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">-->
+<!--				<span class="ico ico-20">-->
+<!--					<i class="ico-tl-arrow"></i>-->
+<!--				</span>-->
+<!--			</a>-->
 		</div>
 		<div class="card card-type-1 gap-0">
 			<div class="container--column h-100 w-100 justify-center align-center">
@@ -55,21 +55,21 @@
 					Дети едут в сопровождении доверенных преподавателей центра, которые владеют английским языком и помогут разрешить все возникающие вопросы. 
 				</span>
 			</div>
-			<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">
-				<span class="ico ico-20">
-					<i class="ico-tl-arrow"></i>
-				</span>
-			</a>
+<!--			<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">-->
+<!--				<span class="ico ico-20">-->
+<!--					<i class="ico-tl-arrow"></i>-->
+<!--				</span>-->
+<!--			</a>-->
 		</div>
 		<div class="card card-type-1 gap-0">
 			<div class="container--column h-100 w-100 justify-center align-center">
 				<h3 class="text text-transform-uppercase text-align-center">Безопасность</h3>
 			</div>
-			<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">
-				<span class="ico ico-20">
-					<i class="ico-tl-arrow"></i>
-				</span>
-			</a>
+<!--			<a href="/" class="button button-outline border-circle button-ico text-color-white ml-auto mt-auto">-->
+<!--				<span class="ico ico-20">-->
+<!--					<i class="ico-tl-arrow"></i>-->
+<!--				</span>-->
+<!--			</a>-->
 		</div>
 	</div>
 	<div class="card card-type-2 gap-0">
