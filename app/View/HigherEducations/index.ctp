@@ -2,33 +2,6 @@
 	<div class="hero-section-bg">
 		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
 	</div>
-	<div class="hero-inner">
-		<!-- <a href="\">
-			<span class="text text-color-black text-type-medium-20">Главная</span>
-		</a>
-		<span>/</span>
-		<a href="catalog">
-			<span class="text text-color-black text-type-medium-20">Образование за рубежом</span>
-		</a>
-
-		<div class="hero-inner-title">
-			<h1 class="text text-color-large">Школа английского языка</h1>
-		</div>
-		<div class="container--column mt-5 mb-25">
-			<span class="text text-color-black text-type-medium-20">
-                Уровень преподавания в GSC STUDY одобрен независимой британской организацией Quality English, которая следит за качеством преподавания английского языка по всему миру.
-			</span>
-		</div>
-
-		<div class="hero-inner-title">
-			<h1 class="text text-color-large" style = "font-size: 40px;">Выберите школу или колледж</h1>
-		</div>
-		<div class="container--column mt-5 mb-25">
-			<span class="text text-color-black text-type-medium-20">
-                В этом разделе представлена подробная информация о программах обучения, условиях проживания и стоимости в зарубежных школах и колледжах
-			</span>
-		</div> -->
-	</div>
 </section>
 
 
