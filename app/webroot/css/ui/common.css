@@ -27,7 +27,7 @@
 	--color-box-shadow-layer-1: #00103D29;
 	--color-box-shadow-layer-2: #00103D47;
 
-	--color-button-background-primary: linear-gradient(91.85deg, #566DBD -20.1%, #3DAFFF 98.46%);
+	--color-button-background-primary: linear-gradient(to right, #566DBD -20%, #3DAFFF 98%);
 	--color-button-background-secondary: linear-gradient(94.69deg, #BA447D -9.75%, #E2C26A 89.71%);
 
 	--color-gradient: linear-gradient(to bottom, rgba(226,194,105,1) 30%, rgba(186,68,125,1) 95%);
@@ -46,6 +46,10 @@
 	--color-gray: #939393;
 }
 
+         
+         
+ 
+
 * {
 	box-sizing: border-box;
 }
@@ -60,6 +64,19 @@ ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+}
+
+a:hover {
+	text-decoration-color: inherit;
+	text-decoration: underline;
+}
+
+.mix-blend-screen {
+	mix-blend-mode: screen;
+}
+
+.mix-blend-multiply {
+	mix-blend-mode: multiply;
 }
 
 .w-fit-content {

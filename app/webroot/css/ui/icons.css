@@ -43,7 +43,7 @@
 
 .ico-bars {
 	width: 12px;
-	height: 8px;
+	height: 9px;
 	background-color: currentColor;
 	-webkit-mask: url(../../assets/icons/bars.svg) no-repeat 50% 50%;;
 	mask: url(../../assets/icons/bars.svg) no-repeat 50% 50%;;

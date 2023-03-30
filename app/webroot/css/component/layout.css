@@ -9,6 +9,10 @@
 	padding-top: 120px;
 }
 
+body:not(:has(.hero-section)) .navbar .text-color-white {
+	color: var(--color-text-primary);
+}
+
 .hero-section-bg {
 	position: absolute;
 	top: 0;

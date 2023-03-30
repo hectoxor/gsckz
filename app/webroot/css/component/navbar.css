@@ -27,7 +27,6 @@
 .logo {
 	width: 147px;
 	height: 60px;
-	display: flex;
 }
 
 .logo .nav-link {

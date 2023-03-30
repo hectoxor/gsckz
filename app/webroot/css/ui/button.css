@@ -3,17 +3,19 @@
 }
 
 .button {
-	/* all: unset; */
 	padding: 16px 24px;
 	border-radius: var(--common-border-radius);
-	text-decoration: none;
+	text-decoration: none !important;
 	text-align: center;
 	cursor: pointer;
+
+	transition: all 0.15s ease-in-out;
+	background-size: 125% 100%;
 }
 
 .button-outline {
 	background-color: transparent;
-	border: 1px solid currentColor;
+	border: 1px solid var(--color-text-white);
 	padding: 8px 24px;
 }
 
@@ -22,19 +24,35 @@
 }
 
 .button-primary {
-	background: var(--color-button-background-primary);
+	background-image: var(--color-button-background-primary);
 	color: var(--color-text-white);
 }
 
 .button-secondary {
-	background: var(--color-button-background-secondary);
+	background-image: var(--color-button-background-secondary);
 	color: var(--color-text-white);
 }
 
 .button-white {
-	background: var(--color-background-primary);
+	background-color: var(--color-background-primary);
+	border: 1px solid var(--color-background-primary);
+	mix-blend-mode: screen;
 }
 
 .button-text-white {
+	color: var(--color-text-white);
+}
+
+.button:hover {
+	background-position: 100% 0;
+}
+
+.button-outline:hover {
+	background-color: var(--color-background-primary);
+	color: var(--color-text-black);
+}
+
+.button-white:hover {
+	background-color: transparent;
 	color: var(--color-text-white);
 }

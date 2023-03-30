@@ -280,7 +280,7 @@
                 </div>
             </div>
             <a class="button button-white" onclick="handleModalToggle('apply-modal');">
-                <span class="text text-type-medium-14 text-color-secondary text-font-weight-500 text-transform-uppercase">
+                <span class="text text-type-medium-14 text-font-weight-600 text-transform-uppercase">
                     Получить консультацию
                 </span>
             </a>
