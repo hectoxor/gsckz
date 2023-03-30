@@ -24,10 +24,11 @@ GSC STUDY — образовательный центр, где вам не пр
 - [x] News Page (Новости)
 - [ ] News Details Page (Новость)
 - [x] Catalog Page (Образование за рубежом)
-- [ ] University Info Page (Информация об университете)
+- [x] University Info Page (Информация об университете)
 - [ ] Put all text to DB (Все тексты в БД)
 - [ ] Test your english level (test)
 - [ ] Translation for all pages (Перевод всех страниц)
+- [ ] Animations
 
 
 ## TODO (Vlad)

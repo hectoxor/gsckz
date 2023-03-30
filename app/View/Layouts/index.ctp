@@ -78,7 +78,6 @@
                 <span class="text text-type-medium text-font-weight-500">
                     Находим учебное заведение с подходящей программой и условиями. Сопровождаем на всем пути подготовки и подачи документов.
                 </span>
-
                 <a href="/catalog" class="button button-outline button-ico text-color-white mt-auto">
                     <span class="ico ico-20">
                         <i class="ico-arrow-right"></i>
@@ -327,7 +326,12 @@
                             <span class="text text-type-medium">
                                 <?= $this->Text->truncate(strip_tags($item['News']['body']), 120, array('ellipsis' => '...', 'exact' => true)) ?>
                             </span>
-                            <a href="/news/<?= $item['News']['alias'] ?>" class="text text-type-medium text-color-link text-transform-uppercase mt-auto">Читать подробнее</a>
+                            <a
+                                href="/news/<?= $item['News']['alias'] ?>"
+                                class="text text-type-medium text-color-link text-transform-uppercase text-underline-none text-align-center mt-auto"
+                            >
+                                Читать подробнее
+                            </a>
                         </div>
                         <?php endforeach ?>
                     </div>

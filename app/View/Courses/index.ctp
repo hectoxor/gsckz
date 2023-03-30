@@ -7,18 +7,11 @@
 		</div>
 	</div>
 	<div class="hero-inner">
-		<a href="\">
-			<span class="text text-color-black text-type-medium-20">
-             Главная
-	    </span>
-		</a>
-		<span> / </span>
-
-		<a href="summer-programs">
-			<span class="text text-color-black text-type-medium-20">
-             Летние программы
-	    </span>
-		</a>
+		<span class="text text-type-medium-16">
+            <a href="/" class="text-color-black text-underline-none">Главная</a>
+            /
+            <a href="/language-school" class="text-color-black text-underline-none">Школа Английского</a>
+        </span>
 		<div class="hero-inner-title">
 			<h1 class="text text-color-large">Летние программы</h1>
 		</div>

@@ -42,6 +42,10 @@
 	background: var(--color-background-secondary);
 }
 
+.background-tertiary {
+	background: var(--color-background-tertiary);
+}
+
 .background-alpha {
 	background: var(--color-background-alpha);
 }

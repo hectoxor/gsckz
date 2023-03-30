@@ -6,6 +6,11 @@
 </section>
 
 <section class="container--column px-8">
+    <span class="text text-type-medium-16">
+        <a href="/" class="text-color-black text-underline-none">Главная</a>
+        /
+        <a href="/language-school" class="text-color-black text-underline-none">Школа Английского</a>
+    </span>
     <h1 class="text text-color-large">Наши контакты</h1>
     <div class="container container--column-mobile my-25">
         <div class="container--column flex-1">

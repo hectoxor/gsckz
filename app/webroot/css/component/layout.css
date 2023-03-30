@@ -1,8 +1,12 @@
 .hero-section {
-	padding-top: 120px;
+	/* padding-top: 120px; */
 	padding-bottom: 120px;
 	display: flex;
 	align-items: center;
+}
+
+.hero-section:has(.hero-illustration-content) {
+	padding-top: 120px;
 }
 
 .hero-section-bg {
@@ -150,3 +154,10 @@
 		padding-top: 600px;
 	}
 }
+
+@media (max-width: 768px) {
+	.hero-section {
+		padding-top: 120px;
+	}
+}
+
