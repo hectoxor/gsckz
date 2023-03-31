@@ -28,7 +28,7 @@ GSC STUDY — образовательный центр, где вам не пр
 - [ ] Put all text to DB (Все тексты в БД)
 - [ ] Test your english level (test)
 - [x] Translation for all pages (Перевод всех страниц)
-- [L] Animations
+- [ ] Animations
 - [ ] Admin
 
 ## TODO (Vlad)
