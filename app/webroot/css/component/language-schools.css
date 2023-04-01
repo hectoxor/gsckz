@@ -1,6 +1,6 @@
 .illustration-9 { /* School */
     top: 200px;
-    right: -100px;
+    right: 0;
     position: relative;
     width: 400px;
     display: block;
@@ -8,7 +8,4 @@
 }
 
 @media (max-width: 1200px) {
-    .illustration-9 {
-        right: calc(50% - 200px);
-    }
 }

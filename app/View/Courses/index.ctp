@@ -1,7 +1,7 @@
 <section class="hero-section px-8">
 	<div class="hero-section-bg">
 		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
-		<div class="hero-illustration-content">
+		<div class="hero-illustration-content courses-illustrations">
 			<img class="illustration-7" src="/assets/illustration-7.png" />
 			<img class="illustration-8" src="/assets/illustration-8.png" />
 		</div>

@@ -21,11 +21,8 @@
             );
         ?>
 
-	    <!-- <link rel="stylesheet" href="/css/slick.css" /> -->
-        <!-- <link rel="stylesheet" href="/css/jquery.fancybox.min.css" /> -->
-        <!-- <link rel="stylesheet" href="/css/styleNew.css?v=1.658486" /> -->
         <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script> -->
-       <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"></script> -->
+        <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"></script> -->
 
         <link rel="stylesheet" href="/css/style.css" />
 
@@ -245,6 +242,7 @@
                 </div>
             </div>
         </section>
+        <!-- Certificate section -->
         <section class="container--column px-8 my-25">
             <h2 class="text">Наши сертификаты</h2>
             <div class="container flex-wrap justify-center">
@@ -285,6 +283,7 @@
                 </span>
             </a>
         </section>
+        <!-- About Company Section -->
         <section class="container container--column-mobile px-40 my-25">
             <div class="container justify-center flex-1">
                 <img class="object-fit-contain" src="/assets/venera.png" width="400"/>
@@ -299,40 +298,40 @@
                 </a>
             </div>
         </section>
-
+        <!-- Partners section -->
         <section class="container--column px-8 my-25">
             <h2 class="text">Наши партнеры</h2>
             <div class="container flex-wrap justify-center">
                 <img src="/assets/partners/default.png" />
                 <img src="/assets/partners/default.png" />
+                <img src="/assets/partners/default.png" />
+                <img src="/assets/partners/default.png" />
             </div>
         </section>
-        <!-- TODO: Figure out which part of the code determines the number of news items listed here -->
-        <!-- Understood where. routes.php handles which controller to use when displaying some view. From there we can determine which variables are used  -->
+        <!-- News section -->
         <?php if( isset($news) && $news ): ?>
             <section class="container--column px-8 my-25">
                 <h2 class="text">Новости</h2>
-
                 <div class="container--column align-center gap-40">
-                    <div class="container">
+                    <div class="container container--column-mobile">
                         <?php foreach($news as $item): ?>
-                        <div class="container--column flex-1">
-                            <a href="/">
-                                <img class="img object-fit-cover border-radius-10" src="/img/news/thumbs/<?=$item['News']['img']?>" height="512px">
-                            </a>
-                            <a href="/" class="text text-type-h4 text-transform-uppercase text-underline-none text-color-primary">
-                                <?=$item['News']['title']?>
-                            </a>
-                            <span class="text text-type-medium">
-                                <?= $this->Text->truncate(strip_tags($item['News']['body']), 120, array('ellipsis' => '...', 'exact' => true)) ?>
-                            </span>
-                            <a
-                                href="/news/<?= $item['News']['alias'] ?>"
-                                class="text text-type-medium text-color-link text-transform-uppercase text-underline-none text-align-center mt-auto"
-                            >
-                                Читать подробнее
-                            </a>
-                        </div>
+                            <div class="container--column flex-1">
+                                <a href="/">
+                                    <img class="img object-fit-cover border-radius-10" src="/img/news/thumbs/<?=$item['News']['img']?>" height="512px">
+                                </a>
+                                <a href="/" class="text text-type-h4 text-transform-uppercase text-underline-none text-color-primary">
+                                    <?=$item['News']['title']?>
+                                </a>
+                                <span class="text text-type-medium">
+                                    <?= $this->Text->truncate(strip_tags($item['News']['body']), 120, array('ellipsis' => '...', 'exact' => true)) ?>
+                                </span>
+                                <a
+                                    href="/news/<?= $item['News']['alias'] ?>"
+                                    class="text text-type-medium text-color-link text-transform-uppercase text-underline-none text-align-center mt-auto"
+                                >
+                                    Читать подробнее
+                                </a>
+                            </div>
                         <?php endforeach ?>
                     </div>
                     <a href="/news/" class="button button-primary">
@@ -344,6 +343,7 @@
             </section>
         <?php endif; ?>
         <?php echo $this->element('footer') ?>
+        <!-- English form application -->
         <div id="english-school-apply-modal" class="modal" data-toggled="false">
             <div class="modal--overlay"></div>
             <div class="modal--body">
@@ -383,6 +383,7 @@
                 </div>
             </div>
         </div>
+        <!-- Information form application -->
         <div id="apply-modal" class="modal" data-toggled="false">
             <div class="modal--overlay"></div>
             <div class="modal--body">
@@ -433,7 +434,7 @@
                 </div>
             </div>
         </div>
-
+        <!-- Flash popup section -->
         <?= $flash_status = (isset($_SESSION['Message']['good'])) ? 2 : ((isset($_SESSION['Message']['bad'])) ? 1 : 0); ?>
         <div id="flash-message-modal" class="modal" data-toggled="<?=($flash_status > 0) ? 'true' : 'false';?>">
             <div class="modal--overlay"></div>
@@ -461,11 +462,9 @@
                 </div>
             </div>
         </div>
-
          <script src="/js/jquery-3.0.0.min.js"></script>
          <script src="/js/jquery.waypoints.min.js"></script>
          <script src="/js/jquery.fancybox.min.js"></script>
          <script src="/js/jquery.maskedinput.min.js"></script>
 	</body>
-
 </html>

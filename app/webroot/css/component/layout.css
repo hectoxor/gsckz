@@ -155,13 +155,35 @@ body:not(:has(.hero-section)) .navbar .text-color-white {
 	}
 
 	.hero-section:has(.hero-illustration-content) {
-		padding-top: 600px;
+		padding-top: 525px;
 	}
 }
 
 @media (max-width: 768px) {
-	.hero-section {
-		padding-top: 120px;
+	.hero-bg {
+		left: calc(100% - 300px);
+	}
+
+	.hero-bg-2 {
+		left: calc(100% - 400px);
+	}
+
+	.hero-illustration-content {
+		right: -150px;
 	}
 }
 
+@media (max-width: 386px) {
+	.hero-bg {
+		left: calc(100% - 190px);
+	}
+
+	.hero-bg-2 {
+		left: calc(100% - 300px);
+	}
+
+	.hero-illustration-content {
+	    right: -215px;
+		transform: scale(0.75);
+	}
+}
