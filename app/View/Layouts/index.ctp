@@ -358,7 +358,7 @@
                     <div class="modal--title container--column gap-0">
                         <h3 class="text text-align-center">Языковая школа</h3>
                     </div>
-                    <form class="w-100">
+                    <form class="w-100" method="post" action="/requests">
                         <div class="container--column pb-25">
                             <input class="input input-ico input-user-ico text text-type-medium" type="text" name="name" placeholder="Фамилия Имя" required />
                             <input class="input input-ico input-phone-ico text text-type-medium" type="text" name="phone" placeholder="Номер телефона" required />
@@ -398,13 +398,13 @@
                         <h3 class="text text-align-center">Образование за</h3>
                         <h3 class="text text-align-center">pубежом</h3>
                     </div>
-                    <form class="w-100">
+                    <form class="w-100" method="post" action="/requests">
                         <div class="container--column pb-25">
                             <input class="input input-ico input-user-ico text text-type-medium" type="text" name="name" placeholder="Фамилия Имя" required />
                             <input class="input input-ico input-phone-ico text text-type-medium" type="text" name="phone" placeholder="Номер телефона" required />
                             <input class="input text-type-medium" type="text"  name="city" placeholder="Ваш город" required />
                             <div class="select-dropdown">
-                                <select class="text text-type-medium" required>
+                                <select class="text text-type-medium" name="program" required>
                                     <option value="" disabled selected hidden>Выберите программу</option>
                                     <option value="Бакалавриат">Бакалавриат</option>
                                     <option value="Магистратура">Магистратура</option>
@@ -433,163 +433,39 @@
                 </div>
             </div>
         </div>
+
+        <?= $flash_status = (isset($_SESSION['Message']['good'])) ? 2 : ((isset($_SESSION['Message']['bad'])) ? 1 : 0); ?>
+        <div id="flash-message-modal" class="modal" data-toggled="<?=($flash_status > 0) ? 'true' : 'false';?>">
+            <div class="modal--overlay"></div>
+            <div class="modal--body">
+                <div class="modal--close">
+                    <div class="button button-ico border-circle" onclick="handleModalToggle('flash-message-modal');">
+                        <span class="ico ico-20">
+                            <i class="ico-close"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="modal--content pb-20">
+                    <div class="modal--title">
+                        <?php if (isset($flash_status) && $flash_status == 2): ?>
+                            <h3 class="text text-align-center">Спасибо за заявку!</h3>
+                        <?php elseif (isset($flash_status) && $flash_status == 1): ?>
+                            <h3 class="text text-align-center">Что-то пошло не так!</h3>
+                        <?php endif; ?>
+                    </div>
+                    <span class="text text-type-medium text-align-center">
+                        <?php //var_dump($_SESSION); ?>
+                        <?php echo $this->Session->flash('good'); ?>
+                        <?php echo $this->Session->flash('bad'); ?>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+         <script src="/js/jquery-3.0.0.min.js"></script>
+         <script src="/js/jquery.waypoints.min.js"></script>
+         <script src="/js/jquery.fancybox.min.js"></script>
+         <script src="/js/jquery.maskedinput.min.js"></script>
 	</body>
 
-    <!-- <body>
-        <div class="alert <?=(isset($_SESSION['Message']['good']) || isset($_SESSION['Message']['bad'])) ? 'alert--active' : '';?>">
-            <div class="container">
-                <?php //var_dump($_SESSION); ?>
-                <?php echo $this->Session->flash('good'); ?>
-                <?php echo $this->Session->flash('bad'); ?>
-                <?php if(isset($_SESSION['Message'])){unset($_SESSION['Message']);} ?>
-                <div class="my-alert__close"></div>
-            </div>
-        </div>
-        <?php //echo $this->element('left_sidebar') ?>
-        <section class="header-bottom">
-            <img class="header-bottom__img" src="../img/pic_horizont2.jpg">
-            <div class="container">
-                <div class="header-bottom__wrapper">
-                    <h1 class="header-bottom__title way way--active"><?php //= $slides[0]['Slide']['title'] ?></h1>
-                    <div class="subtitle way way--active"><?php //= $slides[0]['Slide']['body'] ?></div>
-                    <a href="javascript:;" data-src="#school" data-fancybox="" class="btn header-bottom-btn way way--active">Оставить заявку</a>
-                </div>
-            </div>
-        </section>
-        <section class="section expert">
-            <div class="container">
-                <div class="expert__wrapper">
-                    <div class="experts">
-                        <div class="experts-pic">
-                            <img src="/img/pic1.jpg" alt="">
-                        </div>
-                        <div class="experts__info">
-                            <h2 class="title experts__title"><?=$h2?></h2>
-                            <?=$seotext?>
-                            <a href="javascript:;" data-src="#school" data-fancybox="" class="btn more">Оставить заявку</a>
-                        </div>
-                    </div>
-                    <?php if( isset($advans) && $advans ): ?>
-                        <div class="adv-numbers">
-                            <?php foreach( $advans as $item ): ?>
-                                <div class="adv-number">
-                                    <div class="adv__title"><?= $item['Advan']['title'] ?></div>
-                                    <p><?= $item['Advan']['body'] ?></p>
-                                </div>
-                            <?php endforeach; ?>
-                        </div>
-                    <?php endif; ?>
-                    <div class="expert__cards way">
-                        <div class="expert__card way">
-                            <a href="/<?= $lang ?>higher_educations<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>" class="expert__card-pic pic-increase">
-                                <img src="/img/pic2.jpg" alt="">
-                            </a>
-                            <a href="/<?= $lang ?>higher_educations<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>" class="expert__card-title">Высшее образование</a>
-                            <a href="/<?= $lang ?>higher_educations<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>" class="btn more">Подробнее</a>
-                        </div>
-                        <div class="expert__card way">
-                            <a href="/<?= $lang ?>secondary_educations<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>" class="expert__card-pic pic-increase">
-                                <img src="/img/pic3.jpg" alt="">
-                            </a>
-                            <a href="/<?= $lang ?>secondary_educations<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>" class="expert__card-title">Среднее образование</a>
-                            <a href="/<?= $lang ?>secondary_educations<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>" class="btn more">Подробнее</a>
-                        </div>
-                        <div class="expert__card way">
-                            <a href="/<?= $lang ?>abroad-program<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>" class="expert__card-pic pic-increase">
-                                <img src="/img/pic4.jpg" alt="">
-                            </a>
-                            <a href="/<?= $lang ?>abroad-program<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>" class="expert__card-title">Языковые курсы</a>
-                            <a href="/<?= $lang ?>abroad-program<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>" class="btn more">Подробнее</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="popuptest" id="popuptest" style="display: none;">
-            <div class="popuptest-block">
-                <div class="popuptest-title">Узнай свой уровень английского</div>
-                <a href="/test" class="popuptest-link">Пройди тест онлайн</a>
-            </div>
-        </div>
-        <?php if( isset($univers) && $univers ): ?>
-            <section class="section univers">
-                <div class="container">
-                    <h2 class="title">Поступайте в лучшие университеты мира</h2>
-                    <div class="univers__slider">
-                        <?php foreach( $univers as $item ): ?>
-                            <div class="univers__slide">
-                                <a href="/<?= $lang ?>university/<?= $item['University']['alias'] ?>" class="univers__slide-pic pic-increase">
-                                    <img src="/img/universities/thumbs/<?= $item['University']['img'] ?>" alt="">
-                                </a>
-                                <a href="/<?= $lang ?>university/<?= $item['University']['alias'] ?>" class="univers__slide-title"><?= $item['University']['title'] ?></a>
-                            </div>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-            </section>
-        <?php endif; ?>
-        <?php if( isset($news) && $news ): ?>
-            <section class="section news">
-                <div class="container">
-                    <h2 class="title"><?= __('Новости') ?></h2>
-                    <div class="news__items way">
-                        <?php foreach($news as $item): ?>
-                        <div class="news__item">
-                            <div class="news-item way-news way--active">
-                                <a href="/<?= $lang ?>news/<?=$item['News']['alias']?>" class="news__item-pic pic-increase">
-                                    <img src="/img/news/thumbs/<?=$item['News']['img']?>" alt="">
-                                </a>
-                                <a class="news__item-title"><?=$item['News']['title']?></a>
-                                <p><?= $this->Text->truncate(strip_tags($item['News']['body']), 102, array('ellipsis' => '...', 'exact' => true)) ?></p>
-                                <a href="/<?= $lang ?>news/<?=$item['News']['alias']?>" class="moree"><?= __('Читать подробнее') ?></a>
-                            </div>
-                        </div>
-                        <?php endforeach ?>
-                    </div>
-                    <a href="/<?= $lang ?>news<?=($this->Session->check('city')) ? '?city=' . $this->Session->read('city') : '?city=nur-sultan' ?>" class="btn more">все новости</a>
-                </div>
-            </section>
-        <?php endif; ?>
-        <?php echo $this->element('footer') ?>
-       <script>
-            var CaptchaCallback = function() {
-                // grecaptcha.render('RecaptchaField1', {'sitekey' : '6LffIpccAAAAAJfPSByDZuJgvbBuEcUIQRaZo3fy'});
-                // grecaptcha.render('RecaptchaField2', {'sitekey' : '6LffIpccAAAAAJfPSByDZuJgvbBuEcUIQRaZo3fy'});
-                if( document.querySelector('#RecaptchaField1') ){
-                    grecaptcha.render('RecaptchaField1', {'sitekey' : '6LdmWE0gAAAAAPM7X7E4ph9KK-UvuElX_uPKgPXt'});
-                }
-                if( document.querySelector('#RecaptchaField2') ){
-                    grecaptcha.render('RecaptchaField2', {'sitekey' : '6LdmWE0gAAAAAPM7X7E4ph9KK-UvuElX_uPKgPXt'});
-                }
-            };
-
-            function checkCapcha(){
-              var elem = event.srcElement;
-              var form = elem.parentNode;
-              var attr = elem.getAttribute("data-id");
-              console.log(form);
-              if (grecaptcha.getResponse(attr).length !== 0){
-                console.log('капча есть');
-                form.submit();
-              } else{
-                alert('Проверка не пройдена, потвердите что вы не являетесь роботом');
-                return false;
-              }
-            }
-        </script>
-        <script src="/js/jquery-3.0.0.min.js"></script>
-        <script src="/js/jquery.waypoints.min.js"></script>
-        <script src="/js/jquery.fancybox.min.js"></script>
-        <script src="/js/slick.min.js"></script>
-        <script src="/js/jquery.maskedinput.min.js"></script>
-        <script src="/js/script.js?v=1.1954"></script>
-        <script>
-            window.onload = () => {
-            	$.fancybox.open({
-            		src: '#popuptest',
-            		type: 'inline'
-            	});
-            }
-        </script>
-    </body> -->
 </html>

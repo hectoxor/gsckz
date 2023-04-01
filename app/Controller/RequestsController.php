@@ -16,28 +16,29 @@ class RequestsController extends AppController {
 		$this->set(compact('data'));
 	}
 
-	public function index(){
-		if(!empty($this->request->data)){
+	public function index() {
+		if(!empty($this->request->data)) {
 			$data = $this->request->data;
-			// $this->Request->create();
+			
 			$email = new CakeEmail('smtp');
-			// debug($data);die;
 			$email->from(array('no-reply@gscstudy.kz' => 'gscstudy.kz'))
-			->to('kamilya@gscenter.kz')
-			// ->to('')
-			->subject('Новые письмо с сайта');
+			->to('info@gscenter.kz')
+			->subject('Новая заявка с сайта');
 			
-			$message = 'Имя: ' . $data['name'] . ', Телефон: ' . $data['phone'];
-			
-			
-			if( $email->send($message) ){
-			// if( $this->Request->save($data) ){
+			$message = 'Имя: ' . $data['name'] . 
+					   ', Телефон: ' . $data['phone'] . 
+					   ', Город: ' . (isset($data['city']) ? $data['city'] : '---') . 
+					   ', Программа: ' . (isset($data['program']) ? $data['program'] : '---') . ';'; 
+
+			debug($message); die;
+
+			if( $email->send($message) ) {
 				$this->Session->setFlash('Заявка успешно отправлена, в ближайшее время с Вами свяжется наш менеджер. Спасибо!', 'default', array(), 'good');
-				return $this->redirect('http://gscstudy.kz?status=1');
-			}else{
+			} else {
 				$this->Session->setFlash('Ошибка', 'default', array(), 'bad');
-				return $this->redirect('http://gscstudy.kz?status=2');
 			}
+
+			return $this->redirect('/');
 		}
 	}
 

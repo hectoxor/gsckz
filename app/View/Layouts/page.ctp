@@ -78,7 +78,7 @@
                     <div class="modal--title container--column gap-0">
                         <h3 class="text text-align-center">Языковая школа</h3>
                     </div>
-                    <form class="w-100">
+                    <form class="w-100" method="post" action="/requests">
                         <div class="container--column pb-25">
                             <input class="input input-ico input-user-ico text text-type-medium" type="text" name="name" placeholder="Фамилия Имя" required />
                             <input class="input input-ico input-phone-ico text text-type-medium" type="text" name="phone" placeholder="Номер телефона" required />
@@ -118,7 +118,7 @@
                         <h3 class="text text-align-center">Образование за</h3>
                         <h3 class="text text-align-center">pубежом</h3>
                     </div>
-                    <form class="w-100">
+                    <form class="w-100" method="post" action="/requests">
                         <div class="container--column pb-25">
                             <input class="input input-ico input-user-ico text text-type-medium" type="text" name="name" placeholder="Фамилия Имя" required />
                             <input class="input input-ico input-phone-ico text text-type-medium" type="text" name="phone" placeholder="Номер телефона" required />
@@ -156,53 +156,5 @@
 
         <!-- https://book.cakephp.org/2/en/core-libraries/helpers/js.html -->
         <?php echo $this->Js->writeBuffer(); ?>
-        <script>
-            var CaptchaCallback = function() {
-                // grecaptcha.render('RecaptchaField1', {'sitekey' : '6LffIpccAAAAAJfPSByDZuJgvbBuEcUIQRaZo3fy'});
-                // grecaptcha.render('RecaptchaField2', {'sitekey' : '6LffIpccAAAAAJfPSByDZuJgvbBuEcUIQRaZo3fy'});
-                // grecaptcha.render('RecaptchaField3', {'sitekey' : '6LffIpccAAAAAJfPSByDZuJgvbBuEcUIQRaZo3fy'});
-
-                if( document.querySelector('#RecaptchaField1') ){
-                    grecaptcha.render('RecaptchaField1', {'sitekey' : '6LdmWE0gAAAAAPM7X7E4ph9KK-UvuElX_uPKgPXt'}); 
-                }
-                if( document.querySelector('#RecaptchaField2') ){
-                    grecaptcha.render('RecaptchaField2', {'sitekey' : '6LdmWE0gAAAAAPM7X7E4ph9KK-UvuElX_uPKgPXt'}); 
-                }
-                if( document.querySelector('#RecaptchaField3') ){
-                    grecaptcha.render('RecaptchaField3', {'sitekey' : '6LdmWE0gAAAAAPM7X7E4ph9KK-UvuElX_uPKgPXt'}); 
-                }
-            };
-
-
-            function checkCapcha(){      
-              var elem = event.srcElement;
-              var form = elem.parentNode;
-              var attr = elem.getAttribute("data-id");
-              if (grecaptcha.getResponse(attr).length !== 0){
-                console.log('капча есть');
-                form.submit();
-              }
-              else{
-                alert('Проверка не пройдена, потвердите что вы не являетесь роботом');
-                event.preventDefault(); 
-                return false;       
-              }
-            }
-            function checkCapcha2(){      
-              var elem = event.srcElement;
-              var form = elem.parentNode.parentNode;
-              var attr = elem.getAttribute("data-id");
-              if (grecaptcha.getResponse(attr).length !== 0){
-                console.log('капча есть');
-                form.submit();
-                return false;
-              }
-              else{
-                alert('Проверка не пройдена, потвердите что вы не являетесь роботом');
-                event.preventDefault();    
-                return false;    
-              }
-            }
-        </script>
     </body>
 </html>
