@@ -1,4 +1,4 @@
-<section class="container--column px-8 pt-40 mt-40 mx-0-mobile">
+<section class="container--column px-8 pt-40 mt-40 mx-40 mx-0-mobile">
 	<span class="text text-type-medium-16">
 		<a href="/" class="text-color-black text-underline-none">Главная</a>
 		/
