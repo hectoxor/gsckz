@@ -17,6 +17,12 @@
 }
 
 
+@media (max-width: 1400px) {
+	.courses-illustrations {
+        transform: scale(0.8);
+	}
+}
+
 @media (max-width: 768px) {
 	.courses-illustrations {
 	    right: -100px;
