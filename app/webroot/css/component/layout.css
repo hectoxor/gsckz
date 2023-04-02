@@ -17,6 +17,7 @@ body:not(:has(.hero-section)) .navbar .text-color-white {
 	position: absolute;
 	top: 0;
 	right: 0;
+	overflow-x: hidden;
 }
 
 .hero-inner {
@@ -183,7 +184,7 @@ body:not(:has(.hero-section)) .navbar .text-color-white {
 	}
 
 	.hero-illustration-content {
-	    right: -215px;
+	    right: -240px;
 		transform: scale(0.75);
 	}
 }
