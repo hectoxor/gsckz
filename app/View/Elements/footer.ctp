@@ -10,11 +10,7 @@
 					<a href="/catalog" class="text text-type-small text-color-white text-underline-none">Высшее образование</a>
 				</div>
 				<div class="container--column gap-0">
-<<<<<<< HEAD
-					<a href="/" class="text text-type-small text-color-white text-underline-none">Glion and Les Roches</a>
-=======
 					<a href="/catalog" class="text text-type-small text-color-white text-underline-none">Glion and Les Roches</a>
->>>>>>> 263a087 (qwqwe)
 					<a href="/summer-programs" class="text text-type-small text-color-white text-underline-none">Летние каникулы за рубежом</a>
 				</div>
 			</div>
