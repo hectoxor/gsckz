@@ -1,11 +1,35 @@
-<div class="content">
-	<div class="content-top">
-		<div class="container">
-			<h1 class="title">
-				Онлайн тест Kids
-			</h1>
+<section class="hero-section px-8">
+	<div class="hero-section-bg">
+		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
+		<div class="hero-illustration-content">
+			<img class="illustration-9" src="/assets/illustration-9.png" />
 		</div>
 	</div>
+	<div class="hero-inner">
+		<div class="hero-inner">
+			<a href="\">
+			<span class="text text-color-black text-type-medium-20">
+             Главная
+	    </span>
+			</a>
+			<span> / </span>
+
+			<a href="language-school">
+			<span class="text text-color-black text-type-medium-20">
+             Тесты
+	    </span>
+			</a>
+			<div class="hero-inner-title">
+				<h1 class="text text-color-large">Тест для детей</h1>
+			</div>
+
+</section>
+
+
+
+
+<div class="content">
+
 	<div class="section my-tests kids-test" data-name="Kids">
 		<div class="container">
 			<nav class="page-header-nav">
@@ -23,7 +47,7 @@
 							<div class="question question_img">
 								<p class="question__heading">1. Match numbers with the words. </p>
 								<div class="question__row">
-									<span class="question__heading">This is a helicopter</span>	
+									<span class="question__heading">This is a helicopter</span>
 									<label class="question-row__text question_a_img">
 										<img src="/img/test/kids/part1-1.jpg" alt="">
 									</label>
@@ -37,7 +61,7 @@
 									</div>
 								</div>
 								<div class="question__row">
-									<span class="question__heading">This is a clock.</span>	
+									<span class="question__heading">This is a clock.</span>
 									<label class="question-row__text question_a_img">
 										<img src="/img/test/kids/part1-2.jpg" alt="">
 									</label>
@@ -55,7 +79,7 @@
 									</div>
 								</div>
 								<div class="question__row">
-									<span class="question__heading">These are shells.</span>	
+									<span class="question__heading">These are shells.</span>
 									<label class="question-row__text question_a_img">
 										<img src="/img/test/kids/part1-3.jpg" alt="">
 									</label>
@@ -67,9 +91,9 @@
 										<input id="g3a2" name="g3" class="question-row__input" type="radio">
 										<label for="g3a2" class="question-row__text">False</label>
 									</div>
-								</div>	
+								</div>
 								<div class="question__row">
-									<span class="question__heading">This is a sock.</span>	
+									<span class="question__heading">This is a sock.</span>
 									<label class="question-row__text question_a_img">
 										<img src="/img/test/kids/part1-4.jpg" alt="">
 									</label>
@@ -83,7 +107,7 @@
 									</div>
 								</div>
 								<div class="question__row">
-									<span class="question__heading">These are chairs.</span>	
+									<span class="question__heading">These are chairs.</span>
 									<label class="question-row__text question_a_img">
 										<img src="/img/test/kids/part1-5.jpg" alt="">
 									</label>
@@ -105,7 +129,7 @@
 							<img class="img-part3" src="/img/test/kids/part3.jpg" alt="" width="100%">
 							<br><br>
 							<div class="question question_text">
-								<span class="question__heading">1. This big window is open. _____________</span>	
+								<span class="question__heading">1. This big window is open. _____________</span>
 								<div class="question-row">
 									<input id="g6a1" name="g6" class="question-row__input" type="radio">
 									<label for="g6a1" class="question-row__text">YES</label>
@@ -116,7 +140,7 @@
 								</div>
 							</div>
 							<div class="question question_text">
-								<span class="question__heading">2. The man is playing the guitar. _____________</span>	
+								<span class="question__heading">2. The man is playing the guitar. _____________</span>
 								<div class="question-row">
 									<input id="g7a1" name="g7" class="question-row__input" type="radio">
 									<label for="g7a1" class="question-row__text">YES</label>
@@ -127,7 +151,7 @@
 								</div>
 							</div>
 							<div class="question question_text">
-								<span class="question__heading">3. There is a lamp on the bookcase. _____________</span>	
+								<span class="question__heading">3. There is a lamp on the bookcase. _____________</span>
 								<div class="question-row">
 									<input id="g8a1" name="g8" class="question-row__input" type="radio">
 									<label for="g8a1" class="question-row__text">YES</label>
@@ -138,7 +162,7 @@
 								</div>
 							</div>
 							<div class="question question_text">
-								<span class="question__heading">4. Children are singing. _____________</span>	
+								<span class="question__heading">4. Children are singing. _____________</span>
 								<div class="question-row">
 									<input id="g9a1" name="g9" class="question-row__input" type="radio">
 									<label for="g9a1" class="question-row__text">YES</label>
@@ -149,7 +173,7 @@
 								</div>
 							</div>
 							<div class="question question_text">
-								<span class="question__heading">5. The cat is eating. _____________</span>	
+								<span class="question__heading">5. The cat is eating. _____________</span>
 								<div class="question-row">
 									<input id="g10a1" name="g10" class="question-row__input" type="radio">
 									<label for="g10a1" class="question-row__text">YES</label>
@@ -229,7 +253,7 @@
 						</div>
 					</div>
 					<div class="submit submit--kids btn">Далее</div>
-				</div>	
+				</div>
 
 
 				<div class="test-part js-test-part test-part--listening tab-items">
@@ -326,7 +350,7 @@
 				<div class="test-part test-part--speaking tab-items">
 					<!-- <span class="test-part__heading" style="text-align: center;">Заполните форму чтобы узнать результаты </span> -->
 					<h2 class="title-sec">Заполните форму чтобы узнать результаты </h2>
-					<form action="/requests/test" method="POST" class="formTest">					
+					<form action="/requests/test" method="POST" class="formTest">
 						<div class="section-form">
 							<div class="section-row">
 								<div class="section-row__inner">
@@ -336,8 +360,8 @@
 							<div class="section-row">
 								<div class="section-row__inner">
 									<input required class="section-row__input" placeholder="Почта" type="email" name="data[email]">
-								</div>	
-							</div>	
+								</div>
+							</div>
 							<div class="section-row">
 								<div class="section-row__inner">
 									<input required class="section-row__input" placeholder="Телефон" type="tel" name="data[phone]">
@@ -352,15 +376,15 @@
 										<option value="Павлодар">Павлодар</option>
 										<option value="Другой город">Другой город</option>
 									</select>
-								</div>	
-							</div>	
+								</div>
+							</div>
 							<div class="section-row">
 								<div class="section-row__inner">
 									<span class="section-row__heading">Дата рождения:</span>
 									<input class="section-row__input" placeholder="Выберите Дату" type="date" id="datepicker" name="data[date]" required>
 								</div>
 								<!-- <div class="g-recaptcha" data-sitekey="6Lf-GWgUAAAAAONaK9a4BLwByqdhJ0fg-HdqVHQa"></div> -->
-							</div>	
+							</div>
 							<div class="section-row">
 								<div class="section-row__inner">
 									<input required class="section-row__input" placeholder="Откуда вы узнали о нас" type="text" name="data[question_about]">
@@ -377,27 +401,27 @@
 
 	                        <!-- <div class="g-recaptcha" data-sitekey="6LffIpccAAAAAJfPSByDZuJgvbBuEcUIQRaZo3fy" style="margin-bottom: 20px;"></div> -->
 	                        <div id="RecaptchaField3"></div>
-	                        
+
 							<input name="url" value="<?php echo Router::url(null, true) ?>" type="hidden">
 	                        <!-- <div class="section-row">
 								<div class="section-row__inner">
-									  <input class="section-row__input"  name="data[robot]" placeholder="Сколько будет <?=$r1?> + <?=$r2?>?" type="text" required>	
+									  <input class="section-row__input"  name="data[robot]" placeholder="Сколько будет <?=$r1?> + <?=$r2?>?" type="text" required>
 								</div>
 							</div> -->
 							<textarea style="display:none" class="result-textarea" name="data[senddata]"></textarea>
 							<div class="section-row">
 								<div class="section-row__inner">
 									<button type="text" class="section-row__button btn" data-id="2" onclick="checkCapcha()">Отправить</button>
-								</div>	
-							</div>																												
+								</div>
+							</div>
 						</div>
 					</form>
 					<div class="result-div"></div>
-				</div>																				
+				</div>
 			</div>
 			<div class="test_error_msg test_error">Ответьте на все вопросы, чтобы перейти дальше</div>
 			<div class="test_error_msg form_error">Ответьте на все вопросы, чтобы отправить заявку</div>
 			<div class="test_error_msg checkBox_error">Нужно выбрать хотя бы 1 вариант из каждой строки</div>
-		</div>		
-	</div>												
+		</div>
+	</div>
 </div>

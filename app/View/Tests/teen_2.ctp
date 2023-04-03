@@ -1,11 +1,33 @@
-<div class="content">
-	<div class="content-top">
-		<div class="container">
-			<h1 class="title">
-				Онлайн тест Teens 2
-			</h1>
+<section class="hero-section px-8">
+	<div class="hero-section-bg">
+		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
+		<div class="hero-illustration-content">
+			<img class="illustration-9" src="/assets/illustration-9.png" />
 		</div>
 	</div>
+	<div class="hero-inner">
+		<div class="hero-inner">
+			<a href="\">
+			<span class="text text-color-black text-type-medium-20">
+             Главная
+	    </span>
+			</a>
+			<span> / </span>
+
+			<a href="language-school">
+			<span class="text text-color-black text-type-medium-20">
+             Тесты
+	    </span>
+			</a>
+			<div class="hero-inner-title">
+				<h1 class="text text-color-large">Тест для подростков</h1>
+			</div>
+
+</section>
+
+
+
+<div class="content">
 	<div class="section my-tests tests teen-test-2" data-name="Teen2">
 		<div class="container">
 			<nav class="page-header-nav">
@@ -513,15 +535,15 @@
 						</p>
 						<span>3 Alcatraz Island</span>
 						<p>
-							Once a high-security prison, Alcatraz island is one of the Bay Area's most interesting tourist attractions. Take the ferry from Pier 41 and visit the dark cell blocks that were home to America's most wanted criminals. 
+							Once a high-security prison, Alcatraz island is one of the Bay Area's most interesting tourist attractions. Take the ferry from Pier 41 and visit the dark cell blocks that were home to America's most wanted criminals.
 						</p>
 						<span>4 Santa Cruz</span>
 						<p>
-							Go to the Cruz Surfing Museum, which is in a lighthouse, and see classic boards including one eaten by a shark - the surfer survived! Next stop, the Santa Cruz Beach Boardwalk for a ride on the Giant Dipper rollercoaster. 
+							Go to the Cruz Surfing Museum, which is in a lighthouse, and see classic boards including one eaten by a shark - the surfer survived! Next stop, the Santa Cruz Beach Boardwalk for a ride on the Giant Dipper rollercoaster.
 						</p>
 						<span>5 Venice Beach</span>
 						<p>
-							This is where skateboarding started, so you must visit the famous skate park right on the beach. Also watch the bodybuilders at Muscle Beach Gym, which is where Arnold Schwarzenegger started his career. 
+							This is where skateboarding started, so you must visit the famous skate park right on the beach. Also watch the bodybuilders at Muscle Beach Gym, which is where Arnold Schwarzenegger started his career.
 						</p>
 						<span>6 Hollywood</span>
 						<p>
@@ -665,7 +687,7 @@
 									<textarea id="r10a1" name="r10" class="question_textarea"></textarea>
 								</div>
 							</div>
-							<br>	
+							<br>
 						</div>
 					</div> -->
 					<div class="submit submit--reading btn">Далее</div>
@@ -1041,10 +1063,10 @@
 					<div class="test-section">
 						<!-- <span class="test-section__heading">1.	Read about this piece of England in China and answer the given questions.</span> -->
 						<p>Choose one of the following topics and
-						write a short essay (70-100 words)</p>	
+						write a short essay (70-100 words)</p>
 						<p>1) The film I like.</p>
 						<p>2) My favourite city.</p>
-						<p>3) The best day in my life.</p>	
+						<p>3) The best day in my life.</p>
 						<!-- <p>About my family</p>
 						<p>&nbsp;</p>
 						<p>From: kellycali@ainrofilac.eg</p>
@@ -1121,7 +1143,7 @@
 							<input name="url" value="<?php echo Router::url(null, true) ?>" type="hidden">
 							<!-- <div class="section-row">
 							<div class="section-row__inner">
-								  <input class="section-row__input"  name="data[robot]" placeholder="Сколько будет <?= $r1 ?> + <?= $r2 ?>?" type="text" required>	
+								  <input class="section-row__input"  name="data[robot]" placeholder="Сколько будет <?= $r1 ?> + <?= $r2 ?>?" type="text" required>
 							</div>
 						</div> -->
 							<textarea style="display:none" class="result-textarea" name="data[senddata]"></textarea>

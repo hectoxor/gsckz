@@ -1,11 +1,34 @@
-<div class="content">
-	<div class="content-top">
-		<div class="container">
-			<h1 class="title">
-				Онлайн тест Teens
-			</h1>
+<section class="hero-section px-8">
+	<div class="hero-section-bg">
+		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
+		<div class="hero-illustration-content">
+			<img class="illustration-9" src="/assets/illustration-9.png" />
 		</div>
 	</div>
+	<div class="hero-inner">
+		<div class="hero-inner">
+			<a href="\">
+			<span class="text text-color-black text-type-medium-20">
+             Главная
+	    </span>
+			</a>
+			<span> / </span>
+
+			<a href="language-school">
+			<span class="text text-color-black text-type-medium-20">
+             Тесты
+	    </span>
+			</a>
+			<div class="hero-inner-title">
+				<h1 class="text text-color-large">Тест для подростков</h1>
+			</div>
+
+</section>
+
+
+
+
+<div class="content">
 	<div class="section my-tests tests teen-test" data-name="Teen">
 		<div class="container">
 			<nav class="page-header-nav">
@@ -19,7 +42,7 @@
 				</ul>
 			</nav>
 			<div class="test-slider teen_test_slider">
-				<div class="test-part js-test-part test-part--active test-part--grammar tab-items active">					
+				<div class="test-part js-test-part test-part--active test-part--grammar tab-items active">
 					<h2 class="title-sec" data-sec="grammar">Section Grammar</h2>
 					<div class="tests-row">
 						<div class="test-row__inner test-row">
@@ -119,7 +142,7 @@
 								</div> -->
 							</div>
 							<div class="question">
-								<span class="question__heading">6. A: What do you want for lunch? 
+								<span class="question__heading">6. A: What do you want for lunch?
 								B: I _____ have chicken and some salad.</span>
 								<div class="question-row">
 									<input id="q6a1" name="q6" class="question-row__input" type="radio">
@@ -132,7 +155,7 @@
 								<div class="question-row">
 									<input id="q6a3" name="q6" class="question-row__input" type="radio">
 									<label for="q6a3" class="question-row__text">am going</label>
-								</div>								
+								</div>
 							</div>
 							<div class="question">
 								<span class="question__heading">7. There isn’t _____ cheese in my sandwich.</span>
@@ -147,7 +170,7 @@
 								<div class="question-row">
 									<input id="q7a3" name="q7" class="question-row__input" type="radio">
 									<label for="q7a3" class="question-row__text">few</label>
-								</div>		
+								</div>
 							</div>
 							<div class="question">
 								<span class="question__heading">8. I _____ Claire an email yesterday afternoon.</span>
@@ -453,7 +476,7 @@
 											<label for="v2a1" class="question-row__text">an airport</label>
 										</div>
 				                    </li>
-				                </ul>    
+				                </ul>
 				            </div>
 						</div>
 						<div class="question">
@@ -485,7 +508,7 @@
 				                    <li class="js-type-study">Магистратура</li>
 				                    <li class="js-type-study">Языковые курсы</li>
 				                    <li class="js-type-study">Летние каникулы за рубежом</li>
-				                </ul>    
+				                </ul>
 				            </div>
 							<select>
 								<option>an actor</option>
@@ -647,7 +670,7 @@
 						</div>
 					</div>
 					<div class="submit submit--grammar btn">Далее</div>
-				</div>	
+				</div>
 				<div class="test-part js-test-part test-part--reading tab-items">
 					<h2 class="title-sec" data-sec="reading">Section Reading</h2>
 					<div class="test-section">
@@ -665,7 +688,7 @@
 							</div>
 							<div class="question">
 								<span class="question__heading">1. Katy: Do you always walk to work?</span>
-								<span class="question__heading">Emma: ...........................</span>	
+								<span class="question__heading">Emma: ...........................</span>
 								<div class="question-row">
 									<input id="r1a1" name="r1" class="question-row__input" type="radio">
 									<label for="r1a1" class="question-row__text">A. Sometimes i sit at my desk and sometimes i go out.</label>
@@ -701,7 +724,7 @@
 							</div>
 							<div class="question">
 								<span class="question__heading">2. Katy: How many people work there?</span>
-								<span class="question__heading">Emma: ...........................</span>	
+								<span class="question__heading">Emma: ...........................</span>
 								<div class="question-row">
 									<input id="r2a1" name="r2" class="question-row__input" type="radio">
 									<label for="r2a1" class="question-row__text">A. Sometimes i sit at my desk and sometimes i go out.</label>
@@ -737,7 +760,7 @@
 							</div>
 							<div class="question">
 								<span class="question__heading">3. Katy: Where do you eat your lunch?</span>
-								<span class="question__heading">Emma: ...........................</span>	
+								<span class="question__heading">Emma: ...........................</span>
 								<div class="question-row">
 									<input id="r3a1" name="r3" class="question-row__input" type="radio">
 									<label for="r3a1" class="question-row__text">A. Sometimes i sit at my desk and sometimes i go out.</label>
@@ -773,7 +796,7 @@
 							</div>
 							<div class="question">
 								<span class="question__heading">4. Katy: Can i play on the computer in your office?</span>
-								<span class="question__heading">Emma: ...........................</span>	
+								<span class="question__heading">Emma: ...........................</span>
 								<div class="question-row">
 									<input id="r4a1" name="r4" class="question-row__input" type="radio">
 									<label for="r4a1" class="question-row__text">A. Sometimes i sit at my desk and sometimes i go out.</label>
@@ -809,7 +832,7 @@
 							</div>
 							<div class="question">
 								<span class="question__heading">5. Katy: What time do you come home?</span>
-								<span class="question__heading">Emma: ...........................</span>	
+								<span class="question__heading">Emma: ...........................</span>
 								<div class="question-row">
 									<input id="r5a1" name="r5" class="question-row__input" type="radio">
 									<label for="r5a1" class="question-row__text">A. Sometimes i sit at my desk and sometimes i go out.</label>
@@ -843,7 +866,7 @@
 									<label for="r5a8" class="question-row__text">H. Only a few. It's a small business.</label>
 								</div>
 							</div>
-						</div>						
+						</div>
 					<div class="submit submit--reading btn">Далее</div>
 				</div>
 				<div class="test-part js-test-part test-part--listening tab-items">

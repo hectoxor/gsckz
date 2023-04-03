@@ -30,40 +30,40 @@
 		<a class="button button-primary" onclick="handleModalToggle('apply-modal');">
 			<span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">получить консультацию</span>
 		</a>
-        <div class="container--column my-25">
-			<h3 class="text text-color-large">Программы обучения английскому языку:</h3>
-            <div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
-                <span class="text text-type-medium text-color-primary">Детям от 6 до 9 лет</span>
-                <a href="/" class="text text-type-medium text-color-link text-underline">
-                    <span>Проверить уровень знаний</span>
-                </a>
-            </div>
-            <div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
-                <span class="text text-type-medium text-color-primary">Подросткам 10-12 лет</span>
-                <a href="/" class="text text-type-medium text-color-link text-underline">
-                    <span>Проверить уровень знаний</span>
-                </a>
-            </div>
-            <div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
-                <span class="text text-type-medium text-color-primary">Подросткам 13-17 лет </span>
-                <a href="/" class="text text-type-medium text-color-link text-underline">
-                    <span>Проверить уровень знаний</span>
-                </a>
-            </div>
-            <div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
-                <span class="text text-type-medium text-color-primary">Взрослым</span>
-                <a href="/" class="text text-type-medium text-color-link text-underline">
-                    <span>Проверить уровень знаний</span>
-                </a>
-            </div>
-            <div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
-                <span class="text text-type-medium text-color-primary">Подготовка к IELTS и SAT</span>
-                <a href="/" class="text text-type-medium text-color-link text-underline">
-                    <span>Пройти пробный тест формата IELTS</span>
-                </a>
-            </div>
+			<div class="container--column my-25">
+				<h3 class="text text-color-large">Программы обучения английскому языку:</h3>
+				<div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
+					<span class="text text-type-medium text-color-primary">Детям от 6 до 9 лет</span>
+					<a href="/kids" class="text text-type-medium text-color-link text-underline">
+						<span>Проверить уровень знаний</span>
+					</a>
+				</div>
+				<div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
+					<span class="text text-type-medium text-color-primary">Подросткам 10-12 лет</span>
+					<a href="/teens" class="text text-type-medium text-color-link text-underline">
+						<span>Проверить уровень знаний</span>
+					</a>
+				</div>
+				<div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
+					<span class="text text-type-medium text-color-primary">Подросткам 13-17 лет </span>
+					<a href="/teens_2" class="text text-type-medium text-color-link text-underline">
+						<span>Проверить уровень знаний</span>
+					</a>
+				</div>
+				<div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
+					<span class="text text-type-medium text-color-primary">Взрослым</span>
+					<a href="/adults" class="text text-type-medium text-color-link text-underline">
+						<span>Проверить уровень знаний</span>
+					</a>
+				</div>
+				<div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
+					<span class="text text-type-medium text-color-primary">Подготовка к IELTS и SAT</span>
+					<a href="/ielts" class="text text-type-medium text-color-link text-underline">
+						<span>Пройти пробный тест формата IELTS</span>
+					</a>
+				</div>
+			</div>
 		</div>
-	</div>
 </section>
 
 <section class="container--column px-8 mb-25 py-25 gap-64 background-secondary">

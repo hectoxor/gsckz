@@ -9,7 +9,17 @@
 	Router::connect('/contacts', array('controller' => 'contacts', 'action' => 'index'));
 	Router::connect('/about', array('controller' => 'pages', 'action' => 'about'));
 
+    Router::connect('/test', array('controller' => 'pages', 'action' => 'test'));
+
     Router::connect('/catalog', array('controller' => 'HigherEducations', 'action' => 'index'));
+
+
+
+    Router::connect('/ielts', array('controller' => 'tests', 'action' => 'ielts'));
+	Router::connect('/kids', array('controller' => 'tests', 'action' => 'kids'));
+	Router::connect('/adults', array('controller' => 'tests', 'action' => 'general'));
+	Router::connect('/teens', array('controller' => 'tests', 'action' => 'teen'));
+	Router::connect('/teens_2', array('controller' => 'tests', 'action' => 'teen_2'));
 
 	// Router::connectNamed(array('lang'));
 	// Router::redirect('/index.php', '/', array('status' => 301));

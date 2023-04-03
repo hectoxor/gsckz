@@ -1,10 +1,35 @@
+<section class="hero-section px-8">
+	<div class="hero-section-bg">
+		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
+		<div class="hero-illustration-content">
+			<img class="illustration-9" src="/assets/illustration-9.png" />
+		</div>
+	</div>
+	<div class="hero-inner">
+		<div class="hero-inner">
+			<a href="\">
+			<span class="text text-color-black text-type-medium-20">
+             Главная
+	    </span>
+			</a>
+			<span> / </span>
+
+			<a href="language-school">
+			<span class="text text-color-black text-type-medium-20">
+             Тесты
+	    </span>
+			</a>
+			<div class="hero-inner-title">
+				<h1 class="text text-color-large">Тест для взрослых</h1>
+			</div>
+
+</section>
+
+
+
 <div class="content">
 	<div class="content-top">
-		<div class="container">
-			<h1 class="title">
-				Онлайн тест General
-			</h1>
-		</div>
+
 	</div>
 	<div class="section my-tests tests general-test" data-name="General">
 		<div class="container">
@@ -1248,7 +1273,7 @@
 					</div>
 					<div class="tests-row">
 						<div class="test-row__inner test-row">
-						
+
 							<div class="question">
 								<span class="question__heading">1. Good language learners don’t make mistakes</span>
 								<div class="question-row">
@@ -1487,8 +1512,8 @@
 									<label for="l6a3" class="question-row__text">They can be flexible to work when and where it suits them.</label>
 								</div>
 							</div>
-							
-							
+
+
 							<!-- <div class="question question_text">
 								<span class="question__heading">2. Rochester Castle is more than _____ years old.</span>
 								<div class="question-row">
@@ -1533,7 +1558,7 @@
 							</div> -->
 						</div>
 					</div>
-					
+
 					<div class="submit submit--listening btn">Далее</div>
 				</div>
 				<div class="test-part js-test-part test-part--writing tab-items">
@@ -1612,7 +1637,7 @@
 							<input name="url" value="<?php echo Router::url(null, true) ?>" type="hidden">
 							<!-- <div class="section-row">
 							<div class="section-row__inner">
-								  <input class="section-row__input"  name="data[robot]" placeholder="Сколько будет <?= $r1 ?> + <?= $r2 ?>?" type="text" required>	
+								  <input class="section-row__input"  name="data[robot]" placeholder="Сколько будет <?= $r1 ?> + <?= $r2 ?>?" type="text" required>
 							</div>
 						</div> -->
 							<textarea style="display:none" class="result-textarea" name="data[senddata]"></textarea>
