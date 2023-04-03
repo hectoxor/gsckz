@@ -6,39 +6,15 @@
 		<meta name="description" content=""/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="google-site-verification" content="JGiHeng_D0sCzgiklesd4vMgZc_EF_WXPwMOjQXwu7I" />
-		<!-- <?php 
+		<?php 
 		echo $this->Html->meta('icon');
 		echo $this->Html->css(array('cake.generic', 'admin-style.css'));
 		echo $this->Html->script(array('ckeditor/ckeditor'));
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
-		 ?> -->
+		?>
 
-		 <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156557152-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-156557152-1');
-        </script>
-        <!-- Yandex.Metrika counter -->
-        <script type="text/javascript" >
-           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-           m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-           (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-           ym(57106423, "init", {
-                clickmap:true,
-                trackLinks:true,
-                accurateTrackBounce:true
-           });
-        </script>
-        <noscript><div><img src="https://mc.yandex.ru/watch/57106423" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-        <!-- /Yandex.Metrika counter -->
         <style type="text/css">
         	.admin_tab_list{
 				display: flex;

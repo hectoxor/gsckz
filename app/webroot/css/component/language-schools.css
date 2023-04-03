@@ -7,8 +7,15 @@
     animation: float 3s ease-in-out infinite;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     .illustration-9 {
-        right: calc(50% - 200px);
+        right: -50px;
+    }
+}
+
+
+@media (max-width: 386px) {
+    .illustration-9 {
+        right: 30px;
     }
 }

@@ -2,21 +2,14 @@
 	<div class="hero-section-bg">
 		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
 	</div>
-	<a href="\">
-			<span class="text text-color-black text-type-medium-20">
-             Главная
-	    </span>
-	</a>
-	<span> / </span>
-
-	<a href="about">
-		<span class="text text-color-black text-type-medium-20">
-			О нас
-		</span>
-	</a>
 </section>
 
 <section class="container--column gap-40 px-8 mx-40">
+	<span class="text text-type-medium-16">
+		<a href="/" class="text-color-black text-underline-none">Главная</a>
+		/
+		<a href="/about" class="text-color-black text-underline-none">О компании</a>
+	</span>
 	<h1 class="text text-color-large">О компании</h1>
 	<div class="container container--column-mobile">
 		<div class="container justify-center flex-1">

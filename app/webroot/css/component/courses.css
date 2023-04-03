@@ -1,6 +1,6 @@
 .illustration-7 { /* Books */
     top: 200px;
-    right: -50px;
+    right: 0px;
     position: relative;
     width: 550px;
     display: block;
@@ -14,4 +14,25 @@
     width: 150px;
     display: block;
     animation: float 2s ease-in-out infinite;
+}
+
+
+@media (max-width: 1400px) {
+	.courses-illustrations {
+        transform: scale(0.8);
+	}
+}
+
+@media (max-width: 768px) {
+	.courses-illustrations {
+	    right: -100px;
+        transform: scale(0.75);
+	}
+}
+
+@media (max-width: 386px) {
+	.courses-illustrations {
+	    right: -130px;
+		transform: scale(0.5);
+	}
 }

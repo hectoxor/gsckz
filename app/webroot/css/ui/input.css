@@ -22,13 +22,12 @@ input[type=text]:focus {
 }
 
 
-/* TODO: They are filled black but should have similar color to text */
 .input-user-ico {
-    background-image: url('../../assets/icons/user.svg');
+    background-image: url('../../assets/icons/user-gray.svg');
 }
 
 .input-phone-ico {
-    background-image: url('../../assets/icons/phone.svg');
+    background-image: url('../../assets/icons/phone-gray.svg');
 }
 
 .select-dropdown,

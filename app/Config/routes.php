@@ -10,6 +10,10 @@
 	Router::connect('/about', array('controller' => 'pages', 'action' => 'about'));
 
     Router::connect('/catalog', array('controller' => 'HigherEducations', 'action' => 'index'));
+	Router::connect('/university/*', array('controller' => 'universities', 'action' => 'view'));
+
+	Router::connect('/news', array('controller' => 'news', 'action' => 'index'));
+	Router::connect('/news/*', array('controller' => 'news', 'action' => 'view'));
 
 	// Router::connectNamed(array('lang'));
 	// Router::redirect('/index.php', '/', array('status' => 301));

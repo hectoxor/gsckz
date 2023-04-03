@@ -51,7 +51,12 @@
                         <p class="text text-type-medium">
                             <?= $this->Text->truncate(strip_tags($item['News']['body']), 120, array('ellipsis' => '...', 'exact' => true)) ?>
                         </p>
-                        <a href="/news/<?= $item['News']['alias'] ?>" class="text text-type-medium text-color-link text-transform-uppercase mt-auto">Читать подробнее</a>
+                        <a 
+                            href="/news/<?= $item['News']['alias'] ?>" 
+                            class="text text-type-medium text-color-link text-transform-uppercase text-underline-none text-align-center mt-auto"
+                        >
+                            Читать подробнее
+                        </a>
                     </div>
                 </div>
             <?php endforeach; ?>

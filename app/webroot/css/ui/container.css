@@ -42,12 +42,20 @@
 	background: var(--color-background-secondary);
 }
 
+.background-tertiary {
+	background: var(--color-background-tertiary);
+}
+
 .background-alpha {
 	background: var(--color-background-alpha);
 }
 
 .background-gradient {
 	background: var(--color-gradient);
+}
+
+.border-alpha {
+	border: 1px solid var(--color-separator-alpha);
 }
 
 .container {

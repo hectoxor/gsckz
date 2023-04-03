@@ -22,6 +22,13 @@
 	height: 16px;
 }
 
+.flag {
+	width: 27px;
+	height: 16px;
+
+	box-shadow: 0px 4px 32px var(--color-box-shadow-layer-2);
+}
+
 /* Icons */
 
 .ico-chevron-down {
@@ -36,7 +43,7 @@
 
 .ico-bars {
 	width: 12px;
-	height: 8px;
+	height: 9px;
 	background-color: currentColor;
 	-webkit-mask: url(../../assets/icons/bars.svg) no-repeat 50% 50%;;
 	mask: url(../../assets/icons/bars.svg) no-repeat 50% 50%;;
@@ -160,6 +167,36 @@
 	background-color: currentColor;
 	-webkit-mask: url(../../assets/icons/right-head-arrow.svg) no-repeat 50% 50%;
 	mask: url(../../assets/icons/right-head-arrow.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+.ico-location {
+	width: 14px;
+	height: 19px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/location.svg) no-repeat 50% 50%;
+	mask: url(../../assets/icons/location.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+.ico-graduation-hat {
+	width: 21px;
+	height: 15px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/graduation-hat.svg) no-repeat 50% 50%;
+	mask: url(../../assets/icons/graduation-hat.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+.ico-bill-paper {
+	width: 19px;
+	height: 19px;
+	background-color: currentColor;
+	-webkit-mask: url(../../assets/icons/bill-paper.svg) no-repeat 50% 50%;
+	mask: url(../../assets/icons/bill-paper.svg) no-repeat 50% 50%;
 	-webkit-mask-size: cover;
 	mask-size: cover;
 }

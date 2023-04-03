@@ -32,6 +32,8 @@
  * In development mode, you need to click the flash message to continue.
  */
 
+//  Configure::write('debug', 2);
+
 	if(isset($_GET['nur']) && !empty($_GET['nur'])){
 		Configure::write('debug', 2);
 	} else {

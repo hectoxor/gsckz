@@ -2,6 +2,8 @@
 
 class HigherEducationsController extends AppController{
 
+	public $components = array('Paginator');
+
 	public $uses = array('HigherEducation', 'Country', 'University', 'Review', 'EduLanguage');
 
 	public function beforeFilter(){
@@ -29,10 +31,6 @@ class HigherEducationsController extends AppController{
 			// 'limit' => 15,
 			// 'recursive' => -1
 		));
-		$reviews = $this->Review->find('all', array(
-			'conditions' => array('City.alias' => $alias),
-			'order' => array('Review.priority' => 'DESC')
-		));
 		if(!$data){
 			throw new NotFoundException('Такой страницы нет...');
 		}
@@ -43,7 +41,7 @@ class HigherEducationsController extends AppController{
 		$edu_langs = $this->EduLanguage->find('list', array(
 			'order' => array('EduLanguage.priority' => 'DESC'),
 		));
-
+	
 		$conditions = [];
 		if( isset($_GET['country_id']) && $_GET['country_id'] ){
 			$conditions[] = ['University.country_id' => $_GET['country_id']];
@@ -60,21 +58,24 @@ class HigherEducationsController extends AppController{
 			];
 		}
 
-		$universities = $this->University->find('all', array(
+		$this->Paginator->settings = array(
 			'conditions' => array('University.active' => 1, 'University.type' => 'visshee', $conditions),
 			'order' => array('University.priority' => 'DESC'),
-			'recursive' => -1
-		));
+			'limit' => 9,
+		);
+
+		$universities = $this->Paginator->paginate('University');
+
 		// debug($universities);die;
 		$title_for_layout = ($data['HigherEducation']['meta_title']) ? $data['HigherEducation']['meta_title'] : $data['HigherEducation']['title'];
 
-		//$bc = array(array('link' => '', 'title' => 'Образование за рубежом'), array('link' => '', 'title' => $data['HigherEducation']['title']));
 		$bc = array(array('link' => '', 'title' => $data['HigherEducation']['title']));
 		$page = $title_for_layout;
 		
 		$meta['keywords'] = $data['HigherEducation']['keywords'];
 		$meta['description'] = $data['HigherEducation']['description'];
-		$this->set(compact('data', 'title_for_layout', 'bc', 'page', 'countries', 'edu_langs', 'universities', 'reviews', 'meta'));
+
+		$this->set(compact('data', 'title_for_layout', 'bc', 'page', 'countries', 'edu_langs', 'universities', 'meta'));
 	}
 
 	public function admin_index(){

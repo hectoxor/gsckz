@@ -1,24 +1,17 @@
 <section class="hero-section px-8">
 	<div class="hero-section-bg">
 		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
-		<div class="hero-illustration-content">
+		<div class="hero-illustration-content courses-illustrations">
 			<img class="illustration-7" src="/assets/illustration-7.png" />
 			<img class="illustration-8" src="/assets/illustration-8.png" />
 		</div>
 	</div>
 	<div class="hero-inner">
-		<a href="\">
-			<span class="text text-color-black text-type-medium-20">
-             Главная
-	    </span>
-		</a>
-		<span> / </span>
-
-		<a href="summer-programs">
-			<span class="text text-color-black text-type-medium-20">
-             Летние программы
-	    </span>
-		</a>
+		<span class="text text-type-medium-16">
+            <a href="/" class="text-color-black text-underline-none">Главная</a>
+            /
+            <a href="/language-school" class="text-color-black text-underline-none">Школа Английского</a>
+        </span>
 		<div class="hero-inner-title">
 			<h1 class="text text-color-large">Летние программы</h1>
 		</div>

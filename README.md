@@ -22,17 +22,18 @@ GSC STUDY — образовательный центр, где вам не пр
 - [x] Contacts Page (Контакты)
 - [x] About Us (Company) Page (О компании)
 - [x] News Page (Новости)
-- [ ] News Details Page (Новость)
-- [ ] Catalog Page (Образование за рубежом)
-- [ ] University Info Page (Информация об университете)
+- [x] News Details Page (Новость)
+- [x] Catalog Page (Образование за рубежом)
+- [x] University Info Page (Информация об университете)
 - [ ] Put all text to DB (Все тексты в БД)
 - [ ] Test your english level (test)
-- [ ] Translation for all pages (Перевод всех страниц)
-
+- [x] Translation for all pages (Перевод всех страниц)
+- [ ] Animations
+- [ ] Admin
 
 ## TODO (Vlad)
 
-- [ ] Transparent Logo (Логотип)
+- [x] Transparent Logo (Логотип)
 - [ ] Get "logos" from partners (Логотипы партнеров)
 - [ ] Get "real certificates"
-- [ ] Set all href links to correct pages (Проверить все ссылки на страницах)
+- [x] Set all href links to correct pages (Проверить все ссылки на страницах)

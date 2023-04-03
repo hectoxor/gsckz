@@ -6,19 +6,12 @@
 		</div>
 	</div>
 	<div class="hero-inner">
-		<div class="hero-inner">
-			<a href="\">
-			<span class="text text-color-black text-type-medium-20">
-             Главная
-	    </span>
-			</a>
-			<span> / </span>
+        <span class="text text-type-medium-16">
+            <a href="/" class="text-color-black text-underline-none">Главная</a>
+            /
+            <a href="/language-school" class="text-color-black text-underline-none">Школа Английского</a>
+        </span>
 
-			<a href="language-school">
-			<span class="text text-color-black text-type-medium-20">
-             Школа Английского
-	    </span>
-			</a>
 		<div class="hero-inner-title">
 			<h1 class="text text-color-large">Школа английского языка</h1>
 		</div>
@@ -34,31 +27,31 @@
 			<h3 class="text text-color-large">Программы обучения английскому языку:</h3>
             <div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
                 <span class="text text-type-medium text-color-primary">Детям от 6 до 9 лет</span>
-                <a href="/" class="text text-type-medium text-color-link text-underline">
+                <a href="/" class="text text-type-medium text-color-link text-underline-none">
                     <span>Проверить уровень знаний</span>
                 </a>
             </div>
             <div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
                 <span class="text text-type-medium text-color-primary">Подросткам 10-12 лет</span>
-                <a href="/" class="text text-type-medium text-color-link text-underline">
+                <a href="/" class="text text-type-medium text-color-link text-underline-none">
                     <span>Проверить уровень знаний</span>
                 </a>
             </div>
             <div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
                 <span class="text text-type-medium text-color-primary">Подросткам 13-17 лет </span>
-                <a href="/" class="text text-type-medium text-color-link text-underline">
+                <a href="/" class="text text-type-medium text-color-link text-underline-none">
                     <span>Проверить уровень знаний</span>
                 </a>
             </div>
             <div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
                 <span class="text text-type-medium text-color-primary">Взрослым</span>
-                <a href="/" class="text text-type-medium text-color-link text-underline">
+                <a href="/" class="text text-type-medium text-color-link text-underline-none">
                     <span>Проверить уровень знаний</span>
                 </a>
             </div>
             <div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
                 <span class="text text-type-medium text-color-primary">Подготовка к IELTS и SAT</span>
-                <a href="/" class="text text-type-medium text-color-link text-underline">
+                <a href="/" class="text text-type-medium text-color-link text-underline-none">
                     <span>Пройти пробный тест формата IELTS</span>
                 </a>
             </div>
@@ -94,13 +87,13 @@
 
 <section class="container container--column-mobile align-center justify-center px-8 my-25 gap-40">
 	<div class="container--column align-center">
-		<a href="https://www.britishcouncil.org/">
+		<a href="https://www.britishcouncil.org/" target="_blank">
 			<img class="img" src="/assets/britishcouncil.svg" />
 		</a>
 		<h3 class="text text-transform-uppercase">BRITISH COUNCIL</h3>
 	</div>
 	<div class="container--column align-center">
-		<a href="https://www.quality-english.com/">
+		<a href="https://www.quality-english.com/" target="_blank">
 			<img class="img" src="/assets/qualityenglish.svg" />
 		</a>
 		<h3 class="text text-transform-uppercase">QUALITY ENGLISH</h3>
