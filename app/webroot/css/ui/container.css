@@ -61,25 +61,21 @@
 .container {
 	display: flex;
 	flex-direction: row;
-	gap: 12px;
 }
 
 .container--column {
 	display: flex;
 	flex-direction: column;
-	gap: 24px;
 }
 
 .grid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 24px;
 }
 
 .grid--column {
 	display: grid;
 	grid-template-rows: repeat(2, 1fr);
-	gap: 24px;
 }
 
 .grid-column-1 {
@@ -162,6 +158,131 @@
 	flex: 4 !important;
 }
 
+/* @supports (-webkit-touch-callout: none) and (not (translate: none)) { */
+    .container.gap-0 > *:not(:last-child) {
+    	margin-right: 0px;
+    }
+	.container.gap-2 > *:not(:last-child) {
+		margin-right: 2px;
+	}
+	.container.gap-4 > *:not(:last-child) {
+		margin-right: 4px;
+	}
+	.container.gap-8 > *:not(:last-child) {
+		margin-right: 8px;
+	}
+	.container.gap-12 > *:not(:last-child) {
+		margin-right: 12px;
+	}
+	.container.gap-16 > *:not(:last-child) {
+		margin-right: 16px;
+	}
+	.container.gap-24 > *:not(:last-child) {
+		margin-right: 24px;
+	}
+	.container.gap-32 > *:not(:last-child) {
+		margin-right: 32px;
+	}
+	.container.gap-40 > *:not(:last-child) {
+		margin-right: 40px;
+	}
+	.container.gap-48 > *:not(:last-child) {
+		margin-right: 48px;
+	}
+	.container.gap-56 > *:not(:last-child) {
+		margin-right: 56px;
+	}
+	.container.gap-64 > *:not(:last-child) {
+		margin-right: 64px;
+	}
+
+	.container--column.gap-0 > *:not(:last-child) {
+		margin-bottom: 0px;
+	}
+	.container--column.gap-2 > *:not(:last-child) {
+		margin-bottom: 2px;
+	}
+	.container--column.gap-4 > *:not(:last-child) {
+		margin-bottom: 4px;
+	}
+	.container--column.gap-8 > *:not(:last-child) {
+		margin-bottom: 8px;
+	}
+	.container--column.gap-12 > *:not(:last-child) {
+		margin-bottom: 12px;
+	}
+	.container--column.gap-16 > *:not(:last-child) {
+		margin-bottom: 16px;
+	}
+	.container--column.gap-24 > *:not(:last-child) {
+		margin-bottom: 24px;
+	}
+	.container--column.gap-32 > *:not(:last-child) {
+		margin-bottom: 32px;
+	}
+	.container--column.gap-40 > *:not(:last-child) {
+		margin-bottom: 40px;
+	}
+	.container--column.gap-48 > *:not(:last-child) {
+		margin-bottom: 48px;
+	}
+	.container--column.gap-56 > *:not(:last-child) {
+		margin-bottom: 56px;
+	}
+	.container--column.gap-64 > *:not(:last-child) {
+		margin-bottom: 64px;
+	}
+
+	.grid.gap-0 > *:not(:last-child), .grid--column.gap-0 > *:not(:last-child) {
+		margin-right: 0px;
+		margin-bottom: 0px;
+	}
+	.grid.gap-2 > *:not(:last-child), .grid--column.gap-2 > *:not(:last-child) {
+		margin-right: 2px;
+		margin-bottom: 2px;
+	}
+	.grid.gap-4 > *:not(:last-child), .grid--column.gap-4 > *:not(:last-child) {
+		margin-right: 4px;
+		margin-bottom: 4px;
+	}
+	.grid.gap-8 > *:not(:last-child), .grid--column.gap-8 > *:not(:last-child) {
+		margin-right: 8px;
+		margin-bottom: 8px;
+	}
+	.grid.gap-12 > *:not(:last-child), .grid--column.gap-12 > *:not(:last-child) {
+		margin-right: 12px;
+		margin-bottom: 12px;
+	}
+	.grid.gap-16 > *:not(:last-child), .grid--column.gap-16 > *:not(:last-child) {
+		margin-right: 16px;
+		margin-bottom: 16px;
+	}
+	.grid.gap-24 > *:not(:last-child), .grid--column.gap-24 > *:not(:last-child) {
+		margin-right: 24px;
+		margin-bottom: 24px;
+	}
+	.grid.gap-32 > *:not(:last-child), .grid--column.gap-32 > *:not(:last-child) {
+		margin-right: 32px;
+		margin-bottom: 32px;
+	}
+	.grid.gap-40 > *:not(:last-child), .grid--column.gap-40 > *:not(:last-child) {
+		margin-right: 40px;
+		margin-bottom: 40px;
+	}
+	.grid.gap-48 > *:not(:last-child), .grid--column.gap-48 > *:not(:last-child) {
+		margin-right: 48px;
+		margin-bottom: 48px;
+	}
+	.grid.gap-56 > *:not(:last-child), .grid--column.gap-56 > *:not(:last-child) {
+		margin-right: 56px;
+		margin-bottom: 56px;
+	}
+	.grid.gap-64 > *:not(:last-child), .grid--column.gap-64 > *:not(:last-child) {
+		margin-right: 64px;
+		margin-bottom: 64px;
+	}
+/* } */
+/* 
 .gap-0 {
 	gap: 0 !important;
 }
@@ -176,6 +297,10 @@
 
 .gap-8 {
 	gap: 8px !important;
+}
+
+.gap-12 {
+	gap: 12px !important;
 }
 
 .gap-16 {
@@ -204,7 +329,7 @@
 
 .gap-64 {
 	gap: 64px !important;
-}
+} */
 
 .row-1 {
 	grid-template-columns: repeat(1, 1fr);
@@ -222,29 +347,321 @@
 	grid-template-columns: repeat(4, 1fr);
 }
 
-
 @media (max-width: 768px) {
 	.container-mobile {
 		display: flex;
 		flex-direction: column;
-		gap: 24px;
 	}
 
 	.grid-mobile {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 24px;
 	}
 
 	.container--column-mobile {
 		display: flex;
 		flex-direction: column;
-		gap: 24px;
 	}
 
 	.grid--column-mobile {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
-		gap: 24px;
 	}
+/* 
+	.gap-0-mobile {
+		gap: 0 !important;
+	}
+	
+	.gap-2-mobile {
+		gap: 2px !important;
+	}
+	
+	.gap-4-mobile {
+		gap: 4px !important;
+	}
+	
+	.gap-8-mobile {
+		gap: 8px !important;
+	}
+	
+	.gap-12-mobile {
+		gap: 12px !important;
+	}
+	
+	.gap-16-mobile {
+		gap: 16px !important;
+	}
+	
+	.gap-24-mobile {
+		gap: 24px !important;
+	}
+	
+	.gap-32-mobile {
+		gap: 32px !important;
+	}
+	
+	.gap-40-mobile {
+		gap: 40px !important;
+	}
+	
+	.gap-48-mobile {
+		gap: 48px !important;
+	}
+	
+	.gap-56-mobile {
+		gap: 56px !important;
+	}
+	
+	.gap-64-mobile {
+		gap: 64px !important;
+	} */
+
+	/* @supports (-webkit-touch-callout: none) and (not (translate: none)) { */
+		.container-mobile.gap-0 > *:not(:last-child) {
+			margin-right: 0px !important;
+		}
+		.container-mobile.gap-2 > *:not(:last-child) {
+			margin-right: 2px !important;
+		}
+		.container-mobile.gap-4 > *:not(:last-child) {
+			margin-right: 4px !important;
+		}
+		.container-mobile.gap-8 > *:not(:last-child) {
+			margin-right: 8px !important;
+		}
+		.container-mobile.gap-12 > *:not(:last-child) {
+			margin-right: 12px !important;
+		}
+		.container-mobile.gap-16 > *:not(:last-child) {
+			margin-right: 16px !important;
+		}
+		.container-mobile.gap-24 > *:not(:last-child) {
+			margin-right: 24px !important;
+		}
+		.container-mobile.gap-32 > *:not(:last-child) {
+			margin-right: 32px !important;
+		}
+		.container-mobile.gap-40 > *:not(:last-child) {
+			margin-right: 40px !important;
+		}
+		.container-mobile.gap-48 > *:not(:last-child) {
+			margin-right: 48px !important;
+		}
+		.container-mobile.gap-56 > *:not(:last-child) {
+			margin-right: 56px !important;
+		}
+		.container-mobile.gap-64 > *:not(:last-child) {
+			margin-right: 64px !important;
+		}
+	
+		.container--column-mobile.gap-0 > *:not(:last-child) {
+			margin-bottom: 0px !important;
+		}
+		.container--column-mobile.gap-2 > *:not(:last-child) {
+			margin-bottom: 2px !important;
+		}
+		.container--column-mobile.gap-4 > *:not(:last-child) {
+			margin-bottom: 4px !important;
+		}
+		.container--column-mobile.gap-8 > *:not(:last-child) {
+			margin-bottom: 8px !important;
+		}
+		.container--column-mobile.gap-12 > *:not(:last-child) {
+			margin-bottom: 12px !important;
+		}
+		.container--column-mobile.gap-16 > *:not(:last-child) {
+			margin-bottom: 16px !important;
+		}
+		.container--column-mobile.gap-24 > *:not(:last-child) {
+			margin-bottom: 24px !important;
+		}
+		.container--column-mobile.gap-32 > *:not(:last-child) {
+			margin-bottom: 32px !important;
+		}
+		.container--column-mobile.gap-40 > *:not(:last-child) {
+			margin-bottom: 40px !important;
+		}
+		.container--column-mobile.gap-48 > *:not(:last-child) {
+			margin-bottom: 48px !important;
+		}
+		.container--column-mobile.gap-56 > *:not(:last-child) {
+			margin-bottom: 56px !important;
+		}
+		.container--column-mobile.gap-64 > *:not(:last-child) {
+			margin-bottom: 64px !important;
+		}
+	
+		.grid-mobile.gap-0 > *:not(:last-child), .grid--column-mobile.gap-0 > *:not(:last-child) {
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+		.grid-mobile.gap-2 > *:not(:last-child), .grid--column-mobile.gap-2 > *:not(:last-child) {
+			margin-right: 2px;
+			margin-bottom: 2px;
+		}
+		.grid-mobile.gap-4 > *:not(:last-child), .grid--column-mobile.gap-4 > *:not(:last-child) {
+			margin-right: 4px;
+			margin-bottom: 4px;
+		}
+		.grid-mobile.gap-8 > *:not(:last-child), .grid--column-mobile.gap-8 > *:not(:last-child) {
+			margin-right: 8px;
+			margin-bottom: 8px;
+		}
+		.grid-mobile.gap-12 > *:not(:last-child), .grid--column-mobile.gap-12 > *:not(:last-child) {
+			margin-right: 12px;
+			margin-bottom: 12px;
+		}
+		.grid-mobile.gap-16 > *:not(:last-child), .grid--column-mobile.gap-16 > *:not(:last-child) {
+			margin-right: 16px;
+			margin-bottom: 16px;
+		}
+		.grid-mobile.gap-24 > *:not(:last-child), .grid--column-mobile.gap-24 > *:not(:last-child) {
+			margin-right: 24px;
+			margin-bottom: 24px;
+		}
+		.grid-mobile.gap-32 > *:not(:last-child), .grid--column-mobile.gap-32 > *:not(:last-child) {
+			margin-right: 32px;
+			margin-bottom: 32px;
+		}
+		.grid-mobile.gap-40 > *:not(:last-child), .grid--column-mobile.gap-40 > *:not(:last-child) {
+			margin-right: 40px;
+			margin-bottom: 40px;
+		}
+		.grid-mobile.gap-48 > *:not(:last-child), .grid--column-mobile.gap-48 > *:not(:last-child) {
+			margin-right: 48px;
+			margin-bottom: 48px;
+		}
+		.grid-mobile.gap-56 > *:not(:last-child), .grid--column-mobile.gap-56 > *:not(:last-child) {
+			margin-right: 56px;
+			margin-bottom: 56px;
+		}
+		.grid-mobile.gap-64 > *:not(:last-child), .grid--column-mobile.gap-64 > *:not(:last-child) {
+			margin-right: 64px;
+			margin-bottom: 64px;
+		}
+
+	
+		.container.gap-0 > *:not(:last-child) {
+			margin-right: 0px;
+		}
+		.container.gap-2 > *:not(:last-child) {
+			margin-right: 0px;
+		}
+		.container.gap-4 > *:not(:last-child) {
+			margin-right: 0px;
+		}
+		.container.gap-8 > *:not(:last-child) {
+			margin-right: 0px;
+		}
+		.container.gap-12 > *:not(:last-child) {
+			margin-right: 0px;
+		}
+		.container.gap-16 > *:not(:last-child) {
+			margin-right: 0px;
+		}
+		.container.gap-24 > *:not(:last-child) {
+			margin-right: 0px;
+		}
+		.container.gap-32 > *:not(:last-child) {
+			margin-right: 0px;
+		}
+		.container.gap-40 > *:not(:last-child) {
+			margin-right: 0px;
+		}
+		.container.gap-48 > *:not(:last-child) {
+			margin-right: 0px;
+		}
+		.container.gap-56 > *:not(:last-child) {
+			margin-right: 0px;
+		}
+		.container.gap-64 > *:not(:last-child) {
+			margin-right: 0px;
+		}
+	
+		.container--column.gap-0 > *:not(:last-child) {
+			margin-bottom: 0px;
+		}
+		.container--column.gap-2 > *:not(:last-child) {
+			margin-bottom: 0px;
+		}
+		.container--column.gap-4 > *:not(:last-child) {
+			margin-bottom: 0px;
+		}
+		.container--column.gap-8 > *:not(:last-child) {
+			margin-bottom: 0px;
+		}
+		.container--column.gap-12 > *:not(:last-child) {
+			margin-bottom: 0px;
+		}
+		.container--column.gap-16 > *:not(:last-child) {
+			margin-bottom: 0px;
+		}
+		.container--column.gap-24 > *:not(:last-child) {
+			margin-bottom: 0px;
+		}
+		.container--column.gap-32 > *:not(:last-child) {
+			margin-bottom: 0px;
+		}
+		.container--column.gap-40 > *:not(:last-child) {
+			margin-bottom: 0px;
+		}
+		.container--column.gap-48 > *:not(:last-child) {
+			margin-bottom: 0px;
+		}
+		.container--column.gap-56 > *:not(:last-child) {
+			margin-bottom: 0px;
+		}
+		.container--column.gap-64 > *:not(:last-child) {
+			margin-bottom: 0px;
+		}
+	
+		.grid.gap-0 > *:not(:last-child), .grid--column.gap-0 > *:not(:last-child) {
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+		.grid.gap-2 > *:not(:last-child), .grid--column.gap-2 > *:not(:last-child) {
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+		.grid.gap-4 > *:not(:last-child), .grid--column.gap-4 > *:not(:last-child) {
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+		.grid.gap-8 > *:not(:last-child), .grid--column.gap-8 > *:not(:last-child) {
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+		.grid.gap-12 > *:not(:last-child), .grid--column.gap-12 > *:not(:last-child) {
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+		.grid.gap-16 > *:not(:last-child), .grid--column.gap-16 > *:not(:last-child) {
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+		.grid.gap-24 > *:not(:last-child), .grid--column.gap-24 > *:not(:last-child) {
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+		.grid.gap-32 > *:not(:last-child), .grid--column.gap-32 > *:not(:last-child) {
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+		.grid.gap-40 > *:not(:last-child), .grid--column.gap-40 > *:not(:last-child) {
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+		.grid.gap-48 > *:not(:last-child), .grid--column.gap-48 > *:not(:last-child) {
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+		.grid.gap-56 > *:not(:last-child), .grid--column.gap-56 > *:not(:last-child) {
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+		.grid.gap-64 > *:not(:last-child), .grid--column.gap-64 > *:not(:last-child) {
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+	/* } */
 }

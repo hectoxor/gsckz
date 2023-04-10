@@ -1,9 +1,9 @@
 <section class="grid grid--column-mobile gap-40 px-8 pt-40 mt-40 mb-25">
-    <div class="container--column">
+    <div class="container--column gap-24">
         <h2 class="text text-color-large">
             <?=$data['University']['title']?>
         </h2>
-        <div class="container align-center w-fit-content background-tertiary text-color-white border-radius-4 py-3 px-8">
+        <div class="container gap-12 align-center w-fit-content background-tertiary text-color-white border-radius-4 py-3 px-8">
             <span class="ico ico-20">
                 <i class="ico ico-location"></i>
             </span>
@@ -18,9 +18,9 @@
             <span class="text text-color-white text-type-medium text-font-weight-700 text-transform-uppercase">получить консультацию</span>
         </a>
 
-        <div class="container background-secondary justify-between border-radius-10 py-8 px-25">
+        <div class="container gap-12 background-secondary justify-between border-radius-10 py-8 px-25">
             <div class="container--column gap-0">
-                <div class="container">
+                <div class="container gap-12">
                     <span class="ico ico-20 text-color-white">
                         <i class="ico ico-graduation-hat"></i>
                     </span>
@@ -33,7 +33,7 @@
                 </span>
             </div>
             <div class="container--column gap-0">
-                <div class="container">
+                <div class="container gap-12">
                     <span class="ico ico-20 text-color-white">
                         <i class="ico ico-bill-paper"></i>
                     </span>
@@ -56,20 +56,20 @@
 
 
 <?php if( $data['University']['body_edu'] ): ?>
-    <section class="container--column px-8">
+    <section class="container--column gap-24 px-8">
         <h2 class="text text-color-large">
             <?= ( isset($data['University']['body_edu_title']) ) ? $data['University']['body_edu_title'] : '' ?>
         </h2>
 
-        <div class="container container--column-mobile">
-            <div class="container--column flex-1">
+        <div class="container gap-12 container--column-mobile gap-24-mobile">
+            <div class="container--column gap-24 flex-1">
                 <span class="text text-type-medium-16">
                     <?= $data['University']['body_edu'] ?>
                 </span>
             </div>
             <?php if( isset($data['University']['body_program']) && $data['University']['body_program'] ): ?>
                 <div class="separator--vertical"></div>
-                <div class="container--column flex-1">
+                <div class="container--column gap-24 flex-1">
                     <span class="text text-type-medium-16">
                         <?= $data['University']['body_program'] ?>
                     </span>
@@ -80,7 +80,7 @@
 <?php endif; ?>
 
 <?php if( $data['University']['residence'] ): ?>
-    <section class="container--column px-8">
+    <section class="container--column gap-24 px-8">
         <h2 class="text text-color-large">Проживание</h2>
         <div class="grid grid--column-mobile gap-40">
             <a href="javascript:;" class="lang-courses__item-pic pic-increase" data-fancybox data-src="https://www.youtube.com/embed/<?= $data['University']['youtube'] ?>">
@@ -94,7 +94,7 @@
                     <iframe src="<?= $data['University']['youtube'] ?>" width="100%" height="100%"></iframe>
                 <?php endif; ?>
             </a>
-            <div class="container">
+            <div class="container gap-12">
                 <span class="text text-type-medium-16">
                     <?= $data['University']['residence'] ?>
                 </span>

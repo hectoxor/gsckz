@@ -11,11 +11,11 @@
 		<a href="/about" class="text-color-black text-underline-none">О компании</a>
 	</span>
 	<h1 class="text text-color-large">О компании</h1>
-	<div class="container container--column-mobile">
-		<div class="container justify-center flex-1">
+	<div class="container gap-12 container--column-mobile gap-24-mobile">
+		<div class="container gap-12 justify-center flex-1">
             <img class="object-fit-contain" src="/assets/venera.png" width="400"/>
         </div>
-		<div class="container--column justify-center flex-1">
+		<div class="container--column gap-24 justify-center flex-1">
 			<span class="text text-type-medium text-color-gray text-transform-uppercase">Основатель и Генеральный Директор GSC Study</span>
 			<h2 class="text text-color-large">Байжигитова Венера Тимуровна</h2>
 			<span class="text text-type-medium-16">Я верю, что самое главное в нашей работе — счастье ребенка. Отправляясь за границу, дети начинают вершить судьбу, а мы сопровождаем их на этом пути.</span>
@@ -27,11 +27,11 @@
 		Мы работаем по трем направлениям: образование за рубежом, школа английского языка и летние программы. Обучаем детей с 6 лет, подростков и взрослых. Помимо общего знания английского подготавливаем к сдаче международных экзаменов IELTS и SAT.
 	</span>
 
-	<div class="container container--column-mobile">
-		<div class="container flex-1">
+	<div class="container gap-12 container--column-mobile gap-24-mobile">
+		<div class="container gap-12 flex-1">
 			<img class="img" src="/assets/illustration-10.svg"/>
 		</div>
-		<div class="container--column justify-center flex-1">
+		<div class="container--column gap-24 justify-center flex-1">
 
 			<span class="text text-type-medium-16">
 				К нам обращаются, когда нужно в краткие сроки найти учебные заведения с подходящим рейтингом и подать документы в сопровождении профессионального ментора. 

@@ -4,10 +4,10 @@
 	</div>
 </section>
 
-<section class="container--column px-8">
+<section class="container--column gap-24 px-8">
     <h1 class="text text-color-large">Новости</h1>
 
-    <div class="container--column align-center">
+    <div class="container--column gap-24 align-center">
         <div class="paginator-container">
             <?php echo $this->Paginator->first(
                 '<span class="ico ico-20 text-color-white">
@@ -18,7 +18,7 @@
                     'escape' => false,
                 )
             ); ?>
-            <div class="paginator-content container">
+            <div class="paginator-content container gap-12">
                 <?php echo $this->Paginator->numbers(
                     array(
                         'separator' => '',
@@ -42,9 +42,9 @@
 
         <div class="news-container">
             <?php foreach( $news as $item ): ?>
-                <div class="news-item container--column p-10">
+                <div class="news-item container--column gap-24 p-10">
                     <img src="/img/news/thumbs/<?= $item['News']['img'] ?>"/>
-                    <div class="container--column">
+                    <div class="container--column gap-24">
                         <span class="text text-type-medium text-font-weight-700 text-transform-uppercase">
                             <?= $item['News']['title'] ?>
                         </span>
@@ -72,7 +72,7 @@
                     'escape' => false,
                 )
             ); ?>
-            <div class="paginator-content container">
+            <div class="paginator-content container gap-12">
                 <?php echo $this->Paginator->numbers(
                     array(
                         'separator' => '',

@@ -1,5 +1,5 @@
-<footer class="container--column px-40 py-20 background-secondary">
-	<div class="container container--column-mobile justify-between">
+<footer class="container--column gap-24 px-40 py-20 background-secondary">
+	<div class="container gap-12 container--column-mobile gap-24-mobile justify-between">
 		<div class="container--column gap-0">
 			<h5 class="text text-type-medium text-transform-uppercase text-color-white text-font-weight-600 text-underline-none pb-6">образование за рубежом</h4>
 
@@ -15,7 +15,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container justify-between gap-56">
+		<div class="container gap-56 justify-between">
 			<div class="container--column gap-0">
 				<h5 class="text text-type-medium text-transform-uppercase text-color-white text-font-weight-600 text-underline-none pb-6">языковая школа</h4>
 				<a href="/language-school" class="text text-type-small text-color-white text-underline-none">Языковые курсы</a>
@@ -29,7 +29,7 @@
 				<a href="/contacts" class="text text-type-small text-color-white text-underline-none">Контакты</a>
 			</div>
 		</div>
-		<div class="container--column align-center gap-8">
+		<div class="container--column gap-8 align-center">
 			<a href="/">
 				<img src="/assets/icons/logo-2.svg" alt="Logo" />
 			</a>
@@ -57,9 +57,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container gap-12">
 		<span class="text text-type-medium-14 text-color-white">
-			© 2022 Частная школа «GSC Study»
+			© 2023 Частная школа «GSC Study»
 		</span>
 	</div>
 </footer>

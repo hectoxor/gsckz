@@ -1,6 +1,6 @@
 .hero-section {
-	/* padding-top: 120px; */
-	padding-bottom: 120px;
+	padding-top: 120px;
+	/* padding-bottom: 120px; */
 	display: flex;
 	align-items: center;
 }
@@ -20,6 +20,7 @@ body:not(:has(.hero-section)) .navbar .text-color-white {
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
+	z-index: -1;
 }
 
 .hero-inner {
@@ -151,6 +152,50 @@ body:not(:has(.hero-section)) .navbar .text-color-white {
 	}
 }
 
+.carousel {
+	overflow: hidden;
+	text-align: center;
+}
+
+.slides {
+	display: flex;
+	justify-content: space-between;
+
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	scrollbar-width: none;
+}
+
+.slides::-webkit-scrollbar {
+	display: none;
+}
+
+.slides-item {
+	align-items: center;
+	display: flex;
+	flex-shrink: 0;
+	justify-content: center;
+	position: relative;
+	scroll-snap-align: start;
+	transform: scale(1);
+	transform-origin: center center;
+	transition: transform .5s;
+	width: 25%;
+	align-items: center;
+}
+
+.slider-nav {
+	align-items: center;
+	background-color: #ddd;
+	border-radius: 50%;
+	display: inline-flex;
+	height: 0.75rem;
+	width: 0.75rem;
+	justify-content: center;
+	position: relative;
+}
+
 
 @media (max-width: 1200px) {
 	.hero-inner {
@@ -159,6 +204,10 @@ body:not(:has(.hero-section)) .navbar .text-color-white {
 
 	.hero-section:has(.hero-illustration-content) {
 		padding-top: 525px;
+	}
+
+	.slides-item {
+		width: 33.33333333333333%;
 	}
 }
 
@@ -174,6 +223,10 @@ body:not(:has(.hero-section)) .navbar .text-color-white {
 	.hero-illustration-content {
 		right: -150px;
 	}
+
+	.slides-item {
+		width: 50%;
+	}
 }
 
 @media (max-width: 386px) {
@@ -188,5 +241,9 @@ body:not(:has(.hero-section)) .navbar .text-color-white {
 	.hero-illustration-content {
 	    right: -240px;
 		transform: scale(0.75);
+	}
+
+	.slides-item {
+		width: 100%;
 	}
 }

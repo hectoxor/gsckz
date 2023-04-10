@@ -1,4 +1,4 @@
-<section class="container--column px-8 pt-40 mt-40 mx-40 mx-0-mobile">
+<section class="container--column gap-24 px-8 pt-40 mt-40 mx-40 mx-0-mobile">
 	<span class="text text-type-medium-16">
 		<a href="/" class="text-color-black text-underline-none">Главная</a>
 		/
@@ -7,7 +7,7 @@
 	<h2 class="text text-color-large">
 		<?= $post['News']['title'] ?>
 	</h2>
-	<div class="container--column mx-40 mx-0-mobile">
+	<div class="container--column gap-24 mx-40 mx-0-mobile">
 		<img 
 			class="img object-fit-contain border-radius-10"
 			src="/img/news/<?= $post['News']['img'] ?>"

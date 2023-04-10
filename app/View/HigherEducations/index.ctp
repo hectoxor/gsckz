@@ -3,9 +3,9 @@
 		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
 	</div>
 </section>
-<section class="container--column px-8 mx-40 mx-0-mobile">
-    <div class="container--column w-75 w-100-mobile">
-        <h1 class="text text-color-large">Школа английского языка</h1>
+<section class="container--column gap-24 px-8 mx-40 mx-0-mobile">
+    <div class="container--column gap-24 w-75 w-100-mobile">
+        <h1 class="text text-color-large">Образование за рубежом</h1>
         <span class="text text-type-medium-16">
             Уровень преподавания в GSC STUDY одобрен независимой британской организацией Quality English, которая следит за качеством преподавания английского языка по всему миру.
         </span>
@@ -15,7 +15,7 @@
         </span>
     </div>
 
-    <div class="container--column align-center">
+    <div class="container--column gap-24 align-center">
         <div class="paginator-container">
             <?php echo $this->Paginator->first(
                 '<span class="ico ico-20 text-color-white">
@@ -26,7 +26,7 @@
                     'escape' => false,
                 )
             ); ?>
-            <div class="paginator-content container">
+            <div class="paginator-content container gap-12">
                 <?php echo $this->Paginator->numbers(
                     array(
                         'separator' => '',
@@ -49,7 +49,7 @@
         </div>
         <div class="catalog-container">
             <?php foreach( $universities as $item ): ?>
-                <div class="catalog-item container--column p-10">
+                <div class="catalog-item container--column gap-24 p-10">
                     <a href="/university/<?= $item['University']['alias'] ?>">
                         <img class="catalog-img" src="/img/universities/<?= $item['University']['img'] ?>" alt="">
                     </a>
@@ -59,18 +59,13 @@
                         </h4>
                     </a>
 
-                    <div class="container--column">
-                        <div class="container justify-between align-center">
+                    <div class="container--column gap-24">
+                        <div class="container gap-12 justify-between align-center">
                             <span class="text text-type-medium-16">Языки:</span>
                             <?php $univer_langs = explode(',', $item['University']['edu_language_ids']); ?>
-                            <div class="container--column align-center">
+                            <div class="container--column gap-24 align-center">
                                 <?php foreach( $univer_langs as $index => $univer_lang_id ): ?>
-                                    <div class="container align-center">
-                                        <img
-                                            src="/assets/flags/<?= $edu_langs[$univer_lang_id] ?>.svg"
-                                            alt="<?= $edu_langs[$univer_lang_id] ?>"
-                                            class="flag"
-                                        />
+                                    <div class="container gap-12 align-center">
                                         <span class="text text-type-medium-16">
                                             <?= ($index > 0) ? ', ' : '' ?><?= $edu_langs[$univer_lang_id] ?>
                                         </span>
@@ -78,9 +73,9 @@
                                 <?php endforeach; ?>
                             </div>
                         </div>
-                        <div class="container justify-between align-center">
+                        <div class="container gap-12 justify-between align-center">
                             <span class="text text-type-medium-16">Страна:</span>
-                            <div class="container align-center">
+                            <div class="container gap-12 align-center">
                                 <span class="ico ico-20">
                                 <img
                                     src="/assets/flags/<?= $countries[$item['University']['country_id']] ?>.svg"
@@ -110,7 +105,7 @@
                     'escape' => false,
                 )
             ); ?>
-            <div class="paginator-content container">
+            <div class="paginator-content container gap-12">
                 <?php echo $this->Paginator->numbers(
                     array(
                         'separator' => '',

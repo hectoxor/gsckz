@@ -27,7 +27,7 @@
 					<span class="text text-type-medium text-color-primary text-font-weight-600 text-overflow">Контакты</span>
 				</a>
 			</div>
-			<div class="nav-contacts--desktop container--column align-center">
+			<div class="nav-contacts--desktop container--column gap-24 align-center">
 				<div class="nav-text">
 					<span class="text text-type-medium-20  text-font-weight-600 text-font-family-primary text-overflow">+7 (700) 127 77 88</span>
 				</div>
@@ -56,7 +56,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="nav-contacts--mobile container align-center">
+			<div class="nav-contacts--mobile container gap-12 align-center">
 				<div class="nav-text">
 					<span class="text text-type-medium-20 text-color-white text-font-weight-600 text-font-family-primary text-overflow">+7 (700) 127 77 88</span>
 				</div>
