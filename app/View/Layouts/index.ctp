@@ -257,19 +257,19 @@
             <h2 class="text">Наши сертификаты</h2>
             <div class="carousel container--column gap-24 py-10">
                 <div class="slides">
-                    <div class="slides-item" id="slides-item-5"><img src="/assets/certificates/ASU.png" /></div>
-                    <div class="slides-item" id="slides-item-6"><img src="/assets/certificates/Les Roches.png" /></div>
-                    <div class="slides-item" id="slides-item-7"><img src="/assets/certificates/glion.png" /></div>
-                    <div class="slides-item" id="slides-item-8"><img src="/assets/certificates/Ecole.png" /></div>
-                    <div class="slides-item" id="slides-item-9"><img src="/assets/certificates/kaplan.png" /></div>
-					<div class="slides-item" id="slides-item-9"><img src="/assets/certificates/HWD.png" /></div>
+                    <div class="slides-item" id="slides-item-5"><img src="/assets/certificates/ASU.png" class="img w-75 object-fit-contain box-shadow-layer-1"/></div>
+                    <div class="slides-item" id="slides-item-6"><img src="/assets/certificates/Les Roches.png" class="img w-75 object-fit-contain box-shadow-layer-1"/></div>
+                    <div class="slides-item" id="slides-item-7"><img src="/assets/certificates/glion.png" class="img w-75 object-fit-contain box-shadow-layer-1"/></div>
+                    <div class="slides-item" id="slides-item-8"><img src="/assets/certificates/Ecole.png" class="img w-75 object-fit-contain box-shadow-layer-1"/></div>
+                    <div class="slides-item" id="slides-item-9"><img src="/assets/certificates/kaplan.png" class="img w-75 object-fit-contain box-shadow-layer-1"/></div>
+					<div class="slides-item" id="slides-item-10"><img src="/assets/certificates/HWD.png" class="img w-75 object-fit-contain box-shadow-layer-1"/></div>
                 </div>
                 <div class="carousel--nav pt-5">
                     <a href="#slides-item-5" class="slider-nav"></a>
                     <a href="#slides-item-6" class="slider-nav"></a>
                     <a href="#slides-item-7" class="slider-nav"></a>
                     <a href="#slides-item-8" class="slider-nav"></a>
-                    <a href="#slides-item-9" class="slider-nav"></a>
+                    <a href="#slides-item-10" class="slider-nav"></a>
                 </div>
             </div>
         </section>
@@ -323,13 +323,13 @@
             <h2 class="text">Наши партнеры</h2>
             <div class="carousel container--column gap-24 py-10">
                 <div class="slides">
-                    <div class="slides-item" id="slides-item-10"><img src="/assets/partners/default.png" /></div>
+                    <div class="slides-item" id="slides-item-101"><img src="/assets/partners/default.png" /></div>
                     <div class="slides-item" id="slides-item-11"><img src="/assets/partners/default.png" /></div>
                     <div class="slides-item" id="slides-item-12"><img src="/assets/partners/default.png" /></div>
                     <div class="slides-item" id="slides-item-13"><img src="/assets/partners/default.png" /></div>
                 </div>
                 <div class="carousel--nav pt-5">
-                    <a href="#slides-item-10" class="slider-nav"></a>
+                    <a href="#slides-item-101" class="slider-nav"></a>
                     <a href="#slides-item-11" class="slider-nav"></a>
                     <a href="#slides-item-12" class="slider-nav"></a>
                     <a href="#slides-item-13" class="slider-nav"></a>
