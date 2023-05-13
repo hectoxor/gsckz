@@ -306,7 +306,7 @@
         <!-- About Company Section -->
         <section class="container gap-12 container--column-mobile gap-24-mobile px-40 my-25">
             <div class="container gap-12 justify-center flex-1">
-                <img class="object-fit-contain" src="/assets/venera.png" width="400"/>
+                <img class="object-fit-contain" src="/assets/venera2.png" width="400"/>
             </div>
             <div class="container--column gap-24 justify-center flex-1">
                 <h2 class="text text-color-large">Байжигитова Венера Тимуровна</h2>

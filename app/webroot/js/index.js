@@ -10,7 +10,7 @@ const handleNavToggle = () => {
 
 window.matchMedia("(max-width: 768px)").onchange = e => {
     navbar.dataset.transitionable = "false";
-    
+
     navbar.dataset.toggled = "false";
 };
 
@@ -51,3 +51,4 @@ const flexGapSupported = () => {
 //         });
 //     });
 // }
+

@@ -2382,158 +2382,26 @@ li {
 	text-decoration: underline;
 }
 
-.under-ul li:hover a {
-	-webkit-transition: color 0.5s ease-out;
-	transition: color 0.5s ease-out;
-	-webkit-transition: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
-}
-
-.under-ul li:hover {
-	background-color: white;
-	-webkit-transition: color 0.5s ease-out;
-	transition: color 0.5s ease-out;
-	-webkit-transition: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
-}
-
-.courses-aroad__items {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	flex-wrap: wrap;
-	margin-right: -3%;
-}
-
-.courses-aroad__item {
-	width: 30.3%;
-	margin-right: 3%;
-	text-align: center;
-	margin-bottom: 55px;
-	display: flex;
-	flex-direction: column;
-}
-
-.secondary-education-view .lang-courses__item-info .title {
-	text-align: left;
-}
-
-.courses-aroad__item-pic {
-	display: block;
-	height: 280px;
-	margin-bottom: 20px;
-}
-
-.courses-aroad__item-pic img {
-	display: block;
-	width: 100%;
-}
-
-.courses-aroad__item-title {
-	font-size: 1.3em;
-	text-align: center;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
-	display: block;
+.nav__items .under-ul {
+	width: 250px;
 	color: #000000;
-	margin-bottom: 15px;
+	padding: 8px 10px;
 }
 
-.courses-aroad__item-title:hover {
-	text-decoration: underline;
+.nav__items .under-ul li:not(:last-child) a {
+	border-bottom: 1px solid #c9c9c9;
 }
 
-.courses-aroad__item ul {
-	margin-bottom: 30px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
+.nav__items .under-ul li a {
+	text-transform: none !important;
+	font-size: 1em;
 }
 
-.courses-aroad__item ul li {
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1.1em;
-	text-align: center;
-	color: #666666;
-	list-style-type: disc;
-}
-
-.secondary-education-view .lang-courses__item {
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: reverse;
-	-ms-flex-direction: row-reverse;
-	flex-direction: row-reverse;
-}
-
-.secondary-education-view .lang-courses__item p {
-	margin-bottom: 10px;
-}
-
-.secondary-education-view .lang-courses__item li {
-	font-size: 1.1em;
-}
-
-.secondary-education-view .lang-courses__item p span {
-	color: black;
-	font-weight: 700;
-}
-
-.about-univer .text {
-	width: 80%;
-	margin: 0 auto;
-	text-align: center;
-}
-
-.text h1 {
-	font-family: 'Merriweather';
-	font-size: 36px;
-	display: block;
-	margin-bottom: 20px;
-	line-height: 1.6;
-}
-
-.about-univer .text p b {
-	color: black;
-}
-
-.about-univer .title {
-	margin-bottom: 20px;
-	margin-top: 30px;
-}
-
-.about-univer ul {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.study {
-	margin-top: 50px;
-	padding: 50px 0;
-	border-top: 1px solid #efefef;
-	border-bottom: 1px solid #efefef;
-}
-
-.study__wrapper {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-	align-items: flex-start;
-}
-
-.study-left {
-	width: 67%;
+.nav__items .under-ul::before {
+	left: 20px;
+	top: -10px;
+	width: 18px;
+	height: 18px;
 }
 
 .study-left p {

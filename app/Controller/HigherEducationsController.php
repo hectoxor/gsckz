@@ -2,6 +2,8 @@
 
 class HigherEducationsController extends AppController{
 
+
+
 	public $components = array('Paginator');
 
 	public $uses = array('HigherEducation', 'Country', 'University', 'Review', 'EduLanguage');
@@ -9,8 +11,11 @@ class HigherEducationsController extends AppController{
 	public function beforeFilter(){
 		parent::beforeFilter();
 	}
-	
+
 	public function index(){
+
+
+
 		$this->HigherEducation->locale = Configure::read('Config.language');
 		$this->EduLanguage->locale = Configure::read('Config.language');
 		$this->Country->locale = Configure::read('Config.language');
@@ -18,11 +23,48 @@ class HigherEducationsController extends AppController{
 
 		// debug($this->Session->read('city'));die;
 		// $city = $this->
+
+
+//		$conditions = array('University.active' => 1, 'University.type' => 'visshee');
+//
+//		if ($this->request->query('country_ids')) {
+//			$countryIds = $this->request->query('country_ids');
+//			if (!is_array($countryIds)) {
+//				$countryIds = array($countryIds);
+//			}
+//			$conditions['University.country_id'] = $countryIds;
+//		}
+//
+//		if ($this->request->query('edu_lang_ids')) {
+//			$eduLangIds = $this->request->query('edu_lang_ids');
+//			if (!is_array($eduLangIds)) {
+//				$eduLangIds = array($eduLangIds);
+//			}
+//			foreach ($eduLangIds as $eduLangId) {
+//				$conditions['OR'][] = ['University.edu_language_ids LIKE' => '%' . $eduLangId . '%'];
+//			}
+//		}
+//
+//		$this->Paginator->settings = array(
+//			'conditions' => $conditions,
+//			'order' => array('University.priority' => 'DESC'),
+//			'limit' => 9,
+//		);
+//
+//		$universities = $this->Paginator->paginate('University');
+//
+//		$this->set(compact('universities'));
+		//dd
+
+
+
 		if($this->Session->check('city')){
 			$alias = $this->Session->read('city');
 		}else{
 			$alias = 'nur-sultan';
 		}
+
+
 		// debug($alias);
 		$data = $this->HigherEducation->find('first', array(
 			// 'order' => array('HigherEducation.date DESC, HigherEducation.position DESC'),
@@ -41,7 +83,7 @@ class HigherEducationsController extends AppController{
 		$edu_langs = $this->EduLanguage->find('list', array(
 			'order' => array('EduLanguage.priority' => 'DESC'),
 		));
-	
+
 		$conditions = [];
 		if( isset($_GET['country_id']) && $_GET['country_id'] ){
 			$conditions[] = ['University.country_id' => $_GET['country_id']];
@@ -71,7 +113,7 @@ class HigherEducationsController extends AppController{
 
 		$bc = array(array('link' => '', 'title' => $data['HigherEducation']['title']));
 		$page = $title_for_layout;
-		
+
 		$meta['keywords'] = $data['HigherEducation']['keywords'];
 		$meta['description'] = $data['HigherEducation']['description'];
 
@@ -106,7 +148,7 @@ class HigherEducationsController extends AppController{
 			if(!isset($data['img']['name']) || !$data['img']['name']){
 				unset($data['img']);
 			}
-			
+
 			if($this->HigherEducation->save($data)){
 				$this->Session->setFlash('Сохранено', 'default', array(), 'good');
 				return $this->redirect($this->referer());
@@ -114,7 +156,7 @@ class HigherEducationsController extends AppController{
 				$this->Session->setFlash('Ошибка', 'default', array(), 'bad');
 			}
 		}
-		
+
 		$cities = $this->HigherEducation->City->find('list');
 		$title_for_layout = 'Добавление страницы вуза';
 		$this->set(compact('title_for_layout', 'cities'));
@@ -143,9 +185,9 @@ class HigherEducationsController extends AppController{
 			if(!isset($data1['img']['name']) || !$data1['img']['name']){
 				unset($data1['img']);
 			}
-			
+
 			$data1['id'] = $id;
-			
+
 			if($this->HigherEducation->save($data1)){
 				$this->Session->setFlash('Сохранено', 'default', array(), 'good');
 				// return $this->redirect($this->referer());
@@ -195,7 +237,7 @@ class HigherEducationsController extends AppController{
 			'conditions' => array('Comment.material_id' => $id, 'Comment.type' => 'HigherEducation', 'Comment.active' => 1)
 		));
 		$comments = $this->_commentsHtml($comments_tree);
-		
+
 		$this->HigherEducation->query("UPDATE `Vuzs` SET `views` = `views` + 1 WHERE `id`='" . $id . "'");
 
 		// $data = $this->HigherEducation->find('all', array(
