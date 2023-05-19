@@ -12,33 +12,32 @@ class RequestsController extends AppController {
 
 	public function admin_index(){
 		$data = $this->Request->find('all', array('order' => array('Request.id' => 'desc')));
-		
+
 		$this->set(compact('data'));
 	}
 
-	public function index() {
-		if(!empty($this->request->data)) {
+	public function index(){
+		if(!empty($this->request->data)){
 			$data = $this->request->data;
-			
+			// $this->Request->create();
 			$email = new CakeEmail('smtp');
+			// debug($data);die;
 			$email->from(array('no-reply@gscstudy.kz' => 'gscstudy.kz'))
-			->to('info@gscenter.kz')
-			->subject('Новая заявка с сайта');
-			
-			$message = 'Имя: ' . $data['name'] . 
-					   ', Телефон: ' . $data['phone'] . 
-					   ', Город: ' . (isset($data['city']) ? $data['city'] : '---') . 
-					   ', Программа: ' . (isset($data['program']) ? $data['program'] : '---') . ';'; 
+				->to('kamilya@gscenter.kz')
+				// ->to('')
+				->subject('Новые письмо с сайта');
 
-			debug($message); die;
+			$message = 'Имя: ' . $data['name'] . ', Телефон: ' . $data['phone'];
 
-			if( $email->send($message) ) {
+
+			if( $email->send($message) ){
+				// if( $this->Request->save($data) ){
 				$this->Session->setFlash('Заявка успешно отправлена, в ближайшее время с Вами свяжется наш менеджер. Спасибо!', 'default', array(), 'good');
-			} else {
+				return $this->redirect('http://gscstudy.kz?status=1');
+			}else{
 				$this->Session->setFlash('Ошибка', 'default', array(), 'bad');
+				return $this->redirect('http://gscstudy.kz?status=2');
 			}
-
-			return $this->redirect('/');
 		}
 	}
 
@@ -52,272 +51,156 @@ class RequestsController extends AppController {
 			// $r_sum = $r1 + $r2;
 			// if(isset($data['robot']) && $data['robot'] == $r_sum){
 
-			if( isset($data['g-recaptcha-response']) && $data['g-recaptcha-response'] ){
-		        // $toSend = json_encode(array(
-		        //     "fullName" =>   isset($data['name']) ? $data['name'] : "",
-		        //     "phone" =>      isset($data['phone']) ? $data['phone'] : "",
-		        //     "type"=>        isset($_POST['page']) ? $_POST['page']: "",
-		        //     "email"=>       isset($data['mail']) ? $data['mail']: "",
-		        //     "office"=>      isset($data['city']) ? ($data['city']): "",
-		        //     "description"=> isset($data['question']) ? ($data['question']): "",
-		        //     "roistat"=>     isset($_COOKIE['roistat_visit']) ? $_COOKIE['roistat_visit'] : "",
-		        //     "utm_source" => isset($_COOKIE['source']) ? $_COOKIE['source'] : "", // UTM-метка «Рекламная система»
-		        //     "utm_medium" => isset($_COOKIE['medium']) ? $_COOKIE['medium'] : "" ,// UTM-метка «Тип трафика»
-		        //     "utm_campaign"=>isset($_COOKIE['campaign']) ? $_COOKIE['campaign'] : "", // UTM-метка «Обозначение рекламной кампании»
-		        //     "utm_term"=>    isset($_COOKIE['term']) ? $_COOKIE['term'] : "",// UTM-метка «Условие поиска кампании»
-		        //     "utm_content"=> isset($_COOKIE['content']) ? $_COOKIE['content'] : "", // UTM-метка «Содержание кампании»
-		        // ));
 
-		        // $ch = curl_init("https://gscastana.t8s.ru/Api/V2/AddStudyRequest");
-		        // curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
-		        // if(isset($data['url'])){
-		        //         curl_setopt($ch, CURLOPT_REFERER, strip_tags($data['url']));
-		        //     }
-		        // curl_setopt($ch, CURLOPT_POSTFIELDS, $toSend);
-		        // curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
-		        // curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-		        // curl_setopt($ch, CURLOPT_CONNECTTIMEOUT ,5);
-		        // curl_setopt($ch, CURLOPT_TIMEOUT, 5);
-		        // $result = curl_exec($ch);
-		        // curl_close($ch);
+				$ch      = curl_init();
+				$api_data    = ['email' => 'fabdykhalykova@gmail.com', 'api_key' => '26d9e74a-b3dc-11eb-9aef-ac1f6b4782be'];
 
-		        /*------------ Auth Token ----------*/
+				curl_setopt($ch, CURLOPT_HTTPHEADER, ['Accept: application/json', 'Content-Type: application/json']);
+				curl_setopt($ch, CURLOPT_URL, 'https://gscstudy.s20.online/v2api/auth/login');
+				curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
+				curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($api_data));
+				curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-		        $ch      = curl_init();
-		        $api_data    = ['email' => 'fabdykhalykova@gmail.com', 'api_key' => '26d9e74a-b3dc-11eb-9aef-ac1f6b4782be'];
+				$result = json_decode(curl_exec($ch), true);
+				$code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
-		        curl_setopt($ch, CURLOPT_HTTPHEADER, ['Accept: application/json', 'Content-Type: application/json']);
-		        curl_setopt($ch, CURLOPT_URL, 'https://gscstudy.s20.online/v2api/auth/login');
-		        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
-		        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($api_data));
-		        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+				if (curl_errno($ch))
+					throw new \Exception('Curl error');
 
-		        $result = json_decode(curl_exec($ch), true);
-		        $code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+				curl_close($ch);
 
-		        if (curl_errno($ch))
-		            throw new \Exception('Curl error');
+				if ($code !== 200)
+					throw new \Exception($result['name'] . ' - ' . $result['message']);
 
-		        curl_close($ch);
+				$token = $result['token'];
 
-		        if ($code !== 200)
-		            throw new \Exception($result['name'] . ' - ' . $result['message']);
 
-		        $token = $result['token'];
+				if( $data['page'] == 'diplomat' ){
 
-		        /*------------ Auth Token END ----------*/
+					// GSC Diplomat
+					$crm_branch_id = 4;
 
-		        /*------------ Alfa CRM BEGIN ----------*/
+					$name = isset($data['name']) ? $data['name'] : '';
+					$phone = isset($data['phone']) ? $data['phone'] : '';
+					$note = isset($data['note']) ? $data['note'] : '';
 
-			        if( $data['page'] == 'diplomat' ){
+					$ch = curl_init();
 
-			        	// GSC Diplomat 
-			        	$crm_branch_id = 4;
+					curl_setopt($ch, CURLOPT_HTTPHEADER, ['X-ALFACRM-TOKEN: '.$token, 'Accept: application/json', 'Content-Type: application/json']);
+					curl_setopt($ch, CURLOPT_URL, 'https://gscstudy.s20.online/v2api/'.$crm_branch_id.'/customer/create');
+					curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
+					curl_setopt($ch, CURLOPT_POSTFIELDS, '{"name":"'.$name.'", "phone":"'.$phone.'", "note":"'.$note.'", "custom_edu_type":"'.$custom_edu_type.'", "branch_ids":"'.$crm_branch_id.'", "legal_type":"1", "is_study":"0", "lead_source_id":"3"}');
+					curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-				        $name = isset($data['name']) ? $data['name'] : '';
-				        $phone = isset($data['phone']) ? $data['phone'] : '';
-				        $note = isset($data['note']) ? $data['note'] : '';
+					$result = json_decode(curl_exec($ch), true);
+					$code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
-				        $ch = curl_init();
+					if (curl_errno($ch))
+						throw new \Exception('Curl error');
 
-				        curl_setopt($ch, CURLOPT_HTTPHEADER, ['X-ALFACRM-TOKEN: '.$token, 'Accept: application/json', 'Content-Type: application/json']);
-				        curl_setopt($ch, CURLOPT_URL, 'https://gscstudy.s20.online/v2api/'.$crm_branch_id.'/customer/create');
-				        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
-				        curl_setopt($ch, CURLOPT_POSTFIELDS, '{"name":"'.$name.'", "phone":"'.$phone.'", "note":"'.$note.'", "custom_edu_type":"'.$custom_edu_type.'", "branch_ids":"'.$crm_branch_id.'", "legal_type":"1", "is_study":"0", "lead_source_id":"3"}');
-				        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+					curl_close($ch);
+				}
 
-				        $result = json_decode(curl_exec($ch), true);
-				        $code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+				/*------------ Alfa CRM END ----------*/
 
-				        if (curl_errno($ch))
-				            throw new \Exception('Curl error');
+				/*------------ Bitrix24 BEGIN ----------*/
 
-				        curl_close($ch);
-			        }
+				if( $data['page'] == 'b24' ){
 
-		        /*------------ Alfa CRM END ----------*/
+					if( isset($data['custom_edu_type']) && $data['custom_edu_type'] ){
+						$data['note'] = $data['custom_edu_type'] ."<br>\n". $data['note'];
+					}
 
-		        /*------------ Bitrix24 BEGIN ----------*/
+					$b24_email = Array();
+					if( isset($data['mail']) && $data['mail'] ){
+						$b24_email = Array(
+							0 => Array(
+								'VALUE' => $data['mail'],
+								"VALUE_TYPE" => "WORK",
+							),
+						);
+					}
 
-			        if( $data['page'] == 'b24' ){
+					// формируем URL в переменной $queryUrl
+					$queryUrl = 'https://gscstudy.bitrix24.ru/rest/12/yabru6u9indvcfk0/crm.lead.add.json';
 
-			        	if( isset($data['custom_edu_type']) && $data['custom_edu_type'] ){
-			        		$data['note'] = $data['custom_edu_type'] ."<br>\n". $data['note'];
-			        	}
+					// формируем параметры для создания лида в переменной $queryData
+					$queryData = http_build_query(array(
+						'fields' => array(
+							'TITLE' => 'Заявка с gscstudy.kz',
+							'NAME' => $data['name'],
+							'COMMENTS' => $data['city'] . "\n\n" . $data['note'],
+							'PHONE' => Array(
+								0 => Array(
+									"VALUE" => $data['phone'],
+									"VALUE_TYPE" => "WORK",
+								),
+							),
+							'EMAIL' => $b24_email,
+							'ADDRESS' => $data['city'],
+							'SOURCE_ID' => 'WEBFORM',
+						),
+						'params' => array("REGISTER_SONET_EVENT" => "Y")
+					));
 
-			        	$b24_email = Array();
-			        	if( isset($data['mail']) && $data['mail'] ){
-			        		$b24_email = Array(
-			        			0 => Array(
-			        				'VALUE' => $data['mail'],
-			        				"VALUE_TYPE" => "WORK",
-			        			),
-			        		);
-			        	}
+					// обращаемся к Битрикс24 при помощи функции curl_exec
+					$curl = curl_init();
+					curl_setopt_array($curl, array(
+						CURLOPT_SSL_VERIFYPEER => 0,
+						CURLOPT_POST => 1,
+						CURLOPT_HEADER => 0,
+						CURLOPT_RETURNTRANSFER => 1,
+						CURLOPT_URL => $queryUrl,
+						CURLOPT_POSTFIELDS => $queryData,
+					));
+					$result = curl_exec($curl);
+					curl_close($curl);
+					$result = json_decode($result, 1);
+					if (array_key_exists('error', $result)) echo "Ошибка при сохранении лида: ".$result['error_description']."<br/>";
+				}
 
-			        	// формируем URL в переменной $queryUrl
-			        	$queryUrl = 'https://gscstudy.bitrix24.ru/rest/12/yabru6u9indvcfk0/crm.lead.add.json';
+				/*------------ Bitrix24 END ----------*/
 
-			        	// формируем параметры для создания лида в переменной $queryData
-			        	$queryData = http_build_query(array(
-			        	  'fields' => array(
-			        	    'TITLE' => 'Заявка с gscstudy.kz',
-			        	    'NAME' => $data['name'],
-			        	    'COMMENTS' => $data['city'] . "\n\n" . $data['note'],
-			        		'PHONE' => Array(
-			        		    0 => Array(
-			        		        "VALUE" => $data['phone'],
-			        		        "VALUE_TYPE" => "WORK",
-			        		    ),
-			        		),
-			        		'EMAIL' => $b24_email,
-			        		'ADDRESS' => $data['city'],
-			        		'SOURCE_ID' => 'WEBFORM',
-			        	  ),
-			        	  'params' => array("REGISTER_SONET_EVENT" => "Y")
-			        	));
 
-			        	// обращаемся к Битрикс24 при помощи функции curl_exec
-			        	$curl = curl_init();
-			        	curl_setopt_array($curl, array(
-			        	  CURLOPT_SSL_VERIFYPEER => 0,
-			        	  CURLOPT_POST => 1,
-			        	  CURLOPT_HEADER => 0,
-			        	  CURLOPT_RETURNTRANSFER => 1,
-			        	  CURLOPT_URL => $queryUrl,
-			        	  CURLOPT_POSTFIELDS => $queryData,
-			        	));
-			        	$result = curl_exec($curl);
-			        	curl_close($curl);
-			        	$result = json_decode($result, 1);
-			        	if (array_key_exists('error', $result)) echo "Ошибка при сохранении лида: ".$result['error_description']."<br/>";
-			        }
-
-		        /*------------ Bitrix24 END ----------*/
-
-				
 				$email = new CakeEmail('smtp');
 				$send_email = 'info@gscenter.kz';
 				if($data['city'] == 'Нур-Султан'){
 					$send_email = 'kamilya@gscenter.kz';
-					// $send_email = ''venera.bai@gscenter.kz;
-					
-					// $ch = curl_init();
-					// 	curl_setopt($ch, CURLOPT_URL, "https://gscstudy.s20.online/api/1/lead/create?token=c4ca4238a0b923820dcc509a6f75849b");
-					// 	curl_setopt($ch, CURLOPT_POST, true);
-					// 	curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
-					// 		"name" =>   isset($data['name']) ? $data['name'] : "",
-					// 		"phone" =>      isset($data['phone']) ? $data['phone'] : "",
-					// 		"email"=>       isset($data['mail']) ? $data['mail']: "",
-					// 		"office"=>      isset($data['city']) ? ($data['city']): "",
-					// 		"birthday"=>    isset($data['date']) ? ($data['date']): "",
-					// 		"note"=>       isset($description) ? ($description): "",
-					// 		"source" => isset($_COOKIE['source']) ? $_COOKIE['source'] : "",
-					// 	]));
-						
-					// 	$result = curl_exec($ch);
-					// 	curl_close($ch);
 
-					/*--------- Old Method API-------*/
-
-
-					/*--------- New Method API -------*/
-
-					// $name = isset($data['name']) ? $data['name'] : '';
-					// $phone = isset($data['phone']) ? $data['phone'] : '';
-					// $note = isset($data['note']) ? $data['note'] : '';
-					// $custom_edu_type = isset($data['custom_edu_type']) ? $data['custom_edu_type'] : '';
-
-					// $ch = curl_init();
-
-					// curl_setopt($ch, CURLOPT_HTTPHEADER, ['X-ALFACRM-TOKEN: '.$token, 'Accept: application/json', 'Content-Type: application/json']);
-					// curl_setopt($ch, CURLOPT_URL, 'https://gscstudy.s20.online/v2api/3/customer/create');
-					// curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
-					// curl_setopt($ch, CURLOPT_POSTFIELDS, '{"name":"'.$name.'", "phone":"'.$phone.'", "note":"'.$note.'", "custom_edu_type":"'.$custom_edu_type.'", "branch_ids":"3", "legal_type":"1", "is_study":"0", "lead_source_id":"3"}');
-					// curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-					// $result = json_decode(curl_exec($ch), true);
-					// $code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-
-					// if (curl_errno($ch))
-					//     throw new \Exception('Curl error');
-
-					// curl_close($ch);
-
-					/*--------- New Method API END -------*/
 
 				}
 				if($data['city'] == 'Алматы'){
 					$send_email = 'dilshat@gsc.kz';
-						// $ch = curl_init();
-						// curl_setopt($ch, CURLOPT_URL, "https://gscstudy.s20.online/api/1/lead/create?token=c4ca4238a0b923820dcc509a6f75849b");
-						// curl_setopt($ch, CURLOPT_POST, true);
-						// curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
-						// 	"name" =>   isset($data['name']) ? $data['name'] : "",
-						// 	"phone" =>      isset($data['phone']) ? $data['phone'] : "",
-						// 	"email"=>       isset($data['mail']) ? $data['mail']: "",
-						// 	"office"=>      isset($data['city']) ? ($data['city']): "",
-						// 	"birthday"=>    isset($data['date']) ? ($data['date']): "",
-						// 	"note"=>       isset($description) ? ($description): "",
-						// 	"source" => isset($_COOKIE['source']) ? $_COOKIE['source'] : "",
-						// ]));
-						
-						// $result = curl_exec($ch);
-						// curl_close($ch);
-
-					/*--------- New Method API -------*/
-
-					// $name = isset($data['name']) ? $data['name'] : '';
-					// $phone = isset($data['phone']) ? $data['phone'] : '';
-					// $note = isset($data['note']) ? $data['note'] : '';
-
-					// $ch = curl_init();
-
-					// curl_setopt($ch, CURLOPT_HTTPHEADER, ['X-ALFACRM-TOKEN: '.$token, 'Accept: application/json', 'Content-Type: application/json']);
-					// curl_setopt($ch, CURLOPT_URL, 'https://gscstudy.s20.online/v2api/1/customer/create');
-					// curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
-					// curl_setopt($ch, CURLOPT_POSTFIELDS, '{"name":"'.$name.'", "phone":"'.$phone.'", "note":"'.$note.'", "custom_edu_type":"'.$custom_edu_type.'", "branch_ids":"1", "legal_type":"1", "is_study":"0", "lead_source_id":"3"}');
-					// curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-					// $result = json_decode(curl_exec($ch), true);
-					// $code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-
-					// if (curl_errno($ch))
-					//     throw new \Exception('Curl error');
-
-					// curl_close($ch);
-
-					/*--------- New Method API END -------*/
 				}
 				if($data['city'] == 'Актау'){
 					$send_email = 'dilshat@gsc.kz';
-						$ch = curl_init();
-						curl_setopt($ch, CURLOPT_URL, "https://gscstudy.s20.online/api/1/lead/create?token=c4ca4238a0b923820dcc509a6f75849b");
-						curl_setopt($ch, CURLOPT_POST, true);
-						curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
-							"name" =>   isset($data['name']) ? $data['name'] : "",
-							"phone" =>      isset($data['phone']) ? $data['phone'] : "",
-							"email"=>       isset($data['mail']) ? $data['mail']: "",
-							"office"=>      isset($data['city']) ? ($data['city']): "",
-							"birthday"=>    isset($data['date']) ? ($data['date']): "",
-							"note"=>       isset($description) ? ($description): "",
-							"source" => isset($_COOKIE['source']) ? $_COOKIE['source'] : "",
-						]));
-						
-						$result = curl_exec($ch);
-						curl_close($ch);
+					$ch = curl_init();
+					curl_setopt($ch, CURLOPT_URL, "https://gscstudy.s20.online/api/1/lead/create?token=c4ca4238a0b923820dcc509a6f75849b");
+					curl_setopt($ch, CURLOPT_POST, true);
+					curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
+						"name" =>   isset($data['name']) ? $data['name'] : "",
+						"phone" =>      isset($data['phone']) ? $data['phone'] : "",
+						"email"=>       isset($data['mail']) ? $data['mail']: "",
+						"office"=>      isset($data['city']) ? ($data['city']): "",
+						"birthday"=>    isset($data['date']) ? ($data['date']): "",
+						"note"=>       isset($description) ? ($description): "",
+						"source" => isset($_COOKIE['source']) ? $_COOKIE['source'] : "",
+					]));
+
+					$result = curl_exec($ch);
+					curl_close($ch);
 				}
 				if($data['city'] == 'Караганда'){
 					$send_email = 'alibek@gscstudy.kz';
 				}
 				if($data['city'] == 'Павлодар'){
 					$send_email = 'alibek@gscstudy.kz';
-				}			
+				}
 				$email->from(array('no-reply@gscstudy.kz' => 'gscstudy.kz'))
-				// ->to($send_email)
-				->to('testy@gscstudy.kz')
-				->subject('Новая заявка с сайта');
-				
+					// ->to($send_email)
+					->to('testy@gscstudy.kz')
+					->subject('Новая заявка с сайта');
+
 				$message = 'Страница: ' . $data['page'] . ', Имя: ' . $data['name'] . ', Телефон: ' . $data['phone'];
 
 				if( isset($data['mail']) && $data['mail'] ){
@@ -326,7 +209,7 @@ class RequestsController extends AppController {
 				if( isset($data['question']) && $data['question'] ){
 					$message .= ', Вопрос: ' . $data['question'];
 				}
-				
+
 				if( $email->send($message) ){
 					$this->Session->setFlash('Заявка успешно отправлена, в ближайшее время с Вами свяжется наш менеджер. Спасибо!', 'default', array(), 'good');
 					return $this->redirect($this->referer());
@@ -334,12 +217,9 @@ class RequestsController extends AppController {
 					$this->Session->setFlash('Ошибка', 'default', array(), 'bad');
 					return $this->redirect($this->referer());
 				}
-				
-			} else{
-				$this->Session->setFlash('Ошибка! Поставьте галочку что вы не робот', 'default', array(), 'bad');
-				return $this->redirect($this->referer());
-			}
-			
+
+
+
 			// $this->Session->setFlash('Заявка успешно отправлена, в ближайшее время с Вами свяжется наш менеджер. Спасибо!', 'default', array(), 'good');
 			// return $this->redirect($this->referer());
 		}
@@ -348,78 +228,63 @@ class RequestsController extends AppController {
 	public function sendAbroad(){
 		if(!empty($this->request->data)){
 			$data = $this->request->data;
-	
-			// $this->Request->create();
-			// $r1 = $data['r1'];
-			// $r2 = $data['r2'];
-			// $r_sum = $r1 + $r2;
-			// if(isset($data['robot']) && $data['robot'] == $r_sum){
 
-			if( isset($data['g-recaptcha-response']) && $data['g-recaptcha-response'] ){
-				
-				$toSend = json_encode(array(
-		            "fullName" =>   isset($data['name']) ? $data['name'] : "",
-		            "phone" =>      isset($data['phone']) ? $data['phone'] : "",
-		            "type"=>        isset($_POST['page']) ? $_POST['page']: "",
-		            "email"=>       isset($data['mail']) ? $data['mail']: "",
-		            "office"=>      isset($data['city']) ? ($data['city']): "",
-		            "description"=> isset($data['question']) ? ($data['question']): "",
-		            "roistat"=>     isset($_COOKIE['roistat_visit']) ? $_COOKIE['roistat_visit'] : "",
-		            "utm_source" => isset($_COOKIE['source']) ? $_COOKIE['source'] : "", // UTM-метка «Рекламная система»
-		            "utm_medium" => isset($_COOKIE['medium']) ? $_COOKIE['medium'] : "" ,// UTM-метка «Тип трафика»
-		            "utm_campaign"=>isset($_COOKIE['campaign']) ? $_COOKIE['campaign'] : "", // UTM-метка «Обозначение рекламной кампании»
-		            "utm_term"=>    isset($_COOKIE['term']) ? $_COOKIE['term'] : "",// UTM-метка «Условие поиска кампании»
-		            "utm_content"=> isset($_COOKIE['content']) ? $_COOKIE['content'] : "", // UTM-метка «Содержание кампании»
-		        ));
+			$toSend = json_encode(array(
+				"fullName" =>   isset($data['name']) ? $data['name'] : "",
+				"phone" =>      isset($data['phone']) ? $data['phone'] : "",
+				"type"=>        isset($_POST['page']) ? $_POST['page']: "",
+				"email"=>       isset($data['mail']) ? $data['mail']: "",
+				"office"=>      isset($data['city']) ? ($data['city']): "",
+				"description"=> isset($data['question']) ? ($data['question']): "",
+				"roistat"=>     isset($_COOKIE['roistat_visit']) ? $_COOKIE['roistat_visit'] : "",
+				"utm_source" => isset($_COOKIE['source']) ? $_COOKIE['source'] : "", // UTM-метка «Рекламная система»
+				"utm_medium" => isset($_COOKIE['medium']) ? $_COOKIE['medium'] : "" ,// UTM-метка «Тип трафика»
+				"utm_campaign"=>isset($_COOKIE['campaign']) ? $_COOKIE['campaign'] : "", // UTM-метка «Обозначение рекламной кампании»
+				"utm_term"=>    isset($_COOKIE['term']) ? $_COOKIE['term'] : "",// UTM-метка «Условие поиска кампании»
+				"utm_content"=> isset($_COOKIE['content']) ? $_COOKIE['content'] : "", // UTM-метка «Содержание кампании»
+			));
 
-		        $ch = curl_init("https://gscastana.t8s.ru/Api/V2/AddStudyRequest");
-		        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
-		        if(isset($data['url'])){
-		                curl_setopt($ch, CURLOPT_REFERER, strip_tags($data['url']));
-		            }
-		        curl_setopt($ch, CURLOPT_POSTFIELDS, $toSend);
-		        curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
-		        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-		        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT ,5);
-		        curl_setopt($ch, CURLOPT_TIMEOUT, 5);
-		        $result = curl_exec($ch);
-		        curl_close($ch);
+			$ch = curl_init("https://gscastana.t8s.ru/Api/V2/AddStudyRequest");
+			curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+			if(isset($data['url'])){
+				curl_setopt($ch, CURLOPT_REFERER, strip_tags($data['url']));
+			}
+			curl_setopt($ch, CURLOPT_POSTFIELDS, $toSend);
+			curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+			curl_setopt($ch, CURLOPT_CONNECTTIMEOUT ,5);
+			curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+			$result = curl_exec($ch);
+			curl_close($ch);
 
-				$email = new CakeEmail('smtp');
-				$send_email = 'info@gscenter.kz';
-				if($data['city'] == 'Нур-Султан'){
-					$send_email = 'kamilya@gscenter.kz';
-					// $send_email = ''venera.bai@gscenter.kz;
-				}
-				if($data['city'] == 'Алматы'){
-					$send_email = 'kamilya@gscenter.kz';
-				}
-				if($data['city'] == 'Актау'){
-					$send_email = 'kamilya@gscenter.kz';
-				}
-				if($data['city'] == 'Караганда'){
-					$send_email = 'alibek@gscstudy.kz';
-				}
-				if($data['city'] == 'Павлодар'){
-					$send_email = 'kamilya@gscenter.kz';
-				}			
-				$email->from(array('no-reply@gscstudy.kz' => 'gscstudy.kz'))
+			$email = new CakeEmail('smtp');
+			$send_email = 'info@gscenter.kz';
+			if($data['city'] == 'Нур-Султан'){
+				$send_email = 'kamilya@gscenter.kz';
+			}
+			if($data['city'] == 'Алматы'){
+				$send_email = 'kamilya@gscenter.kz';
+			}
+			if($data['city'] == 'Актау'){
+				$send_email = 'kamilya@gscenter.kz';
+			}
+			if($data['city'] == 'Караганда'){
+				$send_email = 'alibek@gscstudy.kz';
+			}
+			if($data['city'] == 'Павлодар'){
+				$send_email = 'kamilya@gscenter.kz';
+			}
+			$email->from(array('no-reply@gscstudy.kz' => 'gscstudy.kz'))
 				->to($send_email)
-				// ->to('')
 				->subject('Новые письмо с сайта');
-				
-				$message = 'Страница: ' . $data['page'] . ', Имя: ' . $data['name'] . ', Телефон: ' . $data['phone'] . ', E-mail: ' . $data['mail'];
-				
-				if( $email->send($message) ){
-				// if( $this->Request->save($data) ){
-					$this->Session->setFlash('Заявка успешно отправлена, в ближайшее время с Вами свяжется наш менеджер. Спасибо!', 'default', array(), 'good');
-					return $this->redirect($this->referer());
-				}else{
-					$this->Session->setFlash('Ошибка', 'default', array(), 'bad');
-					return $this->redirect($this->referer());
-				}
+
+			$message = 'Страница: ' . $data['page'] . ', Имя: ' . $data['name'] . ', Телефон: ' . $data['phone'] . ', E-mail: ' . $data['mail'];
+
+			if( $email->send($message) ){
+				$this->Session->setFlash('Заявка успешно отправлена, в ближайшее время с Вами свяжется наш менеджер. Спасибо!', 'default', array(), 'good');
+				return $this->redirect($this->referer());
 			}else{
-				$this->Session->setFlash('Проверочный код введен неверно', 'default', array(), 'bad');
+				$this->Session->setFlash('Ошибка', 'default', array(), 'bad');
 				return $this->redirect($this->referer());
 			}
 		}
@@ -445,127 +310,92 @@ class RequestsController extends AppController {
 		if(!empty($this->request->data)){
 			$data = $this->request->data;
 
-			if( isset($data['g-recaptcha-response']) && $data['g-recaptcha-response'] ){
-				// $this->Request->create();
-				// $r1 = $data['r1'];
-				// $r2 = $data['r2'];
-				// $r_sum = $r1 + $r2;
-				// if(isset($data['robot']) && $data['robot'] == $r_sum){
 				$senddata = strip_tags($data['senddata']);
 				$test_result = $this->_checkAnswers($senddata);
 				$description = "Тест: ".$test_result."  .". "\n\n" .'Откуда вы узнали о нас: '.$data['question_about'].".\n В какое время вам удобно заниматься: ".$data['question_time'] . "\n\n";
 				if($data['city'] != 'Алматы'){
 					$birthday = date("YYYY-MM-DD", strtotime($data['date']));
-					// $description = "Тест: ".strip_tags($data['senddata']).'  .'.'Откуда вы узнали о нас: '.$data['question_about'].'. В какое время вам удобно заниматься: '.$data['question_time'];
-					// $toSend = json_encode(array(
-					// 	"fullName" =>   isset($data['name']) ? $data['name'] : "",
-					// 	"phone" =>      isset($data['phone']) ? $data['phone'] : "",
-					// 	"type"=>        isset($_POST['page']) ? $_POST['page']: "",
-					// 	"email"=>       isset($data['mail']) ? $data['mail']: "",
-					// 	"office"=>      isset($data['city']) ? ($data['city']): "",
-					// 	"birthday"=>    isset($data['date']) ? ($data['date']): "",
-					// 	 "description"=> isset($description) ? ($description): "",
-					// 	"roistat"=>     isset($_COOKIE['roistat_visit']) ? $_COOKIE['roistat_visit'] : "",
-					// 	"utm_source" => isset($_COOKIE['source']) ? $_COOKIE['source'] : "", // UTM-метка «Рекламная система»
-					// 	"utm_medium" => isset($_COOKIE['medium']) ? $_COOKIE['medium'] : "" ,// UTM-метка «Тип трафика»
-					// 	"utm_campaign"=>isset($_COOKIE['campaign']) ? $_COOKIE['campaign'] : "", // UTM-метка «Обозначение рекламной кампании»
-					// 	"utm_term"=>    isset($_COOKIE['term']) ? $_COOKIE['term'] : "",// UTM-метка «Условие поиска кампании»
-					// 	"utm_content"=> isset($_COOKIE['content']) ? $_COOKIE['content'] : "", // UTM-метка «Содержание кампании»
-	    		    //   ));
-					// $ch = curl_init("https://gscastana.t8s.ru/Api/V2/AddStudyRequest");
-					// curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
-					// if(isset($data['url'])){
-					// 		curl_setopt($ch, CURLOPT_REFERER, strip_tags($data['url']));
-					// 	}
-					// curl_setopt($ch, CURLOPT_POSTFIELDS, $toSend);
-					// curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
-					// curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-					// curl_setopt($ch, CURLOPT_CONNECTTIMEOUT ,5);
-					// curl_setopt($ch, CURLOPT_TIMEOUT, 5);
-					// $result = curl_exec($ch);
-					// curl_close($ch);
 				}
 
-		        /*------------ Auth Token ----------*/
-			        $ch      = curl_init();
-			        $api_data    = ['email' => 'fabdykhalykova@gmail.com', 'api_key' => '26d9e74a-b3dc-11eb-9aef-ac1f6b4782be'];
+				$ch      = curl_init();
+				$api_data    = ['email' => 'fabdykhalykova@gmail.com', 'api_key' => '26d9e74a-b3dc-11eb-9aef-ac1f6b4782be'];
 
-			        curl_setopt($ch, CURLOPT_HTTPHEADER, ['Accept: application/json', 'Content-Type: application/json']);
-			        curl_setopt($ch, CURLOPT_URL, 'https://gscstudy.s20.online/v2api/auth/login');
-			        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
-			        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($api_data));
-			        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+				curl_setopt($ch, CURLOPT_HTTPHEADER, ['Accept: application/json', 'Content-Type: application/json']);
+				curl_setopt($ch, CURLOPT_URL, 'https://gscstudy.s20.online/v2api/auth/login');
+				curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
+				curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($api_data));
+				curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-			        $result = json_decode(curl_exec($ch), true);
-			        $code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+				$result = json_decode(curl_exec($ch), true);
+				$code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
-			        if (curl_errno($ch))
-			            throw new \Exception('Curl error');
-			        curl_close($ch);
+				if (curl_errno($ch))
+					throw new \Exception('Curl error');
+				curl_close($ch);
 
-			        if ($code !== 200)
-			            throw new \Exception($result['name'] . ' - ' . $result['message']);
+				if ($code !== 200)
+					throw new \Exception($result['name'] . ' - ' . $result['message']);
 
-			        $token = $result['token'];
+				$token = $result['token'];
 
-			        $my_err_msg['auth_result'] = $result;
-			        $my_err_msg['token_auth'] = $token;
+				$my_err_msg['auth_result'] = $result;
+				$my_err_msg['token_auth'] = $token;
 
-		        /*------------ Auth Token END ----------*/
+				/*------------ Auth Token END ----------*/
 
 
-		        /*------------ Alfa CRM BEGIN ----------*/
-		        
-		        	$crm_branch_id = 3;
-			        if( $data['city'] == 'Алматы' ){
-			        	$crm_branch_id = 1;
+				/*------------ Alfa CRM BEGIN ----------*/
 
-			        } elseif( $data['city'] == 'Астана' ){
-			        	$crm_branch_id = 3;
+				$crm_branch_id = 3;
+				if( $data['city'] == 'Алматы' ){
+					$crm_branch_id = 1;
 
-			        } else{
-			        	$crm_branch_id = 3;
-			        }
+				} elseif( $data['city'] == 'Астана' ){
+					$crm_branch_id = 3;
 
-			        if( $crm_branch_id ){
-				        $name = isset($data['name']) ? $data['name'] : '';
-				        $phone = isset($data['phone']) ? $data['phone'] : '';
-				        $note = $description;
+				} else{
+					$crm_branch_id = 3;
+				}
 
-				        $my_data = [
-				        	'name' => $name,
-				        	'phone' => $phone,
-				        	'note' => $note,
-				        	'custom_edu_type' => $custom_edu_type,
-				        	'branch_ids' => $crm_branch_id,
-				        	'legal_type' => 1,
-				        	'is_study' => 0,
-				        	'lead_source_id' => 3,
-				        ];
+				if( $crm_branch_id ){
+					$name = isset($data['name']) ? $data['name'] : '';
+					$phone = isset($data['phone']) ? $data['phone'] : '';
+					$note = $description;
 
-				        $ch = curl_init();
-				        curl_setopt($ch, CURLOPT_HTTPHEADER, ['X-ALFACRM-TOKEN: '.$token, 'Accept: application/json', 'Content-Type: application/json']);
-				        curl_setopt($ch, CURLOPT_URL, 'https://gscstudy.s20.online/v2api/'.$crm_branch_id.'/customer/create');
-				        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
-				        // curl_setopt($ch, CURLOPT_POSTFIELDS, '{"name":"'.$name.'", "phone":"'.$phone.'", "note":"'.$note.'", "custom_edu_type":"'.$custom_edu_type.'", "branch_ids":"'.$crm_branch_id.'", "legal_type":"1", "is_study":"0", "lead_source_id":"3"}');
+					$my_data = [
+						'name' => $name,
+						'phone' => $phone,
+						'note' => $note,
+						'custom_edu_type' => $custom_edu_type,
+						'branch_ids' => $crm_branch_id,
+						'legal_type' => 1,
+						'is_study' => 0,
+						'lead_source_id' => 3,
+					];
 
-				        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($my_data));
+					$ch = curl_init();
+					curl_setopt($ch, CURLOPT_HTTPHEADER, ['X-ALFACRM-TOKEN: '.$token, 'Accept: application/json', 'Content-Type: application/json']);
+					curl_setopt($ch, CURLOPT_URL, 'https://gscstudy.s20.online/v2api/'.$crm_branch_id.'/customer/create');
+					curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
+					// curl_setopt($ch, CURLOPT_POSTFIELDS, '{"name":"'.$name.'", "phone":"'.$phone.'", "note":"'.$note.'", "custom_edu_type":"'.$custom_edu_type.'", "branch_ids":"'.$crm_branch_id.'", "legal_type":"1", "is_study":"0", "lead_source_id":"3"}');
 
-				        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-				        $result = json_decode(curl_exec($ch), true);
-				        $code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-				        if (curl_errno($ch))
-				            throw new \Exception('Curl error');
-				        curl_close($ch);
+					curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($my_data));
 
-				        $my_err_msg['crm_result'] = $result;
-			        }
+					curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+					$result = json_decode(curl_exec($ch), true);
+					$code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+					if (curl_errno($ch))
+						throw new \Exception('Curl error');
+					curl_close($ch);
 
-		        /*------------ Alfa CRM END ----------*/
+					$my_err_msg['crm_result'] = $result;
+				}
 
-		  //       $total_logs = json_encode($my_err_msg);
-				
-				
+				/*------------ Alfa CRM END ----------*/
+
+				//       $total_logs = json_encode($my_err_msg);
+
+
 				// $debug_email = new CakeEmail('smtp');
 				// $debug_email->from(array('no-reply@gscstudy.kz' => 'no-reply@gscstudy.kz'))
 				// ->to('jas_98kz@mail.ru')
@@ -580,47 +410,33 @@ class RequestsController extends AppController {
 				// debug($data);die;
 				$send_email = 'info@gscenter.kz';
 				if($data['city'] == 'Нур-Султан' || $data['city'] == 'Астана'){
-					$send_email = 'alibek@gscstudy.kz'; 
-					
+					$send_email = 'alibek@gscstudy.kz';
+
 					// $send_email = 'venera.bai@gscenter.kz';
 				}
 				if($data['city'] == 'Алматы'){
 					// $send_email = 'dilshat@gsc.kz';
 					$send_email = 'alibek@gscstudy.kz';
-						// $ch = curl_init();
-						// curl_setopt($ch, CURLOPT_URL, "https://gscstudy.s20.online/api/1/lead/create?token=c4ca4238a0b923820dcc509a6f75849b");
-						// curl_setopt($ch, CURLOPT_POST, true);
-						// curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
-						// 	"name" =>   isset($data['name']) ? $data['name'] : "",
-						// 	"phone" =>      isset($data['phone']) ? $data['phone'] : "",
-						// 	"email"=>       isset($data['mail']) ? $data['mail']: "",
-						// 	"office"=>      isset($data['city']) ? ($data['city']): "",
-						// 	"birthday"=>    isset($data['date']) ? ($data['date']): "",
-						// 	"note"=>       isset($description) ? ($description): "",
-						// 	"source" => isset($_COOKIE['source']) ? $_COOKIE['source'] : "",
-						// ]));
-						
-						// $result = curl_exec($ch);
-						// curl_close($ch);
+					// $ch = curl_init();
+					// curl_setopt($ch, CURLOPT_URL, "https://gscstudy.s20.online/api/1/lead/create?token=c4ca4238a0b923820dcc509a6f75849b");
+					// curl_setopt($ch, CURLOPT_POST, true);
+					// curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
+					// 	"name" =>   isset($data['name']) ? $data['name'] : "",
+					// 	"phone" =>      isset($data['phone']) ? $data['phone'] : "",
+					// 	"email"=>       isset($data['mail']) ? $data['mail']: "",
+					// 	"office"=>      isset($data['city']) ? ($data['city']): "",
+					// 	"birthday"=>    isset($data['date']) ? ($data['date']): "",
+					// 	"note"=>       isset($description) ? ($description): "",
+					// 	"source" => isset($_COOKIE['source']) ? $_COOKIE['source'] : "",
+					// ]));
+
+					// $result = curl_exec($ch);
+					// curl_close($ch);
 				}
 				if($data['city'] == 'Актау'){
 					// $send_email = 'dilshat@gsc.kz';
 					$send_email = 'alibek@gscstudy.kz';
-						// $ch = curl_init();
-						// curl_setopt($ch, CURLOPT_URL, "https://gscstudy.s20.online/api/1/lead/create?token=c4ca4238a0b923820dcc509a6f75849b");
-						// curl_setopt($ch, CURLOPT_POST, true);
-						// curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
-						// 	"name" =>   isset($data['name']) ? $data['name'] : "",
-						// 	"phone" =>      isset($data['phone']) ? $data['phone'] : "",
-						// 	"email"=>       isset($data['mail']) ? $data['mail']: "",
-						// 	"office"=>      isset($data['city']) ? ($data['city']): "",
-						// 	"birthday"=>    isset($data['date']) ? ($data['date']): "",
-						// 	"note"=>       isset($description) ? ($description): "",
-						// 	"source" => isset($_COOKIE['source']) ? $_COOKIE['source'] : "",
-						// ]));
-						
-						// $result = curl_exec($ch);
-						// curl_close($ch);
+
 				}
 				if($data['city'] == 'Караганда'){
 					$send_email = 'alibek@gscstudy.kz';
@@ -637,8 +453,8 @@ class RequestsController extends AppController {
 
 				$email = new CakeEmail('smtp');
 				$email->from(array('no-reply@gscstudy.kz' => 'no-reply@gscstudy.kz'))
-				->to($send_email)
-				->subject('Результаты Теста с сайта gscstudy.kz');
+					->to($send_email)
+					->subject('Результаты Теста с сайта gscstudy.kz');
 				$message = '<strong>Тест: </strong> '. $test_result . '<p><b>Имя:</b> ' . $data['name'] . '</p><p><b>Почта:</b> ' . $data['email'] . '</p><p><b>Телефон:</b> ' . $data['phone'] . '</p><b>Город:</b> ' . $data['city'] . '</p><p><b>Дата рождения:</b> ' . $data['date'] . '</p><p><b>Откуда вы узнали о нас</b> ' . $data['question_about']. '</p><p><b>В какое время вам удобно заниматься</b> ' . $data['question_time'];
 				$email->viewVars(array('content' => $message));
 				$email->template('welcome','default');
@@ -654,26 +470,7 @@ class RequestsController extends AppController {
 					return $this->redirect($this->referer());
 				}
 
-				// $this->Session->setFlash('Заявка успешно отправлена, в ближайшее время с Вами свяжется наш менеджер. Спасибо!', 'default', array(), 'good');
-				// return $this->redirect($this->referer());
 
-			} else{
-				$this->Session->setFlash('Ошибка! Поставьте галочку что вы не робот', 'default', array(), 'bad');
-				return $this->redirect($this->referer());
-			}
-
-
-
-				// }else{
-				// 	$this->Session->setFlash('Проверочный код введен неверно', 'default', array(), 'bad');
-				// 	return $this->redirect($this->referer());
-				// }
-
-			// } else{
-			// 	$this->Session->setFlash('Поставьте галочку что вы не робот', 'default', array(), 'bad');
-			// 	return $this->redirect($this->referer());
-			// }
-			
 		}
 	}
 
@@ -722,10 +519,10 @@ class RequestsController extends AppController {
 			'questionq3' => 'q3a2', // b
 			'questionq4' => 'q4a4', // d
 			'questionq5' => 'q5a3', // c
-			'questionq6' => 'q6a2', // b 
+			'questionq6' => 'q6a2', // b
 			'questionq7' => 'q7a3', // c
 			'questionq8' => 'q8a1', // a
-			'questionq9' => 'q9a2', // b 
+			'questionq9' => 'q9a2', // b
 			'questionq10' => 'q10a4', // d
 			'questionq11' => 'q11a1', // a
 			'questionq12' => 'q12a2', // b
@@ -739,11 +536,11 @@ class RequestsController extends AppController {
 			'questionq20' => 'q20a1', // a
 			'questionq21' => 'q21a2', // b
 			'questionq22' => 'q22a3', // c
-			'questionq23' => 'q23a4', // d 
+			'questionq23' => 'q23a4', // d
 			'questionq24' => 'q24a1', // a
 			'questionq25' => 'q25a4', // d
 			'questionq26' => 'q26a3', // c
-			'questionq27' => 'q27a1', // a 
+			'questionq27' => 'q27a1', // a
 			'questionq28' => 'q28a3', // c
 			'questionq29' => 'q29a3', // c
 			'questionq30' => 'q30a3', // c
@@ -760,7 +557,7 @@ class RequestsController extends AppController {
 		];
 
 		$general_reading = [
-			'questionr1' => 'r1a2', // false 
+			'questionr1' => 'r1a2', // false
 			'questionr2' => 'r2a1', // true
 			'questionr3' => 'r3a2', // false
 			'questionr4' => 'r4a1', // true
@@ -956,39 +753,39 @@ class RequestsController extends AppController {
 		$total_writing = '';
 
 		$general_grammar = [
-			'questionq1' => 'q1a2', // b 
-			'questionq2' => 'q2a2', // b 
+			'questionq1' => 'q1a2', // b
+			'questionq2' => 'q2a2', // b
 			'questionq3' => 'q3a2', // b
 			'questionq4' => 'q4a2', // b
-			'questionq5' => 'q5a1', // a 
+			'questionq5' => 'q5a1', // a
 			'questionq6' => 'q6a2', // b
 			'questionq7' => 'q7a1', // a
 			'questionq8' => 'q8a1', // a
 			'questionq9' => 'q9a1', // a
 			'questionq10' => 'q10a2', // b
 			'questionq11' => 'q11a3', // c
-			'questionq12' => 'q12a3', // c 
+			'questionq12' => 'q12a3', // c
 			'questionq13' => 'q13a2', // b
 			'questionq14' => 'q14a2', // b
 			'questionq15' => 'q15a1', // a
 			'questionq16' => 'q16a1', // a
 			'questionq17' => 'q17a1', // a
-			'questionq18' => 'q18a1', // a 
+			'questionq18' => 'q18a1', // a
 			'questionq19' => 'q19a2', // b
 			'questionq20' => 'q20a1', // a
 		];
 
 		$general_vocabulary = [
-			'questionv1' => 'q1a2', 
-			'questionv2' => 'q2a2', 
-			'questionv3' => 'q3a2', 
-			'questionv4' => 'q4a2', 
-			'questionv5' => 'q5a1', 
-			'questionv6' => 'q6a2', 
-			'questionv7' => 'q7a1', 
-			'questionv8' => 'q8a1', 
-			'questionv9' => 'q9a1', 
-			'questionv10' => 'q10a2', 
+			'questionv1' => 'q1a2',
+			'questionv2' => 'q2a2',
+			'questionv3' => 'q3a2',
+			'questionv4' => 'q4a2',
+			'questionv5' => 'q5a1',
+			'questionv6' => 'q6a2',
+			'questionv7' => 'q7a1',
+			'questionv8' => 'q8a1',
+			'questionv9' => 'q9a1',
+			'questionv10' => 'q10a2',
 		];
 
 		$general_reading = [

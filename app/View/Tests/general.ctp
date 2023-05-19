@@ -1,13 +1,23 @@
+<section class="hero-section px-8">
+	<div class="hero-section-bg">
+		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
+
+	</div>
+	<div class="hero-inner">
+
+	</div>
+</section>
+
 <div class="content">
 	<div class="content-top">
 		<div class="container">
 			<h1 class="title">
-				Онлайн тест General
+
 			</h1>
 		</div>
 	</div>
 	<div class="section my-tests tests general-test" data-name="General">
-		<div class="container">
+		<div class="container1">
 			<nav class="page-header-nav">
 				<ul>
 					<li class="tab-sec active"><a href="javascript:;">Grammar</a></li>
@@ -785,428 +795,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- <div class="test-row">
-						<div class="test-row__inner">
-							<div class="question">
-								<span class="question__heading">19. I have _____ for a charity for eight years.</span>
-								<div class="question-row">
-									<input id="q19a1" name="q19" class="question-row__input" type="radio">
-									<label for="q19a1" class="question-row__text">being worked</label>
-								</div>
-								<div class="question-row">
-									<input id="q19a2" name="q19" class="question-row__input" type="radio">
-									<label for="q19a2" class="question-row__text">been working</label>
-								</div>
-								<div class="question-row">
-									<input id="q19a3" name="q19" class="question-row__input" type="radio">
-									<label for="q19a3" class="question-row__text">been worked</label>
-								</div>
-								<div class="question-row">
-									<input id="q19a4" name="q19" class="question-row__input" type="radio">
-									<label for="q19a4" class="question-row__text">working</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">20. We _____ close friends, but we don't talk to each other any more.</span>
-								<div class="question-row">
-									<input id="q20a1" name="q20" class="question-row__input" type="radio">
-									<label for="q20a1" class="question-row__text">use to be</label>
-								</div>
-								<div class="question-row">
-									<input id="q20a2" name="q20" class="question-row__input" type="radio">
-									<label for="q20a2" class="question-row__text">used to be</label>
-								</div>
-								<div class="question-row">
-									<input id="q20a3" name="q20" class="question-row__input" type="radio">
-									<label for="q20a3" class="question-row__text">was</label>
-								</div>
-								<div class="question-row">
-									<input id="q20a4" name="q20" class="question-row__input" type="radio">
-									<label for="q20a4" class="question-row__text">used be</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">21. Are you tired? _____ help you?</span>
-								<div class="question-row">
-									<input id="q21a1" name="q21" class="question-row__input" type="radio">
-									<label for="q21a1" class="question-row__text">Will I</label>
-								</div>
-								<div class="question-row">
-									<input id="q21a2" name="q21" class="question-row__input" type="radio">
-									<label for="q21a2" class="question-row__text">Do I</label>
-								</div>
-								<div class="question-row">
-									<input id="q21a3" name="q21" class="question-row__input" type="radio">
-									<label for="q21a3" class="question-row__text">Shall I</label>
-								</div>
-								<div class="question-row">
-									<input id="q21a4" name="q21" class="question-row__input" type="radio">
-									<label for="q21a4" class="question-row__text">I'll</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">22. What _____ buy tomorrow?</span>
-								<div class="question-row">
-									<input id="q22a1" name="q22" class="question-row__input" type="radio">
-									<label for="q22a1" class="question-row__text">you are going to</label>
-								</div>
-								<div class="question-row">
-									<input id="q22a2" name="q22" class="question-row__input" type="radio">
-									<label for="q22a2" class="question-row__text">are you going</label>
-								</div>
-								<div class="question-row">
-									<input id="q22a3" name="q22" class="question-row__input" type="radio">
-									<label for="q22a3" class="question-row__text">are you go to</label>
-								</div>
-								<div class="question-row">
-									<input id="q22a4" name="q22" class="question-row__input" type="radio">
-									<label for="q22a4" class="question-row__text">are you going to</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">23. We _____ at 10.00 tomorrow in Jack's office.</span>
-								<div class="question-row">
-									<input id="q23a1" name="q23" class="question-row__input" type="radio">
-									<label for="q23a1" class="question-row__text">will to meet</label>
-								</div>
-								<div class="question-row">
-									<input id="q23a2" name="q23" class="question-row__input" type="radio">
-									<label for="q23a2" class="question-row__text">are going meet</label>
-								</div>
-								<div class="question-row">
-									<input id="q23a3" name="q23" class="question-row__input" type="radio">
-									<label for="q23a3" class="question-row__text">are meeting</label>
-								</div>
-								<div class="question-row">
-									<input id="q23a4" name="q23" class="question-row__input" type="radio">
-									<label for="q23a4" class="question-row__text">will meeting</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">24. As soon as you get your exam results, _____ me.</span>
-								<div class="question-row">
-									<input id="q24a1" name="q24" class="question-row__input" type="radio">
-									<label for="q24a1" class="question-row__text">call</label>
-								</div>
-								<div class="question-row">
-									<input id="q24a2" name="q24" class="question-row__input" type="radio">
-									<label for="q24a2" class="question-row__text">will call</label>
-								</div>
-								<div class="question-row">
-									<input id="q24a3" name="q24" class="question-row__input" type="radio">
-									<label for="q24a3" class="question-row__text">are calling</label>
-								</div>
-								<div class="question-row">
-									<input id="q24a4" name="q24" class="question-row__input" type="radio">
-									<label for="q24a4" class="question-row__text">calling</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">25. I think the weather _____ be bad this afternoon.</span>
-								<div class="question-row">
-									<input id="q25a1" name="q25" class="question-row__input" type="radio">
-									<label for="q25a1" class="question-row__text">shall</label>
-								</div>
-								<div class="question-row">
-									<input id="q25a2" name="q25" class="question-row__input" type="radio">
-									<label for="q25a2" class="question-row__text">will</label>
-								</div>
-								<div class="question-row">
-									<input id="q25a3" name="q25" class="question-row__input" type="radio">
-									<label for="q25a3" class="question-row__text">is</label>
-								</div>
-								<div class="question-row">
-									<input id="q25a4" name="q25" class="question-row__input" type="radio">
-									<label for="q25a4" class="question-row__text">is going</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">26. Don't write anything _____ you're sure of the answer.</span>
-								<div class="question-row">
-									<input id="q26a1" name="q26" class="question-row__input" type="radio">
-									<label for="q26a1" class="question-row__text">until</label>
-								</div>
-								<div class="question-row">
-									<input id="q26a2" name="q26" class="question-row__input" type="radio">
-									<label for="q26a2" class="question-row__text">as soon as</label>
-								</div>
-								<div class="question-row">
-									<input id="q26a3" name="q26" class="question-row__input" type="radio">
-									<label for="q26a3" class="question-row__text">unless</label>
-								</div>
-								<div class="question-row">
-									<input id="q26a4" name="q26" class="question-row__input" type="radio">
-									<label for="q26a4" class="question-row__text">if</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">27. I've always wanted to _____ dance salsa.</span>
-								<div class="question-row">
-									<input id="q27a1" name="q27" class="question-row__input" type="radio">
-									<label for="q27a1" class="question-row__text">be able to</label>
-								</div>
-								<div class="question-row">
-									<input id="q27a2" name="q27" class="question-row__input" type="radio">
-									<label for="q27a2" class="question-row__text">could</label>
-								</div>
-								<div class="question-row">
-									<input id="q27a3" name="q27" class="question-row__input" type="radio">
-									<label for="q27a3" class="question-row__text">can</label>
-								</div>
-								<div class="question-row">
-									<input id="q27a4" name="q27" class="question-row__input" type="radio">
-									<label for="q27a4" class="question-row__text">be able</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">28. It might be cold at night. You _____ take warm clothes with you to Dublin.</span>
-								<div class="question-row">
-									<input id="q28a1" name="q28" class="question-row__input" type="radio">
-									<label for="q28a1" class="question-row__text">should</label>
-								</div>
-								<div class="question-row">
-									<input id="q28a2" name="q28" class="question-row__input" type="radio">
-									<label for="q28a2" class="question-row__text">must to</label>
-								</div>
-								<div class="question-row">
-									<input id="q28a3" name="q28" class="question-row__input" type="radio">
-									<label for="q28a3" class="question-row__text">don't have to</label>
-								</div>
-								<div class="question-row">
-									<input id="q28a4" name="q28" class="question-row__input" type="radio">
-									<label for="q28a4" class="question-row__text">have</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">29. _____ do a lot of homework when you were at school?</span>
-								<div class="question-row">
-									<input id="q29a1" name="q29" class="question-row__input" type="radio">
-									<label for="q29a1" class="question-row__text">Must you have to</label>
-								</div>
-								<div class="question-row">
-									<input id="q29a2" name="q29" class="question-row__input" type="radio">
-									<label for="q29a2" class="question-row__text">Had you to</label>
-								</div>
-								<div class="question-row">
-									<input id="q29a3" name="q29" class="question-row__input" type="radio">
-									<label for="q29a3" class="question-row__text">Did you must</label>
-								</div>
-								<div class="question-row">
-									<input id="q29a4" name="q29" class="question-row__input" type="radio">
-									<label for="q29a4" class="question-row__text">Did you have to</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">30. If my mother-in-law _____ with us, we would get divorced.</span>
-								<div class="question-row">
-									<input id="q30a1" name="q30" class="question-row__input" type="radio">
-									<label for="q30a1" class="question-row__text">would live</label>
-								</div>
-								<div class="question-row">
-									<input id="q30a2" name="q30" class="question-row__input" type="radio">
-									<label for="q30a2" class="question-row__text">lives</label>
-								</div>
-								<div class="question-row">
-									<input id="q30a3" name="q30" class="question-row__input" type="radio">
-									<label for="q30a3" class="question-row__text">lived</label>
-								</div>
-								<div class="question-row">
-									<input id="q30a4" name="q30" class="question-row__input" type="radio">
-									<label for="q30a4" class="question-row__text">did lived</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">31. If I were a president, I _____ a yacht.</span>
-								<div class="question-row">
-									<input id="q31a1" name="q31" class="question-row__input" type="radio">
-									<label for="q31a1" class="question-row__text">will have</label>
-								</div>
-								<div class="question-row">
-									<input id="q31a2" name="q31" class="question-row__input" type="radio">
-									<label for="q31a2" class="question-row__text">can have</label>
-								</div>
-								<div class="question-row">
-									<input id="q31a3" name="q31" class="question-row__input" type="radio">
-									<label for="q31a3" class="question-row__text">would have</label>
-								</div>
-								<div class="question-row">
-									<input id="q31a4" name="q31" class="question-row__input" type="radio">
-									<label for="q31a4" class="question-row__text">had have</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">32. Would you have gone to the party if _____ Lisa was there?</span>
-								<div class="question-row">
-									<input id="q32a1" name="q32" class="question-row__input" type="radio">
-									<label for="q32a1" class="question-row__text">had you known</label>
-								</div>
-								<div class="question-row">
-									<input id="q32a2" name="q32" class="question-row__input" type="radio">
-									<label for="q32a2" class="question-row__text">you had known</label>
-								</div>
-								<div class="question-row">
-									<input id="q32a3" name="q32" class="question-row__input" type="radio">
-									<label for="q32a3" class="question-row__text">would you know</label>
-								</div>
-								<div class="question-row">
-									<input id="q32a4" name="q32" class="question-row__input" type="radio">
-									<label for="q32a4" class="question-row__text">you had knew</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">33. Many buildings _____ by the earthquake. </span>
-								<div class="question-row">
-									<input id="q33a1" name="q33" class="question-row__input" type="radio">
-									<label for="q33a1" class="question-row__text">have damaged</label>
-								</div>
-								<div class="question-row">
-									<input id="q33a2" name="q33" class="question-row__input" type="radio">
-									<label for="q33a2" class="question-row__text">has been damaged</label>
-								</div>
-								<div class="question-row">
-									<input id="q33a3" name="q33" class="question-row__input" type="radio">
-									<label for="q33a3" class="question-row__text">have been damaged</label>
-								</div>
-								<div class="question-row">
-									<input id="q33a4" name="q33" class="question-row__input" type="radio">
-									<label for="q33a4" class="question-row__text">have being damaged</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">34. He _____ he was tired.</span>
-								<div class="question-row">
-									<input id="q34a1" name="q34" class="question-row__input" type="radio">
-									<label for="q34a1" class="question-row__text">said me</label>
-								</div>
-								<div class="question-row">
-									<input id="q34a2" name="q34" class="question-row__input" type="radio">
-									<label for="q34a2" class="question-row__text">told me</label>
-								</div>
-								<div class="question-row">
-									<input id="q34a3" name="q34" class="question-row__input" type="radio">
-									<label for="q34a3" class="question-row__text">told to me</label>
-								</div>
-								<div class="question-row">
-									<input id="q34a4" name="q34" class="question-row__input" type="radio">
-									<label for="q34a4" class="question-row__text">told</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">35. Do you know where _____?</span>
-								<div class="question-row">
-									<input id="q35a1" name="q35" class="question-row__input" type="radio">
-									<label for="q35a1" class="question-row__text">does John live</label>
-								</div>
-								<div class="question-row">
-									<input id="q35a2" name="q35" class="question-row__input" type="radio">
-									<label for="q35a2" class="question-row__text">John lives</label>
-								</div>
-								<div class="question-row">
-									<input id="q35a3" name="q35" class="question-row__input" type="radio">
-									<label for="q35a3" class="question-row__text">lives John</label>
-								</div>
-								<div class="question-row">
-									<input id="q35a4" name="q35" class="question-row__input" type="radio">
-									<label for="q35a4" class="question-row__text">do John lives</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">36. He asked me _____ a drink. </span>
-								<div class="question-row">
-									<input id="q36a1" name="q36" class="question-row__input" type="radio">
-									<label for="q36a1" class="question-row__text">whether I wanted</label>
-								</div>
-								<div class="question-row">
-									<input id="q36a2" name="q36" class="question-row__input" type="radio">
-									<label for="q36a2" class="question-row__text">if did I want</label>
-								</div>
-								<div class="question-row">
-									<input id="q36a3" name="q36" class="question-row__input" type="radio">
-									<label for="q36a3" class="question-row__text">do I want</label>
-								</div>
-								<div class="question-row">
-									<input id="q36a4" name="q36" class="question-row__input" type="radio">
-									<label for="q36a4" class="question-row__text">whether did I want</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">37. It's a really good idea. _____, it may be too expensive. </span>
-								<div class="question-row">
-									<input id="q37a1" name="q37" class="question-row__input" type="radio">
-									<label for="q37a1" class="question-row__text">However</label>
-								</div>
-								<div class="question-row">
-									<input id="q37a2" name="q37" class="question-row__input" type="radio">
-									<label for="q37a2" class="question-row__text">Therefore</label>
-								</div>
-								<div class="question-row">
-									<input id="q37a3" name="q37" class="question-row__input" type="radio">
-									<label for="q37a3" class="question-row__text">While</label>
-								</div>
-								<div class="question-row">
-									<input id="q37a4" name="q37" class="question-row__input" type="radio">
-									<label for="q37a4" class="question-row__text">Because</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">38. We enjoyed the film _____ it was long. </span>
-								<div class="question-row">
-									<input id="q38a1" name="q38" class="question-row__input" type="radio">
-									<label for="q38a1" class="question-row__text">even if</label>
-								</div>
-								<div class="question-row">
-									<input id="q38a2" name="q38" class="question-row__input" type="radio">
-									<label for="q38a2" class="question-row__text">even when</label>
-								</div>
-								<div class="question-row">
-									<input id="q38a3" name="q38" class="question-row__input" type="radio">
-									<label for="q38a3" class="question-row__text">even</label>
-								</div>
-								<div class="question-row">
-									<input id="q38a4" name="q38" class="question-row__input" type="radio">
-									<label for="q38a4" class="question-row__text">even though</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">39. Let's not spend too long at the museum or we'll _____ time. </span>
-								<div class="question-row">
-									<input id="q39a1" name="q39" class="question-row__input" type="radio">
-									<label for="q39a1" class="question-row__text">run out</label>
-								</div>
-								<div class="question-row">
-									<input id="q39a2" name="q39" class="question-row__input" type="radio">
-									<label for="q39a2" class="question-row__text">run of</label>
-								</div>
-								<div class="question-row">
-									<input id="q39a3" name="q39" class="question-row__input" type="radio">
-									<label for="q39a3" class="question-row__text">run away</label>
-								</div>
-								<div class="question-row">
-									<input id="q39a4" name="q39" class="question-row__input" type="radio">
-									<label for="q39a4" class="question-row__text">run out of</label>
-								</div>
-							</div>
-							<div class="question">
-								<span class="question__heading">40. My children _____ all my time - I never seem to get to read a book or watch a film.</span>
-								<div class="question-row">
-									<input id="q40a1" name="q40" class="question-row__input" type="radio">
-									<label for="q40a1" class="question-row__text">run up</label>
-								</div>
-								<div class="question-row">
-									<input id="q40a2" name="q40" class="question-row__input" type="radio">
-									<label for="q40a2" class="question-row__text">put up</label>
-								</div>
-								<div class="question-row">
-									<input id="q40a3" name="q40" class="question-row__input" type="radio">
-									<label for="q40a3" class="question-row__text">take up</label>
-								</div>
-								<div class="question-row">
-									<input id="q40a4" name="q40" class="question-row__input" type="radio">
-									<label for="q40a4" class="question-row__text">make up</label>
-								</div>
-							</div>
-						</div>
-					</div> -->
+
 					<div class="submit submit--grammar btn">Далее</div>
 				</div>
 				<div class="test-part js-test-part test-part--reading tab-items">
@@ -1248,7 +837,7 @@
 					</div>
 					<div class="tests-row">
 						<div class="test-row__inner test-row">
-						
+
 							<div class="question">
 								<span class="question__heading">1. Good language learners don’t make mistakes</span>
 								<div class="question-row">
@@ -1316,68 +905,10 @@
 									<label for="r6a2" class="question-row__text">False</label>
 								</div>
 							</div>
-							<!-- <div class="question">
-								<span class="question__heading">7. Clara is only nine years old and she can bake cakes. </span>
-								<div class="question-row">
-									<input id="r7a1" name="r7" class="question-row__input" type="radio">
-									<label for="r7a1" class="question-row__text">True</label>
-								</div>
-								<div class="question-row">
-									<input id="r7a2" name="r7" class="question-row__input" type="radio">
-									<label for="r7a2" class="question-row__text">False</label>
-								</div>
-							</div> -->
 						</div>
 					</div>
 					<div class="test-section">
 						<div class="test-section__inner">
-
-							<!-- <div class="question question_text">
-								<span class="question__heading">8. Who is similar to Judy?</span>
-								<div class="question-row">
-									<textarea class="question_textarea" id="r9a1" name="r9"></textarea>
-								</div>
-							</div>
-							<div class="question question_text">
-								<span class="question__heading">9. Who can’t run for a long distance?</span>
-								<div class="question-row">
-									<textarea class="question_textarea" id="r10a1" name="r10"></textarea>
-								</div>
-							</div>
-							<div class="question question_text">
-								<span class="question__heading">10. Whose cakes do the family eat?</span>
-								<div class="question-row">
-									<textarea class="question_textarea" id="r11a1" name="r11"></textarea>
-								</div>
-							</div> -->
-
-							<!-- <span class="test-section__text question__heading">8. Choose 3 things that Thomas can do.</span>
-							<ul class="tick-ul">
-								<li class="tickpart">
-									<input class="input-checkbox input-checkbox--reading" type="checkbox" id="t1">
-									<label for="t1">run for a long time</label>
-								</li>
-								<li class="tickpart">
-									<input class="input-checkbox input-checkbox--reading" type="checkbox" id="t2">
-									<label for="t2">speak languages</label>
-								</li>
-								<li class="tickpart">
-									<input class="input-checkbox input-checkbox--reading" type="checkbox" id="t3">
-									<label for="t3">swim</label>
-								</li>
-								<li class="tickpart">
-									<input class="input-checkbox input-checkbox--reading" type="checkbox" id="t4">
-									<label for="t4">eat cakes</label>
-								</li>
-								<li class="tickpart">
-									<input class="input-checkbox input-checkbox--reading" type="checkbox" id="t5">
-									<label for="t5">bake cakes</label>
-								</li>
-								<li class="tickpart">
-									<input class="input-checkbox input-checkbox--reading" type="checkbox" id="t6">
-									<label for="t6">play the guitar</label>
-								</li>
-							</ul> -->
 							<br>
 						</div>
 					</div>
@@ -1390,10 +921,10 @@
 						<!-- <span class="test-section__heading">Watch the documentary "A haunted castle" about the four ghosts of Portchester Castle.</span> -->
 						<!-- <p><b>Ответьте на вопросы ЗАГЛАВНЫМИ БУКВАМИ</b></p> -->
 						<p>&nbsp;</p>
-						<p>
+						<div class = "audio">
 							<audio src="/files/audio/adults_listening.mp3" controls=""></audio>
 							<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/wLbCoCpESDU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-						</p>
+						</div>
 					</div>
 					<div class="tests-row">
 						<div class="test-row__inner test-row">
@@ -1487,53 +1018,9 @@
 									<label for="l6a3" class="question-row__text">They can be flexible to work when and where it suits them.</label>
 								</div>
 							</div>
-							
-							
-							<!-- <div class="question question_text">
-								<span class="question__heading">2. Rochester Castle is more than _____ years old.</span>
-								<div class="question-row">
-									<textarea id="l2a1" name="l2" class="question_textarea"></textarea>
-								</div>
-							</div>
-							<div class="question question_text">
-								<span class="question__heading">3. The castle is part of a charity called _____ Heritage. </span>
-								<div class="question-row">
-									<textarea id="l3a1" name="l3" class="question_textarea"></textarea>
-								</div>
-							</div>
-							<div class="question question_text">
-								<span class="question__heading">4. Some workers at the castle leave their jobs because of the _____.</span>
-								<div class="question-row">
-									<textarea id="l4a1" name="l4" class="question_textarea"></textarea>
-								</div>
-							</div>
-							<div class="question question_text">
-								<span class="question__heading">5. The ghost of a Roman _____ guards the walls of the castle.</span>
-								<div class="question-row">
-									<textarea id="l5a1" name="l5" class="question_textarea"></textarea>
-								</div>
-							</div>
-							<div class="question question_text">
-								<span class="question__heading">6. The White Lady is the ghost of a woman who died when she tried to save her _____.</span>
-								<div class="question-row">
-									<textarea id="l6a1" name="l6" class="question_textarea"></textarea>
-								</div>
-							</div>
-							<div class="question question_text">
-								<span class="question__heading">7. One of the staff who saw the ghost of a man on a _____ screamed and ran away. </span>
-								<div class="question-row">
-									<textarea id="l7a1" name="l7" class="question_textarea"></textarea>
-								</div>
-							</div>
-							<div class="question question_text">
-								<span class="question__heading">8. One visitor to the castle heard the sound of horses on the _____ that he filmed.</span>
-								<div class="question-row">
-									<textarea id="l8a1" name="l8" class="question_textarea"></textarea>
-								</div>
-							</div> -->
 						</div>
 					</div>
-					
+
 					<div class="submit submit--listening btn">Далее</div>
 				</div>
 				<div class="test-part js-test-part test-part--writing tab-items">
@@ -1552,7 +1039,7 @@
 						<div class="write-row">
 							<br><span class="write-row__heading">2. Choose one of the following topics and write a short essay (70-100 words)</span><br>
 							<br><span class="write-row__heading">1) My favourite city.</span><br>
-							<br><span class="write-row__heading">2) The best day of my life.an><br>
+							<br><span class="write-row__heading">2) The best day of my life><br>
 							<br><span class="write-row__heading">3) What is happiness?</span><br>
 							<textarea name="tx3_wr" class="write-row__textarea write-row__textarea--3 js-textarea"></textarea>
 						</div>
@@ -1562,7 +1049,7 @@
 				<div class="test-part test-part--speaking tab-items">
 					<h2 class="title-sec">Вы завершили тестирование, заполните форму, чтобы получить результаты</h2>
 					<form action="/requests/test" method="POST" class="formTest">
-						<div class="section-form">
+						<div class="section-form">s
 							<div class="section-row">
 								<div class="section-row__inner">
 									<input required class="section-row__input" placeholder="Имя" type="text" name="data[name]">
@@ -1612,7 +1099,7 @@
 							<input name="url" value="<?php echo Router::url(null, true) ?>" type="hidden">
 							<!-- <div class="section-row">
 							<div class="section-row__inner">
-								  <input class="section-row__input"  name="data[robot]" placeholder="Сколько будет <?= $r1 ?> + <?= $r2 ?>?" type="text" required>	
+								  <input class="section-row__input"  name="data[robot]" placeholder="Сколько будет <?= $r1 ?> + <?= $r2 ?>?" type="text" required>
 							</div>
 						</div> -->
 							<textarea style="display:none" class="result-textarea" name="data[senddata]"></textarea>
@@ -1629,6 +1116,32 @@
 			<div class="test_error_msg test_error">Ответьте на все вопросы, чтобы перейти дальше</div>
 			<div class="test_error_msg form_error">Ответьте на все вопросы, чтобы отправить заявку</div>
 			<div class="test_error_msg checkBox_error">Нужно выбрать не менее 1 и не более 4 вариантов</div>
+
+			<script>
+				let sectionTest = document.querySelector('.my-tests');
+				if (sectionTest) {
+					sectionTest.addEventListener('click', e => {
+						console.log('переход');
+						const target = e.target;
+						if (target.classList.contains('submit')) {
+							let li = document.querySelectorAll('.tab-sec')
+							let liactive = document.querySelector('.tab-sec.active')
+							li.forEach(li => {
+								if (li.classList.contains('active')) {
+									li.classList.remove('active')
+									liactive.nextElementSibling.classList.add('active')
+								}
+							})
+							// target.parentNode('.tab-items').classList.remove('active')
+							// target.parentNode('.tab-items').nextElementSibling.classList.add('active')
+							target.parentNode.classList.remove('active')
+							target.parentNode.nextElementSibling.classList.add('active')
+							$('html, body').stop().animate({ scrollTop: $('.test-slider').offset().top - 120 }, 1500, 'swing', function() {});
+						}
+					})
+				}
+			</script>
+
 		</div>
 	</div>
 </div>

@@ -1,13 +1,24 @@
+<section class="hero-section px-8">
+	<div class="hero-section-bg">
+		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
+
+	</div>
+	<div class="hero-inner">
+
+	</div>
+</section>
+
+
+
 <div class="content">
 	<div class="content-top">
 		<div class="container">
 			<h1 class="title">
-				Онлайн тест Teens
 			</h1>
 		</div>
 	</div>
 	<div class="section my-tests tests teen-test" data-name="Teen">
-		<div class="container">
+		<div class="container1">
 			<nav class="page-header-nav">
 				<ul>
 					<li class="tab-sec active"><a href="javascript:;">Grammar</a></li>
@@ -19,7 +30,7 @@
 				</ul>
 			</nav>
 			<div class="test-slider teen_test_slider">
-				<div class="test-part js-test-part test-part--active test-part--grammar tab-items active">					
+				<div class="test-part js-test-part test-part--active test-part--grammar tab-items active">
 					<h2 class="title-sec" data-sec="grammar">Section Grammar</h2>
 					<div class="tests-row">
 						<div class="test-row__inner test-row">
@@ -119,7 +130,7 @@
 								</div> -->
 							</div>
 							<div class="question">
-								<span class="question__heading">6. A: What do you want for lunch? 
+								<span class="question__heading">6. A: What do you want for lunch?
 								B: I _____ have chicken and some salad.</span>
 								<div class="question-row">
 									<input id="q6a1" name="q6" class="question-row__input" type="radio">
@@ -132,7 +143,7 @@
 								<div class="question-row">
 									<input id="q6a3" name="q6" class="question-row__input" type="radio">
 									<label for="q6a3" class="question-row__text">am going</label>
-								</div>								
+								</div>
 							</div>
 							<div class="question">
 								<span class="question__heading">7. There isn’t _____ cheese in my sandwich.</span>
@@ -147,7 +158,7 @@
 								<div class="question-row">
 									<input id="q7a3" name="q7" class="question-row__input" type="radio">
 									<label for="q7a3" class="question-row__text">few</label>
-								</div>		
+								</div>
 							</div>
 							<div class="question">
 								<span class="question__heading">8. I _____ Claire an email yesterday afternoon.</span>
@@ -354,107 +365,23 @@
 						<p class="question__heading" style="text-align:center;font-size:21px;margin-top:-10px;">Match numbers with the words. </p>
 						<div class="question">
 							<span class="question__heading">1. You can go to this shop to buy medicine and other things.</span>
-							<div class="form-select">
-				                <span class="form-select__heading">an actor</span>
-				                <ul class="form-select-area">
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v1a1" name="q20" class="question-row__input" type="radio">
-											<label for="v1a1" class="question-row__text">an actor</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v1a1" name="q20" class="question-row__input" type="radio">
-											<label for="v1a1" class="question-row__text">a hospital</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v1a1" name="q20" class="question-row__input" type="radio">
-											<label for="v1a1" class="question-row__text">a bank</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v1a1" name="q20" class="question-row__input" type="radio">
-											<label for="v1a1" class="question-row__text">a library</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v2a1" name="q20" class="question-row__input" type="radio">
-											<label for="v2a1" class="question-row__text">a chemist`s</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v2a1" name="q20" class="question-row__input" type="radio">
-											<label for="v2a1" class="question-row__text">a chemist`s</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v2a1" name="q20" class="question-row__input" type="radio">
-											<label for="v2a1" class="question-row__text">a secretary</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v2a1" name="q20" class="question-row__input" type="radio">
-											<label for="v2a1" class="question-row__text">a clown</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v2a1" name="q20" class="question-row__input" type="radio">
-											<label for="v2a1" class="question-row__text">a mechanic</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v2a1" name="q20" class="question-row__input" type="radio">
-											<label for="v2a1" class="question-row__text">a circus</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v2a1" name="q20" class="question-row__input" type="radio">
-											<label for="v2a1" class="question-row__text">a cafe</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v2a1" name="q20" class="question-row__input" type="radio">
-											<label for="v2a1" class="question-row__text">a journalist</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v2a1" name="q20" class="question-row__input" type="radio">
-											<label for="v2a1" class="question-row__text">a cinema</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v2a1" name="q20" class="question-row__input" type="radio">
-											<label for="v2a1" class="question-row__text">a dentist</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v2a1" name="q20" class="question-row__input" type="radio">
-											<label for="v2a1" class="question-row__text">an artist</label>
-										</div>
-				                    </li>
-				                    <li class="form-select__input">
-				                    	<div class="question-row">
-											<input id="v2a1" name="q20" class="question-row__input" type="radio">
-											<label for="v2a1" class="question-row__text">an airport</label>
-										</div>
-				                    </li>
-				                </ul>    
-				            </div>
+							<select>
+								<option>an actor</option>
+								<option>a hospital</option>
+								<option>a bank</option>
+								<option>a library</option>
+								<option>a chemist`s</option>
+								<option>a secretary</option>
+								<option>a clown</option>
+								<option>a mechanic</option>
+								<option>a circus</option>
+								<option>a cafe</option>
+								<option>a journalist</option>
+								<option>a cinema</option>
+								<option>a dentist</option>
+								<option>an artist</option>
+								<option>an airport</option>
+							</select>
 						</div>
 						<div class="question">
 							<span class="question__heading">2. This is a place you go to if you want to catch a plane.</span>
@@ -478,15 +405,7 @@
 						</div>
 						<div class="question">
 							<span class="question__heading">3. If you want to be one of these, you need to be very good at drawing or painting</span>
-							<div class="form-select">
-				                <span class="form-select__heading">an actor</span>
-				                <ul class="form-select-area">
-				                    <li class="js-type-study">Бакалавриат</li>
-				                    <li class="js-type-study">Магистратура</li>
-				                    <li class="js-type-study">Языковые курсы</li>
-				                    <li class="js-type-study">Летние каникулы за рубежом</li>
-				                </ul>    
-				            </div>
+
 							<select>
 								<option>an actor</option>
 								<option>a hospital</option>
@@ -647,7 +566,7 @@
 						</div>
 					</div>
 					<div class="submit submit--grammar btn">Далее</div>
-				</div>	
+				</div>
 				<div class="test-part js-test-part test-part--reading tab-items">
 					<h2 class="title-sec" data-sec="reading">Section Reading</h2>
 					<div class="test-section">
@@ -665,7 +584,7 @@
 							</div>
 							<div class="question">
 								<span class="question__heading">1. Katy: Do you always walk to work?</span>
-								<span class="question__heading">Emma: ...........................</span>	
+								<span class="question__heading">Emma: ...........................</span>
 								<div class="question-row">
 									<input id="r1a1" name="r1" class="question-row__input" type="radio">
 									<label for="r1a1" class="question-row__text">A. Sometimes i sit at my desk and sometimes i go out.</label>
@@ -701,7 +620,7 @@
 							</div>
 							<div class="question">
 								<span class="question__heading">2. Katy: How many people work there?</span>
-								<span class="question__heading">Emma: ...........................</span>	
+								<span class="question__heading">Emma: ...........................</span>
 								<div class="question-row">
 									<input id="r2a1" name="r2" class="question-row__input" type="radio">
 									<label for="r2a1" class="question-row__text">A. Sometimes i sit at my desk and sometimes i go out.</label>
@@ -737,7 +656,7 @@
 							</div>
 							<div class="question">
 								<span class="question__heading">3. Katy: Where do you eat your lunch?</span>
-								<span class="question__heading">Emma: ...........................</span>	
+								<span class="question__heading">Emma: ...........................</span>
 								<div class="question-row">
 									<input id="r3a1" name="r3" class="question-row__input" type="radio">
 									<label for="r3a1" class="question-row__text">A. Sometimes i sit at my desk and sometimes i go out.</label>
@@ -773,7 +692,7 @@
 							</div>
 							<div class="question">
 								<span class="question__heading">4. Katy: Can i play on the computer in your office?</span>
-								<span class="question__heading">Emma: ...........................</span>	
+								<span class="question__heading">Emma: ...........................</span>
 								<div class="question-row">
 									<input id="r4a1" name="r4" class="question-row__input" type="radio">
 									<label for="r4a1" class="question-row__text">A. Sometimes i sit at my desk and sometimes i go out.</label>
@@ -809,10 +728,10 @@
 							</div>
 							<div class="question">
 								<span class="question__heading">5. Katy: What time do you come home?</span>
-								<span class="question__heading">Emma: ...........................</span>	
+								<span class="question__heading">Emma: ...........................</span>
 								<div class="question-row">
 									<input id="r5a1" name="r5" class="question-row__input" type="radio">
-									<label for="r5a1" class="question-row__text">A. Sometimes i sit at my desk and sometimes i go out.</label>
+									<label for="r5a1" class="question-row__text">A. Sometimes I sit at my desk and sometimes i go out.</label>
 								</div>
 								<div class="question-row">
 									<input id="r5a2" name="r5" class="question-row__input" type="radio">
@@ -843,15 +762,15 @@
 									<label for="r5a8" class="question-row__text">H. Only a few. It's a small business.</label>
 								</div>
 							</div>
-						</div>						
+						</div>
 					<div class="submit submit--reading btn">Далее</div>
 				</div>
 				<div class="test-part js-test-part test-part--listening tab-items">
 					<h2 class="title-sec" data-sec="listening">Section Listening</h2>
 					<div class="test-section">
-						<p>
+						<div class = "audio">
 							<audio src="/files/audio/teens_listening-1.mp3" controls=""></audio>
-						</p>
+						</div>
 					</div>
 					<div class="tests-row">
 						<div class="test-row__inner test-row">
@@ -981,7 +900,7 @@
 				</div>
 				<div class="test-part js-test-part test-part--writing tab-items">
 					<h2 class="title-sec" data-sec="writing">Section Writing</h2>
-					<div class="writing-part">
+					<div class="writing-part writing-col">
 						<div class="question question_img">
 							<div class="question-row">
 								<label for="l5a3" class="question-row__text question_a_img">
@@ -1071,6 +990,31 @@
 	<div class="test_error_msg test_error">Ответьте на все вопросы, чтобы перейти дальше</div>
 	<div class="test_error_msg form_error">Ответьте на все вопросы, чтобы отправить заявку</div>
 	<div class="test_error_msg checkBox_error">Нужно выбрать хотя бы 1 вариант из каждой строки</div>
+	<script>
+		let sectionTest = document.querySelector('.my-tests');
+		if (sectionTest) {
+			sectionTest.addEventListener('click', e => {
+				console.log('переход');
+				const target = e.target;
+				if (target.classList.contains('submit')) {
+					let li = document.querySelectorAll('.tab-sec')
+					let liactive = document.querySelector('.tab-sec.active')
+					li.forEach(li => {
+						if (li.classList.contains('active')) {
+							li.classList.remove('active')
+							liactive.nextElementSibling.classList.add('active')
+						}
+					})
+					// target.parentNode('.tab-items').classList.remove('active')
+					// target.parentNode('.tab-items').nextElementSibling.classList.add('active')
+					target.parentNode.classList.remove('active')
+					target.parentNode.nextElementSibling.classList.add('active')
+					$('html, body').stop().animate({ scrollTop: $('.test-slider').offset().top - 120 }, 1500, 'swing', function() {});
+				}
+			})
+		}
+	</script>
+
 </div>
 </div>
 </div>

@@ -1,24 +1,58 @@
 
+
+
 <?php
-$country = '';
-$checked_country = '';
-if( isset($_GET['country_id']) && $_GET['country_id'] ){
-	$country = '&country_id='.$_GET['country_id'];
-	$checked_country = $_GET['country_id'];
+
+$checked_countries = [];
+$checked_edu_langs = [];
+
+if (isset($_GET['country_ids'])) {
+	$checked_countries = $_GET['country_ids'];
+	// Filter universities based on countries
+	$universities = array_filter($universities, function($university) use ($checked_countries) {
+		return in_array($university['University']['country_id'], $checked_countries);
+	});
+	// Reindex keys
+	$universities = array_values($universities);
 }
 
-$edu_lang = '';
-$checked_edu_lang = '';
-if( isset($_GET['edu_lang']) && $_GET['edu_lang'] ){
-	$edu_lang = '&edu_lang='.$_GET['edu_lang'];
-	$checked_edu_lang = $_GET['edu_lang'];
+if (isset($_GET['edu_lang_ids'])) {
+	$checked_edu_langs = $_GET['edu_lang_ids'];
+	// Filter universities based on languages
+	$universities = array_filter($universities, function($university) use ($checked_edu_langs) {
+		$univer_langs = explode(',', $university['University']['edu_language_ids']);
+		foreach($univer_langs as $lang_id) {
+			if (in_array($lang_id, $checked_edu_langs)) {
+				return true;
+			}
+		}
+		return false;
+	});
+	// Reindex keys
+
+	$universities = array_values($universities);
+
+// Define the number of items per page
+	$items_per_page = 10; // or whatever number you want
+
+// Calculate the total number of pages
+	$total_pages = ceil(count($universities) / $items_per_page);
+
+// Get the current page from the query string, default to 1 if not set
+	$page_number = isset($_GET['page']) ? $_GET['page'] : 1;
+
+// Make sure the page number is within the range of available pages
+	$page_number = max(1, min($total_pages, $page_number));
+
+// Create chunks of the universities array, each containing $items_per_page items
+	$chunks = array_chunk($universities, $items_per_page);
+
+// Get the universities for the current page
+	$paged_universities = $chunks[$page_number - 1];
 }
-$current_city = $this->Session->read('city');
-$lang = ($this->params['language']) ? $this->params['language'] . '/' : '';
+
+
 ?>
-
-<!--<script src = "/js/script.js"></script>-->
-
 
 <section class="hero-section px-8">
 	<div class="hero-section-bg">
@@ -39,7 +73,48 @@ GSC Study сопровождает ученика на пути от выбор�
 
 
 
-	<section>
+<!--	<section>-->
+<!--		<div class="container">-->
+<!--			<nav class="count-lang-nav">-->
+<!--				<ul>-->
+<!--					<li class="nav__item under">-->
+<!--						<a class="js-slide" href="javascript:">Страна</a>-->
+<!--						<div class="under-part">-->
+<!--							<ul class="under-ul">-->
+<!--								<li class="--><?php //= (!$checked_country) ? 'active' : '' ?><!--">-->
+<!--									<a href="/--><?php //= $lang ?><!--higher_educations?city=--><?php //=$current_city?><!----><?php //= $edu_lang ?><!--">Все страны</a>-->
+<!--								</li>-->
+<!--								--><?php //foreach( $countries as $country_id => $country_name ): ?>
+<!--									<li class="--><?php //= ($checked_country == $country_id) ? 'active' : '' ?><!--">-->
+<!--										<a href="/--><?php //= $lang ?><!--higher_educations?city=--><?php //=$current_city?><!--&country_id=--><?php //= $country_id ?><!----><?php //= $edu_lang ?><!--">--><?php //= $country_name ?><!--</a>-->
+<!--									</li>-->
+<!--								--><?php //endforeach; ?>
+<!--							</ul>-->
+<!--						</div>-->
+<!--					</li>-->
+<!--					<li class="nav__item under">-->
+<!--						<a class="js-slide" href="javascript:">язык</a>-->
+<!--						<div class="under-part">-->
+<!--							<ul class="under-ul">-->
+<!--								<li class="--><?php //= (!$checked_edu_lang) ? 'active' : '' ?><!--">-->
+<!--									<a href="/--><?php //= $lang ?><!--higher_educations?city=--><?php //=$current_city?><!----><?php //= $country ?><!--">Все языки</a>-->
+<!--								</li>-->
+<!--								--><?php //foreach( $edu_langs as $lang_id => $lang_name ): ?>
+<!--									<li class="--><?php //= ($checked_edu_lang == $lang_id) ? 'active' : '' ?><!--">-->
+<!--										<a href="/--><?php //= $lang ?><!--higher_educations?city=--><?php //=$current_city?><!--&edu_lang=--><?php //= $lang_id ?><!----><?php //= $country ?><!--">--><?php //= $lang_name ?><!--</a>-->
+<!--									</li>-->
+<!--								--><?php //endforeach; ?>
+<!--							</ul>-->
+<!--						</div>-->
+<!--					</li>-->
+<!--				</ul>-->
+<!--			</nav>-->
+<!--		</div>-->
+<!--	</section>-->
+
+
+	<!-- ... Other code ... -->
+	<form method="GET" action="">
 		<div class="container">
 			<nav class="count-lang-nav">
 				<ul>
@@ -47,12 +122,11 @@ GSC Study сопровождает ученика на пути от выбор�
 						<a class="js-slide" href="javascript:">Страна</a>
 						<div class="under-part">
 							<ul class="under-ul">
-								<li class="<?= (!$checked_country) ? 'active' : '' ?>">
-									<a href="/<?= $lang ?>higher_educations?city=<?=$current_city?><?= $edu_lang ?>">Все страны</a>
-								</li>
-								<?php foreach( $countries as $country_id => $country_name ): ?>
-									<li class="<?= ($checked_country == $country_id) ? 'active' : '' ?>">
-										<a href="/<?= $lang ?>higher_educations?city=<?=$current_city?>&country_id=<?= $country_id ?><?= $edu_lang ?>"><?= $country_name ?></a>
+								<?php foreach ($countries as $country_id => $country_name): ?>
+									<li>
+										<input type="checkbox" id="country<?= $country_id ?>" name="country_ids[]" value="<?= $country_id ?>"
+												<?= (in_array($country_id, $checked_countries)) ? 'checked' : '' ?>>
+										<label for="country<?= $country_id ?>"><?= $country_name ?></label>
 									</li>
 								<?php endforeach; ?>
 							</ul>
@@ -62,21 +136,26 @@ GSC Study сопровождает ученика на пути от выбор�
 						<a class="js-slide" href="javascript:">язык</a>
 						<div class="under-part">
 							<ul class="under-ul">
-								<li class="<?= (!$checked_edu_lang) ? 'active' : '' ?>">
-									<a href="/<?= $lang ?>higher_educations?city=<?=$current_city?><?= $country ?>">Все языки</a>
-								</li>
-								<?php foreach( $edu_langs as $lang_id => $lang_name ): ?>
-									<li class="<?= ($checked_edu_lang == $lang_id) ? 'active' : '' ?>">
-										<a href="/<?= $lang ?>higher_educations?city=<?=$current_city?>&edu_lang=<?= $lang_id ?><?= $country ?>"><?= $lang_name ?></a>
+								<?php foreach ($edu_langs as $lang_id => $lang_name): ?>
+									<li>
+										<input type="checkbox" id="lang<?= $lang_id ?>" name="edu_lang_ids[]" value="<?= $lang_id ?>"
+												<?= (in_array($lang_id, $checked_edu_langs)) ? 'checked' : '' ?>>
+										<label for="lang<?= $lang_id ?>"><?= $lang_name ?></label>
 									</li>
 								<?php endforeach; ?>
 							</ul>
 						</div>
 					</li>
+					<li class="nav__item under">
+						<input class = "filter1" type="submit" value="filter">
+					</li>
 				</ul>
 			</nav>
 		</div>
-	</section>
+	</form>
+
+	<!-- ... Other code ... -->
+
 
 
 
@@ -84,8 +163,8 @@ GSC Study сопровождает ученика на пути от выбор�
 		<div class="paginator-container">
 			<?php echo $this->Paginator->first(
 					'<span class="ico ico-20 text-color-white">
-                    <i class="ico ico-left-head-arrow"></i>
-                </span>',
+            <i class="ico ico-left-head-arrow"></i>
+        </span>',
 					array(
 							'class' => array('button', 'button-ico', 'border-circle', 'background-gradient'),
 							'escape' => false,
@@ -98,20 +177,20 @@ GSC Study сопровождает ученика на пути от выбор�
 								'class' => 'paginator-item',
 								'currentClass' => 'paginator-item paginator-item--active',
 								'ellipsis' => '...',
-								'modulus' => 4,
 						)
 				); ?>
 			</div>
 			<?php echo $this->Paginator->last(
 					'<span class="ico ico-20 text-color-white">
-                    <i class="ico ico-right-head-arrow"></i>
-                </span>',
+            <i class="ico ico-right-head-arrow"></i>
+        </span>',
 					array(
 							'class' => array('button', 'button-ico', 'border-circle', 'background-gradient'),
 							'escape' => false,
 					)
 			); ?>
 		</div>
+
 		<div class="catalog-container">
 			<?php foreach( $universities as $item ): ?>
 				<div class="catalog-item container--column gap-24 p-10">
@@ -162,3 +241,4 @@ GSC Study сопровождает ученика на пути от выбор�
 		</div>
 	</div>
 </section>
+

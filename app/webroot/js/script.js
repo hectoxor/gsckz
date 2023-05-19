@@ -737,7 +737,7 @@ $(document).ready(function() {
                     }
                 }
             });
-        });        
+        });
         let secVocabulary = document.querySelector('.js-vocabulary') || false;
         if(secVocabulary){
             secVocabulary.addEventListener('click', e => {
@@ -752,7 +752,7 @@ $(document).ready(function() {
                 }
             })
         }
-        
+
     }
 
 });

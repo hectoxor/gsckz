@@ -380,10 +380,20 @@
             </section>
         <?php endif; ?>
 
-        <script src="/js/jquery-3.0.0.min.js"></script>
-        <script src="/js/jquery.waypoints.min.js"></script>
-        <script src="/js/jquery.fancybox.min.js"></script>
-        <script src="/js/jquery.maskedinput.min.js"></script>
+		<script src="/js/jquery.waypoints.min.js"></script>
+		<script src="/js/jquery.fancybox.min.js"></script>
+		<script src="/js/slick.min.js"></script>
+		<script src="/js/jquery.maskedinput.min.js"></script>
+		<script src="/js/jquery-3.0.0.min.js"></script>
+		<script src="/js/script.js?v=1.1954"></script>
+		<script>
+			window.onload = () => {
+				$.fancybox.open({
+					src: '#popuptest',
+					type: 'inline'
+				});
+			}
+		</script>
 
         <?php echo $this->element('footer') ?>
 	</body>

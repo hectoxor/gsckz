@@ -35,10 +35,10 @@
 	// Router::connect('/admin/courses', array('controller' => 'news', 'action' => 'index', 'admin' => true));
 	// Router::connect('/almaty', array('controller' => 'pages', 'action' => 'test'));
 
-	// Router::connect('/test/test_test_general', array('controller' => 'requests', 'action' => 'test_test_general'));
+    Router::connect('/test/test_test_general', array('controller' => 'requests', 'action' => 'test_test_general'));
 
-	// Router::connect('/test/:action', array('controller' => 'tests'));
-	// Router::connect('/test', array('controller' => 'pages', 'action' => 'test'));
+	Router::connect('/test/:action', array('controller' => 'tests'));
+	Router::connect('/test', array('controller' => 'pages', 'action' => 'test'));
 
 
 	// Router::connect('/about', array('controller' => 'pages', 'action' => 'about'));

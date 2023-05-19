@@ -1,13 +1,23 @@
+<section class="hero-section px-8">
+	<div class="hero-section-bg">
+		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
+
+	</div>
+	<div class="hero-inner">
+
+	</div>
+</section>
+
 <div class="content">
 	<div class="content-top">
 		<div class="container">
 			<h1 class="title">
-				Онлайн тест IELTS
+
 			</h1>
 		</div>
 	</div>
 	<div class="section my-tests ielts-test" data-name="Ielts">
-		<div class="container">
+		<div class="container1">
 			<nav class="page-header-nav">
 				<ul>
 					<li class="tab-sec active"><a href="javascript:;">Grammar</a></li>
@@ -208,38 +218,78 @@
 						<p>Write the letter(A - K) of the world that is most similar in meaning to a word on the left (1 - 5). Use each word once only. Write your answers (A - K) on your answer sheet. You will not need five of the words (A - K). The answer to question 0 is given on your answer sheet as an example (L).</p>
 						<div class="question">
 							<span class="question__heading">1. Design</span>
-							<div data-atr="v1" class="sel-click">
-				                <span class="form-select__heading">Area</span>
-				                <ul class="form-select-area "></ul>
-				            </div>
+							<select>
+								<option>Area</option>
+								<option>Rule</option>
+								<option>Money</option>
+								<option>Base</option>
+								<option>Chance</option>
+								<option>Department</option>
+								<option>Plan</option>
+								<option>Approach</option>
+								<option>Business</option>
+								<option>Surprise</option>
+							</select>
 						</div>
 						<div class="question">
 							<span class="question__heading">2. Policy</span>
-							<div data-atr="v2" class="sel-click">
-				                <span class="form-select__heading">Area</span>
-				                <ul class="form-select-area"></ul>
-				            </div>
+							<select>
+								<option>Area</option>
+								<option>Rule</option>
+								<option>Money</option>
+								<option>Base</option>
+								<option>Chance</option>
+								<option>Department</option>
+								<option>Plan</option>
+								<option>Approach</option>
+								<option>Business</option>
+								<option>Surprise</option>
+							</select>
 						</div>
 						<div class="question">
 							<span class="question__heading">3. Fortune</span>
-							<div data-atr="v3" class="sel-click">
-				                <span class="form-select__heading">Area</span>
-				                <ul class="form-select-area"></ul>
-				            </div>
+							<select>
+								<option>Area</option>
+								<option>Rule</option>
+								<option>Money</option>
+								<option>Base</option>
+								<option>Chance</option>
+								<option>Department</option>
+								<option>Plan</option>
+								<option>Approach</option>
+								<option>Business</option>
+								<option>Surprise</option>
+							</select>
 						</div>
 						<div class="question">
 							<span class="question__heading">4. Wonder</span>
-							<div data-atr="v4" class="sel-click">
-				                <span class="form-select__heading">Area</span>
-				                <ul class="form-select-area"></ul>
-				            </div>
+							<select>
+								<option>Area</option>
+								<option>Rule</option>
+								<option>Money</option>
+								<option>Base</option>
+								<option>Chance</option>
+								<option>Department</option>
+								<option>Plan</option>
+								<option>Approach</option>
+								<option>Business</option>
+								<option>Surprise</option>
+							</select>
 						</div>
 						<div class="question">
 							<span class="question__heading">5. Opportunity</span>
-							<div data-atr="v5" class="sel-click">
-				                <span class="form-select__heading">Area</span>
-				                <ul class="form-select-area"></ul>
-				            </div>
+							<select>
+								<option>Area</option>
+								<option>Rule</option>
+								<option>Money</option>
+								<option>Base</option>
+								<option>Chance</option>
+								<option>Department</option>
+								<option>Plan</option>
+								<option>Approach</option>
+								<option>Business</option>
+								<option>Surprise</option>
+							</select>
 						</div>
 					</div>
 					<style>
@@ -250,10 +300,10 @@
 					<div class="submit submit--grammar btn">Далее</div>
 				</div>
 				<div class="test-part js-test-part test-part--reading tab-items">
-					<h2 class="title-sec" data-sec="reading">Section Reading</h2>							
+					<h2 class="title-sec" data-sec="reading">Section Reading</h2>
 					<div class="test-section">
 						<p><strong>You should spend about 20 minutes on Questions 1-14</strong></p>
-						
+
 						<p>&nbsp;</p>
 						<p>A critical ingredient in the success of hotels is developing and
 						maintaining superior performance from their employees. How
@@ -304,7 +354,7 @@
 						a strong link between the perceptions of employees and
 						particular factors of their work environment that are separate
 						from the work itself, including company policies, salary and
-						vacations.</p>	
+						vacations.</p>
 						<p>Such conditions are particularly troubling for the luxury
 						hotel market, where high-quality service, requiring a
 						sophisticated approach to HRM, is recognized as a critical
@@ -719,80 +769,80 @@
 								</div>
 							</div>
 
-<!-- 
+<!--
 							<div class="question">
 								<p><b>Cities built by the sea</b></p>
 								<span class="question__heading">10. Carla and Rob were surprised to learn that coastal cities</span>
 								<div class="question-row">
-									<input id="l10a1" name="l10" class="question-row__input" type="radio">	
+									<input id="l10a1" name="l10" class="question-row__input" type="radio">
 									<label for="l10a1" class="question-row__text">contain nearly half the world’s population.</label>
 								</div>
 								<div class="question-row">
-									<input id="l10a2" name="l10" class="question-row__input" type="radio">	
+									<input id="l10a2" name="l10" class="question-row__input" type="radio">
 									<label for="l10a2" class="question-row__text">include most of the world’s largest cities</label>
 								</div>
 								<div class="question-row">
-									<input id="l10a3" name="l10" class="question-row__input" type="radio">	
+									<input id="l10a3" name="l10" class="question-row__input" type="radio">
 									<label for="l10a3" class="question-row__text">are growing twice as fast as other cities.</label>
 								</div>
 							</div>
 							<div class="question">
 								<span class="question__heading">11. According to Rob, building coastal cities near to rivers</span>
 								<div class="question-row">
-									<input id="l11a1" name="l11" class="question-row__input" type="radio">	
+									<input id="l11a1" name="l11" class="question-row__input" type="radio">
 									<label for="l11a1" class="question-row__text">may bring pollution to the cities.</label>
 								</div>
 								<div class="question-row">
-									<input id="l11a2" name="l11" class="question-row__input" type="radio">	
+									<input id="l11a2" name="l11" class="question-row__input" type="radio">
 									<label for="l11a2" class="question-row__text">may reduce the land available for agriculture.</label>
 								</div>
 								<div class="question-row">
-									<input id="l11a3" name="l11" class="question-row__input" type="radio">	
+									<input id="l11a3" name="l11" class="question-row__input" type="radio">
 									<label for="l11a3" class="question-row__text">may mean the countryside is spoiled by industry.</label>
 								</div>
 							</div>
 							<div class="question">
 								<span class="question__heading">12. What mistake was made when building water drainage channels in Miami in the 1950s?</span>
 								<div class="question-row">
-									<input id="l12a1" name="l12" class="question-row__input" type="radio">	
+									<input id="l12a1" name="l12" class="question-row__input" type="radio">
 									<label for="l12a1" class="question-row__text">There were not enough for them.</label>
 								</div>
 								<div class="question-row">
-									<input id="l12a2" name="l12" class="question-row__input" type="radio">	
+									<input id="l12a2" name="l12" class="question-row__input" type="radio">
 									<label for="l12a2" class="question-row__text">They were made of unsuitable materials.</label>
 								</div>
 								<div class="question-row">
-									<input id="l12a3" name="l12" class="question-row__input" type="radio">	
+									<input id="l12a3" name="l12" class="question-row__input" type="radio">
 									<label for="l12a3" class="question-row__text">They did not allow for the effects of climate change.</label>
 								</div>
 							</div>
 							<div class="question">
 								<span class="question__heading">13. What do Rob and Carla think that the authorities in Miami should do immediately?</span>
 								<div class="question-row">
-									<input id="l13a1" name="l13" class="question-row__input" type="radio">	
+									<input id="l13a1" name="l13" class="question-row__input" type="radio">
 									<label for="l13a1" class="question-row__text">take measures to restore ecosystems</label>
 								</div>
 								<div class="question-row">
-									<input id="l13a2" name="l13" class="question-row__input" type="radio">	
+									<input id="l13a2" name="l13" class="question-row__input" type="radio">
 									<label for="l13a2" class="question-row__text">pay for a new flood prevention system</label>
 								</div>
 								<div class="question-row">
-									<input id="l13a3" name="l13" class="question-row__input" type="radio">	
+									<input id="l13a3" name="l13" class="question-row__input" type="radio">
 									<label for="l13a3" class="question-row__text">stop disposing of waste materials into the ocean</label>
 								</div>
 							</div>
 							<div class="question">
 								<span class="question__heading">14. What do they agree should be the priority for international action?</span>
 								<div class="question-row">
-									<input id="l14a1" name="l14" class="question-row__input" type="radio">	
+									<input id="l14a1" name="l14" class="question-row__input" type="radio">
 									<label for="l14a1" class="question-row__text">greater coordination of activities</label>
 								</div>
 								<div class="question-row">
-									<input id="l14a2" name="l14" class="question-row__input" type="radio">	
+									<input id="l14a2" name="l14" class="question-row__input" type="radio">
 									<label for="l14a2" class="question-row__text">more sharing of information</label>
 								</div>
 								<div class="question-row">
-									<input id="l14a3" name="l14" class="question-row__input" type="radio">	
+									<input id="l14a3" name="l14" class="question-row__input" type="radio">
 									<label for="l14a3" class="question-row__text">agreement on shared policies</label>
 								</div>
 							</div> -->
@@ -800,66 +850,66 @@
 							<!-- <div class="question">
 								<span class="question__heading">11. Lisa Meitner worked alone.</span>
 								<div class="question-row">
-									<input id="l11a1" name="l11" class="question-row__input" type="radio">	
+									<input id="l11a1" name="l11" class="question-row__input" type="radio">
 									<label for="l11a1" class="question-row__text">True</label>
 								</div>
 								<div class="question-row">
-									<input id="l11a2" name="l11" class="question-row__input" type="radio">	
+									<input id="l11a2" name="l11" class="question-row__input" type="radio">
 									<label for="l11a2" class="question-row__text">False</label>
 								</div>
 							</div>
 							<div class="question">
 								<span class="question__heading">12. Some people were worried about Lisa Meitner’s findings.</span>
 								<div class="question-row">
-									<input id="l12a1" name="l12" class="question-row__input" type="radio">	
+									<input id="l12a1" name="l12" class="question-row__input" type="radio">
 									<label for="l12a1" class="question-row__text">True</label>
 								</div>
 								<div class="question-row">
-									<input id="l12a2" name="l12" class="question-row__input" type="radio">	
+									<input id="l12a2" name="l12" class="question-row__input" type="radio">
 									<label for="l12a2" class="question-row__text">False</label>
 								</div>
 							</div>
 							<div class="question">
 								<span class="question__heading">13. Barbara McClintock’s achievement was recognised immediately.</span>
 								<div class="question-row">
-									<input id="l13a1" name="l13" class="question-row__input" type="radio">	
+									<input id="l13a1" name="l13" class="question-row__input" type="radio">
 									<label for="l13a1" class="question-row__text">True</label>
 								</div>
 								<div class="question-row">
-									<input id="l13a2" name="l13" class="question-row__input" type="radio">	
+									<input id="l13a2" name="l13" class="question-row__input" type="radio">
 									<label for="l13a2" class="question-row__text">False</label>
 								</div>
 							</div>
 							<div class="question">
 								<span class="question__heading">14. Rosalind Franklin showed her important findings to Watson and Crick.</span>
 								<div class="question-row">
-									<input id="l14a1" name="l14" class="question-row__input" type="radio">	
+									<input id="l14a1" name="l14" class="question-row__input" type="radio">
 									<label for="l14a1" class="question-row__text">True</label>
 								</div>
 								<div class="question-row">
-									<input id="l14a2" name="l14" class="question-row__input" type="radio">	
+									<input id="l14a2" name="l14" class="question-row__input" type="radio">
 									<label for="l14a2" class="question-row__text">False</label>
 								</div>
 							</div>
 							<div class="question">
 								<span class="question__heading">15. Rosalind Franklin was recognized for her contribution to science during her lifetime.</span>
 								<div class="question-row">
-									<input id="l15a1" name="l15" class="question-row__input" type="radio">	
+									<input id="l15a1" name="l15" class="question-row__input" type="radio">
 									<label for="l15a1" class="question-row__text">True</label>
 								</div>
 								<div class="question-row">
-									<input id="l15a2" name="l15" class="question-row__input" type="radio">	
+									<input id="l15a2" name="l15" class="question-row__input" type="radio">
 									<label for="l15a2" class="question-row__text">False</label>
 								</div>
 							</div>
 							<div class="question">
 								<span class="question__heading">16. Jane Goodall’s findings showed that chimpanzee and human behaviour is True often similar.</span>
 								<div class="question-row">
-									<input id="l16a1" name="l16" class="question-row__input" type="radio">	
+									<input id="l16a1" name="l16" class="question-row__input" type="radio">
 									<label for="l16a1" class="question-row__text">True</label>
 								</div>
 								<div class="question-row">
-									<input id="l16a2" name="l16" class="question-row__input" type="radio">	
+									<input id="l16a2" name="l16" class="question-row__input" type="radio">
 									<label for="l16a2" class="question-row__text">False</label>
 								</div>
 							</div> -->
@@ -941,13 +991,13 @@
 							<input name="url" value="<?php echo Router::url(null, true) ?>" type="hidden">
 							<!-- <div class="section-row">
 							<div class="section-row__inner">
-								  <input class="section-row__input"  name="data[robot]" placeholder="Сколько будет <?= $r1 ?> + <?= $r2 ?>?" type="text" required>	
+								  <input class="section-row__input"  name="data[robot]" placeholder="Сколько будет <?= $r1 ?> + <?= $r2 ?>?" type="text" required>
 							</div>
 						</div> -->
 							<textarea style="display:none" class="result-textarea" name="data[senddata]"></textarea>
 							<div class="section-row">
 								<div class="section-row__inner">
-									<button type="text" class="section-row__button btn" data-id="2" onclick="checkCapcha()">Отправить</button>
+									<button type="text" class="section-row__button btn" data-id="2" onclick=" ">Отправить</button>
 								</div>
 							</div>
 						</div>
@@ -958,6 +1008,32 @@
 			<div class="test_error_msg test_error">Ответьте на все вопросы, чтобы перейти дальше</div>
 			<div class="test_error_msg form_error">Ответьте на все вопросы, чтобы отправить заявку</div>
 			<div class="test_error_msg checkBox_error">Нужно выбрать не менее 1 и не более 4 вариантов</div>
+
+			<script>
+				let sectionTest = document.querySelector('.my-tests');
+				if (sectionTest) {
+					sectionTest.addEventListener('click', e => {
+						console.log('переход');
+						const target = e.target;
+						if (target.classList.contains('submit')) {
+							let li = document.querySelectorAll('.tab-sec')
+							let liactive = document.querySelector('.tab-sec.active')
+							li.forEach(li => {
+								if (li.classList.contains('active')) {
+									li.classList.remove('active')
+									liactive.nextElementSibling.classList.add('active')
+								}
+							})
+							// target.parentNode('.tab-items').classList.remove('active')
+							// target.parentNode('.tab-items').nextElementSibling.classList.add('active')
+							target.parentNode.classList.remove('active')
+							target.parentNode.nextElementSibling.classList.add('active')
+							$('html, body').stop().animate({ scrollTop: $('.test-slider').offset().top - 120 }, 1500, 'swing', function() {});
+						}
+					})
+				}
+			</script>
+
 		</div>
 	</div>
 </div>

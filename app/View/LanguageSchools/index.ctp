@@ -27,31 +27,31 @@
 			<h3 class="text text-color-large">Программы обучения английскому языку:</h3>
             <div class="container justify-between card-type-shallow border-radius-10 py-5 px-20">
                 <span class="text text-type-medium text-color-primary">Детям от 6 до 9 лет</span>
-                <a href="/" class="text text-type-medium text-color-link text-underline-none">
+                <a href="/test/kids" class="text text-type-medium text-color-link text-underline-none">
                     <span>Проверить уровень знаний</span>
                 </a>
             </div>
             <div class="container gap-12 justify-between card-type-shallow border-radius-10 py-5 px-20">
                 <span class="text text-type-medium text-color-primary">Подросткам 10-12 лет</span>
-                <a href="/" class="text text-type-medium text-color-link text-underline-none">
+                <a href="/test/teen" class="text text-type-medium text-color-link text-underline-none">
                     <span>Проверить уровень знаний</span>
                 </a>
             </div>
             <div class="container gap-12 justify-between card-type-shallow border-radius-10 py-5 px-20">
                 <span class="text text-type-medium text-color-primary">Подросткам 13-17 лет </span>
-                <a href="/" class="text text-type-medium text-color-link text-underline-none">
+                <a href="/test/teen_2" class="text text-type-medium text-color-link text-underline-none">
                     <span>Проверить уровень знаний</span>
                 </a>
             </div>
             <div class="container gap-12 justify-between card-type-shallow border-radius-10 py-5 px-20">
                 <span class="text text-type-medium text-color-primary">Взрослым</span>
-                <a href="/" class="text text-type-medium text-color-link text-underline-none">
+                <a href="/test/general" class="text text-type-medium text-color-link text-underline-none">
                     <span>Проверить уровень знаний</span>
                 </a>
             </div>
             <div class="container gap-12 justify-between card-type-shallow border-radius-10 py-5 px-20">
                 <span class="text text-type-medium text-color-primary">Подготовка к IELTS и SAT</span>
-                <a href="/" class="text text-type-medium text-color-link text-underline-none">
+                <a href="/test/ielts" class="text text-type-medium text-color-link text-underline-none">
                     <span>Пройти пробный тест формата IELTS</span>
                 </a>
             </div>

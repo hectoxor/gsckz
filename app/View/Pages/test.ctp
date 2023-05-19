@@ -12,7 +12,7 @@
                     <li><a href="/<?= $lang ?>contacts?type=school&city=<?=$current_city?>">Контакты</a></li>
 	            </ul>
 	        </nav>
-	    </div>    
+	    </div>
 	</div>
 	<div class="section">
 		<div class="container">
@@ -41,17 +41,17 @@
                 </div>
                 <div class="test__item">
                 	<a href="/<?= $lang ?>test/kids" class="test__item-pic">
-						<img src="/img/SVG/kids.svg" alt="">						
+						<img src="/img/SVG/kids.svg" alt="">
 					</a>
 					<a href="/<?= $lang ?>test/kids" class="test__item-title">English for Kids</a>
                     <p>(6 - 9 years)</p>
-				</div>	
+				</div>
 				<div class="test__item">
                 	<a href="/<?= $lang ?>test/ielts" class="test__item-pic">
-						<img src="/img/SVG/ielts.svg" alt="">						
+						<img src="/img/SVG/ielts.svg" alt="">
 					</a>
 					<a href="/<?= $lang ?>test/ielts" class="test__item-title">IELTS</a>
-				</div>	
+				</div>
             </div>
 		</div>
 	</div>

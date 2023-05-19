@@ -1,13 +1,23 @@
+<section class="hero-section px-8">
+	<div class="hero-section-bg">
+		<img class="hero-bg-2" src="/assets/bg-gradient-2.png" />
+
+	</div>
+	<div class="hero-inner">
+
+	</div>
+</section>
+
+
 <div class="content">
 	<div class="content-top">
 		<div class="container">
 			<h1 class="title">
-				Онлайн тест Teens 2
 			</h1>
 		</div>
 	</div>
 	<div class="section my-tests tests teen-test-2" data-name="Teen2">
-		<div class="container">
+		<div class="container1">
 			<nav class="page-header-nav">
 				<ul>
 					<li class="tab-sec active"><a href="javascript:;">Grammar</a></li>
@@ -189,10 +199,6 @@
 									<input id="q9a3" name="q9" class="question-row__input" type="radio">
 									<label for="q9a3" class="question-row__text">left/yet</label>
 								</div>
-								<!-- <div class="question-row">
-									<input id="q9a4" name="q9" class="question-row__input" type="radio">
-									<label for="q9a4" class="question-row__text">Have</label>
-								</div> -->
 							</div>
 							<div class="question">
 								<span class="question__heading">10. What … at 5 o’clock yesterday?</span>
@@ -353,147 +359,6 @@
 						</div>
 					</div>
 
-					<!-- <div class="test_row">
-						<p class="question__heading">Match the opposite words</p>
-						<div class="test_table opposite_words">
-							<table>
-								<tbody>
-									<tr>
-										<td>&nbsp;</td>
-										<td>worst</td>
-										<td>lazy</td>
-										<td>tall</td>
-										<td>fat</td>
-										<td>fast</td>
-										<td>boring</td>
-										<td>old</td>
-										<td>wrong</td>
-										<td>serious</td>
-									</tr>
-									<tr>
-										<td>slow</td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c1_r1" name="row_1" data-name="slow - worst"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c2_r1" name="row_1" data-name="slow - lazy"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c3_r1" name="row_1" data-name="slow - tall"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c4_r1" name="row_1" data-name="slow - fat"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c5_r1" name="row_1" data-name="slow - fast"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c6_r1" name="row_1" data-name="slow - boring"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c7_r1" name="row_1" data-name="slow - old"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c8_r1" name="row_1" data-name="slow - wrong"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c9_r1" name="row_1" data-name="slow - serious"></td>
-									</tr>
-									<tr>
-										<td>right</td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c1_r2" name="row_2" data-name="right - worst"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c2_r2" name="row_2" data-name="right - lazy"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c3_r2" name="row_2" data-name="right - tall"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c4_r2" name="row_2" data-name="right - fat"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c5_r2" name="row_2" data-name="right - fast"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c6_r2" name="row_2" data-name="right - boring"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c7_r2" name="row_2" data-name="right - old"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c8_r2" name="row_2" data-name="right - wrong"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c9_r2" name="row_2" data-name="right - serious"></td>
-									</tr>
-									<tr>
-										<td>straight</td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c1_r3" name="row_3" data-name="straight - worst"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c2_r3" name="row_3" data-name="straight - lazy"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c3_r3" name="row_3" data-name="straight - tall"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c4_r3" name="row_3" data-name="straight - fat"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c5_r3" name="row_3" data-name="straight - fast"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c6_r3" name="row_3" data-name="straight - boring"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c7_r3" name="row_3" data-name="straight - old"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c8_r3" name="row_3" data-name="straight - wrong"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c9_r3" name="row_3" data-name="straight - serious"></td>
-									</tr>
-									<tr>
-										<td>best</td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c1_r4" name="row_4" data-name="best - worst"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c2_r4" name="row_4" data-name="best - lazy"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c3_r4" name="row_4" data-name="best - tall"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c4_r4" name="row_4" data-name="best - fat"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c5_r4" name="row_4" data-name="best - fast"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c6_r4" name="row_4" data-name="best - boring"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c7_r4" name="row_4" data-name="best - old"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c8_r4" name="row_4" data-name="best - wrong"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c9_r4" name="row_4" data-name="best - serious"></td>
-									</tr>
-									<tr>
-										<td>hard-working</td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c1_r5" name="row_5" data-name="hard-working - worst"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c2_r5" name="row_5" data-name="hard-working - lazy"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c3_r5" name="row_5" data-name="hard-working - tall"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c4_r5" name="row_5" data-name="hard-working - fat"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c5_r5" name="row_5" data-name="hard-working - fast"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c6_r5" name="row_5" data-name="hard-working - boring"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c7_r5" name="row_5" data-name="hard-working - old"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c8_r5" name="row_5" data-name="hard-working - wrong"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c9_r5" name="row_5" data-name="hard-working - serious"></td>
-									</tr>
-									<tr>
-										<td>short</td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c1_r6" name="row_6" data-name="short - worst"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c2_r6" name="row_6" data-name="short - lazy"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c3_r6" name="row_6" data-name="short - tall"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c4_r6" name="row_6" data-name="short - fat"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c5_r6" name="row_6" data-name="short - fast"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c6_r6" name="row_6" data-name="short - boring"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c7_r6" name="row_6" data-name="short - old"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c8_r6" name="row_6" data-name="short - wrong"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c9_r6" name="row_6" data-name="short - serious"></td>
-									</tr>
-									<tr>
-										<td>funny</td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c1_r7" name="row_7" data-name="funny - worst"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c2_r7" name="row_7" data-name="funny - lazy"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c3_r7" name="row_7" data-name="funny - tall"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c4_r7" name="row_7" data-name="funny - fat"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c5_r7" name="row_7" data-name="funny - fast"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c6_r7" name="row_7" data-name="funny - boring"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c7_r7" name="row_7" data-name="funny - old"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c8_r7" name="row_7" data-name="funny - wrong"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c9_r7" name="row_7" data-name="funny - serious"></td>
-									</tr>
-									<tr>
-										<td>slim</td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c1_r8" name="row_8" data-name="slim - worst"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c2_r8" name="row_8" data-name="slim - lazy"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c3_r8" name="row_8" data-name="slim - tall"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c4_r8" name="row_8" data-name="slim - fat"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c5_r8" name="row_8" data-name="slim - fast"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c6_r8" name="row_8" data-name="slim - boring"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c7_r8" name="row_8" data-name="slim - old"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c8_r8" name="row_8" data-name="slim - wrong"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c9_r8" name="row_8" data-name="slim - serious"></td>
-									</tr>
-									<tr>
-										<td>young</td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c1_r9" name="row_9" data-name="young - worst"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c2_r9" name="row_9" data-name="young - lazy"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c3_r9" name="row_9" data-name="young - tall"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c4_r9" name="row_9" data-name="young - fat"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c5_r9" name="row_9" data-name="young - fast"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c6_r9" name="row_9" data-name="young - boring"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c7_r9" name="row_9" data-name="young - old"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c8_r9" name="row_9" data-name="young - wrong"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c9_r9" name="row_9" data-name="young - serious"></td>
-									</tr>
-									<tr>
-										<td>interesting</td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c1_r10" name="row_10" data-name="interesting - worst"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c2_r10" name="row_10" data-name="interesting - lazy"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c3_r10" name="row_10" data-name="interesting - tall"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c4_r10" name="row_10" data-name="interesting - fat"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c5_r10" name="row_10" data-name="interesting - fast"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c6_r10" name="row_10" data-name="interesting - boring"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c7_r10" name="row_10" data-name="interesting - old"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c8_r10" name="row_10" data-name="interesting - wrong"></td>
-										<td><input class="input-checkbox input-checkbox--grammar" type="checkbox" id="word_c9_r10" name="row_10" data-name="interesting - serious"></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div> -->
 					<div class="submit submit--grammar btn">Далее</div>
 				</div>
 
@@ -513,15 +378,15 @@
 						</p>
 						<span>3 Alcatraz Island</span>
 						<p>
-							Once a high-security prison, Alcatraz island is one of the Bay Area's most interesting tourist attractions. Take the ferry from Pier 41 and visit the dark cell blocks that were home to America's most wanted criminals. 
+							Once a high-security prison, Alcatraz island is one of the Bay Area's most interesting tourist attractions. Take the ferry from Pier 41 and visit the dark cell blocks that were home to America's most wanted criminals.
 						</p>
 						<span>4 Santa Cruz</span>
 						<p>
-							Go to the Cruz Surfing Museum, which is in a lighthouse, and see classic boards including one eaten by a shark - the surfer survived! Next stop, the Santa Cruz Beach Boardwalk for a ride on the Giant Dipper rollercoaster. 
+							Go to the Cruz Surfing Museum, which is in a lighthouse, and see classic boards including one eaten by a shark - the surfer survived! Next stop, the Santa Cruz Beach Boardwalk for a ride on the Giant Dipper rollercoaster.
 						</p>
 						<span>5 Venice Beach</span>
 						<p>
-							This is where skateboarding started, so you must visit the famous skate park right on the beach. Also watch the bodybuilders at Muscle Beach Gym, which is where Arnold Schwarzenegger started his career. 
+							This is where skateboarding started, so you must visit the famous skate park right on the beach. Also watch the bodybuilders at Muscle Beach Gym, which is where Arnold Schwarzenegger started his career.
 						</p>
 						<span>6 Hollywood</span>
 						<p>
@@ -665,7 +530,7 @@
 									<textarea id="r10a1" name="r10" class="question_textarea"></textarea>
 								</div>
 							</div>
-							<br>	
+							<br>
 						</div>
 					</div> -->
 					<div class="submit submit--reading btn">Далее</div>
@@ -677,10 +542,10 @@
 					<div class="test-section">
 						<!-- <span class="test-section__heading">Watch the documentary "A haunted castle" about the four ghosts of Portchester Castle.</span> -->
 						<br><br>
-						<p>
+						<div class = "audio">
 							<audio src="/files/audio/teens_listening-2.mp3" controls=""></audio>
 							<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/8PQfW2P0bTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-						</p>
+						</div>
 					</div>
 					<div class="tests-row">
 						<div class="test-row__inner test-row">
@@ -1041,10 +906,10 @@
 					<div class="test-section">
 						<!-- <span class="test-section__heading">1.	Read about this piece of England in China and answer the given questions.</span> -->
 						<p>Choose one of the following topics and
-						write a short essay (70-100 words)</p>	
+						write a short essay (70-100 words)</p>
 						<p>1) The film I like.</p>
 						<p>2) My favourite city.</p>
-						<p>3) The best day in my life.</p>	
+						<p>3) The best day in my life.</p>
 						<!-- <p>About my family</p>
 						<p>&nbsp;</p>
 						<p>From: kellycali@ainrofilac.eg</p>
@@ -1121,7 +986,7 @@
 							<input name="url" value="<?php echo Router::url(null, true) ?>" type="hidden">
 							<!-- <div class="section-row">
 							<div class="section-row__inner">
-								  <input class="section-row__input"  name="data[robot]" placeholder="Сколько будет <?= $r1 ?> + <?= $r2 ?>?" type="text" required>	
+								  <input class="section-row__input"  name="data[robot]" placeholder="Сколько будет <?= $r1 ?> + <?= $r2 ?>?" type="text" required>
 							</div>
 						</div> -->
 							<textarea style="display:none" class="result-textarea" name="data[senddata]"></textarea>
@@ -1143,6 +1008,32 @@
 	<div class="test_error_msg test_error">Ответьте на все вопросы, чтобы перейти дальше</div>
 	<div class="test_error_msg form_error">Ответьте на все вопросы, чтобы отправить заявку</div>
 	<div class="test_error_msg checkBox_error">Нужно выбрать хотя бы 1 вариант из каждой строки</div>
+
+	<script>
+		let sectionTest = document.querySelector('.my-tests');
+		if (sectionTest) {
+			sectionTest.addEventListener('click', e => {
+				console.log('переход');
+				const target = e.target;
+				if (target.classList.contains('submit')) {
+					let li = document.querySelectorAll('.tab-sec')
+					let liactive = document.querySelector('.tab-sec.active')
+					li.forEach(li => {
+						if (li.classList.contains('active')) {
+							li.classList.remove('active')
+							liactive.nextElementSibling.classList.add('active')
+						}
+					})
+					// target.parentNode('.tab-items').classList.remove('active')
+					// target.parentNode('.tab-items').nextElementSibling.classList.add('active')
+					target.parentNode.classList.remove('active')
+					target.parentNode.nextElementSibling.classList.add('active')
+					$('html, body').stop().animate({ scrollTop: $('.test-slider').offset().top - 120 }, 1500, 'swing', function() {});
+				}
+			})
+		}
+	</script>
+
 </div>
 </div>
 </div>
