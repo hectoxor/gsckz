@@ -18,22 +18,5 @@ GSC STUDY — образовательный центр, где вам не пр
 
 ## TODO
 
-- [x] School English Page (Английская школа)
-- [x] Contacts Page (Контакты)
-- [x] About Us (Company) Page (О компании)
-- [x] News Page (Новости)
-- [x] News Details Page (Новость)
-- [x] Catalog Page (Образование за рубежом)
-- [x] University Info Page (Информация об университете)
-- [ ] Put all text to DB (Все тексты в БД)
-- [ ] Test your english level (test)
-- [x] Translation for all pages (Перевод всех страниц)
-- [ ] Animations
-- [ ] Admin
+- [] Hosting
 
-## TODO (Vlad)
-
-- [x] Transparent Logo (Логотип)
-- [ ] Get "logos" from partners (Логотипы партнеров)
-- [ ] Get "real certificates"
-- [x] Set all href links to correct pages (Проверить все ссылки на страницах)
