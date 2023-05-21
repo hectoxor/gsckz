@@ -18,5 +18,5 @@ GSC STUDY — образовательный центр, где вам не пр
 
 ## TODO
 
-- [] Hosting
+-  Hosting
 
